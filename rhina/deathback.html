@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate of Live Birth</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            width: 1224px; /* Legal paper width in pixels */
+            height: 1584px; /* Legal paper height in pixels */
+            border: 2px solid black;
+            padding: 15px;
+        }
+        .header {
+            color: darkblue;
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+        .label1 {
+            color: darkblue;
+            text-align: center;
+            font-weight: bold;
+           position: relative;
+           padding-left: -100px;
+           margin-left: -15px;
+           top: -23px;
+        }
+        .label2 {
+            color: darkblue;
+            text-align: center;
+            font-weight: bold;
+           position: relative;
+           padding-left: -100px;
+           margin-left: -1070px;
+           top: -23px;
+        }
+        .outputb2a {
+            color: darkblue;
+            text-align: center;
+            font-weight: bold;
+           position: relative;
+           padding-left: 20px;
+           margin-left: -260px;
+           top: -40px;
+        }
+        .outputb2b {
+            color: darkblue;
+            text-align: center;
+            font-weight: bold;
+           position: relative;
+           padding-left: -100px;
+           margin-left: 750px;
+           top: -55px;
+        }
+        .outputb2c {
+           
+            color: darkblue;
+            text-align: center;
+            font-weight: bold;
+           position: relative;
+           padding-left: -100px;
+           margin-left: -15px;
+           top: -50px;
+        }
+        .vertical-line1 {
+            width: 2px; /* Kapal ng linya */
+            height: 48px; /* Haba ng linya */
+            background-color: darkblue; /* Kulay ng linya */
+            position: relative;
+            left: 16%; /* Nasa gitna */
+            top: -99px; /* Gaano kataas magsisimula */
+        }
+        .vertical-line2 {
+            width: 2px; /* Kapal ng linya */
+            height: 48px; /* Haba ng linya */
+            background-color: darkblue; /* Kulay ng linya */
+            position: relative;
+            left: 63%; /* Nasa gitna */
+            top: -146px; /* Gaano kataas magsisimula */
+        }
+        .label3 {
+           
+           color: darkblue;
+           text-align: center;
+           font-weight: bold;
+          position: relative;
+          padding-left: -100px;
+          margin-left: -900px;
+          top: -140px;
+       }
+       .outputb3a {
+           
+           color: darkblue;
+           text-align: center;
+           font-weight: bold;
+          position: relative;
+          padding-left: 1270px;
+          margin-left: -895px;
+          top: -160px;
+       }
+       .outputb3b {
+           
+           color: darkblue;
+           text-align: center;
+           font-weight: bold;
+          position: relative;
+          padding-left: -50px;
+          margin-left: -15px;
+          top: -150px;
+       }
+       .vertical-line3 {
+            width: 2px; /* Kapal ng linya */
+            height: 52px; /* Haba ng linya */
+            background-color: darkblue; /* Kulay ng linya */
+            position: relative;
+            left: 45%; /* Nasa gitna */
+            top: -203px; /* Gaano kataas magsisimula */
+        }
+        .label4 {
+           
+           color: darkblue;
+           text-align: center;
+           font-weight: bold;
+          position: relative;
+          padding-left: 800px;
+          margin-left: -900px;
+          top: -195px;
+       }
+       .outputb4a {
+           
+           color: darkblue;
+          position: relative;
+          padding-left: 800px;
+          margin-left: -815px;
+          top: -205px;
+       }
+       .outputb4b {
+           
+           color: darkblue;
+          position: relative;
+          padding-left: 810px;
+          margin-left: -815px;
+          top: -205px;
+          font-weight: bold;
+       }
+       .outputb4c {
+           
+           color: darkblue;
+          position: relative;
+          padding-left: 850px;
+          margin-left: -815px;
+          top: -200px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+       }
+       .outputb4d {
+           
+           color: darkblue;
+          position: relative;
+          padding-left: 850px;
+          margin-left: -815px;
+          top: -195px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+       }
+       .outputb4e {
+           
+           color: darkblue;
+          position: relative;
+          padding-left: 850px;
+          margin-left: -815px;
+          top: -190px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+       }
+       .outputb4f {
+           
+           color: darkblue;
+          position: relative;
+          padding-left: 850px;
+          margin-left: -815px;
+          top: -185px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+       }
+       .outputb4g {
+           
+           color: darkblue;
+          position: relative;
+          padding-left: 850px;
+          margin-left: -815px;
+          top: -180px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+       }
+       .outputb4h {
+           
+           color: darkblue;
+          position: relative;
+          padding-left: 850px;
+          margin-left: -400px;
+          top: -175px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+       }
+       .outputb4i {
+           color: darkblue;
+          position: relative;
+          padding-left: 385px;
+          margin-left: -400px;
+          top: -190px;
+          font-weight: bold;
+         
+       }
+       .label5 {
+           color: darkblue;
+          position: relative;
+          padding-left: -200px;
+          margin-left: 400px;
+          top: -185px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+       }
+       .outputb5a {
+           color: darkblue;
+          position: relative;
+     padding-left: 100px;
+          margin-left: 50px;
+          top: -185px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       }
+       .outputb5b {
+           color: darkblue;
+          position: relative;
+     padding-left: -5px;
+          margin-left: 16px;
+          top: -185px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       }
+       .outputb5c {
+           color: darkblue;
+          position: relative;
+     padding-left: -5px;
+          margin-left: 16px;
+          top: -175px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       }
+       .outputb5d {
+           color: darkblue;
+          position: relative;
+         padding-left: -5px;
+          margin-left: 16px;
+          top: -160px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       }
+       .outputb5e {
+           color: darkblue;
+          position: relative;
+         padding-left: -5px;
+          margin-left: 16px;
+          top: -150px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       }
+       .outputb5f {
+           color: darkblue;
+          position: relative;
+         padding-left: -5px;
+          margin-left: 16px;
+          top: -140px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       }
+       .outputb5g {
+           color: darkblue;
+          position: relative;
+         padding-left: -5px;
+          margin-left: 600px;
+          top: -200px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       }
+       .outputb5h {
+           color: darkblue;
+          position: relative;
+         padding-left: -5px;
+          margin-left: 600px;
+          top: -190px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       }
+       .outputb5i {
+           color: darkblue;
+          position: relative;
+         padding-left: -5px;
+          margin-left: -15px;
+          top: -170px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       }
+       .label6 {
+           color: darkblue;
+          position: relative;
+         padding-left: -5px;
+          margin-left: 480px;
+          top: -170px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       }
+       .outputb6a {
+           color: darkblue;
+          position: relative;
+         padding-left: -5px;
+          margin-left: 100px;
+          top: -170px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       }
+       .outputb6b {
+           color: darkblue;
+          position: relative;
+         padding-left: -5px;
+          margin-left: 10px;
+          top: -150px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       }
+       .outputb6c {
+           color: darkblue;
+          position: relative;
+         padding-left: -5px;
+          margin-left: 10px;
+          top: -140px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       }
+       .outputb6d {
+           color: darkblue;
+          position: relative;
+         padding-left: -5px;
+          margin-left: 10px;
+          top: -130px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       }
+       .outputb6e {
+           color: darkblue;
+          position: relative;
+         padding-left: 600px;
+          margin-left: 10px;
+          top: -190px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       }
+       .outputb6f {
+           color: darkblue;
+          position: relative;
+         padding-left: 600px;
+          margin-left: 10px;
+          top: -180px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       }
+       .outputb6g {
+           color: darkblue;
+          position: relative;
+         padding-left: 600px;
+          margin-left: 10px;
+          top: -170px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       }
+       .outputb6h {
+           color: darkblue;
+          position: relative;
+         padding-left: 600px;
+          margin-left: 10px;
+          top: -160px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       }
+       .outputb6i {
+           color: darkblue;
+          position: relative;
+         padding-left: 600px;
+          margin-left: -615px;
+          top: -160px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       }
+       .label7 {
+           color: darkblue;
+          position: relative;
+         padding-left: 600px;
+          margin-left: -200px;
+          top: -160px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       }
+       .outputb7a {
+           color: darkblue;
+          position: relative;
+         padding-left: 600px;
+          margin-left: -580px;
+          top: -140px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       }
+       .outputb7b {
+           color: darkblue;
+          position: relative;
+         padding-left: 600px;
+          margin-left: -600px;
+          top: -130px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       }
+       .outputb7c {
+           color: darkblue;
+          position: relative;
+         padding-left: 600px;
+          margin-left: -600px;
+          top: -120px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       }
+       .outputb7d {
+           color: darkblue;
+          position: relative;
+         padding-left: 600px;
+          margin-left: -550px;
+          top: -110px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       }
+       .outputb7e {
+           color: darkblue;
+          position: relative;
+         padding-left: 600px;
+          margin-left: -550px;
+          top: -100px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       }
+       .outputb7f {
+           color: darkblue;
+          position: relative;
+         padding-left: 600px;
+          margin-left: -550px;
+          top: -90px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       }
+       .label8 {
+           color: darkblue;
+          position: relative;
+         padding-left: 600px;
+          margin-left: -550px;
+          top: -85px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       }
+       .resizable-box8a {
+    width: 35px; /* Maliit na lapad */
+    height: 15px; /* Maliit na taas */
+    border: 2px solid darkblue;
+    padding: 5px; /* Mas maliit na padding */
+    resize: none; /* Tatanggalin ang ability na i-resize */
+    margin-left: 100px; /* Ililipat ang box 100px pakanan */
+    margin-top: -80px; /* Tamang format */
+    overflow: hidden; /* Itatago ang sobrang content */
+}
+.outputb8a {
+           color: darkblue;
+          position: relative;
+         padding-left: 720px;
+          margin-left: -550px;
+          top: -20px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       }
+       .resizable-box8b {
+    width: 35px; /* Maliit na lapad */
+    height: 15px; /* Maliit na taas */
+    border: 2px solid darkblue;
+    padding: 5px; /* Mas maliit na padding */
+    resize: none; /* Tatanggalin ang ability na i-resize */
+    margin-left: 100px; /* Ililipat ang box 100px pakanan */
+    margin-top: -10px; /* Tamang format */
+    overflow: hidden; /* Itatago ang sobrang content */
+}
+.outputb8b {
+           color: darkblue;
+          position: relative;
+         padding-left: 720px;
+          margin-left: -550px;
+          top: -20px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       } 
+       .label9 {
+           color: darkblue;
+          position: relative;
+         padding-left: 720px;
+          margin-left: -655px;
+          top: -5px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       } 
+       .outputb9a {
+           color: darkblue;
+          position: relative;
+         padding-left: 720px;
+          margin-left: -655px;
+          top: 5px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       } 
+       .outputb9b {
+           color: darkblue;
+          position: relative;
+         padding-left: 720px;
+          margin-left: -655px;
+          top: 5px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       } 
+       .outputb9c {
+           color: darkblue;
+          position: relative;
+         padding-left: 720px;
+          margin-left: -655px;
+          top: 15px;
+          font-weight: bold;
+         word-wrap: break-word;
+          font-size: 14px;
+       } 
+       .label10 {
+           color: darkblue;
+          position: relative;
+         padding-left: 720px;
+          margin-left: 100px;
+          top: 80px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       } 
+       .outputb10a {
+           color: darkblue;
+          position: relative;
+         padding-left: 720px;
+          margin-left: 150px;
+          top: 80px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       } 
+       .label11 {
+           color: darkblue;
+          position: relative;
+         padding-left: -500px;
+          margin-left: 50px;
+          top: 100px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       } 
+       .outputb11a {
+           color: darkblue;
+          position: relative;
+         padding-left: -500px;
+          margin-left: 20px;
+          top: 110px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       } 
+       .outputb11b {
+           color: darkblue;
+          position: relative;
+         padding-left: -500px;
+          margin-left: 20px;
+          top: 120px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       } 
+       .label12 {
+           color: darkblue;
+          position: relative;
+         padding-left: -100px;
+          margin-left: 50px;
+          top: 180px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       } 
+       .outputb12a {
+           color: darkblue;
+          position: relative;
+         padding-left: -150px;
+          margin-left: 90px;
+          top: 180px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       } 
+       .outputb12b {
+           color: darkblue;
+          position: relative;
+         padding-left: -100px;
+          margin-left: 50px;
+          top: 220px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       } 
+       .outputb12c {
+           color: darkblue;
+          position: relative;
+         padding-left: -150px;
+          margin-left: 170px;
+          top: 220px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       } 
+       .outputb12d {
+           color: darkblue;
+          position: relative;
+         padding-left: -150px;
+          margin-left: 800px;
+          top: 120px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       } 
+    
+       .outputb12e {
+           color: darkblue;
+          position: relative;
+         padding-left: -150px;
+          margin-left: 900px;
+          top: 120px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       } 
+       .outputb12f {
+           color: darkblue;
+          position: relative;
+         padding-left: -150px;
+          margin-left: 800px;
+          top: 150px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       } 
+       .outputb12g {
+           color: darkblue;
+          position: relative;
+         padding-left: -150px;
+          margin-left: 960px;
+          top: 150px;
+          font-weight: bold;
+          white-space: nowrap; /* Para hindi bumaba ang words */
+          font-size: 14px;
+       } 
+       
+       
+
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </style>
+</head>
+<body>
+      <!-- Section1 -->
+    <div class="container">
+        <div class="header">FOR CHILDREN AGED 0 TO 7 DAYS</div>
+        <div class="label1">_____________________________________________________________________________________________________________________________________________</div>
+
+        <!-- Section2 -->
+        <div class="section2">
+            <div class="label2">14. AGED OF MOTHER</div>
+            <div class="outputb2a">15.METHOD OF DELIVERY (Normal spontaneous, vertex, if others,)</div>
+            <div class="outputb2b">16. LENGTH OF PREGNANCY: (in completed weeks)</div>
+            <div class="outputb2c">_______________________________________________________________________________________________________________________________________</div>
+            <div class="vertical-line1"></div>
+            <div class="vertical-line2"></div>
+        </div>
+          <!-- Section3 -->
+          <div class="section3">
+            <div class="label3">17. TYPE OF BIRTH (Single, Twin, Triplet, etc)</div>
+            <div class="outputb3a">18.IF MULTIPLE BIRTH, CHILD WAS (First, Second, Third, etc)</div>
+            <div class="outputb3b">_____________________________________________________________________________________________________________________________________________</div>
+            <div class="vertical-line3"></div>
+
+        </div>
+        <!-- Section4 -->
+        <div class="section4">
+            <div class="label4">MEDICAL CERTIFICATE</div>
+            <div class="outputb4a">_____________________________________________________________________________________________________________________________________________</div>
+            <div class="outputb4b">19. CAUSES OF DEATH</div>
+            <div class="outputb4c">a. Main disease/condition of infant_____________________________________________________________________________________________________</div>
+            <div class="outputb4d">b. Other diseases/condtions of infant___________________________________________________________________________________________________</div>
+            <div class="outputb4e">c.Main maternal disease/condition affecting infant________________________________________________________________________________________</div>
+            <div class="outputb4f">d.Other maternal diseaase/condition/ affecting infant______________________________________________________________________________________</div>
+            <div class="outputb4g">e.Other relevant circumstances________________________________________________________________________________________________________</div>
+            <div class="outputb4h">CONTINUE TO FILL UP ITEM </div>
+            <div class="outputb4i">_____________________________________________________________________________________________________________________________________________</div>
+        </div>
+              <!-- Section5 -->
+              <div class="section5">
+                <div class="label5">POSTMORTEM CERTIFICATE OF DEATH</div>
+                <div class="outputb5a">I HEREBY CERTIFY THAT I HAVE PERFORMED AN AUTOPSY UPON THE BODY OF THE DEECASED AND THAT THA CAUSE OF DEATH WAS</div>
+                <div class="outputb5b">_________________________________________________________________________________________________________________________________________________________</div>
+                <div class="outputb5c">_________________________________________________________________________________________________________________________________________________________</div>
+                <div class="outputb5d">Signature________________________________________________________________ </div>
+                <div class="outputb5e">Name in Print____________________________________________________________ </div>
+                <div class="outputb5f">Date____________________________________________________________________ </div>
+                <div class="outputb5g">Title/Designation________________________________________________________________ </div>
+                <div class="outputb5h">Address_______________________________________________________________________ </div>
+                <div class="outputb5i">_________________________________________________________________________________________________________________________________________________________________ </div>
+           
+            </div>
+             <!-- Section6 -->
+             <div class="section6">
+                <div class="label6">CERTIFICATION OF EMBALMER</div>
+                <div class="outputb6a">I HEREBY CERTIFY that i have embalmed ____________________________________ following all the regulations prescribed by the Department of Health.</div>
+                <div class="outputb6b">Signature________________________________________________________________</div>
+                <div class="outputb6c">Name in Print_____________________________________________________________</div>
+                <div class="outputb6d">Address_________________________________________________________________</div>
+                <div class="outputb6e">Title/Designation______________________________________________________________</div>
+                <div class="outputb6f">License No.__________________________________________________________________</div>
+                <div class="outputb6g">Issued on_______________________________at___________________________________</div>
+                <div class="outputb6h">Expiry Date__________________________________________________________________</div>
+                <div class="outputb6i">_________________________________________________________________________________________________________________________________________________________________</div>
+            </div>
+  <!-- Section7 -->
+  <div class="section7">
+    <div class="label7">AFFIDAVIT FOR DELAYED REGISTRATION OF DEATH</div>
+    <div class="outputb7a">I.__________________________________________________________________________________________________________,of legal age, single/married/divorced/widow/widower,</div>
+    <div class="outputb7b">with residence and postal address______________________________________________________________________________________________________________________________</div>
+    <div class="outputb7c">_____________________________________________________________________________________________after being duly sworn in accordance with law, do hereby depose and say</div>
+    <div class="outputb7d">1. That_______________________________________________________________died on_______________________________________________________________________win</div>
+    <div class="outputb7e">______________________________________________________________________________________________________________________________and was buried/cremated in</div>
+    <div class="outputb7f">________________________________________________________________________________________on_________________________________________________________</div>
+
+</div>
+<!-- Section8 -->
+<div class="section8">
+    <div class="label8">2.That the deceased at the time of his her death:</div>
+    <div class="resizable-box8a"></div>
+    <div class="outputb8a"> was attended by ___________________________________________________;</div>
+    <div class="resizable-box8b"></div>
+    <div class="outputb8b"> was not attended</div>
+</div>
+<!-- Section9 -->
+<div class="section9">
+    <div class="label9">3. That the cause of death of the deceased was ________________________________________________________________________________________________________.</div>
+    <div class="outputb9a">4.That the reason for the delay this death was due to ___________________________________________________________________________________________________.</div>
+    <div class="outputb9b"> _________________________________________________________________________________________________________________________________________________.</div>
+    <div class="outputb9c"> 5. That i am executing this affidavit to attest to the trutfulness of the foregoing statements for all legal intents and purposes. in the truth whereof, ihave affixed my signature below this__________________________day of ___________________________,_______________________at ____________________________________Philippines</div>
+   </div>
+<!-- Section 10-->
+<div class="section10">
+    <div class="label10">_______________________________________________</div>
+    <div class="outputb10a">(Signature Over Printed Name of afficiant)</div>
+   <!-- Section 11-->
+    <div class="label11">SUBSCRIBED AND SWORN to before me this__________________________day of __________________________________________, _______________________________ at</div>
+    <div class="outputb11a">__________________________________________________________________________________________________,Philippines, afficiant who exhibited to me his/her CTC/valid ID</div>
+    <div class="outputb11b">_____________________________________________issued on______________________________________________at_________________________________________________</div>
+
+<!-- Section 12-->
+<div class="section12">
+    <div class="label12">_______________________________________________</div>
+    <div class="outputb12a">Signature Over Printed Name of afficiant</div>
+    <div class="outputb12b">_______________________________________________</div>
+    <div class="outputb12c">Name in Print</div>
+    <div class="outputb12d">_______________________________________________</div>
+    <div class="outputb12e">Position/Title/Designation</div>
+    <div class="outputb12f">_______________________________________________</div>
+    <div class="outputb12g">Address</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>

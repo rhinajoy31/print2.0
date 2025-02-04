@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate of Live Birth</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            width: 1224px; /* Legal paper width in pixels */
+            height: 1584px; /* Legal paper height in pixels */
+            border: 2px solid black;
+            padding: 15px;
+        }
+        .header {
+            color: green;
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+        .sub-header {
+            text-align: center;
+            font-size: 14px;
+            margin-bottom: 10px;
+            color: green;
+        }
+        .section {
+            margin-top: 15px;
+            display: flex;
+            align-items: center;
+            width: 100%;
+        }
+        .label {
+            font-weight: bold;
+            width: 20%;
+            min-width: 100px;
+            color: green;
+        }
+        .output {
+            display: flex;
+            width: 80%;
+            justify-content: space-between;
+        }
+        .output div {
+            flex: 1;
+            padding: 5px;
+            text-align: center;
+        }
+        .output1 {
+            text-align: left;
+            font-size: 12px;
+            color: green;
+        }
+        .output2 {
+            text-align: center;
+            font-size: 12px;
+            color: green;
+        }
+        .output3 {
+            text-align: right;
+            font-size: 12px;
+            color: green;
+        }
+
+        /* New styles for combining sections 2 and 3 into one line */
+        .two-and-three {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .section2, .section3 {
+            width: 45%; /* Adjusting the width to fit both sections */
+            font-size: 15px;
+        }
+        .label3 {
+            font-weight: bold;
+            width: 20%;
+            min-width: 100px;
+            color: green;
+        }
+
+        /* Adjusting output sections 6, 7, and 8 to be aligned as First, Middle, Last */
+        .output6-container {
+            display: flex;
+            width: 80%;
+            justify-content: space-between;
+            margin-left: 200px;
+            margin-bottom: 20px;
+        }
+        .output7, .output8, .output9 {
+            text-align: center;
+            font-size: 12px;
+            color: green;
+            flex: 1;
+            margin-top: -20px; /* Adjust this value to raise the elements */
+        }
+        
+        .section4 {
+            margin-top: 20px; /* Adding some space before Section 4 */
+            width: 100%;
+        }
+        .output4, .output5, .output6 {
+            text-align: center;
+            font-size: 12px;
+            color: green;
+            flex: 1;
+            margin-top: -12px; /* Adjust this value to raise the elements */
+        }
+
+        /* Section 5a and 5b in one line */
+        .section5 {
+            margin-top: 20px; /* Adding some space before Section 5 */
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .label5a {
+            font-weight: bold;
+            width: 20%;
+            min-width: 100px;
+            color: green;
+        }
+        .label5b {
+    font-weight: bold;
+    width: 20%;
+    min-width: 100px;
+    color: green;
+    font-size: 13px;
+    margin-right: 400px;
+    padding-left: 250px;
+    position: relative;
+    top: -50px; /* Negative value para umangat */
+    margin-left: -50px;
+}
+        .output5a {
+    text-align: left;
+    font-size: 12px;
+    color: green;
+    flex: 1;
+    margin-top: 15px;
+    margin-left: -180px; /* Adjust this value to shift text further left */
+}
+.output5b {
+    text-align: left;
+    font-size: 12px;
+    color: green;
+    flex: 1;
+    margin-top: -50px;
+    padding-left: 220px; /* Ililipat pakanan */
+}
+        .label5b {
+            text-align: right; /* Aligning text of 5b to the right */
+        }
+        .label5c {
+    font-weight: bold;
+    width: 20%;
+    min-width: 100px;
+    color: green;
+    font-size: 13px;
+    margin-right: 400px;
+    padding-left: 500px;
+    position: relative;
+    top: -50px; /* Negative value para umangat */
+    margin-left: -50px;
+}
+.output5c {
+    text-align: left;
+    font-size: 10px;
+    color: green;
+    flex: 1;
+    margin-top: -50px;
+    padding-left: 450px;
+    max-width: 200px; /* Limitahan ang lapad para awtomatikong bumaba sa susunod na linya */
+    word-wrap: break-word; /* Siguraduhin na mababasag ang mahahabang salita kung kinakailangan */
+}
+.label6a {
+    font-weight: bold;
+    width: 20%;
+    min-width: 100px;
+    color: green;
+    font-size: 13px;
+    padding-left: 500px;
+    position: relative;
+    top: -50px;
+    left: 300px; /* Mas mataas ang value para lumipat pakanan */
+}
+.output6a{
+    font-weight: bold;
+    width: 20%;
+    min-width: 100px;
+    color: green;
+    font-size: 13px;
+    padding-left: 500px;
+    position: relative;
+    top: -50px;
+    left: 300px; /* Mas mataas ang value para lumipat pakanan */
+}
+.label7 {
+            font-weight: bold;
+            width: 20%;
+            min-width: 150px;
+            color: green;
+            margin-bottom: 30px;
+        }
+        .output7a {
+    margin-left: 300px;
+    text-align: left;
+    font-size: 12px;
+    color: green;
+    transform: translateY(-30px); /* Gumagalaw pataas ng 30px */
+    margin-top: -16px;
+}   
+.output7b {
+    margin-left: 550px;
+    text-align: left;
+    font-size: 12px;
+    color: green;
+    margin-top: -16px; /* Negative margin para umangat */
+    transform: translateY(-30px); /* Gumagalaw pataas ng 30px */
+}
+        
+        .output7c {
+            margin-left: 815px;
+    text-align: left;
+    font-size: 12px;
+    color: green;
+    margin-top: -16px; /* Negative margin para umangat */
+    transform: translateY(-30px); /* Gumagalaw pataas ng 30px */
+        }
+        .label8 {
+    font-weight: bold;
+    width: 20%;
+    min-width: 100px;
+    color: green;
+    margin-bottom: 18px; /* Adding space below the element */
+}
+.label9 {
+    font-weight: bold;
+    width: 20%;
+    min-width: 100px;
+    color: green;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 700px; /* Adjust this value to move the element right */
+    margin-top: -26px; /* Negative margin to move the element upwards */
+    font-size:14px;
+}
+.label10a {
+            font-weight: bold;
+            width: 20%;
+            min-width: 100px;
+            color: green;
+            font-size: 14px;
+        }
+        .label10b {
+    font-weight: bold;
+    width: 20%;
+    min-width: 100px;
+    color: green;
+    font-size: 14px;
+    margin-right: 400px;
+    padding-left: 225px;
+    position: relative;
+    top: -30px; /* Negative value para umangat */
+    margin-left: -50px;
+        }
+        .label10c {
+    font-weight: bold;
+    width: 20%;
+    min-width: 100px;
+    color: green;
+    font-size: 14px;
+    margin-right: 450px;
+    padding-left: 250px;
+    position: relative;
+    top: -60px; /* Negative value para umangat */
+    margin-left: 170px; /* Positive value to move it to the right */
+    padding-left: 210px;
+}
+.label11 {
+    font-weight: bold;
+    width: 20%;
+    min-width: 100px;
+    color: green;
+    font-size: 14px;
+    margin-right: 450px;
+    position: relative;
+    top: -90px; /* Negative value para umangat */
+    margin-left: 160px; /* Original left adjustment */
+    
+    /* Adjusted para lumipat pakaliwa */
+    left: 430px; /* Bawasan ang value para mas lumapit sa kaliwa */
+}
+.label12{
+    font-weight: bold;
+    width: 20%;
+    min-width: 100px;
+    color: green;
+    font-size: 14px;
+    margin-right: 450px;
+    position: relative;
+    top: -105px; /* Negative value para umangat */
+    margin-left: 160px; /* Original left adjustment */
+    
+    /* Adjusted para lumipat pakaliwa */
+    left: 580px; /* Bawasan ang value para mas lumapit sa kaliwa */
+}
+.label12a {
+    text-align: left;
+    font-size: 10px;
+    color: green;
+    flex: 1;
+    margin-top: -100px;
+    padding-left: 450px;
+    max-width: 200px; /* Limitahan ang lapad para awtomatikong bumaba sa susunod na linya */
+    word-wrap: break-word; /* Siguraduhin na mababasag ang mahahabang salita kung kinakailangan */
+    padding-left: 790px;
+}
+.label13 {
+            font-weight: bold;
+            width: 20%;
+            min-width: 100px;
+            color: green;
+            font-size: 14px;
+            margin-top: -65px;
+        }
+        .output13a {
+    font-weight: bold;
+    width: 20%;
+    min-width: 100px;
+    color: green;
+    font-size: 12px;
+    margin-right: 400px;
+    padding-left: 225px;
+    position: relative;
+    top: -30px; /* Negative value para umangat */
+    margin-left: -50px;
+    margin-top: 15px;
+        }
+        .output13b {
+    font-weight: bold;
+    width: 20%;
+    min-width: 100px;
+    color: green;
+    font-size: 14px;
+    margin-right: 450px;
+    padding-left: 250px;
+    position: relative;
+    top: -60px; /* Negative value para umangat */
+    margin-left: 170px; /* Positive value to move it to the right */
+    padding-left: 210px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Republic of the Philippines</div>
+        <div class="sub-header">OFFICE OF THE CIVIL REGISTRAR GENERAL</div>
+        <div class="header">CERTIFICATE OF LIVE BIRTH</div>
+        
+        <!-- Child's Name Section -->
+        <div class="section">
+            <div class="label">1. Name</div>
+            <div class="output">
+                <div class="output1">First</div>
+                <div class="output2">Middle</div>
+                <div class="output3">Last</div>
+            </div>
+        </div>
+        
+        <!-- Sections 2 and 3 Combined in One Line -->
+        <div class="two-and-three">
+            <!-- Sex Section -->
+            <div class="section section2">
+                <div class="label">2.Sex(Male/Female)</div>
+            </div>
+            
+            <!-- Date of Birth Section (Day, Month, Year in one line) -->
+            <div class="section section3">
+                <div class="label3">3.Date of Birth</div>
+                <div class="output">
+                    <div class="output4">Day</div>
+                    <div class="output5">Month</div>
+                    <div class="output6">Year</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 4: Place of Birth below Section 2 -->
+        <div class="section4">
+            <div class="label3">4.Place of Birth</div>
+            <div class="output6-container">
+                <div class="output7">Name of Hospital/clinic/institution/House No. St,.Barangay</div>
+                <div class="output8">City/Municipality</div>
+                <div class="output9">Province</div>
+            </div>
+        </div>
+
+        <!-- Section 5a -->
+        <div class="section5">
+            <div class="label5a">5a. Type of Birth</div>
+            <div class="output5a">(Single / Twin / Triplet / Etc.)</div>
+        </div>
+    <!-- Section 5b -->
+    <div class="section6">
+        <div class="label5b">5b. If multiple birth, child was</div>
+        <div class="output5b">(First, Second, Third, Etc.)</div>
+    </div>
+    <!-- Section 5c -->
+    <div class="section7">
+        <div class="label5c">5b.Birth Order</div>
+        <div class="output5c">(Order of this birth to previous live births including fetal death)(First, Second, Third, Etc.))</div>
+    </div>
+    <!-- Section 6 -->
+    <div class="section6a">
+        <div class="label6a">6.Weight at Birth</div>
+        <div class="output6a">_________grams</div>
+    </div>
+    <!-- Section 7 -->
+    <div class="section7">
+        <div class="label7">7.Mother Maiden name</div>
+        <div class="output7a">First</div>
+        <div class="output7b">Middle</div>
+        <div class="output7c">Last</div>
+    </div>
+    <!-- Section 8 -->
+    <div class="section8">
+        <div class="label8">8.Citizenship</div>
+    </div>
+    <!-- Section 9 -->
+    <div class="section9">
+        <div class="label9">9.Religion/Religous sec</div>
+    </div>
+    <!-- Section 10 -->
+    <div class="section10">
+        <div class="label10a">10a.Total number of children born alive</div>
+    </div>
+     <!-- Section 10 -->
+     <div class="section10b">
+        <div class="label10b">10b.No. of chidren still living including this birth</div>
+    </div>
+    <!-- Section 10 -->
+    <div class="section10c">
+        <div class="label10c">10c.No of children born alive but are now dead</div>
+    </div>
+    <!-- Section 11 -->
+    <div class="section11">
+        <div class="label11">11.Occupation</div>
+    </div>
+     <!-- Section 12 -->
+     <div class="section12">
+        <div class="label12">12. Age at time of this birth</div>
+        <div class="label12a">(completed years)</div>
+    </div>
+     <!-- Section 13 -->
+     <div class="section13">
+        <div class="label13">13. Residence</div>
+        <div class="output13a">(House No., St.,Barangay)</div>
+        <div class="output13b">(City/Municipality)</div>
+        <div class="output13c">(Province)</div>
+        <div class="output13d">(Country)</div>
+    </div>
+    </div>
+    
+    
+    
+
+    </div>
+    </div>
+</body>
+</html>

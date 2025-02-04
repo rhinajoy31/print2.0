@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate of Live Birth</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0px;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        .container {
+            width: 1224px; /* Legal paper width in pixels */
+            height: 1584px; /* Legal paper height in pixels */
+            border: 2px solid darkblue;
+            padding: 15px;
+            position: relative; /* Ensures absolute elements position correctly */
+        }
+
+        .vertical-line3 {
+            width: 2px; /* Thickness of the line */
+            height: 72px; /* Length of the line */
+            background-color: darkblue; /* Line color */
+            position: absolute; /* Keeps it inside the container */
+            left: 76%; /* Adjust horizontal positioning */
+            top: 130px; /* Adjust vertical positioning */
+        }
+        .label1 {
+    
+    display: flex;
+    justify-content: flex-end; /* Para i-align ang teksto sa kanan sa loob ng flex container */
+    font-size: 12px;
+    position: relative;
+    top: -5px; /* Itulak ang elemento 20px pababa; i-adjust ang value ayon sa pangangailangan */
+    left:-1100px;
+}
+.output1 {
+    
+    display: flex;
+    justify-content: flex-end; /* Para i-align ang teksto sa kanan sa loob ng flex container */
+    font-size: 12px;
+    position: relative;
+    top: 3px; /* Itulak ang elemento 20px pababa; i-adjust ang value ayon sa pangangailangan */
+    left:-1103px;
+}
+.output2 {
+    
+    display: flex;
+    justify-content: flex-end; /* Para i-align ang teksto sa kanan sa loob ng flex container */
+    font-size: 12px;
+    position: relative;
+    top: -30px; /* Itulak ang elemento 20px pababa; i-adjust ang value ayon sa pangangailangan */
+    left:-5px;
+}
+.label2 {
+            color: bl;
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            
+}
+        .output2a {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: black;
+    position: relative;
+    top: -10px; /* Itulak ang teksto 10px pataas; i-adjust ang value ayon sa pangangailangan */
+}
+
+        .output2b {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    top: -20px; /* Itulak ang teksto 20px pataas; i-adjust ang value ayon sa pangangailangan */
+}
+.output2c {
+    text-align: center;
+    margin-bottom: 10px;
+    color: darkblue;
+    font-weight: bold;
+    position: relative;
+    top: -50px; /* Itulak ang teksto 20px pataas; i-adjust ang value ayon sa pangangailangan */
+    left:-15px;
+}
+.label3 {
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: darkblue;
+    font-size: 14px;
+    margin-right: 400px;
+    padding-left: -200px;
+    position: relative;
+    top: -80px;
+    margin-left: -30  px;
+    margin-top: 35px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.label4 {
+
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: darkblue;
+    font-size: 14px;
+    margin-right: 400px;
+    padding-left: -200px;
+    position: relative;
+    top: -30px;
+    margin-left: -30  px;
+    margin-top: -30px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.label5 {
+    display: flex;
+    justify-content: flex-end; /* Para i-align ang teksto sa kanan sa loob ng flex container */
+    position: relative;
+    top: -75px; /* Itulak ang elemento 20px pababa; i-adjust ang value ayon sa pangangailangan */
+    left:-150px;
+    color: darkblue;
+    font-size: 16px;
+}
+.output5a {
+    text-align: center;
+    margin-bottom: 10px;
+    color: darkblue;
+    font-weight: bold;
+    position: relative;
+    top: -50px; /* Itulak ang teksto 20px pataas; i-adjust ang value ayon sa pangangailangan */
+    left:-40px;
+    padding-left: 25px;
+}
+.label6 {
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: darkblue;
+    font-size: 14px;
+    margin-right: 400px;
+    padding-left: -200px;
+    position: relative;
+    top: -65px;
+    margin-left: -30  px;
+    margin-top: 30px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output6a {
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: darkblue;
+    font-size: 14px;
+    margin-right: 400px;
+    padding-left: 250px;
+    position: relative;
+    top: -130px;
+    margin-left: -30px;
+    margin-top: 50px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output6b {
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: darkblue;
+    font-size: 14px;
+    margin-right: 400px;
+    padding-left: 570px;
+    position: relative;
+    top: -196px;
+    margin-left: -30px;
+    margin-top: 50px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output6c {
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: darkblue;
+    font-size: 14px;
+    margin-right: 400px;
+    padding-left: 900px;
+    position: relative;
+    top: -263px;
+    margin-left: -30px;
+    margin-top: 50px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.label7 {
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: darkblue;
+    font-size: 14px;
+    margin-right: 400px;
+    padding-left: 1080px;
+    position: relative;
+    top: -263px;
+    margin-left: -30px;
+    margin-top: -15px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output7a {
+    text-align: center;
+    margin-bottom: 10px;
+    color: darkblue;
+    font-weight: bold;
+    position: relative;
+    top: -240px; /* Itulak ang teksto 20px pataas; i-adjust ang value ayon sa pangangailangan */
+    left:-40px;
+    padding-left: 25px;
+}
+.vertical-line4 {
+            width: 2px; /* Thickness of the line */
+            height: 73px; /* Length of the line */
+            background-color: darkblue; /* Line color */
+            position: absolute; /* Keeps it inside the container */
+            left: 83%; /* Adjust horizontal positioning */
+            top: 203px; /* Adjust vertical positioning */
+        }
+        .label8 {
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: darkblue;
+    font-size: 14px;
+    margin-right: 400px;
+    padding-left: -200px;
+    position: relative;
+    top: -65px;
+    margin-left: -30  px;
+    margin-top: -183px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output8a {
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: darkblue;
+    font-size: 14px;
+    margin-right: 400px;
+    padding-left: 150px;
+    position: relative;
+    top: -65px;
+    margin-left: -30  px;
+    margin-top: -15px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.label9 {
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: darkblue;
+    font-size: 14px;
+    margin-right: 400px;
+    padding-left: 400px;
+    position: relative;
+    top: -65px;
+    margin-left: -30  px;
+    margin-top: -20px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output9a {
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: darkblue;
+    font-size: 14px;
+    margin-right: 400px;
+    padding-left: 550px;
+    position: relative;
+    top: -66px;
+    margin-left: -30  px;
+    margin-top: -15px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.vertical-line5 {
+            width: 2px; /* Thickness of the line */
+            height: 73px; /* Length of the line */
+            background-color: darkblue; /* Line color */
+            position: absolute; /* Keeps it inside the container */
+            left: 29%; /* Adjust horizontal positioning */
+            top: 277px; /* Adjust vertical positioning */
+        }
+        .vertical-line6 {
+    width: 2px; /* Thickness of the line */
+    height: 73px; /* Length of the line */
+    background-color: darkblue; /* Line color */
+    position: absolute; /* Keeps it inside the container */
+    left: 734px; /* Fixed horizontal positioning */
+    top: 277px; /* Fixed vertical positioning */
+    transform: translateX(-50%); /* Centers it exactly */
+}
+
+        .label10 {
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: darkblue;
+    font-size: 14px;
+    margin-right: 400px;
+    padding-left: 750px;
+    position: relative;
+    top: -66px;
+    margin-left: -30  px;
+    margin-top: -17px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output10a {
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: darkblue;
+    font-size: 12px;
+    margin-right: 400px;
+    padding-left: 760px;
+    position: relative;
+    top: -75px;
+    margin-left: -30  px;
+    margin-top: 10px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output10b {
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: darkblue;
+    font-size: 12px;
+    margin-right: 400px;
+    padding-left: 770px;
+    position: relative;
+    top: -80px;
+    margin-left: -30  px;
+    margin-top: 10px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output10C {
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: darkblue;
+    font-size: 12px;
+    margin-right: 400px;
+    padding-left: 930px;
+    position: relative;
+    top: -122px;
+    margin-left: -30  px;
+    margin-top: 10px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output10d {
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: darkblue;
+    font-size: 12px;
+    margin-right: 400px;
+    padding-left: 930px;
+    position: relative;
+    top: -130px;
+    margin-left: -30  px;
+    margin-top: 15px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output10e {
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: darkblue;
+    font-size: 12px;
+    margin-right: 400px;
+    padding-left: 1000px;
+    position: relative;
+    top: -153px;
+    margin-left: -30  px;
+    margin-top: 10px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output10f {
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: darkblue;
+    font-size: 12px;
+    margin-right: 400px;
+    padding-left: 1080px;
+    position: relative;
+    top: -193px;
+    margin-left: -30x;
+    margin-top: 10px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output10g {
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: darkblue;
+    font-size: 12px;
+    margin-right: 400px;
+    padding-left: 1090px;
+    position: relative;
+    top: -200px;
+    margin-left: -30x;
+    margin-top: 10px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output10h {
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: darkblue;
+    font-size: 12px;
+    margin-right: 400px;
+    padding-left: 1150px;
+    position: relative;
+    top: -222px;
+    margin-left: -30x;
+    margin-top: 10px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output10i{
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: darkblue;
+    font-size: 12px;
+    margin-right: 400px;
+    padding-left: 910px;
+    position: relative;
+    top: -222px;
+    margin-left: -190px;
+    margin-top: -30px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output10j{
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: darkblue;
+    font-size: 12px;
+    margin-right: 400px;
+    padding-left: 910px;
+    position: relative;
+    top: -222px;
+    margin-left: -190px;
+    margin-top: -32px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output10k{
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: darkblue;
+    font-size: 12px;
+    margin-right: 400px;
+    padding-left: 910px;
+    position: relative;
+    top: -222px;
+    margin-left: -925px;
+    margin-top: 48px;
+    white-space: nowrap; /* Para hindi bumaba ang words */
+}
+.vertical-line7 {
+    width: 2px; /* Thickness of the line */
+    height: 65px; /* Length of the line */
+    background-color: darkblue; /* Line color */
+    position: absolute; /* Keeps it inside the container */
+    left: 925px; /* Fixed horizontal positioning */
+    top: 290px; /* Fixed vertical positioning */
+    transform: translateX(-50%); /* Centers it exactly */
+}
+.vertical-line8 {
+    width: 2px; /* Thickness of the line */
+    height: 45px; /* Length of the line */
+    background-color: darkblue; /* Line color */
+    position: absolute; /* Keeps it inside the container */
+    left: 1005px; /* Fixed horizontal positioning */
+    top: 310px; /* Fixed vertical positioning */
+    transform: translateX(-50%); /* Centers it exactly */
+}
+.vertical-line9 {
+    width: 2px; /* Thickness of the line */
+    height: 65px; /* Length of the line */
+    background-color: darkblue; /* Line color */
+    position: absolute; /* Keeps it inside the container */
+    left: 1080px; /* Fixed horizontal positioning */
+    top: 290px; /* Fixed vertical positioning */
+    transform: translateX(-50%); /* Centers it exactly */
+}
+.vertical-line10 {
+    width: 2px; /* Thickness of the line */
+    height: 45px; /* Length of the line */
+    background-color: darkblue; /* Line color */
+    position: absolute; /* Keeps it inside the container */
+    left: 1150px; /* Fixed horizontal positioning */
+    top: 310px; /* Fixed vertical positioning */
+    transform: translateX(-50%); /* Centers it exactly */
+ 
+}
+
+
+
+
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="vertical-line3"></div>        
+            <!-- Section1 -->
+            <div class="section1">
+            <div class="label1">Municipal form No. 103</div>
+            <div class="output">
+                <div class="output1">(Revised August 2016)</div>
+                <div class="output2">(To be accomplished in quadruplicate using black ink)</div>
+    </div>
+    <div class="section2">
+        <div class="label2">REPUBLIC OF THE PHILIPPINES</div>
+        <div class="output">
+            <div class="output2a">OFFICE OF THE CIVIL REGISTRAR GENERAL</div>
+            <div class="output2b">CERTIFICATE OF DEATH</div>
+            <div class="output2c">_____________________________________________________________________________________________________________________________________________</div>
+        </div>
+
+  <!-- Section3 -->
+  <div class="section3">
+    <div class="label3">Province_________________________________________________________________________________________________________________</div>
+</div>
+    <!-- Section4 -->
+    <div class="section4">
+        <div class="label4">City/Municipality__________________________________________________________________________________________________________</div>
+            <!-- Section5-->
+        <div class="section5">
+            <div class="label5">Registry No.</div>  
+            <div class="output5a">_____________________________________________________________________________________________________________________________________________</div> 
+    </div>
+    <!-- Section6-->
+    <div class="section6">
+                
+        <div class="label6">1. NAME</div>  
+        <div class="output6a">(First)</div> 
+        <div class="output6b">(Middle)</div>
+        <div class="output6c">(Last)</div>
+</div>
+<!-- Section7-->
+<div class="section7">
+    <div class="label7">2. SEX (Male/Female)</div>  
+    <div class="output7a">_____________________________________________________________________________________________________________________________________________</div> 
+    <div class=" vertical-line4"></div>  
+
+
+<!-- Section8-->
+<div class="section8">
+    <div class="label8">3. DATE OF DEATH</div>  
+    <div class="output8a">(Day, Month, Year)</div>  
+    <div class=" vertical-line5"></div>
+    
+</div>
+<!-- Section9-->
+<div class="section9">
+<div class="label9">4. DATE OF BIRTH</div>  
+<div class="output9a">(Day)  ( Month) (Year)</div>  
+<div class=" vertical-line6"></div>
+</div>
+<!-- Section10-->
+<div class="section10">
+    <div class="label10">5. AGE AT THE TIME OF DEATH(Fill-in below accdg.to age category)</div>  
+    <div class="output10a">a. IF 1 YEAR OR ABOVE</div>  
+    <div class="output10b">[2] Completed years</div>
+    <div class="output10C">b. IF UNDER 1 YEAR</div>  
+    <div class="output10d">[1Month]</div>
+    <div class="output10e">[0 Days]</div>
+    <div class="output10f">c. IF UNDER 24 HRS</div>
+    <div class="output10g">Hours</div>
+    <div class="output10h">Min/Sec</div>
+    <div class="output10i">______________________________________________________________________________</div>
+    <div class="output10j">______________________________________________________________________________</div>
+    <div class="output10k">____________________________________________________________________________________________________________________________________________________________________________________________</div>
+
+
+    <div class=" vertical-line7"></div>
+    <div class=" vertical-line8"></div>
+    <div class=" vertical-line9"></div>
+    <div class=" vertical-line10"></div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+        </body>
+</html>

@@ -1,0 +1,974 @@
+// Create HTML content
+$html = "
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Certificate of Live Birth</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 7.5in; /* Legal paper width in pixels */
+            height: 13in; /* Legal paper height in pixels */
+            border: 2px solid green;
+        }
+        .header {
+            color: green;
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+        .sub-header {
+            text-align: center;
+            font-size: 14px;
+            margin-bottom: 10px;
+            color: green;
+        }
+        .section {
+            margin-top: 15px;
+            display: flex;
+            align-items: center;
+            width: 100%;
+        }
+        .label {
+            font-weight: bold;
+            width: 20%;
+            min-width: 100px;
+            color: green;
+        }
+        .output {
+            display: flex;
+            width: 80%;
+            justify-content: space-between;
+        }
+        .output div {
+            flex: 1;
+            padding: 5px;
+            text-align: center;
+        }
+        .output1 {
+            text-align: left;
+            font-size: 12px;
+            color: green;
+        }
+        .output2 {
+            text-align: center;
+            font-size: 12px;
+            color: green;
+        }
+        .output3 {
+            text-align: right;
+            font-size: 12px;
+            color: green;
+        }
+
+        /* New styles for combining sections 2 and 3 into one line */
+        .two-and-three {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .section2, .section3 {
+            width: 45%; /* Adjusting the width to fit both sections */
+            font-size: 15px;
+        }
+        .label3 {
+            font-weight: bold;
+            width: 20%;
+            min-width: 100px;
+            color: green;
+        }
+
+        /* Adjusting output sections 6, 7, and 8 to be aligned as First, Middle, Last */
+        .output6-container {
+            display: flex;
+            width: 80%;
+            justify-content: space-between;
+            margin-left: 200px;
+            margin-bottom: 20px;
+        }
+        .output7{
+            text-align: center;
+            font-size: 12px;
+            color: green;
+            flex: 1;
+            margin-top: -20px; /* Adjust this value to raise the elements */
+            padding-left: 100px;
+              /* Adjust pakanan o kaliwa nang walang naapektuhan */
+    transform: translateX(40px); /* Positive value for pakanan, negative for kaliwa */
+        }
+        .output8{
+            text-align: center;
+            font-size: 12px;
+            color: green;
+            flex: 1;
+            margin-top: -20px; /* Adjust this value to raise the elements */
+            padding-left: 80px;
+              /* Adjust pakanan o kaliwa nang walang naapektuhan */
+    transform: translateX(40px); /* Positive value for pakanan, negative for kaliwa */
+    }
+    .output9{
+    text-align: center;
+    font-size: 12px;
+    color: green;
+    flex: 1;
+    margin-top: -20px;
+    padding-left: 150px;
+
+    /* Adjust pakanan o kaliwa nang walang naapektuhan */
+    transform: translateX(40px); /* Positive value for pakanan, negative for kaliwa */
+    }
+    
+        
+        .section4 {
+            margin-top: 20px; /* Adding some space before Section 4 */
+            width: 100%;
+        }
+        .output4, .output5, .output6 {
+            text-align: center;
+            font-size: 12px;
+            color: green;
+            flex: 1;
+            margin-top: -12px; /* Adjust this value to raise the elements */
+        }
+
+        /* Section 5a and 5b in one line */
+        .section5 {
+            margin-top: 20px; /* Adding some space before Section 5 */
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .label5a {
+            font-weight: bold;
+            width: 20%;
+            min-width: 100px;
+            color: green;
+        }
+        .label5b {
+    font-weight: bold;
+    width: 20%;
+    min-width: 100px;
+    color: green;
+    font-size: 13px;
+    margin-right: px;
+    padding-left: 250px;
+    position: relative;
+    top: -50px; /* Negative value para umangat */
+    margin-left: -50px;
+    margin-left: -15px;
+}
+        .output5a {
+    text-align: left;
+    font-size: 12px;
+    color: green;
+    flex: 1;
+    margin-top: 15px;
+    margin-left: -250px; /* Adjust this value to shift text further left */
+}
+.output5b {
+    text-align: left;
+    font-size: 12px;
+    color: green;
+    flex: 1;
+    margin-top: -50px;
+    padding-left: 380px; /* Ililipat pakanan */
+
+}
+        .label5b {
+            text-align: right; /* Aligning text of 5b to the right */
+            padding-left: 300px; 
+        }
+        .label5c {
+    font-weight: bold;
+    width: 20%;
+    min-width: 100px;
+    color: green;
+    font-size: 13px;
+    margin-right: -400px;
+    padding-left: 500px;
+    position: relative;
+    top: -50px; /* Negative value para umangat */
+    left: 200px; 
+}
+.output5c {
+    text-align: left;
+    font-size: 10px;
+    color: green;
+    flex: 1;
+    margin-top: -50px;
+    padding-left: 700px;
+    max-width: 200px; /* Limitahan ang lapad para awtomatikong bumaba sa susunod na linya */
+    word-wrap: break-word; /* Siguraduhin na mababasag ang mahahabang salita kung kinakailangan */
+}
+.label6a {
+    font-weight: bold;
+    width: 20%;
+    min-width: 100px;
+    color: green;
+    font-size: 13px;
+    padding-left: 500px;
+    position: relative;
+    top: -50px;
+    left: 580px; /* Mas mataas ang value para lumipat pakanan */
+}
+.output6a{
+    font-weight: bold;
+    width: 20%;
+    min-width: 100px;
+    color: green;
+    font-size: 13px;
+    padding-left: 500px;
+    position: relative;
+    top: -50px;
+    left: 580px; /* Mas mataas ang value para lumipat pakanan */
+}
+.label7 {
+            font-weight: bold;
+            width: 20%;
+            min-width: 150px;
+            color: green;
+            margin-bottom: 30px;
+        }
+        .output7a {
+    margin-left: 400px;
+    text-align: left;
+    font-size: 12px;
+    color: green;
+    transform: translateY(-30px); /* Gumagalaw pataas ng 30px */
+    margin-top: -16px;
+}   
+.output7b {
+    margin-left: 715px;
+    text-align: left;
+    font-size: 12px;
+    color: green;
+    margin-top: -16px; /* Negative margin para umangat */
+    transform: translateY(-30px); /* Gumagalaw pataas ng 30px */
+}
+        
+        .output7c {
+            margin-left: 1050px;
+    text-align: left;
+    font-size: 12px;
+    color: green;
+    margin-top: -16px; /* Negative margin para umangat */
+    transform: translateY(-30px); /* Gumagalaw pataas ng 30px */
+        }
+        .label8 {
+    font-weight: bold;
+    width: 20%;
+    min-width: 100px;
+    color: green;
+    margin-bottom: 18px; /* Adding space below the element */
+}
+.label9 {
+    font-weight: bold;
+    width: 20%;
+    min-width: 100px;
+    color: green;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 1000px; /* Adjust this value to move the element right */
+    margin-top: -26px; /* Negative margin to move the element upwards */
+    font-size:14px;
+}
+.label10a {
+            font-weight: bold;
+            width: 20%;
+            min-width: 100px;
+            color: green;
+            font-size: 14px;
+        }
+        .label10b {
+    font-weight: bold;
+    width: 20%;
+    min-width: 100px;
+    color: green;
+    font-size: 14px;
+    margin-right: 400px;
+    padding-left: 230px;
+    position: relative;
+    top: -30px; /* Negative value para umangat */
+    margin-left: 40px;
+        }
+        .label10c {
+    font-weight: bold;
+    width: 20%;
+    min-width: 100px;
+    color: green;
+    font-size: 14px;
+    margin-right: 450px;
+    padding-left: 250px;
+    position: relative;
+    top: -60px; /* Negative value para umangat */
+    margin-left: 170px; /* Positive value to move it to the right */
+    padding-left: 340px;
+}
+.label11 {
+    font-weight: bold;
+    width: 20%;
+    min-width: 100px;
+    color: green;
+    font-size: 14px;
+    margin-right: 450px;
+    position: relative;
+    top: -90px; /* Negative value para umangat */
+    margin-left: 400px; /* Original left adjustment */
+    
+    /* Adjusted para lumipat pakaliwa */
+    left: 430px; /* Bawasan ang value para mas lumapit sa kaliwa */
+}
+.label12{
+    font-weight: bold;
+    width: 20%;
+    min-width: 100px;
+    color: green;
+    font-size: 14px;
+    margin-right: 450px;
+    position: relative;
+    top: -105px; /* Negative value para umangat */
+    margin-left: 410px; /* Original left adjustment */
+    
+    /* Adjusted para lumipat pakaliwa */
+    left: 580px; /* Bawasan ang value para mas lumapit sa kaliwa */
+}
+.label12a {
+    text-align: left;
+    font-size: 10px;
+    color: green;
+    flex: 1;
+    margin-top: -100px;
+    padding-left: 450px;
+    max-width: 200px; /* Limitahan ang lapad para awtomatikong bumaba sa susunod na linya */
+    word-wrap: break-word; /* Siguraduhin na mababasag ang mahahabang salita kung kinakailangan */
+    padding-left: 1050px;
+}
+.label13 {
+            font-weight: bold;
+            width: 20%;
+            min-width: 100px;
+            color: green;
+            font-size: 14px;
+            margin-top: -50px;
+        }
+        .output13a {
+    font-weight: bold;
+    width: 20%;
+    min-width: 100px;
+    color: green;
+    font-size: 12px;
+    margin-right: 400px;
+    padding-left: 225px;
+    position: relative;
+    top: -30px; /* Negative value para umangat */
+    margin-left: 50px;
+    margin-top: 15px;
+        }
+        .output13b {
+    font-weight: bold;
+    width: 20%;
+    min-width: 100px;
+    color: green;
+    font-size: 12px;
+    margin-right: 450px;
+    padding-left: 250px;
+    position: relative;
+    top: -45px; /* Negative value para umangat */
+    margin-left: 170px; /* Positive value to move it to the right */
+    padding-left: 400px;
+}
+.output13c {
+    font-weight: bold;
+    width: 20%;
+    min-width: 100px;
+    color: green;
+    font-size: 12px;
+    margin-right: 450px;
+    padding-left: 250px;
+    position: relative;
+    top: -57px; /* Negative value para umangat */
+    margin-left: 170px; /* Positive value to move it to the right */
+    padding-left: 680px;
+}
+.output13d {
+    font-weight: bold;
+    width: 20%;
+    min-width: 100px;
+    color: green;
+    font-size: 12px;
+    margin-right: 450px;
+    padding-left: 250px;
+    position: relative;
+    top: -70px; /* Negative value para umangat */
+    margin-left: 170px; /* Positive value to move it to the right */
+    padding-left: 890px;
+}
+.label14 {
+            font-weight: bold;
+            width: 20%;
+            min-width: 150px;
+            color: green;
+            margin-bottom: 10px;
+            margin-top: -50px;
+        }
+.output14a {
+    margin-left: 400px;
+    text-align: left;
+    font-size: 12px;
+    color: green;
+    transform: translateY(-30px); /* Gumagalaw pataas ng 30px */
+    margin-bottom: -16px;
+}  
+.output14b {
+    margin-left: 720px;
+    text-align: left;
+    font-size: 12px;
+    color: green;
+    transform: translateY(-30px); /* Gumagalaw pataas ng 30px */
+    margin-bottom: -16px;
+}  
+.output14c {
+    margin-left: 1040px;
+    text-align: left;
+    font-size: 12px;
+    color: green;
+    transform: translateY(-30px); /* Gumagalaw pataas ng 30px */
+    margin-bottom: -16px;
+}  
+.label15 {
+            font-weight: bold;
+            width: 20%;
+            min-width: 150px;
+            color: green;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+        .label16 {
+    margin-left: 330px;
+    text-align: left;
+    font-size: 14px;
+    color: green;
+    transform: translateY(-30px); /* Gumagalaw pataas ng 30px */
+    margin-bottom: -16px;
+    font-weight: bold;
+} 
+.label17 {
+    margin-left: 700px;
+    text-align: left;
+    font-size: 14px;
+    color: green;
+    transform: translateY(-30px); /* Gumagalaw pataas ng 30px */
+    margin-bottom: -16px;
+    font-weight: bold;
+} 
+.label18 {
+    margin-left: 950px;
+    text-align: left;
+    font-size: 14px;
+    color: green;
+    transform: translateY(-30px); /* Gumagalaw pataas ng 30px */
+    margin-bottom: -16px;
+    font-weight: bold;
+} 
+.output18a{
+    text-align: left;
+    font-size: 10px;
+    color: green;
+    flex: 1;
+    margin-top: -30px;
+    padding-left: 500px;
+    max-width: 200px; /* Limitahan ang lapad para awtomatikong bumaba sa susunod na linya */
+    word-wrap: break-word; /* Siguraduhin na mababasag ang mahahabang salita kung kinakailangan */
+    padding-left: 1030px;
+}
+.label19 {
+            font-weight: bold;
+            width: 20%;
+            min-width: 100px;
+            color: green;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+        .output19a {
+    font-weight: bold;
+    width: 20%;
+    min-width: 100px;
+    color: green;
+    font-size: 12px;
+    margin-right: 400px;
+    padding-left: 225px;
+    position: relative;
+    top: -30px; /* Negative value para umangat */
+    margin-left: 50px;
+    margin-top: 15px;
+        }
+        .output19b {
+    font-weight: bold;
+    width: 20%;
+    min-width: 100px;
+    color: green;
+    font-size: 12px;
+    margin-right: 450px;
+    padding-left: 250px;
+    position: relative;
+    top: -45px; /* Negative value para umangat */
+    margin-left: 170px; /* Positive value to move it to the right */
+    padding-left: 400px;
+}
+.output19c {
+    font-weight: bold;
+    width: 20%;
+    min-width: 100px;
+    color: green;
+    font-size: 12px;
+    margin-right: 450px;
+    padding-left: 250px;
+    position: relative;
+    top: -57px; /* Negative value para umangat */
+    margin-left: 170px; /* Positive value to move it to the right */
+    padding-left: 680px;
+}
+.output19d {
+    font-weight: bold;
+    width: 20%;
+    min-width: 100px;
+    color: green;
+    font-size: 12px;
+    margin-right: 450px;
+    padding-left: 250px;
+    position: relative;
+    top: -70px; /* Negative value para umangat */
+    margin-left: 170px; /* Positive value to move it to the right */
+    padding-left: 890px;}
+
+    .labelM {
+        font-weight: bold;
+       
+            min-width: 100px;
+            color: green;
+            font-size: 14px;
+            margin-top: -50px;
+        }
+        .label20a {
+            font-weight: bold;
+            width: 20%;
+            min-width: 100px;
+            color: green;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+        .output20a {
+    font-weight: bold;
+    width: 20%;
+    min-width: 100px;
+    color: green;
+    font-size: 12px;
+    margin-right: 400px;
+    padding-left: 100px;
+    position: relative;
+    top: -30px; /* Negative value para umangat */
+    margin-left: 50px;
+    margin-top: 15px;}
+
+    .output20b {
+    font-weight: bold;
+    width: 20%;
+    min-width: 100px;
+    color: green;
+    font-size: 12px;
+    margin-right: 400px;
+    padding-left: 100px;
+    position: relative;
+    top: -59px; /* Negative value para umangat */
+    margin-left: 120px;
+    margin-top: 15px;}
+    .output20c {
+    font-weight: bold;
+    width: 20%;
+    min-width: 100px;
+    color: green;
+    font-size: 12px;
+    margin-right: 400px;
+    padding-left: 100px;
+    position: relative;
+    top: -87px; /* Negative value para umangat */
+    margin-left: 180px;
+    margin-top: 15px;}
+
+    .label20b {
+    text-align: left;
+    font-size: 14px;
+    color: green;
+    flex: 1;
+    margin-top: -100px;
+    padding-left: 500px;
+    max-width: 200px; /* Limitahan ang lapad para awtomatikong bumaba sa susunod na linya */
+    font-weight: bold;
+   
+        }
+    .output20d {
+    font-weight: bold;
+    width: 20%;
+    min-width: 100px;
+    color: green;
+    font-size: 12px;
+    margin-right: 400px;
+    padding-left: -150px;
+    position: relative;
+    top: -30px; /* Negative value para umangat */
+    margin-left: 650px;
+    margin-top: 15px;}
+
+    .output20e {
+    font-weight: bold;
+    width: 20%;
+    min-width: 100px;
+    color: green;
+    font-size: 12px;
+    margin-right: 400px;
+    padding-left: 100px;
+    position: relative;
+    top: -58px; /* Negative value para umangat */
+    margin-left: 800px;
+    margin-top: 15px;}
+
+    .output20f {
+    font-weight: bold;
+    width: 20%;
+    min-width: 100px;
+    color: green;
+    font-size: 12px;
+    margin-right: 400px;
+    padding-left: 300px;
+    position: relative;
+    top: -58px; /* Negative value para umangat */
+    margin-left: 800px;
+    margin-top: -11px;}
+    .label21a {
+            font-weight: bold;
+            width: 20%;
+            min-width: 100px;
+            color: green;
+            font-size: 14px;
+            margin-top: -50px;
+        }
+        .outputp {
+    font-weight: bold;
+    width: 20%;
+    min-width: 100px;
+    color: green;
+    font-size: 12px;
+    margin-right: 400px;
+    padding-left: 25px;
+    position: relative;
+    top: -30px; /* Negative value para umangat */
+    margin-top: 10px;
+    top: -5px;
+    margin-left: 15px;
+}
+.outputn {
+    font-weight: bold;
+    width: 20%;
+    min-width: 100px;
+    color: green;
+    font-size: 12px;
+    margin-right: 400px;
+    padding-left: 25px;
+    position: relative;
+    top: -30px; /* Negative value para umangat */
+    margin-top: 10px;
+    top: -30px;
+    margin-left: 200px;
+}
+.outputm {
+    font-weight: bold;
+    width: 20%;
+    min-width: 100px;
+    color: green;
+    font-size: 12px;
+    margin-right: 400px;
+    padding-left: 25px;
+    position: relative;
+    top: -30px; /* Negative value para umangat */
+    margin-top: 10px;
+    top: -55px;
+    margin-left: 350px;
+}
+.outputh {
+    font-weight: bold;
+    color: green;
+    font-size: 12px;
+    margin-right: 400px;
+    padding-left: 25px;
+    position: relative;
+    top: -30px; /* Negative value para umangat */
+    margin-top: 10px;
+    top: -78px;
+    margin-left: 525px;
+    white-space: nowrap;
+}
+.outputo {
+    font-weight: bold;
+    color: green;
+    font-size: 12px;
+    margin-right: 400px;
+    padding-left: 25px;
+    position: relative;
+    top: -30px; /* Negative value para umangat */
+    margin-top: 10px;
+    top: -103px;
+    margin-left: 820px;
+    white-space: nowrap;
+}
+.label21b {
+            
+        font-weight: bold;
+            min-width: 100px;
+            color: green;
+            font-size: 20px;
+            margin-top: -70px;
+        }
+        
+        .output21a{
+            color: green;
+            font-size: 16px;
+            padding-left: 100px;
+            margin-top: 5px; /* Mas malaking space sa ibabaw */
+            margin-bottom: 20px; /* Mas malaking space sa ilalim */
+        }
+        .output21b{
+            color: green;
+            font-size: 20px;
+            padding-left: 10px;
+            margin-top: 20px; /* Mas malaking space sa ibabaw */
+            margin-bottom: 20px; /* Mas malaking space sa ilalim */
+            
+            
+        }
+        .output21c{
+            color: green;
+            font-size: 20px;
+            padding-left: 10px;
+            margin-top: 20px; /* Mas malaking space sa ibabaw */
+            margin-bottom: 20px; /* Mas malaking space sa ilalim */
+            
+        }
+        .output21d{
+            color: green;
+            font-size: 20px;
+            padding-left: 10px;
+            margin-top: 35px; /* Mas malaking space sa ibabaw */
+            margin-bottom: -10px; /* Mas malaking space sa ilalim */
+        }
+        .output21e{
+            color: green;
+            font-size: 20px;
+            margin-top: -125px;
+            padding-left: 700px;
+        }
+        .output21f{
+            color: green;
+            font-size: 20px;
+            margin-top: 30px;
+            padding-left: 700px;
+        }
+        .output21g{
+            color: green;
+            font-size: 20px;
+            margin-top: 40px;
+            padding-left: 700px;
+        }
+        .label22 {
+            
+            font-weight: bold;
+                min-width: 100px;
+                color: green;
+                font-size: 20px;
+                margin-top: 15px;
+            }
+            .output22a{
+            color: green;
+            font-size: 16px;
+            margin-top: 10px;
+            padding-left: 15px;
+            
+        }
+        .output22b{
+            color: green;
+            font-size: 20px;
+            margin-top: 20px;
+            padding-left: 10px;
+            
+        }
+        .output22c{
+            color: green;
+            font-size: 20px;
+            margin-top: 20px;
+            padding-left: 10px;
+            
+        }
+        .output22d{
+            color: green;
+            font-size: 20px;
+            margin-top: 20px;
+            padding-left: 10px;
+        }
+        .output22e{
+            color: green;
+            font-size: 20px;
+            margin-top: 20px;
+            padding-left: 10px;
+        }
+        .output22f{
+            color: green;
+            font-size: 20px;
+            margin-top: 20px;
+            padding-left: 10px;
+        }
+        .label23 {
+            
+            font-weight: bold;
+                min-width: 100px;
+                color: green;
+                font-size: 20px;
+                margin-top: -280px;
+                padding-left: 800px;
+            }
+            .output23a{
+            color: green;
+            font-size: 20px;
+            margin-top: 55px;
+            padding-left: 700px;
+        }
+        .output23b{
+            color: green;
+            font-size: 20px;
+            margin-top: 30px;
+            padding-left: 700px;
+        }
+        .output23c{
+            color: green;
+            font-size: 20px;
+            margin-top: 30px;
+            padding-left: 700px;
+        }
+        .output23d{
+            color: green;
+            font-size: 20px;
+            margin-top: 30px;
+            padding-left: 700px;
+        }
+        .label24 {
+            
+            font-weight: bold;
+                min-width: 100px;
+                color: green;
+                font-size: 20px;
+                margin-top: 40px;
+            }
+            .output24a{
+            color: green;
+            font-size: 20px;
+            margin-top: 10px;
+            padding-left: 15px;
+            
+        }
+        .output24b{
+            color: green;
+            font-size: 20px;
+            margin-top: 20px;
+            padding-left: 10px;
+            
+        }
+        .output24c{
+            color: green;
+            font-size: 20px;
+            margin-top: 20px;
+            padding-left: 10px;
+            
+        }
+        .output24d{
+            color: green;
+            font-size: 20px;
+            margin-top: 20px;
+            padding-left: 10px;
+        }
+        .label25 {
+            
+            font-weight: bold;
+                min-width: 100px;
+                color: green;
+                font-size: 20px;
+                margin-top: -200px;
+                padding-left: 800px;
+            }
+            .output25a{
+            color: green;
+            font-size: 20px;
+            margin-top: 30px;
+            padding-left: 700px;
+        }
+        .output25b{
+            color: green;
+            font-size: 20px;
+            margin-top: 20px;
+            padding-left: 700px;
+        }
+        .output25c{
+            color: green;
+            font-size: 20px;
+            margin-top: 20px;
+            padding-left: 700px;
+        }
+        .output25d{
+            color: green;
+            font-size: 20px;
+            margin-top: 20px;
+            padding-left: 700px;
+        }
+        .remarks{
+            font-weight: bold;
+                min-width: 100px;
+                color: green;
+                font-size: 20px;
+                margin-top: 15px;
+            }
+
+    </style>
+</head>
+<body>
+    <div class='container'>
+        <div class='header'>Republic of the Philippines</div>
+        <div class='sub-header'>OFFICE OF THE CIVIL REGISTRAR GENERAL</div>
+        <div class='header'>CERTIFICATE OF LIVE BIRTH</div>
+        
+        <!-- Child's Name Section -->
+        <div class='section'>
+            <div class='label'>1. Name</div>
+            <div class='output'>
+                <div class='output1'>First</div>
+                <div class='output2'>Middle</div>
+                <div class='output3'>Last</div>
+            </div>
+        </div>
+        
+        
+    
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";

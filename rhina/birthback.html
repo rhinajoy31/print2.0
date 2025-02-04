@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate of Live Birth</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            width: 1224px; /* Legal paper width in pixels */
+            height: 1584px; /* Legal paper height in pixels */
+            border: 2px solid black;
+            padding: 15px;
+        }
+        .header {
+            color: green;
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+        .output1a {
+            margin-top: -10px;
+            display: flex;
+            text-align: right;
+            padding-left: 350px;
+            font-size: 12px;
+        }
+        .output1b {
+            margin-top: -15px;
+            display: flex;
+            text-align: right;
+            padding-left: 700px;
+            font-size: 12px;
+        }
+        .output2a {
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: green;
+    font-size: 14px;
+    margin-right: 400px;
+    padding-left: 150px;
+    position: relative;
+    top: -30px;
+    margin-left: -30    px;
+    margin-top: 50px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output2b {
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: green;
+    font-size: 14px;
+    margin-right: 400px;
+    padding-left: 100px;
+    position: relative;
+    top: -30px;
+    margin-left: -30    px;
+    margin-top: 10px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output3a {
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: green;
+    font-size: 13px;
+    margin-right: 400px;
+    padding-left: 150px;
+    position: relative;
+    top: -30px;
+    margin-left: -40px;
+    margin-top: 25px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output3b {
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: green;
+    font-size: 13px;
+    margin-right: 400px;
+    padding-left: 150px;
+    position: relative;
+    top: -30px;
+    margin-left: -40px;
+    margin-top: 15px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output3c {
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: green;
+    font-size: 13px;
+    margin-right: 400px;
+    padding-left: 150px;
+    position: relative;
+    top: -30px;
+    margin-left: 17px;
+    margin-top: 5px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output3d {
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: green;
+    font-size: 13px;
+    margin-right: 400px;
+    padding-left: 150px;
+    position: relative;
+    top: -30px;
+    margin-left: 500px;
+    margin-top: -35px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output3e {
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: green;
+    font-size: 13px;
+    margin-right: 400px;
+    padding-left: 150px;
+    position: relative;
+    top: -30px;
+    margin-left: 570px;
+    margin-top: 5px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output4a {
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: green;
+    font-size: 14px;
+    margin-right: 400px;
+    padding-left: 150px;
+    position: relative;
+    top: -30px;
+    margin-left: -30    px;
+    margin-top: 50px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output4b {
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: green;
+    font-size: 14px;
+    margin-right: 400px;
+    padding-left: 100px;
+    position: relative;
+    top: -30px;
+    margin-top: 10px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output4c {
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: green;
+    font-size: 14px;
+    margin-right: 400px;
+    padding-left: 100px;
+    position: relative;
+    top: -30px;
+    margin-top: 10px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output4d {
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: green;
+    font-size: 14px;
+    margin-right: 400px;
+    padding-left: 100px;
+    position: relative;
+    top: -30px;
+    margin-top: 10px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output5a {
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: green;
+    font-size: 13px;
+    margin-right: 400px;
+    padding-left: 140px;
+    position: relative;
+    top: -30px;
+    margin-left: -40px;
+    margin-top: 30px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output5b {
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: green;
+    font-size: 13px;
+    margin-right: 400px;
+    padding-left: 210px;
+    position: relative;
+    top: -30px;
+    margin-left: -40px;
+    margin-top: 5px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output5c{
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: green;
+    font-size: 13px;
+    margin-right: 400px;
+    padding-left: 140px;
+    position: relative;
+    top: -30px;
+    margin-left: -40px;
+    margin-top: 10px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output5d {
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: green;
+    font-size: 13px;
+    margin-right: 400px;
+    padding-left: 280px;
+    position: relative;
+    top: -30px;
+    margin-left: -40px;
+    margin-top: 5px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output5e {
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: green;
+    font-size: 13px;
+    margin-right: 400px;
+    padding-left: 700px;
+    position: relative;
+    top: -30px;
+    margin-left: -40px;
+    margin-top: -80px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output5f {
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: green;
+    font-size: 13px;
+    margin-right: 400px;
+    padding-left: 800px;
+    position: relative;
+    top: -30px;
+    margin-left: -40px;
+    margin-top: 5px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output5g    {
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: green;
+    font-size: 13px;
+    margin-right: 400px;
+    padding-left: 700px;
+    position: relative;
+    top: -45px;
+    margin-left: -40px;
+    margin-top: 30px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output5h    {
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: green;
+    font-size: 13px;
+    margin-right: 400px;
+    padding-left: 850px;
+    position: relative;
+    top: -50px;
+    margin-left: -40px;
+    margin-top: 5px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output6 {
+    color: green;
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+        .output6a {
+            margin-top: -10px;
+            display: flex;
+            text-align: right;
+            padding-left: 200px;
+            font-size: 16px;
+        }
+        .output7 {
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: green;
+    font-size: 14px;
+    margin-right: 400px;
+    padding-left: 230px;
+    position: relative;
+    top: -30px;
+    margin-left: -30    px;
+    margin-top: 50px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output7a {
+    font-weight: bold;
+    width: auto; /* Awtomatikong lalawak batay sa content */
+    min-width: unset; /* Tanggalin ang min-width kung may conflict */
+    color: green;
+    font-size: 14px;
+    margin-right: 400px;
+    padding-left: 130px;
+    position: relative;
+    top: -30px;
+    margin-left: -30px; /* Inayos ang maling space */
+    margin-top: 10px;
+    white-space: nowrap; /* Hindi bababa ang text */
+    overflow: visible; /* Para makita ang lumalabas na content */
+}
+ 
+
+.output7b {
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: green;
+    font-size: 14px;
+    margin-right: 400px;
+    padding-left: 100px;
+    position: relative;
+    top: -30px;
+    margin-left: -30    px;
+    margin-top: 10px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output7c {
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: green;
+    font-size: 14px;
+    margin-right: 400px;
+    padding-left: 100px;
+    position: relative;
+    top: -10px;
+    margin-left: -30    px;
+    margin-top: 10px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+
+.resizable-box7d {
+    width: 50px; /* Mas maliit na lapad */
+    height: 20px; /* Mas maliit na taas */
+    border: 2px solid green;
+    padding: 5px; /* Mas maliit na padding */
+    resize: both;
+    margin-left: 150px; /* Ililipat ang box 100px pakanan */
+}
+.output7e{
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: green;
+    font-size: 14px;
+    margin-right: 400px;
+    padding-left: 100px;
+    position: relative;
+    top: -5px;
+    margin-left: -30    px;
+    margin-top: 10px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.resizable-box7f {
+    width: 50px; /* Mas maliit na lapad */
+    height: 20px; /* Mas maliit na taas */
+    border: 2px solid green;
+    padding: 5px; /* Mas maliit na padding */
+    resize: both;
+    margin-left: -5px; /* Ililipat ang box 100px pakanan */
+    margin-top: 12px;
+}
+.output7g{
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: green;
+    font-size: 14px;
+    margin-right: 40px;
+    padding-left: 100px;
+    position: relative;
+    top: -5px;
+    margin-left: -4px;
+    margin-top: 10px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output7h{
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: green;
+    font-size: 14px;
+    margin-right: 400px;
+    padding-left: 100px;
+    position: relative;
+    top: -5px;
+    margin-left: -30    px;
+    margin-top: 10px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output8{
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: green;
+    font-size: 14px;
+    margin-right: 400px;
+    padding-left: -15px;
+    position: relative;
+    top: -5px;
+    margin-left: -60px;
+    margin-top: 10px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+    white-space: nowrap; /* Hindi bababa ang text */
+}
+.output8a{
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: green;
+    font-size: 14px;
+    margin-right: 400px;
+    left: -50px;
+    position: relative;
+    top: -5px;
+    margin-left: -30 px;
+    margin-top: 15px;
+    
+}
+.output9{
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: green;
+    font-size: 14px;
+    margin-right: 400px;
+    left: -60px;
+    position: relative;
+    top: 5px;
+    margin-left: -30    px;
+    margin-top: 10px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output10{
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: green;
+    font-size: 14px;
+    margin-right: 400px;
+    left: -60px;
+    position: relative;
+    top: 5px;
+    margin-left: -30    px;
+    margin-top: 25px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.resizable-box10a {
+    width: 50px; /* Mas maliit na lapad */
+    height: 20px; /* Mas maliit na taas */
+    border: 2px solid green;
+    padding: 5px; /* Mas maliit na padding */
+    resize: both;
+    margin-left: 160px; /* Ililipat ang box 100px pakanan */
+    margin-top: -15px;
+}
+.output10b{
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: green;
+    font-size: 14px;
+    margin-right: 400px;
+    padding-left: 230px;
+    position: relative;
+    top: -5px;
+    margin-left: -30    px;
+    margin-top: -20px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output10c{
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: green;
+    font-size: 14px;
+    margin-right: 400px;
+    padding-left: 230px;
+    position: relative;
+    top: -5px;
+    margin-left: -30    px;
+    margin-top: 10px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.resizable-box11a {
+    width: 50px; /* Mas maliit na lapad */
+    height: 20px; /* Mas maliit na taas */
+    border: 2px solid green;
+    padding: 5px; /* Mas maliit na padding */
+    resize: both;
+    margin-left: 160px; /* Ililipat ang box 100px pakanan */
+    margin-top: 10px;
+}
+.output11b{
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: green;
+    font-size: 14px;
+    margin-right: 400px;
+    padding-left: 230px;
+    position: relative;
+    top: -5px;
+    margin-left: -30    px;
+    margin-top: -20px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output11c{
+    font-weight: bold;
+    width: 150px; /* Pinaliit ang width para mag-break ang text */
+    min-width: 1000px;
+    color: green;
+    font-size: 14px;
+    margin-right: 400px;
+    padding-left: 230px;
+    position: relative;
+    top: -5px;
+    margin-left: -30    px;
+    margin-top: 10px;
+    word-wrap: break-word; /* Para siguruhing mag-wrap ang words */
+}
+.output12a {
+    font-weight: bold;
+    width: auto; /* Awtomatikong lalawak batay sa content */
+    white-space: nowrap; /* Iwasan ang pag-break ng text sa bagong linya */
+    color: green;
+    font-size: 14px;
+    position: relative;
+    top: -5px;
+    margin-left: -50px;
+    margin-top: 10px;
+}
+.output12b {
+    font-weight: bold;
+    width: auto; /* Awtomatikong lalawak batay sa content */
+    white-space: nowrap; /* Iwasan ang pag-break ng text sa bagong linya */
+    color: green;
+    font-size: 14px;
+    position: relative;
+    top: -5px;
+    margin-left: -50px;
+    margin-top: 10px;
+}
+.output13a {
+    font-weight: bold;
+    width: auto; /* Awtomatikong lalawak batay sa content */
+    white-space: nowrap; /* Iwasan ang pag-break ng text sa bagong linya */
+    color: green;
+    font-size: 14px;
+    position: relative;
+    top: -5px;
+    margin-left: -50px;
+    margin-top: 10px;
+}
+.output13b {
+    font-weight: bold;
+    width: auto; /* Awtomatikong lalawak batay sa content */
+    white-space: nowrap; /* Iwasan ang pag-break ng text sa bagong linya */
+    color: green;
+    font-size: 14px;
+    position: relative;
+    top: -5px;
+    margin-left: -50px;
+    margin-top: 10px;
+}
+.output14a {
+    font-weight: bold;
+    width: auto; /* Awtomatikong lalawak batay sa content */
+    white-space: nowrap; /* Iwasan ang pag-break ng text sa bagong linya */
+    color: green;
+    font-size: 14px;
+    position: relative;
+    top: -3px;
+    margin-left: -50px;
+    margin-top: 10px;
+}
+.output15a {
+    font-weight: bold;
+    width: auto; /* Awtomatikong lalawak batay sa content */
+    white-space: nowrap; /* Iwasan ang pag-break ng text sa bagong linya */
+    color: green;
+    font-size: 14px;
+    position: relative;
+    top: 25px;
+    margin-left: -50px;
+    margin-top: 10px;
+}
+.output15b {
+    font-weight: bold;
+    width: auto; /* Awtomatikong lalawak batay sa content */
+    white-space: nowrap; /* Iwasan ang pag-break ng text sa bagong linya */
+    color: green;
+    font-size: 14px;
+    position: relative;
+    top: 25px;
+    margin-left: -80px;
+    margin-top: 10px;
+}
+.output15c {
+    font-weight: bold;
+    width: auto; /* Awtomatikong lalawak batay sa content */
+    white-space: nowrap; /* Iwasan ang pag-break ng text sa bagong linya */
+    color: green;
+    font-size: 14px;
+    position: relative;
+    top: 25px;
+    margin-left: 550px;
+    margin-top: 70px;
+}
+.output15d {
+    font-weight: bold;
+    width: auto; /* Awtomatikong lalawak batay sa content */
+    white-space: nowrap; /* Iwasan ang pag-break ng text sa bagong linya */
+    color: green;
+    font-size: 14px;
+    position: relative;
+    top: 25px;
+    margin-left: 630px;
+    margin-top: 5px;
+}
+.output16a {
+    font-weight: bold;
+    width: auto; /* Awtomatikong lalawak batay sa content */
+    white-space: nowrap; /* Iwasan ang pag-break ng text sa bagong linya */
+    color: green;
+    font-size: 14px;
+    position: relative;
+    top: 25px;
+    margin-left: -100px;
+    margin-top: 20px;
+}
+.output16b {
+    font-weight: bold;
+    width: auto; /* Awtomatikong lalawak batay sa content */
+    white-space: nowrap; /* Iwasan ang pag-break ng text sa bagong linya */
+    color: green;
+    font-size: 14px;
+    position: relative;
+    top: 25px;
+    margin-left: -140px;
+    margin-top: 10px;
+}
+.output16c {
+    font-weight: bold;
+    width: auto; /* Awtomatikong lalawak batay sa content */
+    white-space: nowrap; /* Iwasan ang pag-break ng text sa bagong linya */
+    color: green;
+    font-size: 14px;
+    position: relative;
+    top: 25px;
+    margin-left: -140px;
+    margin-top: 10px;
+}
+.output17a {
+    font-weight: bold;
+    width: auto; /* Awtomatikong lalawak batay sa content */
+    white-space: nowrap; /* Iwasan ang pag-break ng text sa bagong linya */
+    color: green;
+    font-size: 14px;
+    position: relative;
+    top: 25px;
+    margin-left: -90px;
+    margin-top: 50px;
+}
+.output17b {
+    font-weight: bold;
+    width: auto; /* Awtomatikong lalawak batay sa content */
+    white-space: nowrap; /* Iwasan ang pag-break ng text sa bagong linya */
+    color: green;
+    font-size: 14px;
+    position: relative;
+    top: 25px;
+    margin-left: -20px;
+    margin-top: 5px;
+}
+.output17c {
+    font-weight: bold;
+    width: auto; /* Awtomatikong lalawak batay sa content */
+    white-space: nowrap; /* Iwasan ang pag-break ng text sa bagong linya */
+    color: green;
+    font-size: 14px;
+    position: relative;
+    top: 25px;
+    margin-left: -90px;
+    margin-top: 50px;
+}
+.output17d {
+    font-weight: bold;
+    width: auto; /* Awtomatikong lalawak batay sa content */
+    white-space: nowrap; /* Iwasan ang pag-break ng text sa bagong linya */
+    color: green;
+    font-size: 14px;
+    position: relative;
+    top: 25px;
+    margin-left: 65px;
+    margin-top: 5px;
+}
+.output18a {
+    font-weight: bold;
+    width: auto; /* Awtomatikong lalawak batay sa content */
+    white-space: nowrap; /* Iwasan ang pag-break ng text sa bagong linya */
+    color: green;
+    font-size: 14px;
+    position: relative;
+    top: 25px;
+    margin-left: 500px;
+    margin-top: -120px;
+}
+.output18b {
+    font-weight: bold;
+    width: auto; /* Awtomatikong lalawak batay sa content */
+    white-space: nowrap; /* Iwasan ang pag-break ng text sa bagong linya */
+    color: green;
+    font-size: 14px;
+    position: relative;
+    top: 25px;
+    margin-left: 630px;
+    margin-top: 10px;
+}
+.output18c {
+    font-weight: bold;
+    width: auto; /* Awtomatikong lalawak batay sa content */
+    white-space: nowrap; /* Iwasan ang pag-break ng text sa bagong linya */
+    color: green;
+    font-size: 14px;
+    position: relative;
+    top: 25px;
+    margin-left: 500px;
+    margin-top: 40px;
+}
+.output18d {
+    font-weight: bold;
+    width: auto; /* Awtomatikong lalawak batay sa content */
+    white-space: nowrap; /* Iwasan ang pag-break ng text sa bagong linya */
+    color: green;
+    font-size: 14px;
+    position: relative;
+    top: 25px;
+    margin-left: 680px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+        <!-- AFFIDAVIT OF ACKNOWLEDGEMENT/ADMISSION OR PATERNITY -->
+    <div class="container">
+        <div class="header">AFFIDAVIT OF ACKNOWLEDGEMENT/ADMISSION OR PATERNITY</div>
+        <!-- for births before 3 August 1988 -->
+        <div class="section1">
+            <div class="output1a">(for births before 3 August 1988)</div>
+            <div class="output1b">(for births before 3 August 1988)</div>
+        <!-- Section 2-->
+        <div class="section2">
+            <div class="output2a">I/We, _______________________________________________________ and _______________________________________________________, </div>
+            <div class="output2b"> of legal, am/are the natural mother and/or father of__________________________________________________________________________, who was born on ___________________________________ at ___________________________________ . </div>
+    </div>
+     <!-- Section 3-->
+     <div class="section3"> 
+        <div class="output3a"> I am/ We are executng this affidavit to attest to the truthfulness of the foregoing  statements and for purpose and for purposes of acknowledging my/our child </div>
+        <div class="output3b">_______________________________________________________ </div>
+        <div class="output3c">(Signature Over Printed Name of Father)</div>
+        <div class="output3d">_______________________________________________________ </div>
+        <div class="output3e">(Signature Over Printed Name of Mother)</div>
+
+    </div>
+     <!-- Section 4-->
+     <div class="section4"> 
+        <div class="output4a">SUBSCRIBED AND SWORN to before me this_______ day of _____________________________________________________by</div>
+        <div class="output4b">________________________________________ and ________________________________________  , who exhibited to me his/her</div>
+        <div class="output4c">CTC/valid ID ______________________________________________issued on ______________________________________________at </div>
+        <div class="output4d"> ___________________________________________</div>
+    </div>
+    <!-- Section 5-->
+    <div class="section5"> 
+        <div class="output5a">_______________________________________________________ </div>
+        <div class="output5b">Signature of the administering Officer</div>
+        <div class="output5c">_______________________________________________________ </div>
+        <div class="output5d">Name in Print</div>
+        <div class="output5e">_______________________________________________________ </div>
+        <div class="output5f">Position/Title/Designation</div>
+        <div class="output5g">_______________________________________________________ </div>
+        <div class="output5h">Address</div>
+        <!-- AFFIDAVIT FOR DELAYED REGISTRATION OF BIRTH -->
+    <div class="section6">
+        <div class="output6">AFFIDAVIT FOR DELAYED REGISTRATION OF BIRTH</div>
+        <div class="output6a">(To be accomplished by the hospital/clinic administrator, father, mother, or guardian or the person himslef if 18 years old or over)</div>
+ <!-- Section 7-->
+ <div class="section7">
+    <div class="output7">I _____________________________________________________________________, of legal, single/married/divorced/widow/widower, with</div>
+    <div class="output7a">residence and postal address at ________________________________________________________________________________________________________</div>
+    <div class="output7b"> ___________________________________________________after having been duly sworn in accordance with law, do hereby depose and say:</div>
+    <div class="output7c">1. That I am the applicant for the delayed registration of</div>
+    <div class="resizable-box7d">
+        <div class="output7e">my birth in ___________________________________________________ on ___________________________________________________ </div>
+        <div class="resizable-box7f">
+            <div class="output7g">the birth of ___________________________________________________ who was born in _______________________________________</div>
+            <div class="output7h"> ___________________________________________________on _______________________________________.</div>
+<!-- Section 8-->
+<div class="section8">
+    <div class="output8">2. That I/he/she was attended at birth by_________________________________________________________________________________________,who reside at</div>
+    <div class="output8a">______________________________________________________________________________________________________________________________________</div>
+    </div>
+    <!-- Section 9-->
+<div class="section9">
+    <div class="output9">3.That I/am/he/she is a citizen of_________________________________________________________________________________________________</div>
+        <!-- Section 10-->
+<div class="section10">
+    <div class="output10">4.That my/his/her parents were</div>
+    <div class="resizable-box10a"></div>
+    <div class="output10b">married on________________________at______________________________________________________________</div>
+    <div class="output10c">_________________________________________________________________________________________________</div>
+</div>
+  <!-- Section 11-->
+<div class="section11">
+    <div class="resizable-box11a"></div>
+    <div class="output11b">not married but I/he/she was acknowledge/not acknowledged by my his/her</div>
+    <div class="output11c">father whose name is_______________________________________________________________________________</div>
+
+</div>
+ <!-- Section 12-->
+ <div class="section12">
+    <div class="output12a">5. That the reason for the delay in registering my/his/her birth was ____________________________________________________________________________</div>
+    <div class="output12b"> ____________________________________________________________________________</div>
+</div>
+<!-- Section 13-->
+<div class="section13">
+    <div class="output13a">6.(For the applicant only) That I am married to____________________________________________________________________________</div>
+    <div class="output13b"> (if the applicant is other than the document owner) That I am the_______________________________________________________________ of the said person.</div>
+</div>
+<!-- Section 14-->
+<div class="section14">
+    <div class="output14a">7.That I am executing this affidavit to atleast to the truthfulness of the foregoing statements for all legal intents and purposes.</div>
+</div>
+<!-- Section 15-->
+<div class="section15">
+    <div class="output15a">In the truth whereof, i have affixed my signature below this________________________day of_______________________________________________________</div>
+    <div class="output15b">__________________________________________________________________day of_________________________________________________________,Philippines</div>
+    <div class="output15c">________________________________________________________</div>
+    <div class="output15d">(Signature Over Printed Name of Affiant)</div>
+    <!-- Section 16-->
+    <div class="section16"></div>
+    <div class="output16a">SUBSCRIBED AND SWORN to before me this___________________________day of __________________________________________________,___________________ at</div>
+    <div class="output16b">_________________________________________________________________________________________________,Philippines, affiant who exhibited to me his/her CTC/valid ID</div>
+    <div class="output16c">___________________________________issued on______________________________________________________at__________________________________________________.</div>
+  <!-- Section 17-->
+  <div class="section17"></div>
+  <div class="output17a">________________________________________________________</div>
+  <div class="output17b">(Signature of the Administering Officer)</div>
+  <div class="output17c">________________________________________________________</div>
+  <div class="output17d">Name in Print</div>
+  <!-- Section 18-->
+  <div class="section18"></div>
+  <div class="output18a">________________________________________________________</div>
+  <div class="output18b">Position/Title/Designation</div>
+  <div class="output18c">________________________________________________________</div>
+  <div class="output18d">Address</div>
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
