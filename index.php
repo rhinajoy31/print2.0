@@ -528,10 +528,250 @@ $html = "
     color: green;
 
 }
-   
-   
+     .label7 {
+    color: green;
+    padding-left: 150px;
+    position: relative;
+    top: -520px;
+    left: -125px; /* Dagdagan ito para lumipat pa kanan */
+    color: green;
+    font-size: 12px;
+
+}
+    .output7a {
+    color: green;
+    padding-left: 150px;
+    position: relative;
+    top: -535px;
+    left: 250px; /* Dagdagan ito para lumipat pa kanan */
+    color: green;
+    font-size: 12px;
+
+}
+      .output7b {
+    color: green;
+    padding-left: 150px;
+    position: relative;
+    top: -525px;
+    left: -130px; /* Dagdagan ito para lumipat pa kanan */
+    color: green;
+
+}
+      .vertical-line9 {
+            width: 2px; /* Thickness of the line */
+            height: 45px; /* Length of the line */
+            background-color: green; /* Line color */
+            position: absolute; /* Keeps it inside the container */
+            left: 45%; /* Adjust horizontal positioning */
+            top: 405px; /* Adjust vertical positioning */
+        }
+
+   .label8 {
+    color: green;
+    padding-left: 150px;
+    position: relative;
+    top: -525px;
+    left: -130px; /* Dagdagan ito para lumipat pa kanan */
+    color: green;
+     color: green;
+    padding-left: 150px;
+    position: relative;
+    top: -525px;
+    left: -125px; /* Dagdagan ito para lumipat pa kanan */
+    color: green;
+   font-size: 12px;
+   word-wrap: break-word; /* Ensures long words break */
+    width: 130px; /* Adjust this to control line break */
+    display: block; /* Ensures it's treated as a block element */
   
- 
+}
+      .output8a {
+    color: green;
+    padding-left: 150px;
+    position: relative;
+    top: -525px;
+    left: -130px; /* Dagdagan ito para lumipat pa kanan */
+    color: green;
+     color: green;
+    padding-left: 150px;
+    position: relative;
+    top: -555px;
+    left: 5px; /* Dagdagan ito para lumipat pa kanan */
+    color: green;
+   font-size: 12px;
+   word-wrap: break-word; /* Ensures long words break */
+    width: 130px; /* Adjust this to control line break */
+    display: block; /* Ensures it's treated as a block element */
+  
+}
+     .output8b {
+    color: green;
+    padding-left: 150px;
+    position: relative;
+    top: -525px;
+    left: -130px; /* Dagdagan ito para lumipat pa kanan */
+    color: green;
+     color: green;
+    padding-left: 150px;
+    position: relative;
+    top: -585px;
+    left: 150px; /* Dagdagan ito para lumipat pa kanan */
+    color: green;
+   font-size: 12px;
+   word-wrap: break-word; /* Ensures long words break */
+    width: 130px; /* Adjust this to control line break */
+    display: block; /* Ensures it's treated as a block element */
+  
+}
+    .output8c {
+    color: green;
+    padding-left: 150px;
+    position: relative;
+    top: -525px;
+    left: -130px; /* Dagdagan ito para lumipat pa kanan */
+    color: green;
+     color: green;
+    padding-left: 150px;
+    position: relative;
+    top: -615px;
+    left: 300px; /* Dagdagan ito para lumipat pa kanan */
+    color: green;
+   font-size: 12px;
+
+  
+}
+    .output8d {
+    color: green;
+    padding-left: 150px;
+    position: relative;
+    top: -525px;
+    left: -130px; /* Dagdagan ito para lumipat pa kanan */
+     color: green;
+    padding-left: 150px;
+    position: relative;
+    top: -630px;
+    left: 430px; /* Dagdagan ito para lumipat pa kanan */
+    color: green;
+   font-size: 12px;
+   word-wrap: break-word; /* Ensures long words break */
+    width: 130px; /* Adjust this to control line break */
+    display: block; /* Ensures it's treated as a block element */
+}
+    .output8e {
+    color: green;
+    padding-left: 150px;
+    position: relative;
+    top: -620px;
+    left: -130px; /* Dagdagan ito para lumipat pa kanan */
+
+}
+    .output8f {
+    color: green;
+    padding-left: 150px;
+    position: relative;
+    top: -620px;
+    left: -125px; /* Dagdagan ito para lumipat pa kanan */
+    font-size: 12px;
+
+}
+    .output8g {
+    color: green;
+    padding-left: 150px;
+    position: relative;
+    top: -637px;
+    left: -10px; /* Dagdagan ito para lumipat pa kanan */
+    font-size: 12px;
+
+}
+     .output8h {
+    color: green;
+    padding-left: 150px;
+    position: relative;
+    top: -652px;
+    left: 180px; /* Dagdagan ito para lumipat pa kanan */
+    font-size: 12px;
+
+}
+      .output8i {
+    color: green;
+    padding-left: 150px;
+    position: relative;
+    top: -667px;
+    left: 340px; /* Dagdagan ito para lumipat pa kanan */
+    font-size: 12px;
+
+}
+     .output8j {
+    color: green;
+    padding-left: 150px;
+    position: relative;
+    top: -682px;
+    left: 470px; /* Dagdagan ito para lumipat pa kanan */
+    font-size: 12px;
+
+}
+       .output8k {
+    color: green;
+    padding-left: 150px;
+    position: relative;
+    top: -670px;
+    left: -150px; /* Dagdagan ito para lumipat pa kanan */
+
+}
+  
+      .vertical-line10 {
+            width: 2px; /* Thickness of the line */
+            height: 70px; /* Length of the line */
+            background-color: green; /* Line color */
+            position: absolute; /* Keeps it inside the container */
+            left: 20%; /* Adjust horizontal positioning */
+            top: 449px; /* Adjust vertical positioning */
+        }
+             .vertical-line11 {
+            width: 2px; /* Thickness of the line */
+            height: 70px; /* Length of the line */
+            background-color: green; /* Line color */
+            position: absolute; /* Keeps it inside the container */
+            left: 40%; /* Adjust horizontal positioning */
+            top: 449px; /* Adjust vertical positioning */
+        }
+.vertical-line12 {
+            width: 2px; /* Thickness of the line */
+            height: 70px; /* Length of the line */
+            background-color: green; /* Line color */
+            position: absolute; /* Keeps it inside the container */
+            left: 60%; /* Adjust horizontal positioning */
+            top: 449px; /* Adjust vertical positioning */
+        }
+.vertical-line13 {
+            width: 2px; /* Thickness of the line */
+            height: 70px; /* Length of the line */
+            background-color: green; /* Line color */
+            position: absolute; /* Keeps it inside the container */
+            left: 79%; /* Adjust horizontal positioning */
+            top: 449px; /* Adjust vertical positioning */
+        }
+
+ .label9{
+           text-align: left;
+    font-size: 12px;
+    color: green;
+    padding-left: 151px;
+    position: relative;
+    top: -650px;
+    left: -145px; /* Dagdagan ito para lumipat pa kanan */
+}
+     .label10{
+           text-align: left;
+    font-size: 12px;
+    color: green;
+    padding-left: 151px;
+    position: relative;
+    top: -650px;
+    left: -145px; /* Dagdagan ito para lumipat pa kanan */
+}
+   
+   
     </style>
 </head>
 <body>
@@ -605,9 +845,35 @@ $html = "
                <div class='output6i'>(Last)</div>
                 <div class='output6j'>_______________________________________________________________________________</div>
 </div>
+<div class='section'>
+        <div class='label7'>8.CITIZENSHIP</div>
+         <div class='output7a'>9.RELIGION/RELIGOUS SECT</div>
+         <div class='output7b'>_______________________________________________________________________________</div>
+         <div class='vertical-line9'></div>
 </div>
+
+<div class='label8'>10. Total number of children born alive</div>
+  <div class='output8a'>10b.No. of children still living this birth</div>
+   <div class='output8b'>10c. No. of children born alive are now dead</div>
+   <div class='output8c'>11. OCCUPATION</div>
+   <div class='output8d'>12. AGE at the time of this birth(completed years)</div>
+    <div class='output8e'>_______________________________________________________________________________</div>
+     <div class='output8f'>13. RESIDENCE</div>
+       <div class='output8g'>(House No. St, Barangay)</div>
+        <div class='output8h'>(City/Municipality)</div>
+        <div class='output8i'>(Province)</div>
+        <div class='output8j'>(Country)</div>
+         <div class='output8k'>_________________________________________________________________________________</div>
+       <div class='vertical-line10'></div>
+         <div class='vertical-line11'></div>
+          <div class='vertical-line12'></div>
+           <div class='vertical-line13'></div>       
 </div>
-</div>
+
+</div> 
+</div> 
+</div> </div> 
+</div> 
 </div>
 </body>
 </html>";
