@@ -528,15 +528,6 @@ $html = "
     color: green;
 
 }
-     .output6j {
-    color: green;
-    padding-left: 150px;
-    position: relative;
-    top: -505px;
-    left: -130px; /* Dagdagan ito para lumipat pa kanan */
-    color: green;
-
-}
    
    
   
