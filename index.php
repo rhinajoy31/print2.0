@@ -11,7 +11,6 @@ $dompdf = new Dompdf($options);
 
 // Fetch data (simulating as if coming from a database or form submission)
 
-
 // Create HTML content
 $html = "
 <!DOCTYPE html>
@@ -529,13 +528,10 @@ $html = "
     color: green;
 
 }
+   
+   
   
  
- 
- 
-
-
-  
     </style>
 </head>
 <body>
@@ -544,7 +540,77 @@ $html = "
         <div class='sub-header'>OFFICE OF THE CIVIL REGISTRAR GENERAL</div>
         <div class='header2'>CERTIFICATE OF LIVE BIRTH</div>
         
-        ";
+        <!-- Child's Name Section -->
+        <div class='section'>
+            <div class='label'>Province_______________________________________________________</div>
+            <div class='output'>___________________________________________________________________________________________________________</div>
+              <div class='output1a'>City/Municipality_________________________________________________</div>
+              <div class='vertical-line3'></div>
+               <div class='output1b'>Registry No.</div>
+                    <div class='output1c'>____________________________________________________________________________________________________________.</div>
+     
+            </div>
+             <!-- Child's Name Section -->
+        <div class='section'>
+        <div class='label2'>C</div>
+          <div class='output2a'>H</div>
+            <div class='output2b'>I</div>
+                <div class='output2c'>L</div>
+                 <div class='output2d'>D</div>
+                  <div class='vertical-line4'></div>
+                   <div class='output2e'>1. Name</div>
+                   <div class='output2f'>(First)</div>
+                    <div class='output2g'>(Middle)</div>
+                     <div class='output2h'>(Last)</div>
+                      <div class='output2i'>_______________________________________________________________________________</div>
+        </div>
+          <div class='section'>
+        <div class='label3'>2.SEX(Male/Female)</div>
+         <div class='vertical-line5'></div>
+           <div class='output3a'>3.DATE OF BIRTH</div>
+            <div class='output3b'>(Day)</div>
+             <div class='output3c'>(Month)</div>
+             <div class='output3d'>(Year)</div>
+                <div class='output3e'>_________________________________________________________________________________________________________</div>
+    
+</div>
+  <div class='section'>
+        <div class='label4'>4.PLACE OF BIRTH</div>
+        <div class='output4a'>(Name of Hospital/Clinic/Institution/House No, St, Barangay)</div>
+        <div class='output4b'>(City/Municipaity)</div>
+        <div class='output4c'>(Province)</div>
+        <div class='output4d'>_________________________________________________________________________________________________________</div>
+    
+</div>
+ <div class='section'>
+        <div class='label5'>5a.TYPE OR BIRTH(Single,Twin,Triplet,etc)</div>
+        <div class='output5a'>5b. IF MULTIPLE BIRTH CHILD WAS (First,Second,Third, etc.)</div>
+         <div class='output5b'>5c. BIRTH ORDER (Order of this birth to previous live births including fetal death)(First,Second,Third, etc)</div>
+          <div class='output5c'>6.WEIGHT AT BIRTH</div>
+           <div class='output5d'>_________________________________________________________________________________</div>
+             <div class='vertical-line6'></div>
+               <div class='vertical-line7'></div>
+                 <div class='vertical-line8'></div>
+</div>
+<div class='section'>
+        <div class='label6'>M</div>
+         <div class='output6a'>O</div>
+         <div class='output6b'>T</div>
+          <div class='output6c'>H</div>
+           <div class='output6d'>E</div>
+            <div class='output6e'>R</div>
+            <div class='output6f'>7.MAIDEN NAME</div>
+             <div class='output6g'>(First)</div>
+               <div class='output6h'>(Middle)</div>
+               <div class='output6i'>(Last)</div>
+                <div class='output6j'>_______________________________________________________________________________</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>";
 
 // Load HTML into Dompdf
 $dompdf->loadHtml($html);
