@@ -402,7 +402,7 @@ $html = "
                             <p>12th</p>
                         </div>
                         <div class='detailsSASmonyear'>
-                            <p>june 2003</p>
+                            <p>june 2003</p> 
                         </div>
                         <div class='detailsSASFname'>
                             <p>fernando garcia manalo</p>
