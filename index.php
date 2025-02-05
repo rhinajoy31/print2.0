@@ -1052,7 +1052,253 @@ $html = "
     top: 830px; /* Bawasan ang value para itaas */
     left: -150px; /* Ayusin kung gusto mong ilipat sa kanan */
 }
-
+    .label13{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 850px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 5px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+     .output13a{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 863px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 20px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+    .output13b{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 885px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 20px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+      .output13c{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 905px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 20px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+     .output13d{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 925px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 20px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+  .output13e {
+    color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 890px;  
+    left: 400px; 
+    width: 300px; /* Limitahan ang lapad para mag-break ang text */
+    white-space: normal; /* Pahintulutan ang pag-wrap ng text */
+    overflow-wrap: break-word; /* Payagan ang line break kahit walang space */
+    word-break: break-word; /* Siguruhing mag-break ang sobrang mahahabang words */
+    display: block; /* Siguruhing treated ito bilang block element */
+}
+   .output13f{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 925px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 400px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+     .output13g{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 935px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 3px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+     .label14{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 950px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 10px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+     .output14a{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 960px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 15px; /* Adjust kung gusto mo pa lumipat sa kanan */
+    width: 300px; /* Limitahan ang lapad para mag-break ang text */
+    white-space: normal; /* Pahintulutan ang pag-wrap ng text */
+    overflow-wrap: break-word; /* Payagan ang line break kahit walang space */
+    word-break: break-word; /* Siguruhing mag-break ang sobrang mahahabang words */
+    display: block; /* Siguruhing treated ito bilang block element */
+}
+      .output14b{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 990px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 15px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+      .output14c{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 1007px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 15px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+     .output14d{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 1023px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 15px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+     .output14e{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 1038px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 15px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+   .output14f{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 950px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 370px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+ .output14g{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 995px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 370px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+ .output14h{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 1009px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 370px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+.output14i{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 1025px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 370px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+.output14j{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 1040px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 370px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+    .output14k{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 1055px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 15px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+  .output14l{
+  color: green;
+    position: absolute;
+    top: 1055px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 3px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+ .label15{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 1073px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 15px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+    .output15a{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 1090px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 15px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+    .output15b{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 1105px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 15px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+      .output15c{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 1120px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 15px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+        .output15d{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 1135px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 15px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+     .output15e{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 1073px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 370px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+      .output15f{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 1090px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 370px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+       .output15g{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 1105px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 370px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+       .output15h{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 1120px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 370px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+      .output15i{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 1135px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 370px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+    .output15j{
+  color: green;
+    position: absolute;
+    top: 1140px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 3px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+    .vertical-line18 {
+            width: 2px; /* Thickness of the line */
+            height: 206px; /* Length of the line */
+            background-color: green; /* Line color */
+            position: absolute; /* Keeps it inside the container */
+            left: 350px; /* Adjust horizontal positioning */
+            top:950px; /* Adjust vertical positioning */
+        }
+               .output15k{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 1160px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 20px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
   </style>
 </head>
 <body>
@@ -1204,9 +1450,48 @@ $html = "
     <div class='output12e'>____5.Other(Specify)___________</div>
      <div class='output12f'>_________________________________________________________________________________</div>
               </div> 
-         
-</div> </div> 
-</div> 
+          <div class='section14'>
+           <div class='label13'>21b. CERTIFICATION OF ATTENDANT AT BIRTH(Physician, Nurse, Midwife, Traditional Birth attendant.Hilot,etc)</div>
+ <div class='label13'>21b. CERTIFICATION OF ATTENDANT AT BIRTH(Physician, Nurse, Midwife, Traditional Birth attendant.Hilot,etc)</div>
+ <div class='output13a'>I hereby certify that i attended the birth of the child who was born alive at _______am/pm on the date of birth specified above</div>
+<div class='output13b'>Signature_______________________________________</div>
+<div class='output13c'>Name in Print____________________________________</div>
+<div class='output13d'>Title or Position___________________________________</div>
+<div class='output13e'>Address__________________________________________________________________________________</div>
+<div class='output13f'>Date_________________________________________</div>
+<div class='output13g'>____________________________________________________________________________________________________________</div>
+ </div> 
+  <div class='section15'> 
+   <div class='label14'> 22.CERTIFICATION OF INFORMANT </div> 
+     <div class='output14a'> I hereby certify that all information supplied are true and correct to to my own knowledge and belief</div> 
+ <div class='output14b'> Signature_______________________________________</div> 
+ <div class='output14c'> Name in Print____________________________________</div> 
+  <div class='output14d'> Relationship to the child____________________________</div> 
+  <div class='output14e'> Address________________________________________</div> 
+   <div class='output14f'> 23.PREPARED BY</div> 
+     <div class='output14g'>Signature______________________________________</div>
+       <div class='output14h'>Name in Print___________________________________</div>
+       <div class='output14i'>Title or Position__________________________________</div>
+         <div class='output14j'>Address________________________________________</div>
+           <div class='output14k'>Date___________________________________________</div>
+            <div class='output14l'>_________________________________________________________________________________</div>
+</div>  
+ <div class='section16'>    
+    <div class='label15'> 24.RECEIVED BY</div> 
+      <div class='output15a'>Signature______________________________________</div> 
+        <div class='output15b'>Name in Print___________________________________</div> 
+         <div class='output15c'>Title or Position_________________________________</div>
+           <div class='output15d'>Date__________________________________________</div>
+             <div class='output15e'>25.REGISTERED AT THE OFFICE OF THE CIVIL REGISTRAR</div>
+              <div class='output15f'>Signature______________________________________</div> 
+                <div class='output15g'>Name in Print___________________________________</div> 
+                 <div class='output15h'>Title or Position__________________________________</div>
+                  <div class='output15i'>Date___________________________________________</div>
+                     <div class='output15j'>_________________________________________________________________________________</div>
+   <div class='output15k'>REMARKS/ANNOTATION(For LCRO/ORCG Use Only)</div>
+                     <div class='vertical-line18'></div> 
+                     </div>     
+     </div>     
 </div>
 </body>
 </html>";
