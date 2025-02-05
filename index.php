@@ -1340,15 +1340,182 @@ $html = "
     font-size: 12px;
     position: absolute;
     top: 55px; /* Dagdagan ito para bumaba */
-    left: 5%;
+    left: 2%;
     white-space: nowrap; /* Siguradong isang linya lang */
     overflow: hidden; /* Iwasan ang extra text na lalampas */
     
 }
+.labelbackc {
+    color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 70px; /* Dagdagan ito para bumaba */
+    left: 2%;
+    white-space: nowrap; /* Siguradong isang linya lang */
+    overflow: hidden; /* Iwasan ang extra text na lalampas */
+    
+}
+.outputbacka {
+    color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 100px; /* Dagdagan ito para bumaba */
+    left: 10%;
+    width: 600px; /* I-adjust ito depende sa gusto mong lapad */
+    white-space: normal; /* Payagan ang text na mag-wrap */
+    overflow-wrap: break-word; /* Siguraduhin na magbe-break ang mahahabang salita */
+}
+.outputbackb {
+    color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 130px; /* Dagdagan ito para bumaba */
+    left: 5%;
+    width: 600px; /* I-adjust ito depende sa gusto mong lapad */
+    white-space: normal; /* Payagan ang text na mag-wrap */
+    overflow-wrap: break-word; /* Siguraduhin na magbe-break ang mahahabang salita */
+}
 
-
- 
-  </style>
+ .outputbackc {
+    color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 143px; /* Dagdagan ito para bumaba */
+    left: 10%;
+    width: 600px; /* I-adjust ito depende sa gusto mong lapad */
+    white-space: normal; /* Payagan ang text na mag-wrap */
+    overflow-wrap: break-word; /* Siguraduhin na magbe-break ang mahahabang salita */
+}
+ .outputbackd {
+    color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 130px; /* Dagdagan ito para bumaba */
+    left: 55%;
+    width: 600px; /* I-adjust ito depende sa gusto mong lapad */
+    white-space: normal; /* Payagan ang text na mag-wrap */
+    overflow-wrap: break-word; /* Siguraduhin na magbe-break ang mahahabang salita */
+}
+     .outputbacke {
+    color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 142px; /* Dagdagan ito para bumaba */
+    left: 60%;
+    width: 600px; /* I-adjust ito depende sa gusto mong lapad */
+    white-space: normal; /* Payagan ang text na mag-wrap */
+    overflow-wrap: break-word; /* Siguraduhin na magbe-break ang mahahabang salita */
+}
+  .labelback2 {
+    color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 175px; /* Dagdagan ito para bumaba */
+    left: 7%;
+    width: auto; /* Para hindi mag-wrap dahil sa fixed width */
+    max-width: 600px; /* Para hindi lumampas sa limit */
+    white-space: nowrap; /* Panatilihin sa isang linya */
+   
+}
+      .outputback2a {
+    color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 190px; /* Dagdagan ito para bumaba */
+    left: 5%;
+    width: auto; /* Para hindi mag-wrap dahil sa fixed width */
+    max-width: 600px; /* Para hindi lumampas sa limit */
+    white-space: nowrap; /* Panatilihin sa isang linya */
+}
+    .outputback2b {
+    color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 210px; /* Dagdagan ito para bumaba */
+    left: 5%;
+   width: 700px; /* I-adjust ito depende sa gusto mong lapad */
+    white-space: normal; /* Payagan ang text na mag-wrap */
+    overflow-wrap: break-word; /* Siguraduhin na magbe-break ang mahahabang salita */
+}
+  .outputback2c {
+    color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 270px; /* Dagdagan ito para bumaba */
+    left: 5%;
+}
+  .outputback2d {
+    color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 282px; /* Dagdagan ito para bumaba */
+    left: 10%;
+}
+.outputback2e {
+    color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 270px; /* Dagdagan ito para bumaba */
+    left: 55%;
+}
+.outputback2f {
+    color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 283px; /* Dagdagan ito para bumaba */
+    left: 65%;
+}
+    .outputback2g {
+    color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 305px; /* Dagdagan ito para bumaba */
+    left: 5%;
+}
+.outputback2h {
+    color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 315px; /* Dagdagan ito para bumaba */
+    left: 17%;
+}
+.outputback2i {
+    color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 305px; /* Dagdagan ito para bumaba */
+    left: 55%;
+}
+    .outputback2j {
+    color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 315px; /* Dagdagan ito para bumaba */
+    left: 70%;
+}
+    .outputback2k {
+    color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 320px; /* Dagdagan ito para bumaba */
+    left: 1px;
+}
+    .labelback3a {
+    color: green;
+    font-size: 14px;
+    position: absolute;
+    top: 340px; /* Dagdagan ito para bumaba */
+    left: 180px;
+    font-weight: bold;
+}
+.outputback3a {
+    color: green;
+    font-size: 10px;
+    position: absolute;
+    top: 353px; /* Dagdagan ito para bumaba */
+    left: 70px;
+}
+ </style>
 </head>
 <body> 
     <div class='page'>
@@ -1553,9 +1720,34 @@ $html = "
         <div class='header3'>AFFIDAVIT OF ACKNOWLEDGEMENT/ADMISSION OF PATERNITY</div>
            <div class='labelbacka'>I/We,____________________________________________________ and __________________________________________,</div>
       <div class='labelbackb'>of the legal age, am/are the natural mother and/or father of_______________________________________________,who was</div>
-
+   <div class='labelbackc'>born on______________________________________________at____________________________________.</div>
         </div>
+         <div class='sectionback1'></div>
+           <div class='outputbacka'>I am/ We are executing this affidavit to the truthfulness of the foregoing statements and for purposes of acknowledging my/our child.</div>
+     <div class='outputbackb'>___________________________________________</div>
+     <div class='outputbackc'>(Signature Over Printed Name of Father)</div>
+      <div class='outputbackd'>___________________________________________</div>
+     <div class='outputbacke'>(Signature Over Printed Name of Mother)</div>
     </div> 
+               <div class='sectionback2'></div>
+                 <div class='labelback2'>SUBSCRIBED AND SWORN to before me this___________________day of__________________,______________by</div>
+                 <div class='outputback2a'>_______________________________and____________________________________________who exhibited to me his/her</div>
+             <div class='outputback2b'>CTC/Valid ID_____________________________________Issued on____________________________________________at ______________________________.</div>
+               <div class='outputback2c'>__________________________________________</div>
+                <div class='outputback2d'>Signature of the Administering Officer</div>
+                 <div class='outputback2e'>__________________________________________</div>
+                <div class='outputback2f'>Position/Title/Designation</div>
+                 <div class='outputback2g'>__________________________________________</div>
+                <div class='outputback2h'>Name in Print</div>
+                 <div class='outputback2i'>__________________________________________</div>
+                <div class='outputback2j'>Address</div>
+              <div class='outputback2k'>____________________________________________________________________________________________________________</div>
+             </div>
+              <div class='sectionback3'></div>
+               <div class='labelback3a'>AFFIDAVIT FOR DELAYED REGISTRATION OF BIRTH</div>
+                <div class='outputback3a'>(To be accomplished by the hospital/clinic administrator, father, mother, or guardian or the person himself if 18 years old or over)</div>
+             </div>
+
 </div>
 </body>
 </html>";
