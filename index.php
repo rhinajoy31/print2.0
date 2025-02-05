@@ -28,6 +28,16 @@ $html = "
             height: 13in; /* Legal paper height in pixels */
             border: 2px solid green;
         }
+        .page-break {
+            page-break-after: always;
+        }
+        .content {
+            position: absulote;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
         .header {
             color: green;
             text-align: center;
@@ -1299,199 +1309,225 @@ $html = "
     top: 1160px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
     left: 20px; /* Adjust kung gusto mo pa lumipat sa kanan */
 }
+    /* BIRTH BACK PAGE */
+    .container2 {
+            width: 7.5in; /* Legal paper width in pixels */
+            height: 13in; /* Legal paper height in pixels */
+            border: 2px solid green;
+        }
+    .header2 {
+            color: green;
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+
   </style>
 </head>
 <body>
-    <div class='container'>
-        <div class='header'>Republic of the Philippines</div>
-        <div class='sub-header'>OFFICE OF THE CIVIL REGISTRAR GENERAL</div>
-        <div class='header2'>CERTIFICATE OF LIVE BIRTH</div>
-        
-        <!-- Child's Name Section -->
-        <div class='section'>
-            <div class='label'>Province_______________________________________________________</div>
-            <div class='output'>___________________________________________________________________________________________________________</div>
-              <div class='output1a'>City/Municipality_________________________________________________</div>
-              <div class='vertical-line3'></div>
-               <div class='output1b'>Registry No.</div>
-                    <div class='output1c'>____________________________________________________________________________________________________________.</div>
-     
+    <div class='page'>
+        <div class='content'>
+        <div class='container'>
+            <div class='header'>Republic of the Philippines</div>
+            <div class='sub-header'>OFFICE OF THE CIVIL REGISTRAR GENERAL</div>
+            <div class='header2'>CERTIFICATE OF LIVE BIRTH</div>
+            
+            <!-- Child's Name Section -->
+            <div class='section'>
+                <div class='label'>Province_______________________________________________________</div>
+                <div class='output'>___________________________________________________________________________________________________________</div>
+                    <div class='output1a'>City/Municipality_________________________________________________</div>
+                    <div class='vertical-line3'></div>
+                    <div class='output1b'>Registry No.</div>
+                        <div class='output1c'>____________________________________________________________________________________________________________.</div>
+            
+                </div>
+                    <!-- Child's Name Section -->
+            <div class='section'>
+            <div class='label2'>C</div>
+                <div class='output2a'>H</div>
+                <div class='output2b'>I</div>
+                    <div class='output2c'>L</div>
+                        <div class='output2d'>D</div>
+                        <div class='vertical-line4'></div>
+                        <div class='output2e'>1. Name</div>
+                        <div class='output2f'>(First)</div>
+                        <div class='output2g'>(Middle)</div>
+                            <div class='output2h'>(Last)</div>
+                            <div class='output2i'>_______________________________________________________________________________</div>
             </div>
-             <!-- Child's Name Section -->
-        <div class='section'>
-        <div class='label2'>C</div>
-          <div class='output2a'>H</div>
-            <div class='output2b'>I</div>
-                <div class='output2c'>L</div>
-                 <div class='output2d'>D</div>
-                  <div class='vertical-line4'></div>
-                   <div class='output2e'>1. Name</div>
-                   <div class='output2f'>(First)</div>
-                    <div class='output2g'>(Middle)</div>
-                     <div class='output2h'>(Last)</div>
-                      <div class='output2i'>_______________________________________________________________________________</div>
+                <div class='section2'>
+            <div class='label3'>2.SEX(Male/Female)</div>
+                <div class='vertical-line5'></div>
+                <div class='output3a'>3.DATE OF BIRTH</div>
+                <div class='output3b'>(Day)</div>
+                    <div class='output3c'>(Month)</div>
+                    <div class='output3d'>(Year)</div>
+                    <div class='output3e'>_________________________________________________________________________________________________________</div>
+
         </div>
-          <div class='section2'>
-        <div class='label3'>2.SEX(Male/Female)</div>
-         <div class='vertical-line5'></div>
-           <div class='output3a'>3.DATE OF BIRTH</div>
-            <div class='output3b'>(Day)</div>
-             <div class='output3c'>(Month)</div>
-             <div class='output3d'>(Year)</div>
-                <div class='output3e'>_________________________________________________________________________________________________________</div>
-    
-</div>
- <div class='section3'>
-        <div class='label4'>4.PLACE OF BIRTH</div>
-        <div class='output4a'>(Name of Hospital/Clinic/Institution/House No, St, Barangay)</div>
-        <div class='output4b'>(City/Municipaity)</div>
-        <div class='output4c'>(Province)</div>
-        <div class='output4d'>_________________________________________________________________________________________________________</div>
-    
-</div>
-<div class='section4'>
-        <div class='label5'>5a.TYPE OR BIRTH(Single,Twin,Triplet,etc)</div>
-        <div class='output5a'>5b. IF MULTIPLE BIRTH CHILD WAS (First,Second,Third, etc.)</div>
-         <div class='output5b'>5c. BIRTH ORDER (Order of this birth to previous live births including fetal death)(First,Second,Third, etc)</div>
-          <div class='output5c'>6.WEIGHT AT BIRTH</div>
-           <div class='output5d'>_________________________________________________________________________________</div>
-             <div class='vertical-line6'></div>
-               <div class='vertical-line7'></div>
-                 <div class='vertical-line8'></div>
-</div>
-<div class='section5'>
-        <div class='label6'>M</div>
-         <div class='output6a'>O</div>
-         <div class='output6b'>T</div>
-          <div class='output6c'>H</div>
-           <div class='output6d'>E</div>
-            <div class='output6e'>R</div>
-            <div class='output6f'>7.MAIDEN NAME</div>
-             <div class='output6g'>(First)</div>
-               <div class='output6h'>(Middle)</div>
-               <div class='output6i'>(Last)</div>
-                <div class='output6j'>_______________________________________________________________________________</div>
-</div>
-<div class='section6'>
-        <div class='label7'>8.CITIZENSHIP</div>
-         <div class='output7a'>9.RELIGION/RELIGOUS SECT</div>
-         <div class='output7b'>_______________________________________________________________________________</div>
-         <div class='vertical-line9'></div>
-</div> 
-<div class='section7'>
-<div class='label8'>10. Total number of children born alive</div>
-  <div class='output8a'>10b.No. of children still living this birth</div>
-   <div class='output8b'>10c. No. of children born alive are now dead</div>
-   <div class='output8c'>11. OCCUPATION</div>
-   <div class='output8d'>12. AGE at the time of this birth(completed years)</div>
-    <div class='output8e'>_______________________________________________________________________________</div>
-    <div class='vertical-line10'></div>
-         <div class='vertical-line11'></div>
-          <div class='vertical-line12'></div>
-           <div class='vertical-line13'></div>   
-    
-<div class='section9'>
-    <div class='output8f'>13. RESIDENCE</div>
-       <div class='output8g'>(House No. St, Barangay)</div>
-        <div class='output8h'>(City/Municipality)</div>
-        <div class='output8i'>(Province)</div>
-        <div class='output8j'>(Country)</div>
-         <div class='output8k'>_________________________________________________________________________________</div>
-</div> 
-<div class='section10'>
-    <div class='label9'>F</div>
-     <div class='output9a'>A</div>
-      <div class='output9b'>T</div>
-      <div class='output9c'>H</div>
-      <div class='output9d'>E</div>
-      <div class='section11'>
-         <div class='output9e'>14. NAME</div>
-                <div class='output9f'>(First)</div>
-                  <div class='output9g'>(Middle)</div>
-                      <div class='output9h'>(Last)</div>
-                       <div class='output9i'>_______________________________________________________________________________</div>
-                        <div class='output9j'>15.CITIZENSHIP</div>
-                        <div class='output9k'>16. RELIGION/RELIGOUS SECT</div>
-                          <div class='output9l'>17.OCCUPATION</div>
-                            <div class='output9m'>18.AGE at the time of this birth(completed years)</div>
-                            <div class='output9n'>_______________________________________________________________________________</div>
-                            <div class='vertical-line14'></div> 
-                            <div class='vertical-line15'></div> 
-                            <div class='vertical-line16'></div> 
-                            </div> 
+        <div class='section3'>
+            <div class='label4'>4.PLACE OF BIRTH</div>
+            <div class='output4a'>(Name of Hospital/Clinic/Institution/House No, St, Barangay)</div>
+            <div class='output4b'>(City/Municipaity)</div>
+            <div class='output4c'>(Province)</div>
+            <div class='output4d'>_________________________________________________________________________________________________________</div>
+
+        </div>
+        <div class='section4'>
+            <div class='label5'>5a.TYPE OR BIRTH(Single,Twin,Triplet,etc)</div>
+            <div class='output5a'>5b. IF MULTIPLE BIRTH CHILD WAS (First,Second,Third, etc.)</div>
+                <div class='output5b'>5c. BIRTH ORDER (Order of this birth to previous live births including fetal death)(First,Second,Third, etc)</div>
+                <div class='output5c'>6.WEIGHT AT BIRTH</div>
+                <div class='output5d'>_________________________________________________________________________________</div>
+                    <div class='vertical-line6'></div>
+                    <div class='vertical-line7'></div>
+                        <div class='vertical-line8'></div>
+        </div>
+        <div class='section5'>
+            <div class='label6'>M</div>
+                <div class='output6a'>O</div>
+                <div class='output6b'>T</div>
+                <div class='output6c'>H</div>
+                <div class='output6d'>E</div>
+                <div class='output6e'>R</div>
+                <div class='output6f'>7.MAIDEN NAME</div>
+                    <div class='output6g'>(First)</div>
+                    <div class='output6h'>(Middle)</div>
+                    <div class='output6i'>(Last)</div>
+                    <div class='output6j'>_______________________________________________________________________________</div>
+        </div>
+        <div class='section6'>
+            <div class='label7'>8.CITIZENSHIP</div>
+                <div class='output7a'>9.RELIGION/RELIGOUS SECT</div>
+                <div class='output7b'>_______________________________________________________________________________</div>
+                <div class='vertical-line9'></div>
+        </div> 
+        <div class='section7'>
+        <div class='label8'>10. Total number of children born alive</div>
+        <div class='output8a'>10b.No. of children still living this birth</div>
+        <div class='output8b'>10c. No. of children born alive are now dead</div>
+        <div class='output8c'>11. OCCUPATION</div>
+        <div class='output8d'>12. AGE at the time of this birth(completed years)</div>
+        <div class='output8e'>_______________________________________________________________________________</div>
+        <div class='vertical-line10'></div>
+                <div class='vertical-line11'></div>
+                <div class='vertical-line12'></div>
+                <div class='vertical-line13'></div>   
+
+        <div class='section9'>
+        <div class='output8f'>13. RESIDENCE</div>
+            <div class='output8g'>(House No. St, Barangay)</div>
+            <div class='output8h'>(City/Municipality)</div>
+            <div class='output8i'>(Province)</div>
+            <div class='output8j'>(Country)</div>
+                <div class='output8k'>_________________________________________________________________________________</div>
+        </div> 
+        <div class='section10'>
+        <div class='label9'>F</div>
+            <div class='output9a'>A</div>
+            <div class='output9b'>T</div>
+            <div class='output9c'>H</div>
+            <div class='output9d'>E</div>
             <div class='section11'>
-               <div class='label10'>19. RESIDENCE</div>
-                <div class='output10a'>(House No., St. Barangay)</div>
-                <div class='output10b'>(City/Municipality)</div>
-                   <div class='output10c'>(Province)</div>
-                        <div class='output10d'>(Country)</div>
-                         <div class='output10e'>_________________________________________________________________________________</div>
-</div> 
-           <div class='section12'>
-               <div class='label11'>MARRIAGE OF PARENTS(If not married, accomplish, affidavit of acknowledgement/Admission of Paternity at the back)</div>
-              <div class='output11a'>_________________________________________________________________________________</div>
- <div class='output11b'>20a. DATE</div>
-  <div class='output11c'>(Day)</div>
-   <div class='output11d'>(Month)</div>
-    <div class='output11e'>(Year)</div>
-      <div class='output11f'>20b.PLACE</div>
-       <div class='output11g'>(City/Municipality)</div>
-         <div class='output11h'>(Province)</div>
-          <div class='output11i'>(Country)</div>
-           <div class='output11j'>_________________________________________________________________________________</div>
-            <div class='vertical-line17'></div> 
-           </div> 
- <div class='section13'>
- <div class='label12'>21a.ATTENDANT</div>
-  <div class='output12a'>____1.Physician</div>
-  <div class='output12b'>____2.Nurse</div>
-  <div class='output12c'>____3.Midwife</div>
-  <div class='output12d'>____4.Hilot(Traditional Birth Attendant)</div>
-    <div class='output12e'>____5.Other(Specify)___________</div>
-     <div class='output12f'>_________________________________________________________________________________</div>
-              </div> 
-          <div class='section14'>
-           <div class='label13'>21b. CERTIFICATION OF ATTENDANT AT BIRTH(Physician, Nurse, Midwife, Traditional Birth attendant.Hilot,etc)</div>
- <div class='label13'>21b. CERTIFICATION OF ATTENDANT AT BIRTH(Physician, Nurse, Midwife, Traditional Birth attendant.Hilot,etc)</div>
- <div class='output13a'>I hereby certify that i attended the birth of the child who was born alive at _______am/pm on the date of birth specified above</div>
-<div class='output13b'>Signature_______________________________________</div>
-<div class='output13c'>Name in Print____________________________________</div>
-<div class='output13d'>Title or Position___________________________________</div>
-<div class='output13e'>Address__________________________________________________________________________________</div>
-<div class='output13f'>Date_________________________________________</div>
-<div class='output13g'>____________________________________________________________________________________________________________</div>
- </div> 
-  <div class='section15'> 
-   <div class='label14'> 22.CERTIFICATION OF INFORMANT </div> 
-     <div class='output14a'> I hereby certify that all information supplied are true and correct to to my own knowledge and belief</div> 
- <div class='output14b'> Signature_______________________________________</div> 
- <div class='output14c'> Name in Print____________________________________</div> 
-  <div class='output14d'> Relationship to the child____________________________</div> 
-  <div class='output14e'> Address________________________________________</div> 
-   <div class='output14f'> 23.PREPARED BY</div> 
-     <div class='output14g'>Signature______________________________________</div>
-       <div class='output14h'>Name in Print___________________________________</div>
-       <div class='output14i'>Title or Position__________________________________</div>
-         <div class='output14j'>Address________________________________________</div>
-           <div class='output14k'>Date___________________________________________</div>
-            <div class='output14l'>_________________________________________________________________________________</div>
-</div>  
- <div class='section16'>    
-    <div class='label15'> 24.RECEIVED BY</div> 
-      <div class='output15a'>Signature______________________________________</div> 
-        <div class='output15b'>Name in Print___________________________________</div> 
-         <div class='output15c'>Title or Position_________________________________</div>
-           <div class='output15d'>Date__________________________________________</div>
-             <div class='output15e'>25.REGISTERED AT THE OFFICE OF THE CIVIL REGISTRAR</div>
-              <div class='output15f'>Signature______________________________________</div> 
-                <div class='output15g'>Name in Print___________________________________</div> 
-                 <div class='output15h'>Title or Position__________________________________</div>
-                  <div class='output15i'>Date___________________________________________</div>
-                     <div class='output15j'>_________________________________________________________________________________</div>
-   <div class='output15k'>REMARKS/ANNOTATION(For LCRO/ORCG Use Only)</div>
-                     <div class='vertical-line18'></div> 
-                     </div>     
-     </div>     
+                <div class='output9e'>14. NAME</div>
+                    <div class='output9f'>(First)</div>
+                        <div class='output9g'>(Middle)</div>
+                            <div class='output9h'>(Last)</div>
+                            <div class='output9i'>_______________________________________________________________________________</div>
+                            <div class='output9j'>15.CITIZENSHIP</div>
+                            <div class='output9k'>16. RELIGION/RELIGOUS SECT</div>
+                                <div class='output9l'>17.OCCUPATION</div>
+                                <div class='output9m'>18.AGE at the time of this birth(completed years)</div>
+                                <div class='output9n'>_______________________________________________________________________________</div>
+                                <div class='vertical-line14'></div> 
+                                <div class='vertical-line15'></div> 
+                                <div class='vertical-line16'></div> 
+                                </div> 
+                <div class='section11'>
+                    <div class='label10'>19. RESIDENCE</div>
+                    <div class='output10a'>(House No., St. Barangay)</div>
+                    <div class='output10b'>(City/Municipality)</div>
+                        <div class='output10c'>(Province)</div>
+                            <div class='output10d'>(Country)</div>
+                                <div class='output10e'>_________________________________________________________________________________</div>
+        </div> 
+                <div class='section12'>
+                    <div class='label11'>MARRIAGE OF PARENTS(If not married, accomplish, affidavit of acknowledgement/Admission of Paternity at the back)</div>
+                    <div class='output11a'>_________________________________________________________________________________</div>
+        <div class='output11b'>20a. DATE</div>
+        <div class='output11c'>(Day)</div>
+        <div class='output11d'>(Month)</div>
+        <div class='output11e'>(Year)</div>
+            <div class='output11f'>20b.PLACE</div>
+            <div class='output11g'>(City/Municipality)</div>
+                <div class='output11h'>(Province)</div>
+                <div class='output11i'>(Country)</div>
+                <div class='output11j'>_________________________________________________________________________________</div>
+                <div class='vertical-line17'></div> 
+                </div> 
+        <div class='section13'>
+        <div class='label12'>21a.ATTENDANT</div>
+        <div class='output12a'>____1.Physician</div>
+        <div class='output12b'>____2.Nurse</div>
+        <div class='output12c'>____3.Midwife</div>
+        <div class='output12d'>____4.Hilot(Traditional Birth Attendant)</div>
+        <div class='output12e'>____5.Other(Specify)___________</div>
+            <div class='output12f'>_________________________________________________________________________________</div>
+                    </div> 
+                <div class='section14'>
+                <div class='label13'>21b. CERTIFICATION OF ATTENDANT AT BIRTH(Physician, Nurse, Midwife, Traditional Birth attendant.Hilot,etc)</div>
+        <div class='label13'>21b. CERTIFICATION OF ATTENDANT AT BIRTH(Physician, Nurse, Midwife, Traditional Birth attendant.Hilot,etc)</div>
+        <div class='output13a'>I hereby certify that i attended the birth of the child who was born alive at _______am/pm on the date of birth specified above</div>
+        <div class='output13b'>Signature_______________________________________</div>
+        <div class='output13c'>Name in Print____________________________________</div>
+        <div class='output13d'>Title or Position___________________________________</div>
+        <div class='output13e'>Address__________________________________________________________________________________</div>
+        <div class='output13f'>Date_________________________________________</div>
+        <div class='output13g'>____________________________________________________________________________________________________________</div>
+        </div> 
+        <div class='section15'> 
+        <div class='label14'> 22.CERTIFICATION OF INFORMANT </div> 
+            <div class='output14a'> I hereby certify that all information supplied are true and correct to to my own knowledge and belief</div> 
+        <div class='output14b'> Signature_______________________________________</div> 
+        <div class='output14c'> Name in Print____________________________________</div> 
+        <div class='output14d'> Relationship to the child____________________________</div> 
+        <div class='output14e'> Address________________________________________</div> 
+        <div class='output14f'> 23.PREPARED BY</div> 
+            <div class='output14g'>Signature______________________________________</div>
+            <div class='output14h'>Name in Print___________________________________</div>
+            <div class='output14i'>Title or Position__________________________________</div>
+                <div class='output14j'>Address________________________________________</div>
+                <div class='output14k'>Date___________________________________________</div>
+                <div class='output14l'>_________________________________________________________________________________</div>
+        </div>  
+        <div class='section16'>    
+        <div class='label15'> 24.RECEIVED BY</div> 
+            <div class='output15a'>Signature______________________________________</div> 
+            <div class='output15b'>Name in Print___________________________________</div> 
+                <div class='output15c'>Title or Position_________________________________</div>
+                <div class='output15d'>Date__________________________________________</div>
+                    <div class='output15e'>25.REGISTERED AT THE OFFICE OF THE CIVIL REGISTRAR</div>
+                    <div class='output15f'>Signature______________________________________</div> 
+                    <div class='output15g'>Name in Print___________________________________</div> 
+                        <div class='output15h'>Title or Position__________________________________</div>
+                        <div class='output15i'>Date___________________________________________</div>
+                            <div class='output15j'>_________________________________________________________________________________</div>
+        <div class='output15k'>REMARKS/ANNOTATION(For LCRO/ORCG Use Only)</div>
+                            <div class='vertical-line18'></div> 
+                            </div>     
+            </div>
+        </div>
+    </div>
+</div>
+<div class='page-break'></div>
+<div class='page'>
+    <div class='content'>
+        <div class='container2'> 
+        <div class='header2'>Republic of the Philippines</div>
+        </div>
+    </div> 
 </div>
 </body>
 </html>";
