@@ -1314,18 +1314,43 @@ $html = "
             width: 7.5in; /* Legal paper width in pixels */
             height: 13in; /* Legal paper height in pixels */
             border: 2px solid green;
-        }
-    .header2 {
-            color: green;
-            text-align: center;
-            font-weight: bold;
-            font-size: 18px;
-            margin-bottom: 10px;
-            text-transform: uppercase;
+        } 
+     .header3 {
+    color: green;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 10px; /* Dagdagan ito para bumaba */
+    left: 50%; /* Para nasa gitna */
+    transform: translateX(-50%); /* Siguradong perfect center */
+    white-space: nowrap; /* Para hindi mag-break ang text */
+    overflow: hidden;
+}
 
+ .labelbacka{
+    color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 40px; /* Dagdagan ito para bumaba */
+    left: 5%; 
+}
+.labelbackb {
+    color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 55px; /* Dagdagan ito para bumaba */
+    left: 5%;
+    white-space: nowrap; /* Siguradong isang linya lang */
+    overflow: hidden; /* Iwasan ang extra text na lalampas */
+    
+}
+
+
+ 
   </style>
 </head>
-<body>
+<body> 
     <div class='page'>
         <div class='content'>
         <div class='container'>
@@ -1525,7 +1550,10 @@ $html = "
 <div class='page'>
     <div class='content'>
         <div class='container2'> 
-        <div class='header2'>Republic of the Philippines</div>
+        <div class='header3'>AFFIDAVIT OF ACKNOWLEDGEMENT/ADMISSION OF PATERNITY</div>
+           <div class='labelbacka'>I/We,____________________________________________________ and __________________________________________,</div>
+      <div class='labelbackb'>of the legal age, am/are the natural mother and/or father of_______________________________________________,who was</div>
+
         </div>
     </div> 
 </div>
