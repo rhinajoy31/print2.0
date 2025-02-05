@@ -1747,7 +1747,7 @@ $html = "
                <div class='labelback3a'>AFFIDAVIT FOR DELAYED REGISTRATION OF BIRTH</div>
                 <div class='outputback3a'>(To be accomplished by the hospital/clinic administrator, father, mother, or guardian or the person himself if 18 years old or over)</div>
              </div>
-             hahahah
+          
 
 </div>
 </body>
