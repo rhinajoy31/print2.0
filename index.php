@@ -1681,7 +1681,7 @@ $html = "
     top: 780px;
     left: 75px;
    
-}
+} 
 
 
  </style>
