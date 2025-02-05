@@ -1682,8 +1682,126 @@ $html = "
     left: 75px;
    
 } 
-
-
+.outputback3p{
+    color: green;
+    font-size: 10px;
+    position: absolute;
+    top: 820px;
+    left: 75px;
+   
+} 
+.outputback3q{
+    color: green;
+    font-size: 10px;
+    position: absolute;
+    top: 840px;
+    left: 60px;
+   
+} 
+    .outputback3r{
+    color: green;
+    font-size: 10px;
+    position: absolute;
+    top: 890px;
+    left: 450px;
+   
+} 
+    .outputback3s{
+    color: green;
+    font-size: 10px;
+    position: absolute;
+    top: 900px;
+    left: 470px;
+   
+} 
+     .labelback4a{
+    color: green;
+    font-size: 10px;
+    position: absolute;
+    top: 950px;
+    left: 70px;
+   
+}
+     .outputback4a{
+    color: green;
+    font-size: 10px;
+    position: absolute;
+    top: 970px;
+    left: 70px;
+   
+}
+     .outputback4b{
+    color: green;
+    font-size: 10px;
+    position: absolute;
+    top: 990px;
+    left: 70px;
+   
+}
+     .outputback4c{
+    color: green;
+    font-size: 10px;
+    position: absolute;
+    top: 1040px;
+    left: 70px;
+   
+}
+    .outputback4d{
+    color: green;
+    font-size: 10px;
+    position: absolute;
+    top: 1050px;
+    left: 100px;
+   
+}
+      .outputback4e{
+    color: green;
+    font-size: 10px;
+    position: absolute;
+    top: 1100px;
+    left: 70px;
+   
+}
+        .outputback4f{
+    color: green;
+    font-size: 10px;
+    position: absolute;
+    top: 1110px;
+    left: 150px;
+   
+}
+      .outputback4g{
+    color: green;
+    font-size: 10px;
+    position: absolute;
+    top: 1040px;
+    left: 400px;
+   
+}
+     .outputback4h{
+    color: green;
+    font-size: 10px;
+    position: absolute;
+    top: 1050px;
+    left: 465px;
+   
+}
+     .outputback4i{
+    color: green;
+    font-size: 10px;
+    position: absolute;
+    top: 1100px;
+    left: 400px;
+   
+}
+     .outputback4j{
+    color: green;
+    font-size: 10px;
+    position: absolute;
+    top: 1110px;
+    left: 500px;
+   
+}
  </style>
 </head>
 <body> 
@@ -1935,9 +2053,26 @@ $html = "
                      <div class='outputback3m'>5. That the reason for the delay in registering my his/her birth was__________________________________________________</div>
                  <div class='outputback3n'>6.(For the applicant only)That I am married to__________________________________________________________________</div>
                    <div class='outputback3o'>(if the aplicant is other than the document owner)That I am the________________________________of said person</div>
+                    <div class='outputback3p'>In truth whereof, I have affixed my signature below this __________________date of ____________________,__________________at</div>
+                      <div class='outputback3q'>______________________________ at _______________________________________________________________________________</div>
+                      <div class='outputback3r'>________________________________________</div>
+                    <div class='outputback3s'>(Signature Over Printed Name of Affiant)</div>
                    </div>
-                 
-                 </div>
+                    <div class='sectionback4'></div>
+               <div class='labelback4a'>SUBSCRIBED AND SWORN to before me this ___________________ day of_______________________,______________________at</div>
+               <div class='outputback4a'>__________________________________________,______________________, Philippines affiant who exhibited to me his/her CTC/valid ID</div>
+                <div class='outputback4b'>____________________________issued on_______________________________________at_____________________________________</div>
+               <div class='outputback4c'>___________________________________________</div>
+               <div class='outputback4d'>Signature of the Administering Officer</div>
+                 <div class='outputback4e'>___________________________________________</div>
+                  <div class='outputback4f'>Name in Print</div>
+              <div class='outputback4g'>___________________________________________</div>
+                  <div class='outputback4h'>Position/Title/Designation</div>
+              <div class='outputback4i'>___________________________________________</div>
+                  <div class='outputback4j'>Address</div>
+              
+                  </div>
+                  </div>
                  
                  
                      </div>
