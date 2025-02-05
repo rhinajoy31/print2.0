@@ -918,6 +918,141 @@ $html = "
     top: 732px; /* Subukan muna ang 50px at i-adjust depende sa gusto mo */
     left: -150px; /* Ayusin kung gusto mong ilipat sa kanan */
 }
+      .label11 {
+    color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 750px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 5px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+      .output11a{
+    color: green;
+    padding-left: 150px;
+    position: absolute;
+   top: 748px; /* Subukan muna ang 50px at i-adjust depende sa gusto mo */
+    left: -150px; /* Ayusin kung gusto mong ilipat sa kanan */
+}
+     .output11b{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 767px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 5px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+     .output11c{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 767px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 80px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+      .output11d{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 767px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 160px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+        .output11e{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 767px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 250px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+       .output11f{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 767px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 320px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+    .output11g{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 767px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 400px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+  .output11h{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 767px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 530px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+      .output11i{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 767px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 635px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+     .output11j {
+    color: green;
+    padding-left: 150px;
+    position: absolute;
+    top: 795px; /* Ayusin ang value para itaas o ibaba */
+    left: -150px; /* Ilipat sa kanan o kaliwa */
+}
+.vertical-line17 {
+            width: 2px; /* Thickness of the line */
+            height: 45px; /* Length of the line */
+            background-color: green; /* Line color */
+            position: absolute; /* Keeps it inside the container */
+            left: 300px; /* Adjust horizontal positioning */
+            top:767px; /* Adjust vertical positioning */
+        }
+ .label12{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 813px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 5px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+     .output12a{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 830px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 5px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+    .output12b{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 830px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 100px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+    .output12c{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 830px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 180px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+      .output12d{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 830px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 270px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+      .output12e{
+  color: green;
+    font-size: 12px;
+    position: absolute;
+    top: 830px;  /* Itaas ito para maiwasan ang sobrang pagbaba */
+    left: 490px; /* Adjust kung gusto mo pa lumipat sa kanan */
+}
+  .output12f {
+    color: green;
+    padding-left: 150px;
+    position: absolute;
+    top: 830px; /* Bawasan ang value para itaas */
+    left: -150px; /* Ayusin kung gusto mong ilipat sa kanan */
+}
+
   </style>
 </head>
 <body>
@@ -1045,11 +1180,30 @@ $html = "
                    <div class='output10c'>(Province)</div>
                         <div class='output10d'>(Country)</div>
                          <div class='output10e'>_________________________________________________________________________________</div>
-
-
 </div> 
-           
-           
+           <div class='section12'>
+               <div class='label11'>MARRIAGE OF PARENTS(If not married, accomplish, affidavit of acknowledgement/Admission of Paternity at the back)</div>
+              <div class='output11a'>_________________________________________________________________________________</div>
+ <div class='output11b'>20a. DATE</div>
+  <div class='output11c'>(Day)</div>
+   <div class='output11d'>(Month)</div>
+    <div class='output11e'>(Year)</div>
+      <div class='output11f'>20b.PLACE</div>
+       <div class='output11g'>(City/Municipality)</div>
+         <div class='output11h'>(Province)</div>
+          <div class='output11i'>(Country)</div>
+           <div class='output11j'>_________________________________________________________________________________</div>
+            <div class='vertical-line17'></div> 
+           </div> 
+ <div class='section13'>
+ <div class='label12'>21a.ATTENDANT</div>
+  <div class='output12a'>____1.Physician</div>
+  <div class='output12b'>____2.Nurse</div>
+  <div class='output12c'>____3.Midwife</div>
+  <div class='output12d'>____4.Hilot(Traditional Birth Attendant)</div>
+    <div class='output12e'>____5.Other(Specify)___________</div>
+     <div class='output12f'>_________________________________________________________________________________</div>
+              </div> 
          
 </div> </div> 
 </div> 
