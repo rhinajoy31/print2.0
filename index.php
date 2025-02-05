@@ -1515,6 +1515,175 @@ $html = "
     top: 353px; /* Dagdagan ito para bumaba */
     left: 70px;
 }
+    .outputback3b {
+    color: green;
+    font-size: 10px;
+    position: absolute;
+    top: 370px; /* Dagdagan ito para bumaba */
+    left: 90px;
+}
+     .outputback3c {
+    color: green;
+    font-size: 10px;
+    position: absolute;
+    top: 385px; /* Dagdagan ito para bumaba */
+    left: 50px;
+}
+    .outputback3d {
+    color: green;
+    font-size: 10px;
+    position: absolute;
+    top: 400px; /* Dagdagan ito para bumaba */
+    left: 50px;
+}
+     .outputback3e {
+    color: green;
+    font-size: 10px;
+    position: absolute;
+    top: 480px; /* Dagdagan ito para bumaba */
+    left: 70px;
+}
+    .resizable-box1 {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    position: absolute; /* O gamitin ang fixed kung gusto mo ito laging nasa view */
+    resize: both;
+    overflow: auto;
+    border: 2px solid green; /* Ginawang green ang border */
+    top: 520px; /* Pwede mong itaas o ibaba ito */
+    left: 100px; /* Upang siguradong nasa loob ito ng viewport */
+    
+}
+      .outputback3f {
+    color: green;
+    font-size: 10px;
+    position: absolute;
+    top: 520px; /* Dagdagan ito para bumaba */
+    left: 130px;
+}
+     .resizable-box2 {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    position: absolute; /* O gamitin ang fixed kung gusto mo ito laging nasa view */
+    resize: both;
+    overflow: auto;
+    border: 2px solid green; /* Ginawang green ang border */
+    top: 550px; /* Pwede mong itaas o ibaba ito */
+    left: 100px; /* Upang siguradong nasa loob ito ng viewport */
+    
+}
+    .outputback3g {
+    color: green;
+    font-size: 10px;
+    position: absolute;
+    top: 550px; /* Dagdagan ito para bumaba */
+    left: 130px;
+     width: 600px; /* I-adjust ito depende sa gusto mong lapad */
+    white-space: normal; /* Payagan ang text na mag-wrap */
+    overflow-wrap: break-word; /* Siguraduhin na magbe-break ang mahahabang salita */
+}
+.outputback3h {
+    color: green;
+    font-size: 10px;
+    position: absolute;
+    top: 590px; /* Dagdagan ito para bumaba */
+    left: 75px;
+     width: 600px; /* I-adjust ito depende sa gusto mong lapad */
+    white-space: normal; /* Payagan ang text na mag-wrap */
+    overflow-wrap: break-word; /* Siguraduhin na magbe-break ang mahahabang salita */
+}
+    .outputback3i {
+    color: green;
+    font-size: 10px;
+    position: absolute;
+    top: 625px; /* Dagdagan ito para bumaba */
+    left: 75px;
+     width: 600px; /* I-adjust ito depende sa gusto mong lapad */
+    white-space: normal; /* Payagan ang text na mag-wrap */
+    overflow-wrap: break-word; /* Siguraduhin na magbe-break ang mahahabang salita */
+}
+.outputback3j {
+    color: green;
+    font-size: 10px;
+    position: absolute;
+    top: 650px; /* Dagdagan ito para bumaba */
+    left: 75px;
+}
+.resizable-box3 {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    position: absolute; /* O gamitin ang fixed kung gusto mo ito laging nasa view */
+    resize: both;
+    overflow: auto;
+    border: 2px solid green; /* Ginawang green ang border */
+    top: 650px; /* Pwede mong itaas o ibaba ito */
+    left: 240px; /* Upang siguradong nasa loob ito ng viewport */
+    
+}
+    .outputback3k {
+    color: green;
+    font-size: 10px;
+    position: absolute;
+    top: 650px; /* Dagdagan ito para bumaba */
+    left: 270px;
+    width: 450px; /* I-adjust ito depende sa gusto mong lapad */
+    white-space: normal; /* Payagan ang text na mag-wrap */
+    overflow-wrap: break-word; /* Siguraduhin na magbe-break ang mahahabang salita */
+}
+    .outputback3l{
+    color: green;
+    font-size: 10px;
+    position: absolute;
+    top: 690px; /* Dagdagan ito para bumaba */
+    left: 270px;
+    width: 400px; /* I-adjust ito depende sa gusto mong lapad */
+    white-space: normal; /* Payagan ang text na mag-wrap */
+    overflow-wrap: break-word; /* Siguraduhin na magbe-break ang mahahabang salita */
+}
+    .resizable-box4 {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    position: absolute; /* O gamitin ang fixed kung gusto mo ito laging nasa view */
+    resize: both;
+    overflow: auto;
+    border: 2px solid green; /* Ginawang green ang border */
+    top: 690px; /* Pwede mong itaas o ibaba ito */
+    left: 240px; /* Upang siguradong nasa loob ito ng viewport */
+    
+}
+   .outputback3m {
+    color: green;
+    font-size: 10px;
+    position: absolute;
+    top: 740px;
+    left: 75px;
+    width: 800px; /* Bawasan ang lapad para siguradong mag-wrap sa dalawang linya */
+    white-space: normal; /* Payagan ang text na mag-wrap */
+    overflow-wrap: break-word; /* Siguraduhin na magbe-break ang mahahabang salita */
+   
+}
+    .outputback3n{
+    color: green;
+    font-size: 10px;
+    position: absolute;
+    top: 760px;
+    left: 75px;
+   
+}
+  .outputback3o{
+    color: green;
+    font-size: 10px;
+    position: absolute;
+    top: 780px;
+    left: 75px;
+   
+}
+
+
  </style>
 </head>
 <body> 
@@ -1708,6 +1877,8 @@ $html = "
                             <div class='output15j'>_________________________________________________________________________________</div>
         <div class='output15k'>REMARKS/ANNOTATION(For LCRO/ORCG Use Only)</div>
                             <div class='vertical-line18'></div> 
+                            
+
                             </div>     
             </div>
         </div>
@@ -1746,7 +1917,30 @@ $html = "
               <div class='sectionback3'></div>
                <div class='labelback3a'>AFFIDAVIT FOR DELAYED REGISTRATION OF BIRTH</div>
                 <div class='outputback3a'>(To be accomplished by the hospital/clinic administrator, father, mother, or guardian or the person himself if 18 years old or over)</div>
-             </div>
+             <div class='outputback3b'>I___________________________________________________________,of legal age, single/married/divorced/widow/widower, with</div>
+              <div class='outputback3c'>residence and postal address at_______________________________________________________________________________________</div>
+             <div class='outputback3d'>_________________________________________________after having been dult sworn in accordance with law, do hereby depose and say:</div>
+             <div class='outputback3e'>1. That I am the applicant for the delayed registration of:</div>
+                 <div class='resizable-box1'></div>
+                    <div class='outputback3f'> my birth in_______________________on___________________________________________________.</div>
+                    <div class='resizable-box2'></div>
+                    <div class='outputback3g'> the birth of___________________________________________________________who was born in_____________________________ on___________________________________________________.</div>
+                 <div class='outputback3h'>2. That I/he/she was attended at birth by__________________________________________ who resides at_____________________________________________________________________________________________</div>
+                   <div class='outputback3i'>3. That I am/he/she is a citizen of____________________________________________________________________</div>
+                   <div class='outputback3j'>4. That I am/he/she is a citizen of</div>
+                <div class='resizable-box3'></div>
+                  <div class='outputback3k'>married on __________________________________at ___________________________________________________________</div>
+                   <div class='outputback3l'>not married but I/he/she was acknowledged/not Cacknowledged by my/his/her father whose name is_______________________________________________________</div>
+                   <div class='resizable-box4'></div>
+                     <div class='outputback3m'>5. That the reason for the delay in registering my his/her birth was__________________________________________________</div>
+                 <div class='outputback3n'>6.(For the applicant only)That I am married to__________________________________________________________________</div>
+                   <div class='outputback3o'>(if the aplicant is other than the document owner)That I am the________________________________of said person</div>
+                   </div>
+                 
+                 </div>
+                 
+                 
+                     </div>
           
 
 </div>
