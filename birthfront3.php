@@ -118,7 +118,7 @@ $html = "
     left: -160px; /* Dagdagan ito para lumipat pa kanan */
 }
     .output1c {
-           text-align: left;
+    text-align: left;
     font-size: 12px;
     color: green;
     padding-left: 150px;
@@ -208,7 +208,7 @@ $html = "
     left: -5px; /* Dagdagan ito para lumipat pa kanan */
 }
      .output2g {
-           text-align: left;
+    text-align: left;
     font-size: 12px;
     color: green;
     padding-left: 200px;
@@ -217,7 +217,7 @@ $html = "
     left: 170px; /* Dagdagan ito para lumipat pa kanan */
 }
       .output2h {
-           text-align: left;
+    text-align: left;
     font-size: 12px;
     color: green;
     padding-left: 200px;
