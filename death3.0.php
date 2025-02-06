@@ -949,8 +949,15 @@ $html = "
 }
        .output13c{
     position: absolute;
-    top: 850px;
+    top: 880px;
     left: 320px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 11px;
+}
+     .output13d{
+    position: absolute;
+    top: 840px;
+    left: 570px; /* Ilipat sa mas kaliwa */
     color: darkblue;
     font-size: 11px;
 }
@@ -1103,7 +1110,8 @@ $html = "
                                                 <div class='label13a'> 23.CORPSE DISPOSAL (Burial,Cremation, if others,specify)</div>
                                                  <div class='output13a'> 24a.BURIAL/CREMATION PERMIT</div>
                                                    <div class='output13b'> Number______________________________</div>
-                                                    <div class='output13c'> Date Issued______________________________</div>
+                                                    <div class='output13c'> Date Issued___________________________</div>
+                                                    <div class='output13d'> 24.TRANSFER PERMIT</div>
                                       </div>
 </div>
 </div>
