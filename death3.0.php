@@ -414,6 +414,485 @@ $html = "
     color: darkblue;
     font-size: 12px;
 }
+     .output5c{
+    position: absolute;
+    top: 292px;
+    left: 320px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 12px;
+}
+      .output5d{
+    position: absolute;
+    top: 292px;
+    left: 410px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 11px;
+}
+       .output5i{
+    position: absolute;
+    top: 310px;
+    left: 3px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+}
+    .vertical-line12 {
+            width: 2px; /* Thickness of the line */
+            height: 37px; /* Length of the line */
+            background-color: darkblue; /* Line color */
+            position: absolute; /* Keeps it inside the container */
+            left:27%; /* Adjust horizontal positioning */
+            top: 293px; /* Adjust vertical positioning */
+        }
+             .vertical-line13 {
+            width: 2px; /* Thickness of the line */
+            height: 37px; /* Length of the line */
+            background-color: darkblue; /* Line color */
+            position: absolute; /* Keeps it inside the container */
+            left:43%; /* Adjust horizontal positioning */
+            top: 293px; /* Adjust vertical positioning */
+        }
+    .label6a{
+    position: absolute;
+    top: 330px;
+    left: 10px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 11px;
+}
+     .output6a{
+    position: absolute;
+    top: 330px;
+    left: 170px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 11px;
+}
+     .output6b{
+    position: absolute;
+    top: 330px;
+    left: 450px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 11px;
+}
+          .output6c{
+    position: absolute;
+    top: 347px;
+    left: 3px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+}
+    .vertical-line14 {
+            width: 2px; /* Thickness of the line */
+            height: 37px; /* Length of the line */
+            background-color: darkblue; /* Line color */
+            position: absolute; /* Keeps it inside the container */
+            left:20%; /* Adjust horizontal positioning */
+            top: 328px; /* Adjust vertical positioning */
+        }
+             .vertical-line15{
+            width: 2px; /* Thickness of the line */
+            height: 37px; /* Length of the line */
+            background-color: darkblue; /* Line color */
+            position: absolute; /* Keeps it inside the container */
+            left:58%; /* Adjust horizontal positioning */
+            top: 328px; /* Adjust vertical positioning */
+        }
+              .label7a{
+    position: absolute;
+    top: 365px;
+    left: 280px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 14px;
+    font-weight: bold;
+}
+              .output7a{
+    position: absolute;
+    top: 380px;
+    left: 200px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 12px;
+}
+          .output7b{
+    position: absolute;
+    top: 380px;
+    left: 3px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+}
+          .output7c{
+    position: absolute;
+    top: 400px;
+    left: 7px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 12px;
+}
+       .output7d{
+    position: absolute;
+    top: 420px;
+    left: 20px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 12px;
+}
+   .output7e{
+    position: absolute;
+    top: 420px;
+    left: 130px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 12px;
+}
+       .output7f{
+    position: absolute;
+    top: 445px;
+    left: 20px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 12px;
+}
+  .output7g{
+    position: absolute;
+    top: 445px;
+    left: 130px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 12px;
+}
+       .output7h{
+    position: absolute;
+    top: 470px;
+    left: 20px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 12px;
+}
+      .output7i{
+    position: absolute;
+    top: 470px;
+    left: 130px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 12px;
+}
+     .output7j{
+    position: absolute;
+    top: 400px;
+    left: 515px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 12px;
+}
+    .output7k{
+     position: absolute;
+    top: 416px;
+    left: 475px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+}
+     .output7l{
+     position: absolute;
+    top: 440px;
+    left: 475px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    
+}
+    .output7m{
+    position: absolute;
+    top: 465px;
+    left: 475px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+}
+      .output7n{
+    position: absolute;
+    top: 489px;
+    left: 20px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 12px;
+}
+  
+      .output7o{
+    position: absolute;
+    top: 490px;
+    left: 3px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+}
+         .label8a{
+    position: absolute;
+    top: 510px;
+    left: 5px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 12px;
+}
+         .output8a{
+    position: absolute;
+    top: 530px;
+    left: 15px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 12px;
+     width: 110px; /* Depende sa haba ng text */
+    word-wrap: break-word;
+}
+    .output8b {
+    position: absolute;
+    top: 530px;
+    left: 150px;
+    color: darkblue;
+    font-size: 12px;
+    width: 110px; /* Depende sa haba ng text */
+    word-wrap: break-word;
+}
+     .output8c {
+    position: absolute;
+    top: 530px;
+    left: 290px;
+    color: darkblue;
+    font-size: 12px;
+    width: 120px; /* Depende sa haba ng text */
+    word-wrap: break-word;
+}
+    .output8d {
+    position: absolute;
+    top: 530px;
+    left: 440px;
+    color: darkblue;
+    font-size: 12px;
+    width: 120px; /* Depende sa haba ng text */
+    word-wrap: break-word;
+}
+  .output8e {
+    position: absolute;
+    top: 530px;
+    left: 580px;
+    color: darkblue;
+    font-size: 12px;
+    width: 120px; /* Depende sa haba ng text */
+    word-wrap: break-word;
+}
+    .output8f{
+    position: absolute;
+    top: 540px;
+    left: 3px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+}
+  .label9a{
+    position: absolute;
+    top: 562px;
+    left: 9px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 12px;
+}
+    .output9a{
+    position: absolute;
+    top: 575px;
+    left: 9px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 12px;
+}
+    .output9b{
+    position: absolute;
+    top: 595px;
+    left: 9px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 12px;
+}
+      .output9c{
+    position: absolute;
+    top: 560px;
+    left: 640px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 12px;
+     width: 78px; /* Depende sa haba ng text */
+    word-wrap: break-word;
+}
+    .output9d{
+    position: absolute;
+    top: 595px;
+    left: 3px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+}
+      .vertical-line15{
+            width: 2px; /* Thickness of the line */
+            height: 55px; /* Length of the line */
+            background-color: darkblue; /* Line color */
+            position: absolute; /* Keeps it inside the container */
+            left:87%; /* Adjust horizontal positioning */
+            top: 558px; /* Adjust vertical positioning */
+}
+    .label10a{
+    position: absolute;
+    top: 615px;
+    left: 7px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 12px;
+}
+     .output10a{
+    position: absolute;
+    top: 615px;
+    left: 7px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 12px;
+}
+      .output10b{
+    position: absolute;
+    top: 640px;
+    left: 20px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 12px;
+     width: 100px; /* Maliit na width para mag-break sa dalawang linya */
+    word-wrap: break-word;
+
+}
+     .output10c {
+    position: absolute;
+    top: 640px;
+    left: 120px;
+    color: darkblue;
+    font-size: 12px;
+    width: 20px; /* Maliit na width para mag-break sa dalawang linya */
+    word-wrap: break-word;
+      width: 100px; /* Maliit na width para mag-break sa dalawang linya */
+    word-wrap: break-word;
+}
+     .output10d {
+    position: absolute;
+    top: 640px;
+    left: 215px;
+    color: darkblue;
+    font-size: 12px;
+    width: 20px; /* Maliit na width para mag-break sa dalawang linya */
+    word-wrap: break-word;
+      width: 100px; /* Maliit na width para mag-break sa dalawang linya */
+    word-wrap: break-word;
+}
+ .output10e {
+    position: absolute;
+    top: 640px;
+    left: 320px;
+    color: darkblue;
+    font-size: 12px;
+    width: 20px; /* Maliit na width para mag-break sa dalawang linya */
+    word-wrap: break-word;
+      width: 100px; /* Maliit na width para mag-break sa dalawang linya */
+    word-wrap: break-word;
+}
+     .output10f {
+    position: absolute;
+    top: 640px;
+    left: 400px;
+    color: darkblue;
+    font-size: 12px;
+    width: 20px; /* Maliit na width para mag-break sa dalawang linya */
+    word-wrap: break-word;
+      width: 100px; /* Maliit na width para mag-break sa dalawang linya */
+    word-wrap: break-word;
+}
+  .output10g{
+    position: absolute;
+    top: 615px;
+    left: 500px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 12px;
+}
+      .output10h{
+      position: absolute;
+    top: 665px;
+    left: 3px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+}
+    .output10i{
+    position: absolute;
+    top: 650px;
+    left: 500px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 12px;
+}
+       .output10j{
+    position: absolute;
+    top: 650px;
+    left: 605px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 12px;
+}
+      .label11a{
+    position: absolute;
+    top: 685px;
+    left: 7px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 12px;
+}
+    .vertical-line17{
+            width: 2px; /* Thickness of the line */
+            height: 70px; /* Length of the line */
+            background-color: darkblue; /* Line color */
+            position: absolute; /* Keeps it inside the container */
+            left: 68%; /* Adjust horizontal positioning */
+            top: 615px; /* Adjust vertical positioning */
+}
+.output11a{
+    position: absolute;
+    top: 700px;
+    left: 20px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 12px;
+}
+    .output11b{
+    position: absolute;
+    top: 720px;
+    left: 15px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 11.5px;
+}
+      .output11c{
+    position: absolute;
+    top: 720px;
+    left: 135px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 11.5px;
+}
+    .resizable-box1 {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    position: absolute; /* O gamitin ang fixed kung gusto mo ito laging nasa view */
+    resize: both;
+    overflow: auto;
+    border: 2px solid darkblue; /* Ginawang green ang border */
+    top: 695px; /* Pwede mong itaas o ibaba ito */
+    left: 650px; /* Upang siguradong nasa loob ito ng viewport */
+}
+      .resizable-box2 {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    position: absolute; /* O gamitin ang fixed kung gusto mo ito laging nasa view */
+    resize: both;
+    overflow: auto;
+    border: 2px solid darkblue; /* Ginawang green ang border */
+    top: 717px; /* Pwede mong itaas o ibaba ito */
+    left: 100px; /* Upang siguradong nasa loob ito ng viewport */
+}
+    .label12a{
+    position: absolute;
+    top: 760px;
+    left: 30px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 11.5px;
+}
+       .output12a{
+    position: absolute;
+    top: 780px;
+    left: 30px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 12px;
+}
+         .output12b{
+    position: absolute;
+    top: 800px;
+    left: 30px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 12px;
+}
+       .output12c{
+    position: absolute;
+    top: 820px;
+    left: 30px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 12px;
+}
+     .output12d{
+    position: absolute;
+    top: 745px;
+    left: 500px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 12px;
+}
  </style>
 </head>
 <body> 
@@ -475,7 +954,87 @@ $html = "
                 <div class='section4c'> </div>
              <div class='label5a'>8.RELIGION/RELIGOUS SECT</div>
             <div class='output5b'>9.CITIZENSHIP</div> 
-
+               <div class='output5c'>10.RESIDENCE</div> 
+                   <div class='output5d'>(House no.,St Barangay., City/Municipality.,Province.,Country)</div> 
+                              <div class='output5i'>_________________________________________________________________________________</div>
+                                <div class='vertical-line12'></div>
+                                   <div class='vertical-line13'></div>
+             <div class='section4d'> </div>
+             <div class='label6a'>11.OCCUPATION</div>
+               <div class='output6a'>12.NAME OF FATHER (First,Middle,Last)</div>
+                  <div class='output6b'>13.MAIDEN NAME OF MOTHER(First,Middle,Last)</div>
+                   <div class='output6c'>_________________________________________________________________________________</div>
+                    <div class='vertical-line14'></div>
+                       <div class='vertical-line15'></div>
+                       </div>
+                             <div class='section4e'> </div>
+             <div class='label7a'>MEDICAL CERTIFICATE</div>   
+              <div class='output7a'>(For ages 0 to 7 days, accomplish items 14-19a at the back)</div> 
+             <div class='output7b'>_________________________________________________________________________________</div>   
+            <div class='output7c'>19b.CAUSES OF DEATH(if the deceased is aged 8 days and over)</div> 
+             <div class='output7d'>I. Immediate cause</div> 
+                <div class='output7e'>:a._________________________________________________</div> 
+                 <div class='output7f'> Antecedent cause</div> 
+                    <div class='output7g'>:b._________________________________________________</div> 
+                    <div class='output7h'> Underlying cause</div> 
+                    <div class='output7i'>:c._________________________________________________</div> 
+                         <div class='output7j'> Interval Betwwen Onset and Death</div> 
+                          <div class='output7k'>__________________________</div> 
+                          <div class='output7l'>__________________________</div> 
+                          <div class='output7m'>__________________________</div> 
+                           <div class='output7n'>II. Other significant conditions contributing to death:__________________________________________________ </div> 
+                          <div class='output7o'>_________________________________________________________________________________</div>   
+                   
+                          </div>
+                           <div class='section4d'> </div>
+                                 <div class='label8a'> 19c. MATERNAL CONDTION (if the deceased is female aged 15-49 years old)</div>
+                                  <div class='output8a'> ______a.pregnant, not labour </div>
+                                    <div class='output8b'> ______b.pregnant, in labour</div>
+                                    <div class='output8c'> ______c.less than 42 days after delivery</div>
+                                    <div class='output8d'> ______d.42 days to 1 year after delivery</div>
+                                    <div class='output8e'> ______e. None of the choices</div>
+                                     <div class='output8f'>_________________________________________________________________________________</div>   
+                                     </div>
+                                      <div class='section4e'> </div>
+                                       <div class='label9a'>19d.DEATH BY EXTERNAL CAUSES </div>
+                                       <div class='output9a'>a.Manner of death(Homicide,Suicide,Accident,Legal intervention,etc.)______________________________________ </div>
+                                         <div class='output9b'>b.Place of Occurrence of external Cause(e.g home,farm,factory,street,sea,etc.)______________________________ </div>
+                                        <div class='output9c'>20.AUTOPSY(Yes/no)</div>
+                                         <div class='output9d'>_________________________________________________________________________________</div>   
+                                           <div class='vertical-line16'></div>
+</div>                 
+                              <div class='section4f'> </div>
+                                <div class='label10a'> 21.a ATTENDANT</div>
+                                 <div class='output10b'> _____1.Private Physician</div>
+                                  <div class='output10c'> _____2.Public Health Officer</div>
+                                    <div class='output10d'> _____3.Hospital Authority</div>
+                                    <div class='output10e'> _____4.None</div>
+                                    <div class='output10f'> _____5.Others (Specify)_____</div>
+                                      <div class='output10g'> 21b.If attended, state duration(mm/dd/yy)</div>
+                                      <div class='output10h'>_________________________________________________________________________________</div>   
+                                         <div class='output10i'> From___________</div>
+                                             <div class='output10j'> To______________</div>
+                                      <div class='vertical-line17'></div>
+                                  
+</div>
+                                    <div class='section4g'> </div>
+                                      <div class='label11a'> 22.CERTIFICATION OF DEATH</div>
+                                       <div class='output11a'> I hereby certify that the foregoing particulars are correct as near as same can be ascertained and I further certify that I</div>
+                                        <div class='output11b'> have attended/</div>
+                                        <div class='output11c'>have not attended the deceased and that death occured at_________am/pm on the date of death specified above.</div>
+                                       <div class='resizable-box1 '> </div>
+                                         <div class='resizable-box2'> </div>
+                                       </div>
+                                       
+                                    <div class='section4h'> </div>
+                                    <div class='label12a'> Signature____________________________________________________ </div>
+                                      <div class='output12a'> Name in Print______________________________________________ </div>
+                                        <div class='output12b'> Title or Position____________________________________________ </div>
+                                    <div class='output12c'> Address__________________________________________________ </div>
+                                    <div class='output12d'>REVIEWED BY</div>
+                                        </div>
+                                      </div>
+</div>
 </div>
 </body>
 </html>";
