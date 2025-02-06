@@ -1039,6 +1039,9 @@ $html = "
 </body>
 </html>";
 
+
+
+
 // Load HTML into Dompdf
 $dompdf->loadHtml($html);
 
