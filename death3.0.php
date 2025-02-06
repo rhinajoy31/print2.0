@@ -893,6 +893,67 @@ $html = "
     color: darkblue;
     font-size: 12px;
 }
+       .output12e{
+    position: absolute;
+    top: 770px;
+    left: 450px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+}
+     .output12f{
+    position: absolute;
+    top: 790px;
+    left: 460px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+     font-size: 11px;
+}
+      .output12g{
+    position: absolute;
+    top: 815px;
+    left: 455px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+     font-size: 11px;
+}
+         .output12h{
+    position: absolute;
+    top: 827px;
+    left: 555px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+     font-size: 11px;
+} 
+     .output12i{
+    position: absolute;
+    top: 820px;
+    left: 1px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+}
+     .label13a{
+    position: absolute;
+    top: 840px;
+    left: 1px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 11px;
+}
+    .output13a{
+    position: absolute;
+    top: 840px;
+    left: 320px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 11px;
+}
+    .output13b{
+    position: absolute;
+    top: 860px;
+    left: 320px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 11px;
+}
+       .output13c{
+    position: absolute;
+    top: 850px;
+    left: 320px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 11px;
+}
  </style>
 </head>
 <body> 
@@ -1032,7 +1093,17 @@ $html = "
                                         <div class='output12b'> Title or Position____________________________________________ </div>
                                     <div class='output12c'> Address__________________________________________________ </div>
                                     <div class='output12d'>REVIEWED BY</div>
+                                    <div class='output12e'>___________________________ </div>
+                                    <div class='output12f'>Signature Over Printed Name of Health Officer </div>
+                                     <div class='output12g'>_______________________________________ </div>
+                                      <div class='output12h'>Date </div>
+                                       <div class='output12i'>_________________________________________________________________________________</div>   
                                         </div>
+                                            <div class='section4i'> </div>
+                                                <div class='label13a'> 23.CORPSE DISPOSAL (Burial,Cremation, if others,specify)</div>
+                                                 <div class='output13a'> 24a.BURIAL/CREMATION PERMIT</div>
+                                                   <div class='output13b'> Number______________________________</div>
+                                                    <div class='output13c'> Date Issued______________________________</div>
                                       </div>
 </div>
 </div>
