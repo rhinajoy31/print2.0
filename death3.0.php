@@ -253,9 +253,37 @@ $html = "
       .output3j{
     position: absolute;
     top: 233px;
-    left: 470px; /* Ilipat sa mas kaliwa */
+    left: 555px; /* Ilipat sa mas kaliwa */
     color: darkblue;
      font-size: 8px;
+}
+ .output3k{
+    position: absolute;
+    top: 233px;
+    left: 605px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+     font-size: 8px;
+}
+.output3l{
+    position: absolute;
+    top: 233px;
+    left: 645px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+     font-size: 8px;
+}
+.output3m{
+    position: absolute;
+    top: 233px;
+    left: 680px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+     font-size: 8px;
+}
+ .output3n{
+    position: absolute;
+    top: 238px;
+    left: 1px; /* Ilipat sa mas kaliwa */
+    text-align: left;
+    color: darkblue;
 }
 .vertical-line5 {
             width: 2px; /* Thickness of the line */
@@ -289,6 +317,103 @@ $html = "
             left:87.5%; /* Adjust horizontal positioning */
             top: 223px; /* Adjust vertical positioning */
         }
+            .vertical-line9 {
+            width: 2px; /* Thickness of the line */
+            height: 25px; /* Length of the line */
+            background-color: darkblue; /* Line color */
+            position: absolute; /* Keeps it inside the container */
+            left:83%; /* Adjust horizontal positioning */
+            top: 232px; /* Adjust vertical positioning */
+        }
+         .vertical-line10 {
+            width: 2px; /* Thickness of the line */
+            height: 25px; /* Length of the line */
+            background-color: darkblue; /* Line color */
+            position: absolute; /* Keeps it inside the container */
+            left:93%; /* Adjust horizontal positioning */
+            top: 232px; /* Adjust vertical positioning */
+        }
+        .label4a{
+    position: absolute;
+    top: 255px;
+    left: 12px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+      font-size: 12px;
+}
+.output4a{
+    position: absolute;
+    top: 255px;
+    left: 135px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+      font-size: 8px;
+}
+.output4b{
+    position: absolute;
+    top: 255px;
+    left: 352px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+      font-size: 9px;
+}
+.output4c{
+    position: absolute;
+    top: 255px;
+    left: 420px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+      font-size: 9px;
+}
+.output4d{
+    position: absolute;
+    top: 275px;
+    left: 3px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+}
+.output4e {
+    position: absolute;
+    top: 255px;
+    left: 505px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 9px;
+    max-width: 100px; /* Depende sa haba ng text */
+    word-wrap: break-word;
+}
+.output4f {
+    position: absolute;
+    top: 255px;
+    left: 565px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 8px;
+     max-width: 150px; /* Depende sa haba ng text */
+    word-wrap: break-word;
+}
+   .vertical-line11 {
+            width: 2px; /* Thickness of the line */
+            height: 37px; /* Length of the line */
+            background-color: darkblue; /* Line color */
+            position: absolute; /* Keeps it inside the container */
+            left:69%; /* Adjust horizontal positioning */
+            top: 258px; /* Adjust vertical positioning */
+        }
+    .label5a{
+    position: absolute;
+    top: 292px;
+    left: 12px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 12px;
+}
+   .output5a{
+    position: absolute;
+    top: 292px;
+    left: 205px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 12px;
+}
+ .output5b{
+    position: absolute;
+    top: 292px;
+    left: 205px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 12px;
+}
  </style>
 </head>
 <body> 
@@ -326,13 +451,30 @@ $html = "
                                  <div class='output3g'>c. IF UNDER 24 HRS</div>
                                     <div class='output3h'>______________________________</div>
                                        <div class='output3i'>[2]Completed years</div>
-                                         <div class='output3j'>[2]Month</div>
+                                         <div class='output3j'>[1]Month</div>
+                                          <div class='output3k'>[0] Days</div>
+                                              <div class='output3l'>Hours</div>
+                                               <div class='output3m'>Min/Sec</div>
+                                                <div class='output3n'>_________________________________________________________________________________</div>
                         <div class='vertical-line5'></div>
                              <div class='vertical-line6'></div>
                                    <div class='vertical-line7'></div>   
                                     <div class='vertical-line8'></div>
-
-
+                                          <div class='vertical-line9'></div>
+                                                <div class='vertical-line10'></div>
+          <div class='section3d'> </div>
+             <div class='label4a'>6. PLACE OF DEATH</div>
+                 <div class='output4a'>(Name of Hospital/Clinic/Institution/House No., St., Barangay,</div>
+                  <div class='output4b'>City/Municipality,</div>
+                        <div class='output4c'>Province</div>
+                           <div class='output4d'>_________________________________________________________________________________</div>
+                         <div class='output4e'>7.CIVIL STATUS</div>
+                          <div class='output4f'>(Single/Married/Widow/Widower/Annulled/Divorced)</div>
+                        <div class='vertical-line11'></div>
+            </div>
+                <div class='section4c'> </div>
+             <div class='label5a'>8.RELIGION/RELIGOUS SECT</div>
+            <div class='output5b'>9.CITIZENSHIP</div> 
 
 </div>
 </body>
