@@ -1197,11 +1197,155 @@ $html = "
             text-align: center;
             font-weight: bold;
             font-size: 12px;
-            margin-bottom: 10px;
             text-transform: uppercase;
-            margin-top: 40px; /* Mas mataas ang value, mas bababa */
+            margin-top: 1px; /* Mas mataas ang value, mas bababa */
 }
-
+ .labelba {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    color: darkblue;
+}
+     .labelb5a {
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    color: darkblue;
+    font-size: 12px;
+}
+     .labelb5b {
+    position: absolute;
+    top: 20px;
+    left: 150px;
+    color: darkblue;
+    font-size: 12px;
+     display: block; /* Siguraduhin na block element ito */
+    max-width: 300px; /* I-adjust para bumaba sa susunod na linya */
+}
+     .labelb5c {
+    position: absolute;
+    top: 20px;
+    left: 490px;
+    color: darkblue;
+    font-size: 12px;
+     display: block; /* Siguraduhin na block element ito */
+    max-width: 200px; /* I-adjust para bumaba sa susunod na linya */
+}
+     .labelb5d {
+    position: absolute;
+    top: 60px;
+    left: 1px;
+    color: darkblue;
+}
+       .vertical-line20{
+            width: 2px; /* Thickness of the line */
+            height: 60px; /* Length of the line */
+            background-color: darkblue; /* Line color */
+            position: absolute; /* Keeps it inside the container */
+            left: 20%; /* Adjust horizontal positioning */
+            top: 20px; /* Adjust vertical positioning */
+}
+            .vertical-line21{
+            width: 2px; /* Thickness of the line */
+            height: 60px; /* Length of the line */
+            background-color: darkblue; /* Line color */
+            position: absolute; /* Keeps it inside the container */
+            left: 67%; /* Adjust horizontal positioning */
+            top: 20px; /* Adjust vertical positioning */
+}
+             .labelb6a {
+    position: absolute;
+    top: 78px;
+    left: 4px;
+    color: darkblue;
+    font-size: 12px;
+}
+    
+             .labelb6b {
+    position: absolute;
+    top: 78px;
+    left: 337px;
+    color: darkblue;
+    font-size: 12px;
+}
+       .labelb6c {
+    position: absolute;
+    top: 105px;
+    left: 1px;
+    color: darkblue;
+}
+         .vertical-line22{
+            width: 2px; /* Thickness of the line */
+            height: 45px; /* Length of the line */
+            background-color: darkblue; /* Line color */
+            position: absolute; /* Keeps it inside the container */
+            left: 45%; /* Adjust horizontal positioning */
+            top: 78px; /* Adjust vertical positioning */
+}
+    .labelb7a {
+    position: absolute;
+    top: 127px;
+    left: 280px;
+    color: darkblue;
+    font-size: 12px;
+    font-weight: bold;
+}
+             .labelb7b {
+    position: absolute;
+    top: 130px;
+    left: 1px;
+    color: darkblue;
+}    
+    .labelb8a {
+    position: absolute;
+    top: 150px;
+    left: 12px;
+    color: darkblue;
+    font-size: 12px;
+}
+    .labelb8b {
+    position: absolute;
+    top: 180px;
+    left: 25px;
+    color: darkblue;
+    font-size: 12px;
+}
+     .labelb8c {
+    position: absolute;
+    top: 205px;
+    left: 25px;
+    color: darkblue;
+    font-size: 12px;
+}
+    .labelb8d {
+    position: absolute;
+    top: 230px;
+    left: 25px;
+    color: darkblue;
+    font-size: 12px;
+}
+      .labelb8e {
+    position: absolute;
+    top: 255px;
+    left: 25px;
+    color: darkblue;
+    font-size: 12px;
+}
+       .labelb8f {
+    position: absolute;
+    top: 280px;
+    left: 25px;
+    color: darkblue;
+    font-size: 12px;
+}
+     .labelb8g {
+    position: absolute;
+    top: 300px;
+    left: 250px;
+    color: darkblue;
+    font-size: 12px;
+    font-weight: bold;
+}
  </style>
 </head>
 <body> 
@@ -1402,11 +1546,49 @@ $html = "
 <div class='page'>
     <div class='content'>
        <div class='container'> 
-         <div class='header2d'>AFFIDAVIT OF ACKNOWLEDGEMENT/ADMISSION OF PATERNITY</div>
-     
+         <div class='header2d'>FOR CHILD AGED O TO 7 DAYS</div>
+           <div class='labelba'>_________________________________________________________________________________</div>
 
+</div>
 
+                            <div class='section5a'> </div>
+                               <div class='labelb5a'>14.AGED OF MOTHER</div>
+                                <div class='labelb5b'>15.METHOD OF DELIVERY (Normal spontaneous vertex,if others,specfy)</div>
+                                  <div class='labelb5c'>16.LENGTH OF PREGNANCY: (in completed weeks)</div>
+                                  <div class='labelb5d'>_________________________________________________________________________________</div>
+                                           <div class='vertical-line20'></div>
+                                             <div class='vertical-line21'></div>
+</div>
+                                 <div class='section5b'> </div>
+                                 <div class='labelb6a'>17.TYPE OF BIRTH(Single,Twin,Triplet,etc.)</div>
+                                  <div class='labelb6b'>18. IF MULTIPLE BIRTH, CHILD WAS(First,Second,Third,etc)</div>
+                                      <div class='labelb6c'>_________________________________________________________________________________</div>
+                                    <div class='vertical-line22'></div>
+</div>
+                                <div class='section5c'> </div>
+                                    <div class='labelb7a'> MEDICAL CERTIFICATE</div>
+                                     <div class='labelb7b'>_________________________________________________________________________________</div>
+</div>
+                     <div class='section5d'> </div>
+                         <div class='labelb8a'> 19a.CAUSES OF DEATH</div>
+                         <div class='labelb8b'> a.Main disease/condition of infant__________________________________________________________________________</div>
+                         <div class='labelb8c'> b.Other diseases/conditions of infant________________________________________________________________________</div>
+                        <div class='labelb8d'> c.Main maternal disease/conditions affecting infant_____________________________________________________________</div>
+                         <div class='labelb8e'>d.Other maternal disease/conditions affecting infant____________________________________________________________</div>
+                        <div class='labelb8f'>e.Other relevant circumstances____________________________________________________________________________</div>
+                         <div class='labelb8g'>CONTINUE TO FILL UP ITEM 2O</div>
+                        
 
+                         </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 </div>
 </div>
 </body>
