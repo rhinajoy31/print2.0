@@ -42,7 +42,7 @@ $html = "
             color: darkblue;
             text-align: center;
             font-weight: bold;
-            font-size: 18px;
+            font-size: 12px;
             margin-bottom: 10px;
             text-transform: uppercase;
             margin-top: 40px; /* Mas mataas ang value, mas bababa */
@@ -51,18 +51,18 @@ $html = "
         }
         .sub-header {
             text-align: center;
-            font-size: 14px;
+            font-size: 12px;
             margin-bottom: 10px;
             color: darkblue;
               margin-top: -10px;
         }
             .header2 {
             text-align: center;
-            font-size: 18px;
+            font-size: 27px;
             margin-bottom: 10px;
             color: darkblue ;
             font-weight: bold;
-             margin-top: -px;
+             margin-top: -12px;
 
         }
    
@@ -926,41 +926,282 @@ $html = "
     left: 1px; /* Ilipat sa mas kaliwa */
     color: darkblue;
 }
-     .label13a{
+    .label13a {
     position: absolute;
     top: 840px;
-    left: 1px; /* Ilipat sa mas kaliwa */
+    left: 1px;
     color: darkblue;
     font-size: 11px;
+    display: block; /* Siguraduhin na block element ito */
+    max-width: 140px; /* I-adjust para bumaba sa susunod na linya */
 }
+
     .output13a{
     position: absolute;
     top: 840px;
-    left: 320px; /* Ilipat sa mas kaliwa */
+    left: 170px; /* Ilipat sa mas kaliwa */
     color: darkblue;
     font-size: 11px;
 }
     .output13b{
     position: absolute;
     top: 860px;
-    left: 320px; /* Ilipat sa mas kaliwa */
+    left: 170px; /* Ilipat sa mas kaliwa */
     color: darkblue;
     font-size: 11px;
 }
        .output13c{
     position: absolute;
     top: 880px;
-    left: 320px; /* Ilipat sa mas kaliwa */
+    left: 170px; /* Ilipat sa mas kaliwa */
     color: darkblue;
     font-size: 11px;
 }
      .output13d{
     position: absolute;
     top: 840px;
-    left: 570px; /* Ilipat sa mas kaliwa */
+    left: 450px; /* Ilipat sa mas kaliwa */
     color: darkblue;
     font-size: 11px;
 }
+     .output13e{
+    position: absolute;
+    top: 860px;
+    left: 450px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 11px;
+}
+       .output13f{
+    position: absolute;
+    top: 880px;
+    left: 450px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+    font-size: 11px;
+}
+       .output13g{
+    position: absolute;
+    top: 885px;
+    left: 1px; /* Ilipat sa mas kaliwa */
+    color: darkblue;
+}
+ 
+    .vertical-line18{
+            width: 2px; /* Thickness of the line */
+            height: 65px; /* Length of the line */
+            background-color: darkblue; /* Line color */
+            position: absolute; /* Keeps it inside the container */
+            left: 20%; /* Adjust horizontal positioning */
+            top: 839px; /* Adjust vertical positioning */
+}
+            .label14a {
+    position: absolute;
+    top: 905px;
+    left: 5px;
+    color: darkblue;
+    font-size: 11px;
+}
+       .output14a {
+    position: absolute;
+    top: 920px;
+    left: 1px;
+    color: darkblue;
+}
+     .label15a {
+    position: absolute;
+    top: 940px;
+    left: 5px;
+    color: darkblue;
+    font-size: 11px;
+}
+     .output15a {
+    position: absolute;
+    top: 950px;
+    left: 15px;
+    color: darkblue;
+    font-size: 11px;
+    display: block; /* Siguraduhin na block element ito */
+    max-width: 300px; /* I-adjust para bumaba sa susunod na linya */
+}
+     .output15b {
+    position: absolute;
+    top: 985px;
+    left: 15px;
+    color: darkblue;
+    font-size: 11px;
+}
+ .output15c {
+    position: absolute;
+    top: 1005px;
+    left: 15px;
+    color: darkblue;
+    font-size: 11px;
+}
+     .output15d {
+    position: absolute;
+    top: 1025px;
+    left: 15px;
+    color: darkblue;
+    font-size: 11px;
+}
+      .output15e {
+    position: absolute;
+    top: 1043px;
+    left: 15px;
+    color: darkblue;
+    font-size: 11px;
+}
+      .output15f {
+    position: absolute;
+    top: 1060px;
+    left: 15px;
+    color: darkblue;
+    font-size: 11px;
+}
+     .output15g {
+    position: absolute;
+    top: 940px;
+    left: 380px;
+    color: darkblue;
+    font-size: 11px;
+}
+    .output15h {
+    position: absolute;
+    top: 975px;
+    left: 375px;
+    color: darkblue;
+    font-size: 11px;
+}
+     .output15i {
+    position: absolute;
+    top: 1005px;
+    left: 375px;
+    color: darkblue;
+    font-size: 11px;
+}
+      .output15j {
+    position: absolute;
+    top: 1035px;
+    left: 375px;
+    color: darkblue;
+    font-size: 11px;
+}
+ .output15k {
+    position: absolute;
+    top: 1060px;
+    left: 375px;
+    color: darkblue;
+    font-size: 11px;
+}
+    .output15l {
+    position: absolute;
+    top: 1060px;
+    left: 1px;
+    color: darkblue;
+}
+ 
+    .vertical-line19{
+            width: 2px; /* Thickness of the line */
+            height: 240px; /* Length of the line */
+            background-color: darkblue; /* Line color */
+            position: absolute; /* Keeps it inside the container */
+            left: 50%; /* Adjust horizontal positioning */
+            top: 940px; /* Adjust vertical positioning */
+}
+    .label16a{
+    position: absolute;
+    top: 1080px;
+    left: 5px;
+    color: darkblue;
+    font-size: 11px;
+}
+ .output16a{
+    position: absolute;
+    top: 1100px;
+    left: 5px;
+    color: darkblue;
+    font-size: 11px;
+}
+  .output16b{
+    position: absolute;
+    top: 1120px;
+    left: 5px;
+    color: darkblue;
+    font-size: 11px;
+}
+      .output16c{
+    position: absolute;
+    top: 1140px;
+    left: 5px;
+    color: darkblue;
+    font-size: 11px;
+}
+       .output16d{
+    position: absolute;
+    top: 1160px;
+    left: 5px;
+    color: darkblue;
+    font-size: 11px;
+}
+ .output16e {
+    position: absolute;
+    top: 1080px;
+    left: 375px;
+    color: darkblue;
+    font-size: 11px;
+}
+  .output16f {
+    position: absolute;
+    top: 1105px;
+    left: 375px;
+    color: darkblue;
+    font-size: 11px;
+} 
+    .output16g {
+    position: absolute;
+    top: 1125px;
+    left: 375px;
+    color: darkblue;
+    font-size: 11px;
+}
+  .output16h {
+    position: absolute;
+    top: 1145px;
+    left: 375px;
+    color: darkblue;
+    font-size: 11px;
+}
+  .output16i {
+    position: absolute;
+    top: 1165px;
+    left: 375px;
+    color: darkblue;
+    font-size: 11px;
+}
+  .output16j {
+    position: absolute;
+    top: 1165px;
+    left: 1px;
+    color: darkblue;
+}
+  .label17a {
+    position: absolute;
+    top: 1185px;
+    left: 5px;
+    color: darkblue;
+    font-size: 11px;
+    font-weight: bold;
+}
+     /* BIRTH BACK PAGE */
+ .header2d {
+            color: darkblue;
+            text-align: center;
+            font-weight: bold;
+            font-size: 12px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            margin-top: 40px; /* Mas mataas ang value, mas bababa */
+}
+
  </style>
 </head>
 <body> 
@@ -1109,10 +1350,63 @@ $html = "
                                             <div class='section4i'> </div>
                                                 <div class='label13a'> 23.CORPSE DISPOSAL (Burial,Cremation, if others,specify)</div>
                                                  <div class='output13a'> 24a.BURIAL/CREMATION PERMIT</div>
-                                                   <div class='output13b'> Number______________________________</div>
-                                                    <div class='output13c'> Date Issued___________________________</div>
+                                                   <div class='output13b'> Number____________________________________</div>
+                                                    <div class='output13c'> Date Issued_________________________________</div>
                                                     <div class='output13d'> 24.TRANSFER PERMIT</div>
-                                      </div>
+                                                    <div class='output13e'> Number____________________________________</div>
+                                                    <div class='output13f'> Date Issued_________________________________</div>
+                                                     <div class='output13g'>_________________________________________________________________________________</div>   
+                                                    <div class='vertical-line18'></div>
+
+                                  
+                                          </div>
+                                               <div class='section4g'> </div>
+                                                    <div class='label14a'>25.NAME AND ADDRESS OF CEMETERY OR CREMATORY</div>
+                                                    <div class='output14a'>_________________________________________________________________________________</div>   
+                                      
+</div>
+                                 <div class='section4h'> </div>
+                                  <div class='label15a'>26.CERTIFICATION OF INFORMANT </div>
+                                    <div class='output15a'>I hereby certify that all information supplied are true and correct to my own knowledge and belief </div>
+                                    <div class='output15b'>Signature___________________________________________</div>
+                                    <div class='output15c'>Name in Print________________________________________</div>
+                                      <div class='output15d'>Relationship to the Deceased___________________________</div>
+                                       <div class='output15e'>Address____________________________________________</div>
+                                        <div class='output15f'>Date_______________________________________________</div>
+                                          <div class='output15g'>27.PREPARED BY</div>
+                                           <div class='output15h'>Signature___________________________________________</div>
+                                           <div class='output15i'>Name in Print________________________________________</div>
+                                             <div class='output15j'>Title or Position______________________________________</div>
+                                             <div class='output15k'>Date_______________________________________________</div>
+                                              <div class='output15l'>_________________________________________________________________________________</div>   
+                                                 <div class='vertical-line19'></div>
+                                                  
+</div>
+                                <div class='section4i'> </div>
+                                   <div class='label16a'> 28.RECEIVED BY</div>
+                                   <div class='output16a'>Signature_____________________________________________</div>
+                                    <div class='output16b'>Name in Print__________________________________________</div>
+                                    <div class='output16c'>Title or Position________________________________________</div>
+                                      <div class='output16d'>Date_________________________________________________</div>
+                                        <div class='output16e'>19.REGISTERED AT THE OFFICE OF THE CIVIL REGISTRAR</div>
+                                        <div class='output16f'>Signature_____________________________________________</div>
+                                         <div class='output16g'>Name in Print__________________________________________</div>
+                                         <div class='output16h'>Title or Position________________________________________</div>
+                                         <div class='output16i'>Date_________________________________________________</div>
+                                          <div class='output16j'>_________________________________________________________________________________</div>  
+</div>
+                            <div class='section4j'> </div>
+                              <div class='label17a'> REMARKS/ANNOTATIONS (For LCRO/OCRG Use Only)</div>
+</div>
+<div class='page-break'></div>
+<div class='page'>
+    <div class='content'>
+       <div class='container'> 
+         <div class='header2d'>AFFIDAVIT OF ACKNOWLEDGEMENT/ADMISSION OF PATERNITY</div>
+     
+
+
+
 </div>
 </div>
 </body>
