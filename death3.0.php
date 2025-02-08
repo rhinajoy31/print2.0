@@ -1346,6 +1346,190 @@ $html = "
     font-size: 12px;
     font-weight: bold;
 }
+      .labelb8g {
+    position: absolute;
+    top: 300px;
+    left: 250px;
+    color: darkblue;
+    font-size: 12px;
+    font-weight: bold;
+}
+      .labelb8h {
+    position: absolute;
+    top: 300px;
+    left: 1px;
+    color: darkblue;
+}
+      .labelb9a {
+    position: absolute;
+    top: 320px;
+    left: 230px;
+    color: darkblue;
+      font-size: 12px;
+       font-weight: bold;
+}
+       
+      .outputb9a {
+    position: absolute;
+    top: 340px;
+    left: 25px;
+    color: darkblue;
+      font-size: 10px;
+}
+       .outputb9b {
+    position: absolute;
+    top: 350px;
+    left: 29px;
+    color: darkblue;
+}
+      .outputb9c {
+    position: absolute;
+    top: 370px;
+    left: 29px;
+    color: darkblue;
+}
+      .outputb9d {
+    position: absolute;
+    top: 400px;
+    left: 15px;
+    color: darkblue;
+    font-size: 12px;
+}
+         .outputb9e {
+    position: absolute;
+    top: 420px;
+    left: 15px;
+    color: darkblue;
+    font-size: 12px;
+}
+       .outputb9f {
+    position: absolute;
+    top: 440px;
+    left: 15px;
+    color: darkblue;
+    font-size: 12px;
+}
+      .outputb9g {
+    position: absolute;
+    top: 400px;
+    left: 380px;
+    color: darkblue;
+    font-size: 12px;
+}
+.outputb9h {
+    position: absolute;
+    top: 420px;
+    left: 380px;
+    color: darkblue;
+    font-size: 12px;
+}
+.outputb9i {
+    position: absolute;
+    top: 435px;
+    left: 380px;
+    color: darkblue;
+}
+.outputb9j {
+    position: absolute;
+    top: 440px;
+    left: 1px;
+    color: darkblue;
+}
+    .labelb10a {
+    position: absolute;
+    top: 460px;
+    left: 250px;
+    color: darkblue;  
+    font-size: 12px;
+    font-weight: bold;
+}
+   .outputb10a {
+    position: absolute;
+    top: 485px;
+    left: 20px;
+    color: darkblue;  
+    font-size: 12px;
+
+}
+    .outputb10b {
+    position: absolute;
+    top: 500px;
+    left: 10px;
+    color: darkblue;  
+    font-size: 12px;
+
+}
+    .outputb10c {
+    position: absolute;
+    top: 520px;
+    left: 25px;
+    color: darkblue;  
+    font-size: 12px;
+
+}
+     .outputb10d {
+    position: absolute;
+    top: 540px;
+    left: 25px;
+    color: darkblue;  
+    font-size: 12px;
+
+}
+      .outputb10e {
+    position: absolute;
+    top: 560px;
+    left: 25px;
+    color: darkblue;  
+    font-size: 12px;
+
+}
+       .outputb10f {
+    position: absolute;
+    top: 575px;
+    left: 25px;
+    color: darkblue;  
+
+}
+     .outputb10g {
+    position: absolute;
+    top: 520px;
+    left: 380px;
+    color: darkblue;  
+    font-size: 12px;
+
+}
+     .outputb10h {
+    position: absolute;
+    top: 545px;
+    left: 380px;
+    color: darkblue;  
+    font-size: 12px;
+
+}
+    
+     .outputb10i {
+    position: absolute;
+    top: 565px;
+    left: 380px;
+    color: darkblue;  
+    font-size: 12px;
+
+}
+     .outputb10j {
+    position: absolute;
+    top: 585px;
+    left: 380px;
+    color: darkblue;  
+    font-size: 12px;
+
+}
+        .outputb10k {
+    position: absolute;
+    top: 590px;
+    left: 1px;
+    color: darkblue;  
+
+}
  </style>
 </head>
 <body> 
@@ -1577,10 +1761,40 @@ $html = "
                          <div class='labelb8e'>d.Other maternal disease/conditions affecting infant____________________________________________________________</div>
                         <div class='labelb8f'>e.Other relevant circumstances____________________________________________________________________________</div>
                          <div class='labelb8g'>CONTINUE TO FILL UP ITEM 2O</div>
+                            <div class='labelb8h'>_________________________________________________________________________________</div>
                         
 
                          </div>
-</div>
+                             <div class='section5e'> </div>
+                                 <div class='labelb9a'> POSTMORTEM CERTIFICATE OF DEATH</div>
+                                    <div class='outputb9a'> I HEREBY CERTIFY THAT I HAVE PERFORMED AN AUTOPSY UPON THE BODY OF THE DECEASED AND THAT THE CAUSE OF DEATH WAS</div>
+                                    <div class='outputb9b'>___________________________________________________________________________</div>
+                                       <div class='outputb9c'>___________________________________________________________________________</div>
+                                          <div class='outputb9d'>Signature_____________________________________________</div>
+                                                <div class='outputb9e'>Name in Print_________________________________________</div>
+                                                     <div class='outputb9f'>Date________________________________________________</div>
+                                                      <div class='outputb9g'>Title/Designation____________________________________</div>
+                                                         <div class='outputb9h'>Address___________________________________________</div>
+                                                               <div class='outputb9i'>_____________________________________</div>
+                                                                  <div class='outputb9j'>_________________________________________________________________________________</div>
+                        
+                        
+
+                                    </div>
+                                      <div class='section5f'> </div>
+                                        <div class='labelb10a'> CERTIFICATION OF EMBALMER</div>
+                                          <div class='outputb10a'> I HEREBY CERTIFY that i have embalmed____________________________________________________________following</div>
+                                          <div class='outputb10b'> all the regulations prescribed by the Department of Health.</div>
+                                          <div class='outputb10c'>Signature___________________________________________</div>
+                                             <div class='outputb10d'>Name in Print________________________________________</div>
+                                                <div class='outputb10e'>Address____________________________________________</div>
+                                                 <div class='outputb10f'>______________________________________</div>
+                                                   <div class='outputb10g'>Title/Designation____________________________________</div>
+                                                      <div class='outputb10h'>License No.________________________________________</div>
+                                                         <div class='outputb10i'>Issued on___________________at_____________________</div>
+                                                             <div class='outputb10j'>Expiry Date________________________________________</div>
+                                                               <div class='outputb10k'>_________________________________________________________________________________</div>
+                        
 </div>
 </div>
 </div>
