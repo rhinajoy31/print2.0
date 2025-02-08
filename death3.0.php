@@ -1530,6 +1530,150 @@ $html = "
     color: darkblue;  
 
 }
+       .labelb11a {
+    position: absolute;
+    top: 610px;
+    left: 200px;
+    color: darkblue;  
+    font-size: 12px;
+    font-weight: bold;
+
+}
+      .outputb11a {
+    position: absolute;
+    top: 635px;
+    left: 20px;
+    color: darkblue;  
+    font-size: 12px;
+
+}
+      .outputb11b {
+    position: absolute;
+    top: 655px;
+    left: 10px;
+    color: darkblue;  
+    font-size: 12px;
+
+}
+    .outputb11c {
+    position: absolute;
+    top: 675px;
+    left: 10px;
+    color: darkblue;  
+    font-size: 12px;
+
+}
+    .labelb12a{
+    position: absolute;
+    top: 705px;
+    left: 30px;
+    color: darkblue;  
+    font-size: 12px;
+
+}
+       .outputb12a{
+    position: absolute;
+    top: 725px;
+    left: 30px;
+    color: darkblue;  
+    font-size: 12px;
+
+}
+       .outputb12b{
+    position: absolute;
+    top: 745px;
+    left: 30px;
+    color: darkblue;  
+    font-size: 12px;
+
+}
+      .outputb12c{
+    position: absolute;
+    top: 765px;
+    left: 30px;
+    color: darkblue;  
+    font-size: 12px;
+
+}
+       .outputb12d{
+    position: absolute;
+    top: 795px;
+    left: 140px;
+    color: darkblue;  
+    font-size: 12px;
+
+}
+       .outputb12e{
+    position: absolute;
+    top: 825px;
+    left: 140px;
+    color: darkblue;  
+    font-size: 12px;
+
+}
+        .outputb12f{
+    position: absolute;
+    top: 845px;
+    left: 30px;
+    color: darkblue;  
+    font-size: 12px;
+
+}
+      .outputb12g{
+    position: absolute;
+    top: 870px;
+    left: 30px;
+    color: darkblue;  
+    font-size: 12px;
+
+}
+    
+      .outputb12h{
+    position: absolute;
+    top: 885px;
+    left: 30px;
+    color: darkblue;  
+
+}
+       .outputb12i{
+    position: absolute;
+    top: 910px;
+    left: 30px;
+    color: darkblue;  
+      font-size: 12px;
+
+}
+        .outputb12j{
+    position: absolute;
+    top: 930px;
+    left: 30px;
+    color: darkblue;  
+      font-size: 12px;
+
+}
+   
+      .resizable-box3 {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    position: absolute; /* O gamitin ang fixed kung gusto mo ito laging nasa view */
+    resize: both;
+    overflow: auto;
+    border: 2px solid darkblue; /* Ginawang green ang border */
+    top: 790px; /* Pwede mong itaas o ibaba ito */
+    left: 100px; /* Upang siguradong nasa loob ito ng viewport */
+}
+         .resizable-box4 {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    position: absolute; /* O gamitin ang fixed kung gusto mo ito laging nasa view */
+    resize: both;
+    overflow: auto;
+    border: 2px solid darkblue; /* Ginawang green ang border */
+    top: 820px; /* Pwede mong itaas o ibaba ito */
+    left: 100px; /* Upang siguradong nasa loob ito ng viewport */
+}
  </style>
 </head>
 <body> 
@@ -1795,6 +1939,31 @@ $html = "
                                                              <div class='outputb10j'>Expiry Date________________________________________</div>
                                                                <div class='outputb10k'>_________________________________________________________________________________</div>
                         
+</div>
+                                        <div class='section5f'> </div>
+                                        <div class='labelb11a'>AFFIDAVIT FOR DELAYED REGISTRATION OF DEATH</div>
+                                          <div class='outputb11a'>I,_____________________________________________________________,of legal age, single/married/divorced/widow/widower,</div>
+                                          <div class='outputb11b'>with residence and postal address_______________________________________________________________________________</div>
+                                            <div class='outputb11c'>_____________________________________________,after being duly sworn in accordance with law, do hereby depose and say:</div>
+</div>
+                                         <div class='section5g'> </div>
+                                             <div class='labelb12a'>1.That_________________________________________________,died on_______________________________________ in</div>
+                                                <div class='outputb12a'>________________________________________________________________________________and was buried/cremated in</div>
+                                                 <div class='outputb12b'>__________________________________________________________on__________________________________________</div>
+                                                   <div class='outputb12c'>2.That the deceased at the time of his/her death:</div>
+                                                       <div class='outputb12d'>was attended by____________________________</div>
+                                                            <div class='outputb12e'>was not attended.</div>
+                                                                <div class='outputb12f'>3.That the cause of death of the deceased was________________________________________________________________</div>
+                                                                 <div class='outputb12g'>4.That the reason for the delay in registering this death due to_____________________________________________________</div>
+                                                                   <div class='outputb12h'>_____________________________________________________________________________</div>
+                                                                         <div class='outputb12i'>5.That I am executing this affidavit to attest to the truthfulness of the foregoing statements for all legal intents and purposes.</div>
+                                                                         <div class='outputb12j'>In the truth whereof, I have affixed my signature below this_______________day of____________________,________________</div>
+                                                                           <div class='outputb12k'>at______________________________________________________________________</div>
+                                                       <div class='resizable-box3'> </div>
+                                                         <div class='resizable-box4'> </div>
+                                                 
+
+</div>
 </div>
 </div>
 </div>
