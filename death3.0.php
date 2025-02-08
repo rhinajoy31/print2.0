@@ -1651,6 +1651,29 @@ $html = "
       font-size: 12px;
 
 }
+        .outputb12k{
+    position: absolute;
+    top: 945px;
+    left: 30px;
+    color: darkblue;  
+      font-size: 12px;
+
+}
+       .outputb12l{
+    position: absolute;
+    top: 1000px;
+    left: 360px;
+    color: darkblue;
+
+}
+     .outputb12m{
+    position: absolute;
+    top: 1020px;
+    left: 430px;
+    color: darkblue;
+      font-size: 12px;
+
+}
    
       .resizable-box3 {
     width: 20px;
@@ -1673,6 +1696,101 @@ $html = "
     border: 2px solid darkblue; /* Ginawang green ang border */
     top: 820px; /* Pwede mong itaas o ibaba ito */
     left: 100px; /* Upang siguradong nasa loob ito ng viewport */
+}
+       .labelb13a{
+    position: absolute;
+    top: 1040px;
+    left: 30px;
+    color: darkblue;
+      font-size: 12px;
+
+}
+       .outputb13a{
+    position: absolute;
+    top: 1060px;
+    left: 30px;
+    color: darkblue;
+      font-size: 12px;
+
+}
+        .outputb13b{
+    position: absolute;
+    top: 1080px;
+    left: 30px;
+    color: darkblue;
+      font-size: 12px;
+
+}
+       .outputb13c{
+    position: absolute;
+    top: 1115px;
+    left: 50px;
+    color: darkblue;
+
+}
+         .outputb13d{
+    position: absolute;
+    top: 1135px;
+    left: 80px;
+    color: darkblue;
+      font-size: 12px;
+
+}
+      
+         .outputb13e{
+    position: absolute;
+    top: 1170px;
+    left: 50px;
+    color: darkblue;
+
+}
+       .outputb13f{
+    position: absolute;
+    top: 1170px;
+    left: 50px;
+    color: darkblue;
+       font-size: 12px;
+
+}
+       
+       .outputb13g{
+    position: absolute;
+    top: 1185px;
+    left: 140px;
+    color: darkblue;
+       font-size: 12px;
+
+}
+         .outputb13h{
+    position: absolute;
+    top: 1115px;
+    left: 400px;
+    color: darkblue;
+
+}
+        .outputb13i{
+    position: absolute;
+    top: 1135px;
+    left: 480px;
+    color: darkblue;
+     font-size: 12px;
+
+}
+     
+        .outputb13j{
+    position: absolute;
+    top: 1170px;
+    left: 400px;
+    color: darkblue;
+
+}
+        .outputb13k{
+    position: absolute;
+    top: 1185px;
+    left: 520px;
+    color: darkblue;
+     font-size: 12px;
+
 }
  </style>
 </head>
@@ -1958,12 +2076,28 @@ $html = "
                                                                    <div class='outputb12h'>_____________________________________________________________________________</div>
                                                                          <div class='outputb12i'>5.That I am executing this affidavit to attest to the truthfulness of the foregoing statements for all legal intents and purposes.</div>
                                                                          <div class='outputb12j'>In the truth whereof, I have affixed my signature below this_______________day of____________________,________________</div>
-                                                                           <div class='outputb12k'>at______________________________________________________________________</div>
+                                                                           <div class='outputb12k'>at________________________________________________________________________________________,Philippines</div>
+                                                                            <div class='outputb12l'>_______________________________________</div>
+                                                                            <div class='outputb12m'>(Signature Over Printed Name of Affiant)</div>
                                                        <div class='resizable-box3'> </div>
                                                          <div class='resizable-box4'> </div>
                                                  
 
 </div>
+                                         <div class='section5h'> </div>
+                                          <div class='labelb13a'> SUBSCRIBE AND SWORN to before me this________________day of___________________,_____________________at</div>
+                                              <div class='outputb13a'> ____________________________________________________,Philippines, affiant who exhibited to me his/her CTC/valid ID</div>
+                                            <div class='outputb13b'> ________________________issued on___________________________________at________________________________</div>
+                                             <div class='outputb13c'> _________________________________</div>
+                                              <div class='outputb13d'> Signature of the Administering Officer</div>
+                                                    <div class='outputb13e'> _________________________________</div>
+                                                              <div class='outputb13g'> Name in Print</div>
+                                                                 <div class='outputb13h'> _________________________________</div>
+                                                                   <div class='outputb13i'>Position/Title/Designation</div>
+                                                                    <div class='outputb13j'> _________________________________</div>
+                                                                      <div class='outputb13k'>Address</div>
+                                            
+
 </div>
 </div>
 </div>
