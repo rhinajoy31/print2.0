@@ -885,6 +885,23 @@ $html = "
   font-weight:bold;
    font-size:12px;
 }
+   
+     .outputm17c{
+   color.rgb(248,82,159);
+  position: absolute;
+  top:410px;
+  left:260px;
+  font-weight:bold;
+   font-size:12px;
+}
+    .outputm17d{
+   color.rgb(248,82,159);
+  position: absolute;
+  top:410px;
+  left:350px;
+  font-weight:bold;
+   font-size:12px;
+}
     </style>
     </head>
     <body>
@@ -1032,6 +1049,8 @@ $html = "
                                             <div class='labelm17'>16. Date of Marriage: </div>
                                               <div class='outputm17a'>_________________________________</div>
                                               <div class='outputm17b'>(Day)</div>
+                                               <div class='outputm17c'>(Month)</div>
+                                               <div class='outputm17d'>(Year)</div>
                                             </div>
                                               </div>
                                                 </div>
