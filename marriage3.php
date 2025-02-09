@@ -815,7 +815,21 @@ $html = "
   font-weight:bold;
   font-size:11px;
 }
-
+   .outputm15c{
+   color.rgb(248,82,159);
+  position: absolute;
+  top:257px;
+  left:1px;
+  font-weight:bold;
+}
+  .labelm16{
+   color.rgb(248,82,159);
+  position: absolute;
+  top:257px;
+  left:1px;
+  font-weight:bold;
+   font-size:12px;
+}
     </style>
     </head>
     <body>
@@ -950,7 +964,10 @@ $html = "
                                              <div class='labelm15'>14.Residence</div>
                                                 <div class='outputm15a'>(House No,. St,.Barangay,City/Municipality,Province,Country)</div>
                                                 <div class='outputm15b'>(House No,. St,.Barangay,City/Municipality,Province,Country)</div>
+                                                 <div class='outputm15c'>__________________________________________________________________________________________</div>
                                           </div>
+                                           <div class='section16m'></div>
+                                             <div class='labelm16'></div>
                                             </div>
                                               </div>
                                                 </div>
