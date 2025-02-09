@@ -946,7 +946,7 @@ $html = "
   color: rgb(248, 82, 159); /* Tama ang syntax ng color */
   position: absolute;
   top: 895px;
-  left: 200px;
+  left: 280px;
   font-weight: bold;
   font-size: 11px;
 }
