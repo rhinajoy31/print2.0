@@ -960,6 +960,16 @@ $html = "
     top: 895px;
     left: 250px;
 }
+     .resizable-box2 {
+    width: 20px;
+    height: 15px;
+    position: absolute;
+    resize: both;
+    overflow: auto;
+    border: 2px solid rgb(248, 82, 159); /* Ayusin ang kulay ng border */
+    top: 895px;
+    left: 510px;
+}
 
     </style>
     </head>
@@ -1119,6 +1129,7 @@ $html = "
                                               <div class='outputm18c'>as husband and wife and certifying, further that we: </div>
                                                 <div class='outputm18d'>have entered, a copy of which is here to attached/</div>
                                                      <div class='resizable-box1'> </div>
+                                                     <div class='resizable-box2'> </div>
                                               </div>
                                                </div>
                                                   </div>
