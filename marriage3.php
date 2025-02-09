@@ -773,12 +773,40 @@ $html = "
 .outputm13g{
    color.rgb(248,82,159);
   position: absolute;
-  top:160px;
+  top:155px;
   left:1px;
   font-weight:bold;
 }
-
-  
+  .labelm14{
+   color.rgb(248,82,159);
+  position: absolute;
+  top:175px;
+  left:1px;
+  font-weight:bold;
+  font-size:12px;
+}
+.outputm14a{
+   color.rgb(248,82,159);
+  position: absolute;
+  top:180px;
+  left:1px;
+}
+   .labelm15{
+   color.rgb(248,82,159);
+  position: absolute;
+  top:230px;
+  left:3px;
+  font-weight:bold;
+  font-size:12px;
+}
+  .outputm15a{
+   color.rgb(248,82,159);
+  position: absolute;
+  top:280px;
+  left:3px;
+  font-weight:bold;
+  font-size:12px;
+}
     </style>
     </head>
     <body>
@@ -905,7 +933,13 @@ $html = "
 
 
                                       </div>
+                                         <div class='section14m'></div>
+                                             <div class='labelm14'>13.Relationship</div>
+                                               <div class='outputm14a'>__________________________________________________________________________________________</div>
                                         </div>
+                                         <div class='section15m'></div>
+                                             <div class='labelm15'>14.Residence</div>
+                                                <div class='outputm15a'>(House No,. St,.Barangay,City/Municipality,Province,Country)/div>
                                           </div>
                                             </div>
                                               </div>
