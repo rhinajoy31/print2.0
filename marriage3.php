@@ -942,6 +942,14 @@ $html = "
   font-weight: bold;
   font-size: 11px;
 }
+   .outputm18d {
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 895px;
+  left: 200px;
+  font-weight: bold;
+  font-size: 11px;
+}
  .resizable-box1 {
     width: 20px;
     height: 15px;
@@ -1109,6 +1117,7 @@ $html = "
                                                   <div class='outputm18a'>THIS IS TO CERTIFY: That, I____________________________________and I,_______________________________________,both of</div>
                                                <div class='outputm18b'>legal age, of our own free will and accord, and in the presence of the person soleminizing this marriage and of the witnesses named below, take each other</div>
                                               <div class='outputm18c'>as husband and wife and certifying, further that we: </div>
+                                                <div class='outputm18d'>have entered, a copy of which is here to attached/</div>
                                                      <div class='resizable-box1'> </div>
                                               </div>
                                                </div>
