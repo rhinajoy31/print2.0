@@ -846,6 +846,14 @@ $html = "
   font-weight:bold;
    font-size:10px;
 }
+    .outputm16c{
+   color.rgb(248,82,159);
+  position: absolute;
+  top:350px;
+  left:470px;
+  font-weight:bold;
+   font-size:10px;
+}
     </style>
     </head>
     <body>
@@ -986,6 +994,7 @@ $html = "
                                              <div class='labelm16'>15.Place of Marriage:</div>
                                              <div class='outputm16a'>_________________________________________________________________</div>
                                               <div class='outputm16b'>(Office of the/House of/Barangay of/Church of/Mosque of)</div>
+                                                <div class='outputm16c'>(City/Municipality)</div>
                                           </div>
                                             </div>
                                               </div>
