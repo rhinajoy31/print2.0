@@ -811,7 +811,7 @@ $html = "
    color.rgb(248,82,159);
   position: absolute;
   top:230px;
-  left:310px;
+  left:424px;
   font-weight:bold;
   font-size:11px;
 }
