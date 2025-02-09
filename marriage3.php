@@ -622,7 +622,95 @@ $html = "
     left: 1px;
      font-weight: bold;
 }
-  
+     
+                   .label11m{
+    color: rgb(248, 82, 159);
+    position: absolute; /* Idinagdag ito */
+    top:20px;
+    left: 1px;
+     font-weight: bold;
+      font-size: 12px;
+      display: block; /* Siguraduhin na block element ito */
+    max-width:90px; /* I-adjust para bumaba sa susunod na linya */
+}
+                .outputm11a{
+    color: rgb(248, 82, 159);
+    position: absolute; /* Idinagdag ito */
+    top:20px;
+    left: 120px;
+     font-weight: bold;
+      font-size: 12px;
+    
+}
+               .outputm11b{
+    color: rgb(248, 82, 159);
+    position: absolute; /* Idinagdag ito */
+    top:20px;
+    left: 230px;
+     font-weight: bold;
+      font-size: 12px;
+    
+}
+               .outputm11c{
+    color: rgb(248, 82, 159);
+    position: absolute; /* Idinagdag ito */
+    top:20px;
+    left: 355px;
+     font-weight: bold;
+      font-size: 12px;
+    
+}
+      .outputm11d{
+    color: rgb(248, 82, 159);
+    position: absolute; /* Idinagdag ito */
+    top:20px;
+    left: 440px;
+     font-weight: bold;
+      font-size: 12px;
+    
+}
+     .outputm11e{
+    color: rgb(248, 82, 159);
+    position: absolute; /* Idinagdag ito */
+    top:20px;
+    left: 540px;
+     font-weight: bold;
+      font-size: 12px;
+
+}
+  .outputm11f{
+    color: rgb(248, 82, 159);
+    position: absolute; /* Idinagdag ito */
+    top:20px;
+    left: 670px;
+     font-weight: bold;
+      font-size: 12px;
+
+}
+      .outputm11g{
+    color: rgb(248, 82, 159);
+    position: absolute; /* Idinagdag ito */
+    top:45px;
+    left: 1px;
+     font-weight: bold;
+
+}
+     .label12m{
+     color:rgb(248,82,159);
+     position: absolute;
+     top:20px;
+     left:3px;
+     font-weight:bold;
+     font-size:12px;
+     
+}
+  .outputm12a{
+  color.rgb(248,82,159);
+  position: absolute;
+  top:30px;
+  left:1px;
+  font-weight:bold;
+}
     </style>
     </head>
     <body>
@@ -718,7 +806,21 @@ $html = "
                           <div class='section10m'> </div>
                                    <div class='label10m'>9.Citizenship</div>
                                    <div class='outputm10a'>__________________________________________________________________________________________<div>
-</body>
+
+                                    <div class='section11m'> </div>
+                                     <div class='label11m'>10.Maiden Name of mother </div>
+                                     <div class='outputm11a'>(First)</div>
+                                       <div class='outputm11b'>(Middle)</div>
+                                          <div class='outputm11c'>(Last)</div>
+                                                  <div class='outputm11d'>(First)</div>
+                                                     <div class='outputm11e'>(Middle)</div>
+                                                            <div class='outputm11f'>(Last)</div>
+                                                             <div class='outputm11g'>__________________________________________________________________________________________<div>
+                                  </div>
+                                  <div class='section12m'></div>
+                                  <div class='label12m'>11.Citizenship</div>
+                                  <div class='outputm12a'>__________________________________________________________________________________________</div>
+                                   </body>
 </html>";
 
 
