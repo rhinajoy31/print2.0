@@ -825,7 +825,15 @@ $html = "
   .labelm16{
    color.rgb(248,82,159);
   position: absolute;
-  top:257px;
+  top:310px;
+  left:1px;
+  font-weight:bold;
+   font-size:12px;
+}
+     .outputm16a{
+   color.rgb(248,82,159);
+  position: absolute;
+  top:310px;
   left:1px;
   font-weight:bold;
    font-size:12px;
@@ -967,7 +975,9 @@ $html = "
                                                  <div class='outputm15c'>__________________________________________________________________________________________</div>
                                           </div>
                                            <div class='section16m'></div>
-                                             <div class='labelm16'></div>
+                                             <div class='labelm16'>15.Place of Marriage:</div>
+                                             <div class='outputm16a'>________________________________</div>
+                                          </div>
                                             </div>
                                               </div>
                                                 </div>
