@@ -802,7 +802,15 @@ $html = "
   .outputm15a{
    color.rgb(248,82,159);
   position: absolute;
-  top:280px;
+  top:2px;
+  left:3px;
+  font-weight:bold;
+  font-size:12px;
+}
+    .outputm15a{
+   color.rgb(248,82,159);
+  position: absolute;
+  top:2px;
   left:3px;
   font-weight:bold;
   font-size:12px;
