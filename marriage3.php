@@ -874,7 +874,14 @@ $html = "
    color.rgb(248,82,159);
   position: absolute;
   top:390px;
-  left:5px;
+  left:145px;
+  font-weight:bold;
+}
+     .outputm17b{
+   color.rgb(248,82,159);
+  position: absolute;
+  top:410px;
+  left:180px;
   font-weight:bold;
    font-size:12px;
 }
@@ -1023,7 +1030,8 @@ $html = "
                                           </div>
                                           <div class='section17m'></div>
                                             <div class='labelm17'>16. Date of Marriage: </div>
-                                              <div class='outputm17a'>________________________________________</div>
+                                              <div class='outputm17a'>_________________________________</div>
+                                              <div class='outputm17b'>(Day)</div>
                                             </div>
                                               </div>
                                                 </div>
