@@ -910,6 +910,16 @@ $html = "
   font-weight:bold;
    font-size:12px;
 }
+  .labelm18 {
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 840px;
+  left: 5px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+ 
     </style>
     </head>
     <body>
@@ -1061,10 +1071,12 @@ $html = "
                                                <div class='outputm17d'>(Year)</div>
                                                 <div class='outputm17e'>17.Time of Marriage: _______________________am/pm</div>
                                             </div>
+                                             <div class='section18m'></div>
+                                                 <div class='labelm18'>18.CERTIFICATION OF THE CONTRACTING PARTIES:</div></div>
                                               </div>
                                                 </div>
                                                   </div>
-                                    </body>
+</body>
                                    
 </html>";
 
