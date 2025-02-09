@@ -833,10 +833,18 @@ $html = "
      .outputm16a{
    color.rgb(248,82,159);
   position: absolute;
-  top:310px;
-  left:1px;
+  top:330px;
+  left:140px;
   font-weight:bold;
-   font-size:12px;
+ 
+}
+     .outputm16b{
+   color.rgb(248,82,159);
+  position: absolute;
+  top:350px;
+  left:160px;
+  font-weight:bold;
+   font-size:10px;
 }
     </style>
     </head>
@@ -976,7 +984,8 @@ $html = "
                                           </div>
                                            <div class='section16m'></div>
                                              <div class='labelm16'>15.Place of Marriage:</div>
-                                             <div class='outputm16a'>________________________________</div>
+                                             <div class='outputm16a'>_________________________________________________________________</div>
+                                              <div class='outputm16b'>(Office of the/House of/Barangay of/Church of/Mosque of)</div>
                                           </div>
                                             </div>
                                               </div>
