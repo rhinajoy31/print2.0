@@ -807,6 +807,14 @@ $html = "
   font-weight:bold;
   font-size:11px;
 }
+   .outputm15b{
+   color.rgb(248,82,159);
+  position: absolute;
+  top:230px;
+  left:120px;
+  font-weight:bold;
+  font-size:11px;
+}
 
     </style>
     </head>
@@ -941,6 +949,7 @@ $html = "
                                          <div class='section15m'></div>
                                              <div class='labelm15'>14.Residence</div>
                                                 <div class='outputm15a'>(House No,. St,.Barangay,City/Municipality,Province,Country)</div>
+                                                <div class='outputm15b'>(House No,. St,.Barangay,City/Municipality,Province,Country)</div>
                                           </div>
                                             </div>
                                               </div>
