@@ -833,7 +833,7 @@ $html = "
      .outputm16a{
    color.rgb(248,82,159);
   position: absolute;
-  top:330px;
+  top:320px;
   left:140px;
   font-weight:bold;
  
@@ -841,7 +841,7 @@ $html = "
      .outputm16b{
    color.rgb(248,82,159);
   position: absolute;
-  top:350px;
+  top:340px;
   left:160px;
   font-weight:bold;
    font-size:10px;
@@ -851,6 +851,14 @@ $html = "
   position: absolute;
   top:350px;
   left:470px;
+  font-weight:bold;
+   font-size:10px;
+}
+   .outputm16d{
+   color.rgb(248,82,159);
+  position: absolute;
+  top:350px;
+  left:620px;
   font-weight:bold;
    font-size:10px;
 }
@@ -992,9 +1000,10 @@ $html = "
                                           </div>
                                            <div class='section16m'></div>
                                              <div class='labelm16'>15.Place of Marriage:</div>
-                                             <div class='outputm16a'>_________________________________________________________________</div>
+                                             <div class='outputm16a'>_______________________________________________________________________</div>
                                               <div class='outputm16b'>(Office of the/House of/Barangay of/Church of/Mosque of)</div>
                                                 <div class='outputm16c'>(City/Municipality)</div>
+                                                 <div class='outputm16d'>(Province)</div>
                                           </div>
                                             </div>
                                               </div>
