@@ -924,15 +924,15 @@ $html = "
   top: 860px;
   left: 20px;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 11px;
 }
  .outputm18b {
   color: rgb(248, 82, 159); /* Tama ang syntax ng color */
   position: absolute;
-  top: 860px;
-  left: 20px;
+  top: 880px;
+  left: 5px;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 11px;
 }
  
     </style>
@@ -1089,7 +1089,9 @@ $html = "
                                              <div class='section18m'></div>
                                                  <div class='labelm18'>18.CERTIFICATION OF THE CONTRACTING PARTIES:</div></div>
                                                   <div class='outputm18a'>THIS IS TO CERTIFY: That, I____________________________________and I,_______________________________________,both of</div>
+                                               <div class='outputm18b'>legal age, of our own free will and accord, and in the presence of the person soleminizing this marriage and of the witnesses named below, take each other</div>
                                               </div>
+                                                  </div>
                                                 </div>
                                                   </div>
 </body>
