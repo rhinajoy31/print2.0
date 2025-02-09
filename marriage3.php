@@ -217,7 +217,7 @@ $html = "
 }
       .vertical-line2 {
             width: 2px; /* Thickness of the line */
-            height: 450px; /* Length of the line */
+            height: 600px; /* Length of the line */
             background-color: rgb(248, 82, 159);
             position: absolute; /* Keeps it inside the container */
             left: 58.5%; /* Adjust horizontal positioning */
@@ -226,7 +226,7 @@ $html = "
         }
             .vertical-line3 {
             width: 2px; /* Thickness of the line */
-            height: 450px; /* Length of the line */
+            height: 600px; /* Length of the line */
             background-color: rgb(248, 82, 159);
             position: absolute; /* Keeps it inside the container */
             left: 15%; /* Adjust horizontal positioning */
@@ -329,6 +329,7 @@ $html = "
     top: 260px;
     left: 1px;
      font-weight: bold;
+
 
 }
      .vertical-line4 {
@@ -711,6 +712,73 @@ $html = "
   left:1px;
   font-weight:bold;
 }
+  .label13m{
+   color.rgb(248,82,159);
+  position: absolute;
+  top:100px;
+  left:1px;
+  font-weight:bold;
+  font-size:12px;
+    display: block; 
+     max-width:80px; 
+}
+     .outputm13a{
+   color.rgb(248,82,159);
+  position: absolute;
+  top:100px;
+  left:120px;
+  font-weight:bold;
+  font-size:12px;
+}
+  .outputm13b{
+   color.rgb(248,82,159);
+  position: absolute;
+  top:100px;
+  left:230px;
+  font-weight:bold;
+  font-size:12px;
+}
+  .outputm13c{
+   color.rgb(248,82,159);
+  position: absolute;
+  top:100px;
+  left:360px;
+  font-weight:bold;
+  font-size:12px;
+}
+   .outputm13d{
+   color.rgb(248,82,159);
+  position: absolute;
+  top:100px;
+  left:440px;
+  font-weight:bold;
+  font-size:12px;
+}
+   .outputm13e{
+   color.rgb(248,82,159);
+  position: absolute;
+  top:100px;
+  left:540px;
+  font-weight:bold;
+  font-size:12px;
+}
+.outputm13f{
+   color.rgb(248,82,159);
+  position: absolute;
+  top:100px;
+  left:665px;
+  font-weight:bold;
+  font-size:12px;
+}
+.outputm13g{
+   color.rgb(248,82,159);
+  position: absolute;
+  top:160px;
+  left:1px;
+  font-weight:bold;
+}
+
+  
     </style>
     </head>
     <body>
@@ -820,7 +888,31 @@ $html = "
                                   <div class='section12m'></div>
                                   <div class='label12m'>11.Citizenship</div>
                                   <div class='outputm12a'>__________________________________________________________________________________________</div>
-                                   </body>
+                                  
+                                    </div>
+                                    <div class='section13m'></div>
+                                    <div class='label13m'>12.Name of Person/Wall Who Gave Consent or Advice</div>
+                                    <div class='outputm13a'>(First)</div>
+                                            <div class='outputm13b'>(Middle)</div>
+                                                  <div class='outputm13c'>(Last)</div>
+                                                    <div class='outputm13d'>(First)</div>
+                                                      <div class='outputm13e'>(Middle)</div>
+                                                          <div class='outputm13f'>(Last)</div>
+                                                            <div class='outputm13g'>__________________________________________________________________________________________</div>
+
+
+
+
+
+                                      </div>
+                                        </div>
+                                          </div>
+                                            </div>
+                                              </div>
+                                                </div>
+                                                  </div>
+                                    </body>
+                                   
 </html>";
 
 
