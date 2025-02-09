@@ -918,6 +918,14 @@ $html = "
   font-weight: bold;
   font-size: 12px;
 }
+  .outputm18a {
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 860px;
+  left: 20px;
+  font-weight: bold;
+  font-size: 12px;
+}
 
  
     </style>
@@ -1073,6 +1081,7 @@ $html = "
                                             </div>
                                              <div class='section18m'></div>
                                                  <div class='labelm18'>18.CERTIFICATION OF THE CONTRACTING PARTIES:</div></div>
+                                                  <div class='outputm18a'>THIS IS TO CERTIFY: That, I____________________________________and I,_______________________________________,both of</div>
                                               </div>
                                                 </div>
                                                   </div>
