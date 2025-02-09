@@ -940,7 +940,7 @@ $html = "
                                         </div>
                                          <div class='section15m'></div>
                                              <div class='labelm15'>14.Residence</div>
-                                                <div class='outputm15a'>(House No,. St,.Barangay,City/Municipality,Province,Country)/div>
+                                                <div class='outputm15a'>(House No,. St,.Barangay,City/Municipality,Province,Country)</div>
                                           </div>
                                             </div>
                                               </div>
