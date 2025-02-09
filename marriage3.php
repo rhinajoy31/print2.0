@@ -926,7 +926,14 @@ $html = "
   font-weight: bold;
   font-size: 12px;
 }
-
+ .outputm18b {
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 860px;
+  left: 20px;
+  font-weight: bold;
+  font-size: 12px;
+}
  
     </style>
     </head>
