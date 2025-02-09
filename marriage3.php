@@ -862,6 +862,14 @@ $html = "
   font-weight:bold;
    font-size:10px;
 }
+     .labelm17{
+   color.rgb(248,82,159);
+  position: absolute;
+  top:310px;
+  left:30px;
+  font-weight:bold;
+   font-size:12px;
+}
     </style>
     </head>
     <body>
@@ -1005,6 +1013,8 @@ $html = "
                                                 <div class='outputm16c'>(City/Municipality)</div>
                                                  <div class='outputm16d'>(Province)</div>
                                           </div>
+                                          <div class='section17m'></div>
+                                            <div class='labelm17'>16. Date of Marriage: </div>
                                             </div>
                                               </div>
                                                 </div>
