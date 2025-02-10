@@ -1040,6 +1040,32 @@ $html = "
   font-weight: bold;
   font-size: 11px;
 }
+    .outputm19c{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 1010px;
+  left: 30px;
+  font-weight: bold;
+  font-size: 11px;
+}
+    .labelm20{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 1030px;
+  left: 50px;
+  font-weight: bold;
+  font-size: 11px;
+}
+   .resizable-box3 {
+    width: 20px;
+    height: 15px;
+    position: absolute;
+    resize: both;
+    overflow: auto;
+    border: 2px solid rgb(248, 82, 159); /* Ayusin ang kulay ng border */
+    top: 895px;
+    left: 510px;
+}
     </style>
     </head>
     <body>
@@ -1209,7 +1235,12 @@ $html = "
                                                <div class='section19m'></div>
                                                  <div class='labelm19'>19.CERTIFICATION OF THE SOLEMNIZING OFFICER</div></div>
                                                   <div class='outputm19a'>THIS CERTIFY: THAT BEFORE ME, on the date and place above-written, personally appeared tha above-mentioned parties with</div>
-                                               <div class='outputm19b'>their mutual consent,lawfully joined together in marriage which was solemnied by me in the presence of the wtnesses named baelow,all of legal age.</div>
+                                               <div class='outputm19b'>their mutual consent,lawfully joined together in marriage which was solemnied by me in the presence of the witnesses named baelow,all of legal age.</div>
+                                                <div class='outputm19c'>I CERTIFY FURTHER THAT:</div>
+                                               </div>
+                                               </div>
+                                               <div class='section20m'></div>
+                                                 <div class='labelm20'>a. Marriage Licensed No.________________________________issued on________________, at ________________</div>
                                                </div>
                                                   </div>
                                                   </div>
