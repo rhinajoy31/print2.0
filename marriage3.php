@@ -1019,12 +1019,19 @@ $html = "
      .labelm19{
   color: rgb(248, 82, 159); /* Tama ang syntax ng color */
   position: absolute;
-  top: 840px;
+  top: 975px;
   left: 5px;
+  font-weight: bold;
+  font-size: 11px;
+}
+    .outputm19a{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 985px;
+  left: 25px;
   font-weight: bold;
   font-size: 12px;
 }
-
     </style>
     </head>
     <body>
@@ -1193,6 +1200,7 @@ $html = "
                                               </div>
                                                <div class='section19m'></div>
                                                  <div class='labelm19'>19.CERTIFICATION OF THE SOLEMNIZING OFFICER</div></div>
+                                                  <div class='outputm19a'>THIS CERTIFY: THAT BEFORE ME, on the date and place above-written, personally appeared tha above-mentioned parties with</div>
                                                </div>
                                                   </div>
                                                 </div>
