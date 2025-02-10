@@ -1028,9 +1028,17 @@ $html = "
   color: rgb(248, 82, 159); /* Tama ang syntax ng color */
   position: absolute;
   top: 985px;
-  left: 25px;
+  left: 60px;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 11px;
+}
+      .outputm19b{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 995px;
+  left: 20px;
+  font-weight: bold;
+  font-size: 11px;
 }
     </style>
     </head>
@@ -1201,7 +1209,9 @@ $html = "
                                                <div class='section19m'></div>
                                                  <div class='labelm19'>19.CERTIFICATION OF THE SOLEMNIZING OFFICER</div></div>
                                                   <div class='outputm19a'>THIS CERTIFY: THAT BEFORE ME, on the date and place above-written, personally appeared tha above-mentioned parties with</div>
+                                               <div class='outputm19b'>their mutual consent,lawfully joined together in marriage which was solemnied by me in the presence of the wtnesses named baelow,all of legal age.</div>
                                                </div>
+                                                  </div>
                                                   </div>
                                                 </div>
                                                   </div>
