@@ -988,6 +988,14 @@ $html = "
   left: 400px;
   font-weight: bold;
 }
+    .outputm18j {
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 958px;
+  left: 500px;
+  font-weight: bold;
+    font-size: 10px;
+}
  .resizable-box1 {
     width: 20px;
     height: 15px;
