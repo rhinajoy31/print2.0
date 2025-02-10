@@ -1016,6 +1016,14 @@ $html = "
     top: 895px;
     left: 510px;
 }
+     .labelm19{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 840px;
+  left: 5px;
+  font-weight: bold;
+  font-size: 12px;
+}
 
     </style>
     </head>
@@ -1183,6 +1191,8 @@ $html = "
                                                        <div class='resizable-box1'> </div>
                                                      <div class='resizable-box2'> </div>
                                               </div>
+                                               <div class='section19m'></div>
+                                                 <div class='labelm19'>19.CERTIFICATION OF THE SOLEMNIZING OFFICER</div></div>
                                                </div>
                                                   </div>
                                                 </div>
