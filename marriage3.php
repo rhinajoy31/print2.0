@@ -969,8 +969,23 @@ $html = "
     .outputm18g {
   color: rgb(248, 82, 159); /* Tama ang syntax ng color */
   position: absolute;
-  top: 920px;
+  top: 940px;
   left: 70px;
+  font-weight: bold;
+}
+     .outputm18h {
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 958px;
+  left: 150px;
+  font-weight: bold;
+    font-size: 10px;
+}
+     .outputm18i {
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 940px;
+  left: 400px;
   font-weight: bold;
 }
  .resizable-box1 {
@@ -1153,7 +1168,10 @@ $html = "
                                                 <div class='outputm18d'>have entered, a copy of which is here to attached/</div>
                                                <div class='outputm18e'>have not entered into a marriage settlement/</div>
                                                        <div class='outputm18f'>IN WITNESS WHEREOF, we have signed/marked with our fingerprint this certificate in quadruplicate this______day of_______,______</div>
-                                                      <div class='outputm18g'>_________________________________/div>
+                                                      <div class='outputm18g'>_________________________________</div>
+                                                       <div class='outputm18h'>(Signature of Husband)</div>
+                                                         <div class='outputm18i'>_________________________________</div>
+                                                       <div class='outputm18j'>(Signature of Wife)</div>
                                                        <div class='resizable-box1'> </div>
                                                      <div class='resizable-box2'> </div>
                                               </div>
