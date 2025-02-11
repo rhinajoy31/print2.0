@@ -1238,15 +1238,16 @@ $html = "
   color: rgb(248, 82, 159); /* Tama ang syntax ng color */
   position: absolute;
   top: 1120px;
-  left: 390px;
+  left: 335px;
   font-weight: bold;
   font-size: 11px;
+    font-weight: bold;
 }
      .outputm23a{
   color: rgb(248, 82, 159); /* Tama ang syntax ng color */
   position: absolute;
   top: 1135px;
-  left: 400px;
+  left: 335px;
   font-weight: bold;
   font-size: 11px;
 }
@@ -1254,7 +1255,7 @@ $html = "
   color: rgb(248, 82, 159); /* Tama ang syntax ng color */
   position: absolute;
   top: 1150px;
-  left: 400px;
+  left: 335px;
   font-weight: bold;
   font-size: 11px;
 }
@@ -1262,7 +1263,7 @@ $html = "
   color: rgb(248, 82, 159); /* Tama ang syntax ng color */
   position: absolute;
   top: 1165px;
-  left: 400px;
+  left: 335px;
   font-weight: bold;
   font-size: 11px;
 }
@@ -1270,7 +1271,7 @@ $html = "
   color: rgb(248, 82, 159); /* Tama ang syntax ng color */
   position: absolute;
   top: 1180px;
-  left: 400px;
+  left: 335px;
   font-weight: bold;
   font-size: 11px;
 }
@@ -1290,6 +1291,15 @@ $html = "
             top: 1123px; /* Adjust vertical positioning */
             
         }
+              .labelm24{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 1200px;
+  left: 10px;
+  font-weight: bold;
+  font-size: 11px;
+    font-weight: bold;
+}
     </style>
     </head>
     <body>
@@ -1487,20 +1497,22 @@ $html = "
                                                  </div>
                                                  <div class='section21m'></div>
                                                    <div class='labelm22'>21.RECEIVED BY:</div>
-                                                     <div class='outputm22a'>Signature_____________________________</div>
-                                                         <div class='outputm22b'>Name in Print_____________________________</div>
-                                                           <div class='outputm22c'>Title or Position_____________________________</div>
-                                                           <div class='outputm22d'>Date_____________________________</div>
+                                                     <div class='outputm22a'>Signature_________________________________________________</div>
+                                                         <div class='outputm22b'>Name in Print_____________________________________________</div>
+                                                           <div class='outputm22c'>Title or Position___________________________________________</div>
+                                                           <div class='outputm22d'>Date_____________________________________________________</div>
                                                   </div>
                                                   <div class='section21m'></div>
                                                    <div class='labelm23'>22.REGISTERED AT THE OFFICE OF THE CIVIL REGISTRAR</div>
-                                                    <div class='outputm23a'>Signature_____________________________</div>
-                                                         <div class='outputm23b'>Name in Print_____________________________</div>
-                                                           <div class='outputm23c'>Title or Position_____________________________</div>
-                                                           <div class='outputm23d'>Date_____________________________</div>
+                                                    <div class='outputm23a'>Signature__________________________________________________________</div>
+                                                         <div class='outputm23b'>Name in Print______________________________________________________</div>
+                                                           <div class='outputm23c'>Title or Position_____________________________________________________</div>
+                                                           <div class='outputm23d'>Date______________________________________________________________</div>
                                                            <div class='outputm23e'>__________________________________________________________________________________________</div>
                                                               <div class='vertical-line8'></div>
                                                   </div>
+                                                  <div class='section22m'></div>
+                                                   <div class='labelm24'>REMARKS/ANNOTATIONS(For LCRO/OCRG/Shari'a Circuit Registrar Use Only)</div>
                                                   </div>
                                                   </div>
                                                 </div>
