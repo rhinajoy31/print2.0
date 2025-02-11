@@ -969,14 +969,14 @@ $html = "
     .outputm18g {
   color: rgb(248, 82, 159); /* Tama ang syntax ng color */
   position: absolute;
-  top: 940px;
+  top: 925px;
   left: 70px;
   font-weight: bold;
 }
      .outputm18h {
   color: rgb(248, 82, 159); /* Tama ang syntax ng color */
   position: absolute;
-  top: 958px;
+  top: 940px;
   left: 150px;
   font-weight: bold;
     font-size: 10px;
@@ -984,14 +984,14 @@ $html = "
      .outputm18i {
   color: rgb(248, 82, 159); /* Tama ang syntax ng color */
   position: absolute;
-  top: 940px;
+  top: 925px;
   left: 400px;
   font-weight: bold;
 }
     .outputm18j {
   color: rgb(248, 82, 159); /* Tama ang syntax ng color */
   position: absolute;
-  top: 958px;
+  top: 940px;
   left: 500px;
   font-weight: bold;
     font-size: 10px;
@@ -1019,7 +1019,7 @@ $html = "
      .labelm19{
   color: rgb(248, 82, 159); /* Tama ang syntax ng color */
   position: absolute;
-  top: 975px;
+  top: 950px;
   left: 5px;
   font-weight: bold;
   font-size: 11px;
@@ -1027,7 +1027,7 @@ $html = "
     .outputm19a{
   color: rgb(248, 82, 159); /* Tama ang syntax ng color */
   position: absolute;
-  top: 985px;
+  top: 960px;
   left: 60px;
   font-weight: bold;
   font-size: 11px;
@@ -1035,7 +1035,7 @@ $html = "
       .outputm19b{
   color: rgb(248, 82, 159); /* Tama ang syntax ng color */
   position: absolute;
-  top: 995px;
+  top: 970px;
   left: 20px;
   font-weight: bold;
   font-size: 11px;
@@ -1043,7 +1043,7 @@ $html = "
     .outputm19c{
   color: rgb(248, 82, 159); /* Tama ang syntax ng color */
   position: absolute;
-  top: 1010px;
+  top: 980px;
   left: 30px;
   font-weight: bold;
   font-size: 11px;
@@ -1051,7 +1051,7 @@ $html = "
     .labelm20{
   color: rgb(248, 82, 159); /* Tama ang syntax ng color */
   position: absolute;
-  top: 1030px;
+  top: 1000px;
   left: 50px;
   font-weight: bold;
   font-size: 11px;
@@ -1059,23 +1059,16 @@ $html = "
    .outputm20a{
   color: rgb(248, 82, 159); /* Tama ang syntax ng color */
   position: absolute;
-  top: 1060px;
+  top: 1025px;
   left: 50px;
   font-weight: bold;
   font-size: 11px;
 }
-     .outputm20b{
-  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
-  position: absolute;
-  top: 1060px;
-  left: 50px;
-  font-weight: bold;
-  font-size: 11px;
-}
+
         .outputm20c{
   color: rgb(248, 82, 159); /* Tama ang syntax ng color */
   position: absolute;
-  top: 1080px;
+  top: 1040px;
   left: 50px;
   font-weight: bold;
   font-size: 11px;
@@ -1083,14 +1076,14 @@ $html = "
         .outputm20d{
   color: rgb(248, 82, 159); /* Tama ang syntax ng color */
   position: absolute;
-  top: 1100px;
+  top: 1055px;
   left: 5px;
   font-weight: bold;
 }
       .outputm20e{
   color: rgb(248, 82, 159); /* Tama ang syntax ng color */
   position: absolute;
-  top: 1115px;
+  top: 1075px;
   left: 8px;
   font-weight: bold;
   font-size: 9px;
@@ -1098,14 +1091,14 @@ $html = "
   .outputm20f{
   color: rgb(248, 82, 159); /* Tama ang syntax ng color */
   position: absolute;
-  top: 1100px;
+  top: 1055px;
   left: 240px;
   font-weight: bold;
 }
  .outputm20g{
   color: rgb(248, 82, 159); /* Tama ang syntax ng color */
   position: absolute;
-  top: 1115px;
+  top: 1075px;
   left: 300px;
   font-weight: bold;
   font-size: 10px;
@@ -1113,14 +1106,14 @@ $html = "
   .outputm20h{
   color: rgb(248, 82, 159); /* Tama ang syntax ng color */
   position: absolute;
-  top: 1100px;
+  top: 1055px;
   left: 470px;
   font-weight: bold;
 }
    .outputm20i{
   color: rgb(248, 82, 159); /* Tama ang syntax ng color */
   position: absolute;
-  top: 1115px;
+  top: 1075px;
   left: 470px;
   font-weight: bold;
   font-size: 10px;
@@ -1133,7 +1126,7 @@ $html = "
     resize: both;
     overflow: auto;
     border: 2px solid rgb(248, 82, 159); /* Ayusin ang kulay ng border */
-    top: 1030px;
+    top: 1000px;
     left: 15px;
 }
     
@@ -1144,7 +1137,7 @@ $html = "
     resize: both;
     overflow: auto;
     border: 2px solid rgb(248, 82, 159); /* Ayusin ang kulay ng border */
-    top: 1055px;
+    top: 1020px;
     left: 15px;
 }
        .resizable-box5 {
@@ -1154,8 +1147,23 @@ $html = "
     resize: both;
     overflow: auto;
     border: 2px solid rgb(248, 82, 159); /* Ayusin ang kulay ng border */
-    top: 1080px;
-    left: 25px;
+    top: 1040px;
+    left: 15px;
+}
+     .labelm21{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 1090px;
+  left: 20px;
+  font-weight: bold;
+  font-size: 11px;
+}  
+  .outputm21a{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 1100px;
+  left: 15px;
+  font-weight: bold;
 }
     </style>
     </head>
@@ -1343,8 +1351,10 @@ $html = "
                                             <div class='resizable-box3'> </div>
                                                <div class='resizable-box4'> </div>
                                                <div class='resizable-box5'> </div>
-
                                                </div>
+                                                  <div class='section21m'></div>
+                                                   <div class='labelm21'>20a.WITNESSES(Print Name and Sign):</div>
+                                                     <div class='outputm21a'>____________________________</div>
                                                  </div>
                                                   </div>
                                                   </div>
