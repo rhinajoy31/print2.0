@@ -1258,7 +1258,38 @@ $html = "
   font-weight: bold;
   font-size: 11px;
 }
-
+  .outputm23c{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 1165px;
+  left: 400px;
+  font-weight: bold;
+  font-size: 11px;
+}
+    .outputm23d{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 1180px;
+  left: 400px;
+  font-weight: bold;
+  font-size: 11px;
+}
+  .outputm23e{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 1180px;
+  left: 1px;
+  font-weight: bold;
+}
+   .vertical-line8 {
+            width: 2px; /* Thickness of the line */
+            height: 75px; /* Length of the line */
+            background-color: rgb(248, 82, 159);
+            position: absolute; /* Keeps it inside the container */
+            left: 45%; /* Adjust horizontal positioning */
+            top: 1123px; /* Adjust vertical positioning */
+            
+        }
     </style>
     </head>
     <body>
@@ -1467,6 +1498,8 @@ $html = "
                                                          <div class='outputm23b'>Name in Print_____________________________</div>
                                                            <div class='outputm23c'>Title or Position_____________________________</div>
                                                            <div class='outputm23d'>Date_____________________________</div>
+                                                           <div class='outputm23e'>__________________________________________________________________________________________</div>
+                                                              <div class='vertical-line8'></div>
                                                   </div>
                                                   </div>
                                                   </div>
