@@ -1165,6 +1165,44 @@ $html = "
   left: 15px;
   font-weight: bold;
 }
+    .outputm21b{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 1100px;
+  left: 195px;
+  font-weight: bold;
+}
+  
+    .outputm21c{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 1100px;
+  left: 370px;
+  font-weight: bold;
+}
+    .outputm21d{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 1100px;
+  left: 545px;
+  font-weight: bold;
+}
+   .labelm22{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 1120px;
+  left: 10px;
+  font-weight: bold;
+  font-size: 11px;
+}
+    .outputm22a{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 1120px;
+  left: 10px;
+  font-weight: bold;
+  font-size: 11px;
+}
     </style>
     </head>
     <body>
@@ -1354,8 +1392,14 @@ $html = "
                                                </div>
                                                   <div class='section21m'></div>
                                                    <div class='labelm21'>20a.WITNESSES(Print Name and Sign):</div>
-                                                     <div class='outputm21a'>____________________________</div>
+                                                     <div class='outputm21a'>_____________________</div>
+                                                       <div class='outputm21b'>_____________________</div>
+                                                        <div class='outputm21c'>_____________________</div>
+                                                         <div class='outputm21d'>_____________________</div>
                                                  </div>
+                                                 <div class='section21m'></div>
+                                                   <div class='labelm22'>21.RECEIVED BY:</div>
+                                                     <div class='outputm22a'>Signature_____________________</div>
                                                   </div>
                                                   </div>
                                                 </div>
