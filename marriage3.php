@@ -1056,7 +1056,31 @@ $html = "
   font-weight: bold;
   font-size: 11px;
 }
-   .resizable-box3 {
+   .outputm20a{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 1060px;
+  left: 50px;
+  font-weight: bold;
+  font-size: 11px;
+}
+     .outputm20b{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 1060px;
+  left: 50px;
+  font-weight: bold;
+  font-size: 11px;
+}
+        .outputm20c{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 1080px;
+  left: 50px;
+  font-weight: bold;
+  font-size: 11px;
+}
+     .resizable-box3 {
     width: 20px;
     height: 15px;
     position: absolute;
@@ -1240,8 +1264,12 @@ $html = "
                                                </div>
                                                </div>
                                                <div class='section20m'></div>
-                                                 <div class='labelm20'>a. Marriage Licensed No.________________________________issued on________________, at ________________</div>
+                                                 <div class='labelm20'>a. Marriage Licensed No.________________________________issued on________________, at ________________ in favor of said parties, was exhibited to me</div>
+                                               <div class='outputm20a'>b.no marriage license was necessary, the marriage being solemnized under Art______of Executive Order No. 209.</div>
+                                            <div class='outputm20c'>c.the marriage was soleminized in accordance with the provisions of Presidential Decree No. 1083.</div>
+                                              <div class='resizable-box3'> </div>
                                                </div>
+                                                 </div>
                                                   </div>
                                                   </div>
                                                 </div>
