@@ -1080,6 +1080,37 @@ $html = "
   font-weight: bold;
   font-size: 11px;
 }
+        .outputm20d{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 1100px;
+  left: 5px;
+  font-weight: bold;
+}
+      .outputm20e{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 1115px;
+  left: 5px;
+  font-weight: bold;
+  font-size: 10px;
+}
+  .outputm20f{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 1100px;
+  left:270px;
+  font-weight: bold;
+}
+ .outputm20g{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 1115px;
+  left: 350px;
+  font-weight: bold;
+  font-size: 10px;
+}
+ 
      .resizable-box3 {
     width: 20px;
     height: 15px;
@@ -1288,9 +1319,14 @@ $html = "
                                                  <div class='labelm20'>a. Marriage Licensed No.________________________________issued on________________, at ________________ in favor of said parties, was exhibited to me</div>
                                                <div class='outputm20a'>b.no marriage license was necessary, the marriage being solemnized under Art______of Executive Order No. 209.</div>
                                             <div class='outputm20c'>c.the marriage was soleminized in accordance with the provisions of Presidential Decree No. 1083.</div>
-                                              <div class='resizable-box3'> </div>
+                                               <div class='outputm20d'>________________________________</div>
+                                                       <div class='outputm20e'>(Signature Over Printed Name of Solemnizing Officer)</div>
+                                                       <div class='outputm20f'>________________________________</div>
+                                                       <div class='outputm20g'>(Postion/Designation)</div>
+                                            <div class='resizable-box3'> </div>
                                                <div class='resizable-box4'> </div>
                                                <div class='resizable-box5'> </div>
+
                                                </div>
                                                  </div>
                                                   </div>
