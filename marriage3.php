@@ -1087,8 +1087,29 @@ $html = "
     resize: both;
     overflow: auto;
     border: 2px solid rgb(248, 82, 159); /* Ayusin ang kulay ng border */
-    top: 895px;
-    left: 510px;
+    top: 1030px;
+    left: 15px;
+}
+    
+     .resizable-box4 {
+    width: 20px;
+    height: 15px;
+    position: absolute;
+    resize: both;
+    overflow: auto;
+    border: 2px solid rgb(248, 82, 159); /* Ayusin ang kulay ng border */
+    top: 1055px;
+    left: 15px;
+}
+       .resizable-box5 {
+    width: 20px;
+    height: 15px;
+    position: absolute;
+    resize: both;
+    overflow: auto;
+    border: 2px solid rgb(248, 82, 159); /* Ayusin ang kulay ng border */
+    top: 1080px;
+    left: 15px;
 }
     </style>
     </head>
@@ -1268,6 +1289,8 @@ $html = "
                                                <div class='outputm20a'>b.no marriage license was necessary, the marriage being solemnized under Art______of Executive Order No. 209.</div>
                                             <div class='outputm20c'>c.the marriage was soleminized in accordance with the provisions of Presidential Decree No. 1083.</div>
                                               <div class='resizable-box3'> </div>
+                                               <div class='resizable-box4'> </div>
+                                               <div class='resizable-box5'> </div>
                                                </div>
                                                  </div>
                                                   </div>
