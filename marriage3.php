@@ -1187,6 +1187,13 @@ $html = "
   left: 545px;
   font-weight: bold;
 }
+  .outputm21e{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 1103px;
+  left: 1px;
+  font-weight: bold;
+}
    .labelm22{
   color: rgb(248, 82, 159); /* Tama ang syntax ng color */
   position: absolute;
@@ -1198,11 +1205,60 @@ $html = "
     .outputm22a{
   color: rgb(248, 82, 159); /* Tama ang syntax ng color */
   position: absolute;
-  top: 1120px;
+  top: 1135px;
   left: 10px;
   font-weight: bold;
   font-size: 11px;
 }
+      .outputm22b{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 1150px;
+  left: 10px;
+  font-weight: bold;
+  font-size: 11px;
+}
+     .outputm22c{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 1165px;
+  left: 10px;
+  font-weight: bold;
+  font-size: 11px;
+}
+    .outputm22d{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 1180px;
+  left: 10px;
+  font-weight: bold;
+  font-size: 11px;
+}
+   .labelm23{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 1120px;
+  left: 390px;
+  font-weight: bold;
+  font-size: 11px;
+}
+     .outputm23a{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 1135px;
+  left: 400px;
+  font-weight: bold;
+  font-size: 11px;
+}
+  .outputm23b{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 1150px;
+  left: 400px;
+  font-weight: bold;
+  font-size: 11px;
+}
+
     </style>
     </head>
     <body>
@@ -1396,10 +1452,22 @@ $html = "
                                                        <div class='outputm21b'>_____________________</div>
                                                         <div class='outputm21c'>_____________________</div>
                                                          <div class='outputm21d'>_____________________</div>
+                                                         <div class='outputm21e'>__________________________________________________________________________________________</div>
                                                  </div>
                                                  <div class='section21m'></div>
                                                    <div class='labelm22'>21.RECEIVED BY:</div>
-                                                     <div class='outputm22a'>Signature_____________________</div>
+                                                     <div class='outputm22a'>Signature_____________________________</div>
+                                                         <div class='outputm22b'>Name in Print_____________________________</div>
+                                                           <div class='outputm22c'>Title or Position_____________________________</div>
+                                                           <div class='outputm22d'>Date_____________________________</div>
+                                                  </div>
+                                                  <div class='section21m'></div>
+                                                   <div class='labelm23'>22.REGISTERED AT THE OFFICE OF THE CIVIL REGISTRAR</div>
+                                                    <div class='outputm23a'>Signature_____________________________</div>
+                                                         <div class='outputm23b'>Name in Print_____________________________</div>
+                                                           <div class='outputm23c'>Title or Position_____________________________</div>
+                                                           <div class='outputm23d'>Date_____________________________</div>
+                                                  </div>
                                                   </div>
                                                   </div>
                                                 </div>
