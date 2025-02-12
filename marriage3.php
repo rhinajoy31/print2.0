@@ -1791,6 +1791,105 @@ $html = "
   font-weight: bold;
   font-size: 11px;
 }
+   .outputm35{
+    color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 735px;
+  left: 35px;
+  font-weight: bold;
+  font-size: 11px;
+}
+    .outputm36{
+    color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 735px;
+  left: 75px;
+  font-weight: bold;
+  font-size: 11px;
+}
+     .outputm37{
+    color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 735px;
+  left: 165px;
+  font-weight: bold;
+  font-size: 11px;
+}
+     .outputm38{
+    color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 735px;
+  left: 205px;
+  font-weight: bold;
+  font-size: 11px;
+}
+     .outputm39{
+    color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 735px;
+  left: 280px;
+  font-weight: bold;
+  font-size: 11px;
+}
+   .outputm40{
+    color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 735px;
+  left: 315px;
+  font-weight: bold;
+  font-size: 11px;
+}
+  .outputm41{
+    color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 735px;
+  left: 375px;
+  font-weight: bold;
+  font-size: 11px;
+}
+   
+     .resizable-box13{
+    width: 20px;
+    height: 15px;
+    position: absolute;
+    resize: both;
+    overflow: auto;
+    border: 2px solid rgb(248, 82, 159); /* Ayusin ang kulay ng border */
+    top: 735px;
+    left: 50px;
+}
+        .resizable-box14{
+    width: 20px;
+    height: 15px;
+    position: absolute;
+    resize: both;
+    overflow: auto;
+    border: 2px solid rgb(248, 82, 159); /* Ayusin ang kulay ng border */
+    top: 735px;
+    left: 180px;
+}
+    .resizable-box15{
+    width: 20px;
+    height: 15px;
+    position: absolute;
+    resize: both;
+    overflow: auto;
+    border: 2px solid rgb(248, 82, 159); /* Ayusin ang kulay ng border */
+    top: 735px;
+    left: 290px;
+}
+     .resizable-box16{
+    width: 20px;
+    height: 15px;
+    position: absolute;
+    resize: both;
+    overflow: auto;
+    border: 2px solid rgb(248, 82, 159); /* Ayusin ang kulay ng border */
+    top: 735px;
+    left: 390px;
+}
+   
+   
     </style>
     </head>
     <body>
@@ -2072,6 +2171,17 @@ $html = "
                                                </div>
                                                 <div class='section24m'></div>
                                             <div class='labelmd'>2.That said marriage was solemnized by________________________________________________________(Solemnizing Officer's name) under</div>
+                                        <div class='outputm35'>a.</div>
+                                         <div class='outputm36'>religous ceremony</div>
+                                           <div class='outputm37'>b.</div>
+                                             <div class='outputm38'>civil ceremony</div>
+                                                <div class='outputm39'>c.</div>
+                                                   <div class='outputm40'>Musli rites</div>
+                                                    <div class='outputm41'>d.</div>
+                                           <div class='resizable-box13'> </div>
+                                           <div class='resizable-box14'> </div>
+                                              <div class='resizable-box15'> </div>
+                                              <div class='resizable-box16'> </div>
 
                                                        </div>
                                                 </div>
