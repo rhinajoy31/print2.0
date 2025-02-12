@@ -1847,7 +1847,14 @@ $html = "
   font-weight: bold;
   font-size: 11px;
 }
-   
+    .outputm42{
+    color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 735px;
+  left: 415px;
+  font-weight: bold;
+  font-size: 11px;
+}
      .resizable-box13{
     width: 20px;
     height: 15px;
@@ -1888,8 +1895,68 @@ $html = "
     top: 735px;
     left: 390px;
 }
-   
-   
+       .labelme{
+    color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 755px;
+  left: 20px;
+  font-weight: bold;
+  font-size: 11px;
+}
+     .outputm43{
+    color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 770px;
+  left: 100px;
+  font-weight: bold;
+  font-size: 11px;
+}
+    .outputm44{
+    color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 792px;
+  left: 100px;
+  font-weight: bold;
+  font-size: 11px;
+}
+  .outputm45{
+    color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 830px;
+  left: 20px;
+  font-weight: bold;
+  font-size: 11px;
+}
+    .outputm46{
+    color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 860px;
+  left: 20px;
+  font-weight: bold;
+  font-size: 11px;
+}
+  
+   .resizable-box17{
+    width: 20px;
+    height: 15px;
+    position: absolute;
+    resize: both;
+    overflow: auto;
+    border: 2px solid rgb(248, 82, 159); /* Ayusin ang kulay ng border */
+    top: 770px;
+    left: 70px;
+}
+      .resizable-box18{
+    width: 20px;
+    height: 15px;
+    position: absolute;
+    resize: both;
+    overflow: auto;
+    border: 2px solid rgb(248, 82, 159); /* Ayusin ang kulay ng border */
+    top: 790px;
+    left: 70px;
+}
+  
     </style>
     </head>
     <body>
@@ -2178,12 +2245,24 @@ $html = "
                                                 <div class='outputm39'>c.</div>
                                                    <div class='outputm40'>Musli rites</div>
                                                     <div class='outputm41'>d.</div>
+                                                     <div class='outputm42'>tribal rites</div>
                                            <div class='resizable-box13'> </div>
                                            <div class='resizable-box14'> </div>
                                               <div class='resizable-box15'> </div>
                                               <div class='resizable-box16'> </div>
 
                                                        </div>
+                                                        <div class='section25m'></div>
+                                                       <div class='labelme'> 3.That the marriage was solemnized:</div>
+                                                       <div class='outputm43'>a.with marriage license no.______________issued on _____________________ at___________________________________</div>
+                                                         <div class='outputm44'>b.under Article__________(marriages of exceptional character);</div>
+                                                         <div class='outputm45'>4.(if the aplicant is either the wife or husband)That i am a citizen of____________________________________and my spouse is citizen of______________________________;</div>
+                                                        <div class='outputm46'>5.That the reason for the delay in registering our/their marriage is____________________________________________________________</div>
+                                                        
+                                                       
+                                                       
+                                                       <div class='resizable-box17'> </div>
+                                                           <div class='resizable-box18'> </div>
                                                 </div>
                                                   </div>
                                                   </div>
