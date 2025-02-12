@@ -1579,6 +1579,71 @@ $html = "
        font-size: 11px;
       
 }
+       
+           .outputm21{
+    color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 505px;
+  left: 400px;
+  font-weight: bold;
+    font-weight: bold;
+      
+}
+               .outputm22{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 520px;
+  left: 470px;
+  font-weight: bold;
+    font-weight: bold;
+       font-size: 11px;
+      
+}
+              .outputm23{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 530px;
+  left: 400px;
+  font-weight: bold;
+    font-weight: bold;
+      
+}
+              .outputm24{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 545px;
+  left: 120px;
+  font-weight: bold;
+     font-size: 11px;
+      
+}
+     .outputm25{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 530px;
+  left: 40px;
+  font-weight: bold;
+    font-weight: bold;
+      
+}
+              .outputm26{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 545px;
+  left: 500px;
+  font-weight: bold;
+     font-size: 11px;
+      
+}
+          .outputm27{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 540px;
+  left: 1px;
+  font-weight: bold;
+    font-weight: bold;
+      
+}
        .resizable-box6 {
     width: 20px;
     height: 25px;
@@ -1631,7 +1696,40 @@ $html = "
     top: 295px;
     left: 35px;
 }
- 
+        .labelmc{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 560px;
+  left: 150px;
+  font-weight: bold;
+  font-size: 14px;
+      
+}
+  .outputm28{
+    color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 580px;
+  left: 25px;
+  font-weight: bold;
+  font-size: 11px;
+}
+    .outputm29{
+    color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 600px;
+  left: 25px;
+  font-weight: bold;
+  font-size: 11px;
+}
+    .outputm30{
+    color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 620px;
+  left: 25px;
+  font-weight: bold;
+  font-size: 11px;
+}
+
     </style>
     </head>
     <body>
@@ -1852,6 +1950,7 @@ $html = "
     <div class='content'>
        <div class='container'> 
          <div class='header2d'> </div>
+           <div class='section21m'></div>
          <div class='labelma'>20b. WITNESSES(Print Name and Sign)</div>
            <div class='outputma'>_____________________</div>
             <div class='outputmb'>____________________</div>
@@ -1863,6 +1962,7 @@ $html = "
                   <div class='outputmh'>_____________________</div>
                     <div class='outputmi'>__________________________________________________________________________________________</div>
                                                 </div>
+                                                  <div class='section22m'></div>
                                                 <div class='labelmb'>AFFIDAVIT OF SOLEMINIZINF OFFICER</div>
                                                   <div class='outputm1'>I,_____________________________________,of legal age, Soleminizing Officer of_________________________________with address at</div>
                                                 <div class='outputm2'>_________________________________________________________,after having sworn to in accordance with law, do hereby depose say:</div>
@@ -1884,16 +1984,27 @@ $html = "
                                                        <div class='outputm18'>issued on_____________________________________,______________________________________at___________________________________.</div>
                                                          <div class='outputm19'>__________________________________</div>
                                                           <div class='outputm20'>Signature of the Administering Officer</div>
-
-
-
+                                                           <div class='outputm21'>__________________________________</div>
+                                                          <div class='outputm22'>Position/Title/Designation</div>
+                                                             <div class='outputm23'>__________________________________</div>
+                                                          <div class='outputm24'>Name in Print</div>
+                                                            <div class='outputm25'>__________________________________</div>
+                                                                    <div class='outputm26'>Address</div>
+                                                                        <div class='outputm27'>__________________________________________________________________________________________</div>
                                                    <div class='resizable-box6'> </div>
                                               <div class='resizable-box7'> </div>
                                                  <div class='resizable-box8'> </div>
                                                         <div class='resizable-box9'> </div>
                                                                 <div class='resizable-box10'> </div>
                                                 </div>
-                                              </div>
+                                                  <div class='section23m'></div>
+                                                   <div class='labelmc'>AFFIDAVIT FOR DELAYED REGISTRATION OF MARRIAGE</div>
+                                                       <div class='outputm28'>I,________________________________________________________,of legal age, single/married/divorced/widow/widower, with residence and postal</div>
+                                               <div class='outputm29'>postal address________________________________________________________________________________________________________________</div>
+                                                <div class='outputm30'>____________________________________________________,after having duly sworn in accordance with law do hereby depose and say:</div>
+                                              
+                                               </div>
+                                                       </div>
                                                 </div>
                                                   </div>
                                                   </div>
