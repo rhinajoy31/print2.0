@@ -1995,6 +1995,31 @@ $html = "
   font-weight: bold;
     font-size: 11px;
 }
+   .labelmg{
+    color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 1000px;
+  left: 40px;
+  font-weight: bold;
+  font-size: 11px;
+}
+   .outputm51{
+      color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 1020px;
+  left: 15px;
+  font-weight: bold;
+  font-size: 11px;
+}
+  
+   .outputm52{
+      color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 1040px;
+  left: 15px;
+  font-weight: bold;
+  font-size: 11px;
+}
   
     </style>
     </head>
@@ -2306,9 +2331,14 @@ $html = "
                                                  <div class='outputm48'>_____________________________________________,Philippines</div>                                                                                                          
                                                     <div class='outputm49'>_______________________________</div>                                                                                                          
                                                    <div class='outputm50'>Signature Over Printed Name of Afficiant</div>                                                                                                          
-                                                 
+                                    
                                                      </div>
-                                                  </div>
+                                                        <div class='section27m'></div>
+                                                        <div class='labelmg'> SUBSRIBED AND SWORN to before me this __________day of______________________________,______________________________at</div>
+                                                         <div class='outputm51'>___________________________________________________________________________,Philippines, affiant who exhibited to me his/her CTC/valid ID</div>    
+                                                             <div class='outputm52'>_________________________issued on___________________________,_______________________at___________________________________________</div>    
+                                                
+                                                         </div>
 </body>
                                    
 </html>";
