@@ -1300,6 +1300,24 @@ $html = "
   font-size: 11px;
     font-weight: bold;
 }
+      /* BIRTH BACK PAGE */
+ .header2m {
+            color: darkblue;
+            text-align: center;
+            font-weight: bold;
+            font-size: 12px;
+            text-transform: uppercase;
+            margin-top: 1px; /* Mas mataas ang value, mas bababa */
+}
+                       .labelma{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  font-weight: bold;
+  font-size: 11px;
+    font-weight: bold;
+}
     </style>
     </head>
     <body>
@@ -1515,6 +1533,12 @@ $html = "
                                                    <div class='labelm24'>REMARKS/ANNOTATIONS(For LCRO/OCRG/Shari'a Circuit Registrar Use Only)</div>
                                                   </div>
                                                   </div>
+<div class='page-break'></div>
+<div class='page'>
+    <div class='content'>
+       <div class='container'> 
+         <div class='header2d'> </div>
+         <div class='labelma'>20b. WITNESSES(Print Name and Sign)</div>
                                                 </div>
                                                   </div>
 </body>
