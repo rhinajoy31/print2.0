@@ -1309,7 +1309,7 @@ $html = "
             text-transform: uppercase;
             margin-top: 1px; /* Mas mataas ang value, mas bababa */
 }
-                       .labelma{
+  .labelma{
   color: rgb(248, 82, 159); /* Tama ang syntax ng color */
   position: absolute;
   top: 5px;
@@ -1318,6 +1318,89 @@ $html = "
   font-size: 11px;
     font-weight: bold;
 }
+      .outputma{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 15px;
+  left: 5px;
+  font-weight: bold;
+    font-weight: bold;
+}
+      .outputmb{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 15px;
+  left: 190px;
+  font-weight: bold;
+    font-weight: bold;
+}
+      .outputmc{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 15px;
+  left: 370px;
+  font-weight: bold;
+    font-weight: bold;
+}
+      .outputmd{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 15px;
+  left: 550px;
+  font-weight: bold;
+    font-weight: bold;
+}
+        .outputme{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 40px;
+  left: 5px;
+  font-weight: bold;
+    font-weight: bold;
+}
+    .outputmf{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 40px;
+  left: 190px;
+  font-weight: bold;
+    font-weight: bold;
+}
+      .outputmg{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 40px;
+  left: 370px;
+  font-weight: bold;
+    font-weight: bold;
+}
+     .outputmh{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 40px;
+  left: 550px;
+  font-weight: bold;
+    font-weight: bold;
+}
+      .outputmi{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 50px;
+  left: 1px;
+  font-weight: bold;
+    font-weight: bold;
+}
+ .labelmb{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  font-weight: bold;
+  font-size: 11px;
+    font-weight: bold;
+}
+  
+ 
     </style>
     </head>
     <body>
@@ -1539,6 +1622,17 @@ $html = "
        <div class='container'> 
          <div class='header2d'> </div>
          <div class='labelma'>20b. WITNESSES(Print Name and Sign)</div>
+           <div class='outputma'>_____________________</div>
+            <div class='outputmb'>____________________</div>
+               <div class='outputmc'>____________________</div>
+                  <div class='outputmd'>_____________________</div>
+                   <div class='outputme'>_____________________</div>
+            <div class='outputmf'>____________________</div>
+               <div class='outputmg'>____________________</div>
+                  <div class='outputmh'>_____________________</div>
+                    <div class='outputmi'>__________________________________________________________________________________________</div>
+                                                </div>
+                                                <div class='labelmb'>AFFIDAVIT OF SOLEMINIZINF OFFICER</div>
                                                 </div>
                                                   </div>
 </body>
