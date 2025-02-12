@@ -2020,7 +2020,22 @@ $html = "
   font-weight: bold;
   font-size: 11px;
 }
-  
+    .labelmh{
+      color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 1070px;
+  left: 15px;
+  font-weight: bold;
+}
+ .outputm53{
+      color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 1085px;
+  left: 55px;
+  font-weight: bold;
+    font-size: 11px;
+}
+
     </style>
     </head>
     <body>
@@ -2339,6 +2354,16 @@ $html = "
                                                              <div class='outputm52'>_________________________issued on___________________________,_______________________at___________________________________________</div>    
                                                 
                                                          </div>
+                                                          <div class='section28m'></div>
+                                                           <div class='labelmh'>____________________________________ </div>
+                                                            <div class='outputm53'> Signature of the Administering Officer</div>
+
+
+                                                            </div>
+                                                              </div>
+                                                                </div>
+                                                                  </div>
+
 </body>
                                    
 </html>";
