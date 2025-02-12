@@ -1393,13 +1393,128 @@ $html = "
  .labelmb{
   color: rgb(248, 82, 159); /* Tama ang syntax ng color */
   position: absolute;
-  top: 5px;
-  left: 10px;
+  top: 70px;
+  left: 220px;
+  font-weight: bold;
+  font-size: 14px;
+    font-weight: bold;
+}
+   .outputm1{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  font-weight: bold;
+  font-size: 12px;
+    font-weight: bold;
+}
+   .outputm2{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 120px;
+  left: 20px;
+  font-weight: bold;
+  font-size: 12px;
+    font-weight: bold;
+}
+       .outputm3{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 140px;
+  left: 20px;
+  font-weight: bold;
+  font-size: 12px;
+    font-weight: bold;
+}
+      .outputm4{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 160px;
+  left: 20px;
+  font-weight: bold;
+  font-size: 12px;
+    font-weight: bold;
+}
+        .outputm5{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 160px;
+  left: 65px;
+  font-weight: bold;
+  font-size: 11px;
+    font-weight: bold;
+}
+        .outputm6{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 205px;
+  left: 65px;
+  font-weight: bold;
+  font-size: 11px;
+    font-weight: bold;
+}
+        .outputm7{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 220px;
+  left: 65px;
+  font-weight: bold;
+  font-size: 11px;
+    font-weight: bold;
+}
+     .outputm8{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 265px;
+  left: 65px;
   font-weight: bold;
   font-size: 11px;
     font-weight: bold;
 }
   
+    
+       .resizable-box6 {
+    width: 20px;
+    height: 25px;
+    position: absolute;
+    resize: both;
+    overflow: auto;
+    border: 2px solid rgb(248, 82, 159); /* Ayusin ang kulay ng border */
+    top: 160px;
+    left: 35px;
+}
+  
+       .resizable-box7 {
+    width: 20px;
+    height: 25px;
+    position: absolute;
+    resize: both;
+    overflow: auto;
+    border: 2px solid rgb(248, 82, 159); /* Ayusin ang kulay ng border */
+    top: 190px;
+    left: 35px;
+}
+       .resizable-box8 {
+    width: 20px;
+    height: 25px;
+    position: absolute;
+    resize: both;
+    overflow: auto;
+    border: 2px solid rgb(248, 82, 159); /* Ayusin ang kulay ng border */
+    top: 220px;
+    left: 35px;
+}
+    .resizable-box9 {
+    width: 20px;
+    height: 25px;
+    position: absolute;
+    resize: both;
+    overflow: auto;
+    border: 2px solid rgb(248, 82, 159); /* Ayusin ang kulay ng border */
+    top: 260px;
+    left: 35px;
+}
+ 
  
     </style>
     </head>
@@ -1633,7 +1748,23 @@ $html = "
                     <div class='outputmi'>__________________________________________________________________________________________</div>
                                                 </div>
                                                 <div class='labelmb'>AFFIDAVIT OF SOLEMINIZINF OFFICER</div>
+                                                  <div class='outputm1'>I,_____________________________________,of legal age, Soleminizing Officer of_________________________________with address at</div>
+                                                <div class='outputm2'>_________________________________________________________,after having sworn to in accordance with law, do hereby depose say:</div>
+                                              <div class='outputm3'>1.That I hav solemized the marriage between________________________________and_______________________________________:</div>
+                                              <div class='outputm4'>2.</div>
+                                               <div class='outputm5'>a.That i have ascertained the qualifications of the contracting parties and have found no legal impediment for them to marry as required by Article 34 of the Family Code;</div>
+                                                <div class='outputm6'>b.That this marriage was performed in articulo mortis or at the point of death;</div>
+                                                <div class='outputm7'>c.That the contracting parties_________________________and ______________________________, beng ath the point of death and physicaly unable to sign he foregoing certificate of marriage by signature or mark, one od the witnesses to the marriage sign for him or her by writing the dying partys nae and beneathit it, thw winess' own signature preceded by the preposition </div>
+                                                  <div class='outputm8'>d.That the residence of either party is so located that there is no means of transportation to enable concerned party/parties to appear personnaly before the civil regstrar;</div>
+                                              
+                                                <div class='resizable-box6'> </div>
+                                              <div class='resizable-box7'> </div>
+                                                 <div class='resizable-box8'> </div>
+                                                        <div class='resizable-box9'> </div>
                                                 </div>
+                                              </div>
+                                                </div>
+                                                  </div>
                                                   </div>
 </body>
                                    
