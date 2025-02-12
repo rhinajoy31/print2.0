@@ -1935,6 +1935,14 @@ $html = "
   font-weight: bold;
   font-size: 11px;
 }
+     .outputm47{
+    color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 880px;
+  left: 20px;
+  font-weight: bold;
+  font-size: 11px;
+}
   
    .resizable-box17{
     width: 20px;
@@ -1955,6 +1963,37 @@ $html = "
     border: 2px solid rgb(248, 82, 159); /* Ayusin ang kulay ng border */
     top: 790px;
     left: 70px;
+}
+    .labelmf{
+    color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 915px;
+  left: 40px;
+  font-weight: bold;
+  font-size: 11px;
+}
+    .outputm48{
+    color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 930px;
+  left: 40px;
+  font-weight: bold;
+  font-size: 11px;
+}
+   .outputm49{
+    color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 960px;
+  left: 400px;
+  font-weight: bold;
+}
+    .outputm50{
+    color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 977px;
+  left: 420px;
+  font-weight: bold;
+    font-size: 11px;
 }
   
     </style>
@@ -2258,13 +2297,17 @@ $html = "
                                                          <div class='outputm44'>b.under Article__________(marriages of exceptional character);</div>
                                                          <div class='outputm45'>4.(if the aplicant is either the wife or husband)That i am a citizen of____________________________________and my spouse is citizen of______________________________;</div>
                                                         <div class='outputm46'>5.That the reason for the delay in registering our/their marriage is____________________________________________________________</div>
-                                                        
-                                                       
-                                                       
+                                                         <div class='outputm47'>6.That I am executing this affidavit to attest to the truthfulness of the foregoing statements for all legal intents and purpose.</div>                                                                                                          
                                                        <div class='resizable-box17'> </div>
                                                            <div class='resizable-box18'> </div>
                                                 </div>
-                                                  </div>
+                                                   <div class='section26m'></div>
+                                                     <div class='labelmf'>In truth whereof, I have affixed my signature below this__________day of______________________________,__________________at </div>
+                                                 <div class='outputm48'>_____________________________________________,Philippines</div>                                                                                                          
+                                                    <div class='outputm49'>_______________________________</div>                                                                                                          
+                                                   <div class='outputm50'>Signature Over Printed Name of Afficiant</div>                                                                                                          
+                                                 
+                                                     </div>
                                                   </div>
 </body>
                                    
