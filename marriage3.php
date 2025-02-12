@@ -1480,6 +1480,15 @@ $html = "
   font-size: 11px;
     font-weight: bold;
 }
+     .outputm10{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 330px;
+  left: 20px;
+  font-weight: bold;
+  font-size: 11px;
+    font-weight: bold;
+}
     
        .resizable-box6 {
     width: 20px;
@@ -1522,6 +1531,7 @@ $html = "
     top: 260px;
     left: 35px;
 }
+    
     .resizable-box10 {
     width: 20px;
     height: 25px;
@@ -1774,7 +1784,8 @@ $html = "
                                                 <div class='outputm7'>c.That the contracting parties_________________________and ______________________________, beng ath the point of death and physicaly unable to sign he foregoing certificate of marriage by signature or mark, one od the witnesses to the marriage sign for him or her by writing the dying partys nae and beneathit it, thw winess' own signature preceded by the preposition </div>
                                                   <div class='outputm8'>d.That the residence of either party is so located that there is no means of transportation to enable concerned party/parties to appear personnaly before the civil regstrar;</div>
                                                  <div class='outputm9'>e.That the marriage was among muslims or among members of the Ethic Cultural Communities and that the marriage was soleminized personally before the civil registrar </div>
-                                                <div class='resizable-box6'> </div>
+                                               <div class='outputm10'>3.That I took the necessary steps to ascertain the ages and relatiosnhip of the contracting parties and that neither of them are uner any legal impediment to marry each other;</div>
+                                                 <div class='resizable-box6'> </div>
                                               <div class='resizable-box7'> </div>
                                                  <div class='resizable-box8'> </div>
                                                         <div class='resizable-box9'> </div>
