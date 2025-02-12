@@ -2024,18 +2024,62 @@ $html = "
       color: rgb(248, 82, 159); /* Tama ang syntax ng color */
   position: absolute;
   top: 1070px;
-  left: 15px;
+  left: 50px;
   font-weight: bold;
 }
- .outputm53{
+  .outputm53{
       color: rgb(248, 82, 159); /* Tama ang syntax ng color */
   position: absolute;
   top: 1085px;
-  left: 55px;
+  left: 65px;
   font-weight: bold;
     font-size: 11px;
 }
-
+.outputm54{
+     color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 1150px;
+  left: 50px;
+  font-weight: bold;
+}
+   .outputm55{
+      color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 1165px;
+  left: 110px;
+  font-weight: bold;
+    font-size: 11px;
+}
+    .outputm56{
+     color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 1150px;
+  left: 400px;
+  font-weight: bold;
+}
+   .outputm57{
+     color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 1165px;
+  left: 490px;
+  font-weight: bold;
+    font-size: 11px;
+}
+  .outputm58{
+   color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 1075px;
+  left: 400px;
+  font-weight: bold;
+}
+.outputm59{
+   color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 1090px;
+  left: 460px;
+  font-weight: bold;
+   font-size: 11px
+}
     </style>
     </head>
     <body>
@@ -2355,8 +2399,15 @@ $html = "
                                                 
                                                          </div>
                                                           <div class='section28m'></div>
-                                                           <div class='labelmh'>____________________________________ </div>
-                                                            <div class='outputm53'> Signature of the Administering Officer</div>
+                                                           <div class='labelmh'>_____________________________ </div>
+                                                           <div class='outputm53'>Signature of the Administering Officer </div>
+                                                            <div class='outputm54'>_____________________________ </div>
+                                                              <div class='outputm55'>Name in Print </div>
+                                                                <div class='outputm56'>_____________________________ </div>
+                                                                 <div class='outputm57'>Address</div>
+                                                                 <div class='outputm58'>_____________________________ </div>
+                                                                   <div class='outputm59'>Position/Title/Designation</div>
+
 
 
                                                             </div>
