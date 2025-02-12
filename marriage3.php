@@ -1729,7 +1729,68 @@ $html = "
   font-weight: bold;
   font-size: 11px;
 }
+   .outputm31{
+    color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 635px;
+  left: 25px;
+  font-weight: bold;
+  font-size: 11px;
+}
+   .outputm32{
+    color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 650px;
+  left: 65px;
+  font-weight: bold;
+  font-size: 11px;
+}
+  .outputm33{
+    color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 680px;
+  left: 65px;
+  font-weight: bold;
+  font-size: 11px;
+}
+  .outputm34{
+    color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 695px;
+  left: 40px;
+  font-weight: bold;
+  font-size: 11px;
+}
 
+
+  .resizable-box11{
+    width: 20px;
+    height: 15px;
+    position: absolute;
+    resize: both;
+    overflow: auto;
+    border: 2px solid rgb(248, 82, 159); /* Ayusin ang kulay ng border */
+    top: 650px;
+    left: 35px;
+}
+     .resizable-box12{
+    width: 20px;
+    height: 15px;
+    position: absolute;
+    resize: both;
+    overflow: auto;
+    border: 2px solid rgb(248, 82, 159); /* Ayusin ang kulay ng border */
+    top: 675px;
+    left: 35px;
+}
+      .labelmd{
+    color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 715px;
+  left: 20px;
+  font-weight: bold;
+  font-size: 11px;
+}
     </style>
     </head>
     <body>
@@ -2002,8 +2063,16 @@ $html = "
                                                        <div class='outputm28'>I,________________________________________________________,of legal age, single/married/divorced/widow/widower, with residence and postal</div>
                                                <div class='outputm29'>postal address________________________________________________________________________________________________________________</div>
                                                 <div class='outputm30'>____________________________________________________,after having duly sworn in accordance with law do hereby depose and say:</div>
-                                              
+                                                <div class='outputm31'>1. That I am the applicant for the delayed registration of</div>
+                                                   <div class='outputm32'>my marriage with_______________________in___________________________on_______________________________.</div>
+                                                        <div class='outputm33'>the marriage between_______________________________________and ____________________________________________in</div>
+                                                      <div class='outputm34'>______________________________________on ____________________________________________.</div>                             
+                                                               <div class='resizable-box11'> </div>
+                                                                <div class='resizable-box12'> </div>
                                                </div>
+                                                <div class='section24m'></div>
+                                            <div class='labelmd'>2.That said marriage was solemnized by________________________________________________________(Solemnizing Officer's name) under</div>
+
                                                        </div>
                                                 </div>
                                                   </div>
