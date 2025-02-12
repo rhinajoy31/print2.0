@@ -1489,7 +1489,96 @@ $html = "
   font-size: 11px;
     font-weight: bold;
 }
-    
+        .outputm11{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 360px;
+  left: 20px;
+  font-weight: bold;
+  font-size: 11px;
+    font-weight: bold;
+}
+        .outputm12{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 380px;
+  left: 20px;
+  font-weight: bold;
+  font-size: 11px;
+    font-weight: bold;
+}
+         .outputm13{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 400px;
+  left: 20px;
+  font-weight: bold;
+  font-size: 11px;
+    font-weight: bold;
+}
+       .outputm14{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 420px;
+  left: 400px;
+  font-weight: bold;
+    font-weight: bold;
+}
+    .outputm15{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 435px;
+  left: 405px;
+  font-weight: bold;
+    font-weight: bold;
+      font-size: 11px;
+}
+.outputm16{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 455px;
+  left: 40px;
+  font-weight: bold;
+    font-weight: bold;
+      font-size: 11px;
+}
+      .outputm17{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 470px;
+  left: 10px;
+  font-weight: bold;
+    font-weight: bold;
+      font-size: 11px;
+}
+        .outputm18{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 485px;
+  left: 10px;
+  font-weight: bold;
+    font-weight: bold;
+      font-size: 11px;
+}
+          .outputm19{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 505px;
+  left: 40px;
+  font-weight: bold;
+    font-weight: bold;
+      
+}
+           .outputm20{
+  color: rgb(248, 82, 159); /* Tama ang syntax ng color */
+  position: absolute;
+  top: 520px;
+  left: 80px;
+  font-weight: bold;
+    font-weight: bold;
+       font-size: 11px;
+      
+}
        .resizable-box6 {
     width: 20px;
     height: 25px;
@@ -1785,7 +1874,20 @@ $html = "
                                                   <div class='outputm8'>d.That the residence of either party is so located that there is no means of transportation to enable concerned party/parties to appear personnaly before the civil regstrar;</div>
                                                  <div class='outputm9'>e.That the marriage was among muslims or among members of the Ethic Cultural Communities and that the marriage was soleminized personally before the civil registrar </div>
                                                <div class='outputm10'>3.That I took the necessary steps to ascertain the ages and relatiosnhip of the contracting parties and that neither of them are uner any legal impediment to marry each other;</div>
-                                                 <div class='resizable-box6'> </div>
+                                                   <div class='outputm11'>4.That I am executing this affidavit to attest to the truthfulness of the foregoing statements for all legal intents and purposes.</div>
+                                                <div class='outputm12'>In truth wheref, I have affixed my signature below this________________day of______________________________,__________________________at</div>
+                                                   <div class='outputm13'>________________________________________________________________,Philippines</div>
+                                                  <div class='outputm14'>__________________________________</div>
+                                                     <div class='outputm15'>Signature Over Printed Name of the Solemnizing Officer</div>
+                                                       <div class='outputm16'>SUBSCRIBED AND SWORN to before me this_________________day of____________________________,______________________at</div>
+                                                       <div class='outputm17'>__________________________________________,Philippines, affiant who exhibited ti me hisher CTC/valid ID__________________________________</div>
+                                                       <div class='outputm18'>issued on_____________________________________,______________________________________at___________________________________.</div>
+                                                         <div class='outputm19'>__________________________________</div>
+                                                          <div class='outputm20'>Signature of the Administering Officer</div>
+
+
+
+                                                   <div class='resizable-box6'> </div>
                                               <div class='resizable-box7'> </div>
                                                  <div class='resizable-box8'> </div>
                                                         <div class='resizable-box9'> </div>
