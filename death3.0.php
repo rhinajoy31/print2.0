@@ -18,7 +18,7 @@ $html = "
 <head>
     <meta charset='UTF-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <title>Certificate of Live Birth</title>
+    <title>CERTIFICATE OF DEATH</title>
     <style>
         body {
             font-family: Arial, sans-serif;
