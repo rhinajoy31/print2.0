@@ -536,7 +536,134 @@ $html = "
                 top: 27%;
                 left: 4%;
             }
-               
+                 .label6b {
+               font-size: 10px;
+                text-transform: normal;
+                color: green;
+                position: fixed;
+                top: 26.6%;
+                left: 17%;
+            }
+                .output6a{
+                font-size: 13px;
+                position: fixed;
+                color: black;
+                top: 27.5%;
+                left: 15%;
+}
+                 .label6c{
+                font-size: 10px;
+                text-transform: normal;
+                color: green;
+                position: fixed;
+                top: 26.6%;
+                left: 48%; 
+}
+                .output6b{
+                font-size: 13px;
+                position: fixed;
+                color: black;
+                top: 27.5%;
+                left: 45%;
+}
+                       .label6d{
+                font-size: 10px;
+                text-transform: normal;
+                color: green;
+                position: fixed;
+                top: 26.6%;
+                left: 81%; 
+}
+              .output6c{
+                font-size: 13px;
+                position: fixed;
+                color: black;
+                top: 27.5%;
+                left: 78%;
+}
+                  .horizontal_line1g {
+                   width: 96%; 
+                height: 0.1%; 
+                background-color: green;
+                position: fixed;
+                top: 30%;
+                left: 3.7%;
+            }
+                    .label7a {
+                font-size: 11px;
+                position: fixed;
+                top: 30.5%;
+                left: 4%;
+            }
+                .output7a{
+                 font-size: 13px;
+                position: fixed;
+                color: black;
+                top: 31%;
+                left: 10%;
+}
+            .label8a{
+               font-size: 11px;
+                position: fixed;
+                top: 30.5%;
+                left: 61%;
+}
+                 .output8a{
+                font-size: 13px;
+                position: fixed;
+                color: black;
+                top: 31%;
+                left: 62%;
+}
+                .vertical_line1g{
+                width: 1px; 
+                height: 46px; 
+                background-color: green;
+                position: fixed; 
+                left: 60%;
+                top: 30%;
+}
+                .horizontal_line1h {
+                width: 96%; 
+                height: 0.1%; 
+                background-color: green;
+                position: fixed;
+                top: 33.5%;
+                left: 3.7%;
+            }
+               .label10a{
+                font-size: 10px;
+                position: fixed;
+                top: 34%;
+                left: 4%;
+                color: black;
+}
+                .output10a{
+                font-size: 13px;
+                position: fixed;
+                color: black;
+                top: 35.5%;
+                left: 8%;
+}
+                
+                .label11b{
+                font-size: 10px;
+                position: fixed;
+                top: 34%;
+                left: 21%;
+}
+                .output10b{
+                font-size: 13px;
+                position: fixed;
+                color: black;
+                top: 35.5%;
+                left: 28%;
+}
+  
+         
+
+
+         
         </style>
     </head>
         <body>
@@ -581,15 +708,30 @@ $html = "
                             <div class='label5e'>5c. Type of Birth</div>  
                             <div class='label5f'>(Order of this bith to<br><p class='label5g'>previous lives including fetal death)</p><p class='label5h'>(First, Second, Third, Etc.)</p><p class='labelline2c'>_______________________________________</p><p class='output5c'>First</p></div>
                             <div class='vertical_line1f'></div>
-
                             <div class='label5i'>6. Weight at Birth</div>  
-
                             <div class='label5j'><p class='labelline2d'>_______________grams</p> <p class='output5d'>3000</p></div>
                         <div class='horizontal_line1f'></div>
-                          <div class='horizontal_line1g'></div>
-                    <div class='labelside2'>M<br>O<br>T<br>H<br>E<br>R</div>
-                      <div class='label6a'>7.MAIDEN <br> NAME</div>
-                </div> 
+                           <div class='labelside2'>M<br>O<br>T<br>H<br>E<br>R</div>
+                           <div class='label6a'>7.MAIDEN<br>NAME</div> 
+                           <div class='label6b'>(First)<p class='output6a'>Rhina Joy</p></div>
+                           <div class='label6c'>(Middle)<p class='output6b'>Esguerra</p></div>
+                           <div class='label6d'>(Last)<p class='output6c'>Salinas</p></div>
+                        <div class='horizontal_line1g'></div>
+                            <div class='label7a'>8.CITIZENSHIP</div> <p class='output7a'>Filipino</p></div>
+                            <div class='label8a'>9.RELIGION/RELIGIOUS SECT</div> <p class='output8a'>Christian</p></div>
+                            <div class='vertical_line1g'></div>
+                        <div class='horizontal_line1h'></div>
+                            <div class='label10a'>10a.Total number of<br>children born alive</div> <p class='output10a'>EIGHT</p></div>
+                              <div class='label11b'>10a.Total number of<br>children born alive</div><p class='output10b'>EIGHT</p></div>
+                        
+                            
+
+
+
+
+
+
+
             </div>
             <div class='page-break'></div>
             <div class='page'>
