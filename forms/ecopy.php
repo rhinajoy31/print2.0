@@ -1478,12 +1478,22 @@ $html = "
             left:57%;
             text-transform: normal;
 }          
+            .output19j{
+            color: black;
+            position: absolute;
+            top: 64.2%;
+            left:57%;
+            font-size: 12px;
+            text-transform: normal;
+}
   
- 
-   
-    
-  
-   
+            .horizontal_line1q{
+            width: 99.5%; 
+            height: 0.1%; 
+            background-color: green;
+            position: absolute;
+            top: 66.5%;
+}
   
    
    
@@ -1686,7 +1696,9 @@ $html = "
                         <p class='labelline2o'>__________________________________________________</p> 
                         <p class='output19i'>RHINA JOY</p>
                     <div class='label19h'>Address</div>
+                          <p class='output19j'>RHINA JOY</p>
                         <p class='labelline2p'>___________________________________________</p> 
+                    <div class='horizontal_line1q'></div>
                    
                     
 
