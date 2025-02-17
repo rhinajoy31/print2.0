@@ -970,7 +970,7 @@ $html = "
             left: 77%;
             top: 44.5%;
 }
-            .label16a{
+                .label16a{
             font-size: 10px;
             position: absolute;
             top: 48.4%;
@@ -1494,9 +1494,127 @@ $html = "
             position: absolute;
             top: 66.5%;
 }
+            .label20a{
+            ont-size: 10px;
+            position: absolute;
+            top: 66.5%;
+            left: 1%;
+            color: black;
+            text-transform: normal;
+}
+            .label20b{
+            ont-size: 10px;
+            position: absolute;
+            top: 67.5%;
+            left: 1%;
+            color: black;
+            text-transform: normal;
+}
+            .label20c{
+            ont-size: 11px;
+            position: absolute;
+            top: 70%;
+            left: 3%;
+            color: black;
+            text-transform: normal;
+}
+            .labelline2q{
+            color: green;
+            position: absolute;
+            top: 69%;
+            left:10%;
+            text-transform: normal;
+}          
+            .output20a{
+            color: black;
+            position: absolute;
+            top: 69%;
+            left:12%;
+            font-size: 12px;
+            text-transform: normal;
+}
+            .label20d{
+            ont-size: 11px;
+            position: absolute;
+            top: 71.5%;
+            left: 3%;
+            color: black;
+            text-transform: normal;
+}
+          .labelline2r{
+            color: green;
+            position: absolute;
+            top: 70.3%;
+            left:13%;
+            text-transform: normal;
+}          
+            .output20b{
+            color: black;
+            position: absolute;
+            top: 70.3%;
+            left:14%;
+            font-size: 12px;
+            text-transform: normal;
+}
+            .label20e{
+            ont-size: 11px;
+            position: absolute;
+            top: 73%;
+            left: 3%;
+            color: black;
+            text-transform: normal;
+}
+            .labelline2s{
+            color: green;
+            position: absolute;
+            top: 72%;
+            left:20.3%;
+            text-transform: normal;
+}          
+            .output20c{
+            color: black;
+            position: absolute;
+            top: 72%;
+            left:21%;
+            font-size: 12px;
+            text-transform: normal;
+}
+          .label20f{
+            ont-size: 11px;
+            position: absolute;
+            top: 74.5%;
+            left: 3%;
+            color: black;
+            text-transform: normal;
+}
+            .labelline2t{
+            color: green;
+            position: absolute;
+            top: 73.5%;
+            left:10.5%;
+            text-transform: normal;
+}          
+                
+            .output20d{
+            color: black;
+            position: absolute;
+            top: 73.5%;
+            left:10.5%;
+            font-size: 12px;
+            text-transform: normal;
+}
   
    
-   
+  
+     .vertical_line1p{
+            width: 1px; 
+            height: 200px; 
+            background-color: green;
+            position: absolute; 
+            left: 50%;
+            top: 66.5%;
+}
+  
  
  
  
@@ -1699,12 +1817,23 @@ $html = "
                           <p class='output19j'>RHINA JOY</p>
                         <p class='labelline2p'>___________________________________________</p> 
                     <div class='horizontal_line1q'></div>
-                   
-                    
-
-
-
                 </div>
+                 <div class='label20a'>22.CERTIFICATION OF INFORMANT</div>
+                 <div class='label20b'>I hereby certify that all information supplies are true and <br>correct to my own knowledge and belief</div>
+                 <div class='label20c'>Signature</div>
+                        <p class='labelline2q'>________________________________________</p> 
+                        <p class='output20a'>RHINA JOY</p>
+                 <div class='label20d'>Name in print</div>
+                        <p class='labelline2r'>_____________________________________</p> 
+                        <p class='output20b'>RHINA JOY</p>
+                 <div class='label20e'>Relationship to the child</div>
+                        <p class='labelline2s'>_____________________________</p> 
+                        <p class='output20c'>RHINA JOY</p>
+                <div class='label20f'>Address</div>
+                        <p class='labelline2t'>________________________________________</p> 
+                        <p class='output20d'>RHINA JOY</p>
+                             
+                          <div class='vertical_line1p'></div>
                 </div>
             <div class='page-break'></div>
             <div class='page'>
