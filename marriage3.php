@@ -2435,3 +2435,13 @@ $dompdf->setPaper([0, 0, 612, 1008]);
 // Output the generated PDF
 $dompdf->stream("birth_certificate.pdf", ["Attachment" => false]);
 ?>
+
+<div class='label9b'>10b.No. of children still <br>living including this birth</div> <p class='output9b'>EIGHT</p></div>
+                            <div class='label9c'>10c.No.of children born <br>alive but are now dead</div> <p class='output9c'>EIGHT</p></div>
+                            <div class='label9d'>11.OCCUPATION</div> <p class='output9d'>BUSINESS WOMAN</p></div>
+                            <div class='label9e'>12.Age at time of this<br>(completed years)</div> <p class='output9e'>80</p></div>
+                            <div class='vertical_line1h'></div>
+                            <div class='vertical_line1i'></div>
+                            <div class='vertical_line1j'></div>
+                           <div class='vertical_line1k'></div>
+                           <div class='horizontal_line1i'></div> 

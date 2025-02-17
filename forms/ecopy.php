@@ -1166,6 +1166,122 @@ $html = "
             left: 84%;
             color: black;
 }
+            .horizontal_line1o{
+            width: 99.5%; 
+            height: 0.1%; 
+            background-color: green;
+            position: absolute;
+            top: 56%;
+}
+            .label18a{
+            font-size: 10px;
+            position: absolute;
+            top: 56.5%;
+            left: 1%;
+            color: black;
+}
+            .label18b{
+            font-size: 10px;
+            position: absolute;
+            top: 56.5%;
+            left:5%;
+            color: black;
+}
+           .labelline2e {
+                color: black;
+                position: fixed;
+                top: 57%;
+                left:3%;
+                font-size: 10px;
+                text-transform: normal;
+}
+                .output18b{
+                font-size: 12px;
+                position: absolute;
+                top: 56.5%;
+                left: 7%;
+                color: black;
+} 
+ 
+            .label18c{
+            font-size: 10px;
+            position: absolute;
+            top: 56.5%;
+            left:10%;
+            color: black;
+}
+ 
+                .labelline2f {
+                color: black;
+                position: fixed;
+                top: 57%;
+                left:3%;
+                font-size: 10px;
+                text-transform: normal;
+}
+ 
+                .label18b{
+                font-size: 12px;
+                position: absolute;
+                top: 56.5%;
+                left: 7%;
+                color: black;
+} 
+                .labelline2f {
+                color: black;
+                position: fixed;
+                top: 57%;
+                left:5%;
+                font-size: 10px;
+                text-transform: normal;
+}
+ 
+                .label18c{
+                font-size: 12px;
+                position: absolute;
+                top: 56.5%;
+                left: 23%;
+                color: black;
+} 
+                 .labelline2f {
+                color: black;
+                position: fixed;
+                top: 57%;
+                left:20%;
+                font-size: 10px;
+                text-transform: normal;
+}
+                .output18c{
+                font-size: 12px;
+                position: absolute;
+                top: 56.5%;
+                left: 23%;
+                color: black;
+} 
+                .label18d{
+                font-size: 12px;
+                position: absolute;
+                top: 56.5%;
+                left: 23%;
+                color: black;
+} 
+                .labelline2g {
+                color: black;
+                position: fixed;
+                top: 57%;
+                left:34%;
+                font-size: 10px;
+                text-transform: normal;
+}
+                .output18d{
+                font-size: 12px;
+                position: absolute;
+                top: 56.5%;
+                left: 37%;
+                color: black;
+} 
+   
+ 
  
  
             
@@ -1315,22 +1431,22 @@ $html = "
                        <p class='output17h'>Cavite<p>
                     <div class='label17i'>(Country)</div>
                        <p class='output17i'>Philippines<p>
-                    
-                    
-                    
-                     
-                     
+                     <div class='horizontal_line1o'></div>
+                     </div>
+                      <div class='label18a'>21a.ATTENDANT</div>
+                      <div class='label18b'></div> 
+                        <p class='labelline2e'>__________1.Physician</p> 
+                        <p class='output18b'>X</p>
+                      <div class='label18c'></div>
+                        <p class='labelline2f'>__________2.Nurse</p> 
+                        <p class='output18c'>X</p>
+                     <div class='label18d'></div>
+                        <p class='labelline2g'>__________3.Midwife</p> 
+                        <p class='output18d'>X</p>
 
+                      
 
-
-
-
-
-
-
-
-
-                    </div>
+                    </div> 
                 </div>
             <div class='page-break'></div>
             <div class='page'>
