@@ -816,7 +816,7 @@ $html = "
             .labelside3 {
             font-size: 15px;
             text-align: center;
-            position: fixed;
+            position: absolute;
             top: 43%;
             left: 1%;
 }
@@ -880,7 +880,133 @@ $html = "
             top: 44.5%;
             left: 3.7%;
 }
-      
+            .label12a{
+            font-size: 10px;
+            position: absolute;
+            top: 45%;
+            left: 4%;
+            color: black;
+}
+            .output12a{
+            font-size: 13px;
+            position: absolute;
+            top: 45.5%;
+            left: 7%;
+            color: black;
+}
+            .label13a{
+            font-size: 10px;
+            position: absolute;
+            top: 45%;
+            left: 27%;
+            color: black;
+}
+            .output13a{
+            font-size: 13px;
+            position: absolute;
+            top: 45.5%;
+            left: 27%;
+            color: black;
+}
+            .label14a{
+            font-size: 10px;
+            position: absolute;
+            top: 45%;
+            left: 55%;
+            color: black;
+}
+            .output14a{
+            font-size: 13px;
+            position: absolute;
+            top: 45.5%;
+            left: 55%;
+            color: black;
+}
+            .label15a{
+            font-size: 10px;
+            position: absolute;
+            top: 45%;
+            left: 78%;
+            color: black;
+}
+            .output15a{
+            font-size: 13px;
+            position: absolute;
+            top: 45.7%;
+            left: 86%;
+            color: black;
+}
+            .horizontal_line1l{
+            width: 96%; 
+            height: 0.1%; 
+            background-color: green;
+            position: absolute ;
+            top: 48%;
+            left: 3.7%;
+}
+            
+            .vertical_line1l{
+            width: 1px; 
+            height: 46px; 
+            background-color: green;
+            position: absolute; 
+            left: 26%;
+            top: 44.5%;
+}
+                  
+            .vertical_line1m{
+            width: 1px; 
+            height: 46px; 
+            background-color: green;
+            position: absolute; 
+            left: 53%;
+            top: 44.5%;
+}
+            .vertical_line1n{
+            width: 1px; 
+            height: 46px; 
+            background-color: green;
+            position: absolute; 
+            left: 77%;
+            top: 44.5%;
+}
+            .label16a{
+            font-size: 10px;
+            position: absolute;
+            top: 48.4%;
+            left: 4%;
+            color: black;
+}
+              .label16b{
+            font-size: 10px;
+            position: absolute;
+            top: 48.4%;
+            left: 20%;
+            color: green;
+            text-transform: normal;
+}    
+            .output16b{
+            font-size: 13px;
+            position: absolute;
+            top: 48.6%;
+            left: 10%;
+            color: black;
+}           
+            .label16c{
+            font-size: 10px;
+            position: absolute;
+            top: 48.4%;
+            left: 45%;
+            color: green;
+            text-transform: normal;
+}    
+            .output16c{
+            font-size: 13px;
+            position: absolute;
+            top: 48.6%;
+            left: 43%;
+            color: black;
+}           
  
              
        </style>
@@ -981,10 +1107,28 @@ $html = "
                     <div class='label11d'>(Last)</div>
                         <p class='output11d'>Sainas</p>
                     <div class='horizontal_line1k'></div>
-
-
-
                     </div>
+                    <div class='label12a'>15.Citizenship</div>
+                        <p class='output12a'>Filipino</p>
+                    <div class='label13a'>16.Religion/Religious Sect</div>
+                        <p class='output13a'>Christian</p>
+                    <div class='label14a'>17.Occupation</div>
+                        <p class='output14a'>Bussiness woman</p>
+                    <div class='label15a'>18.Age at the time of this<br>birth(completed years)</div>
+                        <p class='output15a'>56</p>
+                    <div class='horizontal_line1l'></div>
+                    <div class='vertical_line1l'></div>
+                    <div class='vertical_line1m'></div>
+                    <div class='vertical_line1n'></div>
+                    <div class='vertical_line1o'></div>
+                    </div>
+                     <div class='label16a'>19.residence</div>
+                    <div class='label16b'>(House No.,St.,Barangay)</div>
+                     <p class='output16b'>095 D Bonifacio St.</p>
+                     <div class='label16c'>(City/Municipality)</div>
+                     <p class='output16c'>mendez nunez</p>
+
+
                     </div>
                 </div>
             <div class='page-break'></div>
