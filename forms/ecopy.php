@@ -36,7 +36,7 @@ $html = "
                 page-break-after: always;
             }
             .content {
-                position: absulote;
+                position: fixed;
                 top: 0;
                 left: 0;
                 width: 100%;
@@ -81,9 +81,9 @@ $html = "
             p.output1a {
                 font-size: 13px;
                 text-transform: uppercase;
-                position: fixed;
-                top: 7%;
-                left: 15%
+                position: absolute;
+                top: 8.7%;
+                left: 14%
             }
             .label1b {
                 font-size: 13px;
@@ -96,15 +96,15 @@ $html = "
             p.labelline1b {
                 color: green;
                 position: fixed;
-                top: 8.9%;
+                top:9.4%;
                 left: 13.9%
             }
             p.output1b {
                 font-size: 13px;
-                position: fixed;
+                position: absolute;
                 text-transform: uppercase;
-                top: 8.8%;
-                left: 15%
+                top: 7%;
+                left: 12%
             }
             .vertical_line1a {
                 width: 1px; 
@@ -619,7 +619,7 @@ $html = "
                 width: 1px; 
                 height: 46px; 
                 background-color: green;
-                position: fixed; 
+                position:  absolute; 
                 left: 60%;
                 top: 30%;
 }
@@ -627,72 +627,72 @@ $html = "
                 width: 96%; 
                 height: 0.1%; 
                 background-color: green;
-                position: fixed;
+                position: absolute ;
                 top: 33.5%;
                 left: 3.7%;
             }
                .label9a{
                 font-size: 10px;
-                position: fixed;
+                position: absolute;
                 top: 34%;
                 left: 4%;
                 color: black;
 }
                 .output9a{
                 font-size: 13px;
-                position: fixed;
+                position: absolute;
                 color: black;
                 top: 35.5%;
                 left: 8%;
 }
                 .label9b{
                 font-size: 10px;
-                position: fixed;
+                position: absolute;
                 top: 34%;
                 left: 21%;
 }
                 .output9b{
                 font-size: 13px;
-                position: fixed;
+                position: absolute;
                 color: black;
                 top: 35.5%;
                 left: 28%;
 }
                    .label9c{
                 font-size: 10px;
-                position: fixed;
+                position: absolute;
                 top: 34%;
                 left: 43%;
 }
                  .output9c{
                 font-size: 13px;
-                position: fixed;
+                position: absolute;
                 color: black;
                 top: 35.5%;
                 left: 48%;
 }
                   .label9d{
                 font-size: 11px;
-                position: fixed;
+                position: absolute;
                 top: 34%;
                 left: 64%;
 }
                 .output9d{
                 font-size: 13px;
-                position: fixed;
+                position: absolute;
                 color: black;
                 top: 35.5%;
                 left: 63%;
 }
                 .label9e{
                 font-size: 11px;
-                position: fixed;
+                position: absolute;
                 top: 34%;
                 left: 81%;
 }
              .output9e{
               font-size: 13px;
-              position: fixed;
+              position: absolute;
               color: black;
               top: 35.5%;
               left: 90%;
@@ -701,7 +701,7 @@ $html = "
             width: 1px; 
             height: 60px; 
             background-color: green;
-            position: fixed; 
+            position: absolute; 
             left: 20.5%;
             top: 33.5%;
 }
@@ -710,7 +710,7 @@ $html = "
             width: 1px; 
             height: 60px; 
             background-color: green;
-            position: fixed; 
+            position: absolute; 
             left: 42%;
             top: 33.5%;
 }
@@ -718,48 +718,104 @@ $html = "
             width: 1px; 
             height: 60px; 
             background-color: green;
-            position: fixed; 
+            position: absolute; 
             left: 62.5%;
             top: 33.5%;
 }
-                .vertical_line1k{
-                width: 1px; 
-                height: 60px; 
-                background-color: green;
-                position: fixed; 
-                left: 80.5%;
-                top: 33.5%;
+            .vertical_line1k{
+            width: 1px; 
+            height: 60px; 
+            background-color: green;
+            position: absolute; 
+            left: 80%;
+            top: 33.5%;
 }
-                 .horizontal_line1i {
-                width: 96%; 
-                height: 0.1%; 
-                background-color: green;
-                position: fixed;
-                top: 38.3%;
-                left: 3.7%;
-            }
-                .label10a{
-                font-size: 10px;
-                position: fixed;
-                top: 38.5%;
-                left: 4%;
-                color: black;
+            .horizontal_line1i {
+            width: 96%; 
+            height: 0.1%; 
+            background-color: green;
+            position: absolute ;
+            top: 38.4%;
+            left: 3.7%;
 }
-                .label10b{
-                font-size: 10px;
-                position: fixed;
-                top: 38.5%;
-                left: 20%;
-                color: green;
+            .label10a{
+            font-size: 10px;
+            position: absolute;
+            top: 38.5%;
+            left: 4%;
+            color: black;
+            text-transform: normal;
 }
-                
-                .output10b{
-                font-size: 13px;
-                position: fixed;
-                top: 39%;
-                left: 13%;
-                color: black;
+            .label10b{
+            font-size: 10px;
+            position: absolute;
+            top: 38.5%;
+            left: 20%;
+            color: green;
+            text-transform: normal;
+}    
+            .output10b{
+            font-size: 13px;
+            position: absolute;
+            top: 38.7%;
+            left: 10%;
+            color: black;
+}           
+            .label10c{
+            font-size: 10px;
+            position: absolute;
+            top: 38.5%;
+            left: 45%;
+            color: green;
+             text-transform: normal;
 }
+            .output10c{
+            font-size: 13px;
+            position: absolute;
+            top: 38.7%;
+            left: 43%;
+            color: black;
+}
+            .label10d{
+            font-size: 10px;
+            position: absolute;
+            top: 38.5%;
+            left: 68%;
+            color: green;
+             text-transform: normal;
+}
+            .output10d{
+            font-size: 13px;
+            position: absolute;
+            top: 38.7%;
+            left: 66%;
+            color: black;
+}
+             .label10e{
+            font-size: 10px;
+            position: absolute;
+            top: 38.5%;
+            left: 88%;
+            color: green;
+            text-transform: normal;
+}
+            .output10e{
+            font-size: 13px;
+            position: absolute;
+            top: 38.7%;
+            left: 83%;
+            color: black;
+}
+            .horizontal_line1j {
+            width: 96%; 
+            height: 0.1%; 
+            background-color: green;
+            position: absolute ;
+            top: 41.2%;
+            left: 3.7%;
+}
+             
+             
        </style>
     </head>
         <body>
@@ -772,10 +828,15 @@ $html = "
                         <div class='horizontal_line1a'></div> 
                         <div class='vertical_line1b'></div>
                             <div class='labelside1'>C<br>H<br>I<br>L<br>D</div>
-                            <div class='label1a'>Province<p class='labelline1a'>_____________________________________________________</p><p class='output1a'>Mendez</p></div>
-                            <div class='label1b'>City/Municipality<p class='labelline1b'>____________________________________________________</p><p class='output1b'>Cavite</p></div>
+                            <div class='label1a'>Province</div>
+                                <p class='labelline1a'>_____________________________________________________</p>    
+                                    <p class='output1a'>Mendez</p>
+                            <div class='label1b'>City/Municipality</div>
+                                <p class='labelline1b'>____________________________________________________</p> 
+                                    <p class='output1b'>Cavite</p>
                                 <div class='vertical_line1a'></div>
-                                <div class='label1c'>Registry No.<p class='output1c'>2003-1</p></div>
+                                <div class='label1c'>Registry No.</div>
+                                <p class='output1c'>2003-1</p></div>
                         <div class='horizontal_line1b'></div>   
                             <div class='label2a'>1. Name</div>
                             <div class='label2b'>(First)<p class='output2a'>John Patrick</p></div>
@@ -817,21 +878,44 @@ $html = "
                             <div class='label8a'>9.RELIGION/RELIGIOUS SECT</div> <p class='output8a'>Christian</p></div>
                             <div class='vertical_line1g'></div>
                         <div class='horizontal_line1h'></div>
-                            <div class='label9a'>10a.Total number of<br>children born alive</div> <p class='output9a'>EIGHT</p></div>
-                            <div class='label9b'>10b.No. of children still <br>living including this birth</div> <p class='output9b'>EIGHT</p></div>
-                            <div class='label9c'>10c.No.of children born <br>alive but are now dead</div> <p class='output9c'>EIGHT</p></div>
-                            <div class='label9d'>11.OCCUPATION</div> <p class='output9d'>BUSINESS WOMAN</p></div>
-                            <div class='label9e'>12.Age at time of this<br>(completed years)</div> <p class='output9e'>80</p></div>
-                            <div class='vertical_line1h'></div>
-                            <div class='vertical_line1i'></div>
-                            <div class='vertical_line1j'></div>
-                           <div class='vertical_line1k'></div>
-                           <div class='horizontal_line1i'></div> 
-                        <div class='label10a'>13RESIDENCE</div> 
-                        <div class='label10b'>10b.(House No. St, Barangay)</div> <p class='output10b'>095 D.Bonifacio St.</p></div>
-
+                            <div class='label9a'>10a.Total number of<br>children born alive</div>
+                                <p class='output9a'>EIGHT</p>
+                        <div class='label9b'>10b.No. of children still <br>living including this birth</div> 
+                                <p class='output9b'>EIGHT</p>
+                        <div class='label9c'>10c.No.of children born <br>alive but are now dead</div>
+                                <p class='output9c'>EIGHT</p>
+                        <div class='label9d'>11.OCCUPATION</div> 
+                                <p class='output9d'>BUSINESS WOMAN</p>
+                        <div class='label9e'>12.Age at the time of <br>birth(completed years)</div>
+                                <p class='output9e'>56</p>
+                        <div class='vertical_line1h'></div>
+                        <div class='vertical_line1i'></div>
+                        <div class='vertical_line1j'></div>
+                        <div class='vertical_line1k'></div>
+                        <div class='horizontal_line1i'></div>
                        </div>
-
+                        <div class='label10a'>13.RESIDENCE</div>
+                        <div class='label10b'>(House No.,St.,Barangay)</div>
+                            <p class='output10b'>095 D Bonifacio St.</p>
+                        <div class='label10c'>(City/Municipality)</div>
+                            <p class='output10c'>Mendez-Nunez</p>
+                        <div class='label10d'>(Province)</div>
+                            <p class='output10d'>Cavite</p>
+                        <div class='label10e'>(Country)</div>
+                            <p class='output10e'>Philippines</p>
+                        <div class='horizontal_line1j'></div>
+    
+                        
+    
+                        
+                    </div>
+                    </div>
+                    </div>
+                </div>
+            <div class='page-break'></div>
+            <div class='page'>
+                <div class='content'>
+                    <div class='container'>
                 </div>
           </div>
         </body>
