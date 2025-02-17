@@ -1189,7 +1189,7 @@ $html = "
 }
            .labelline2e {
                 color: black;
-                position: fixed;
+                position: absolute;
                 top: 57%;
                 left:1%;
                 font-size: 10px;
@@ -1213,7 +1213,7 @@ $html = "
  
                 .labelline2f {
                 color: black;
-                position: fixed;
+                position:absolute;
                 top: 57%;
                 left:17%;
                 font-size: 10px;
@@ -1236,7 +1236,7 @@ $html = "
  
                 .labelline2g{
                 color: black;
-                position: fixed;
+                position: absolute;
                 top: 57%;
                 left:30%;
                 font-size: 10px;
@@ -1259,7 +1259,7 @@ $html = "
  
                 .labelline2h{
                 color: black;
-                position: fixed;
+                position: absolute;
                 top: 57%;
                 left:44%;
                 font-size: 10px;
@@ -1282,7 +1282,7 @@ $html = "
  
                 .labelline2i{
                 color: black;
-                position: fixed;
+                position: absolute;
                 top: 57%;
                 left:73%;
                 font-size: 10px;
@@ -1302,7 +1302,191 @@ $html = "
                 left: 93%;
                 color: black;
 } 
+            .horizontal_line1p{
+            width: 99.5%; 
+            height: 0.1%; 
+            background-color: green;
+            position: absolute;
+            top: 59%;
+}
+            .label19a{
+            font-size: 11px;
+            position: absolute;
+            top: 59%;
+            left: 1%;
+            color: black;
+            text-transform: normal;
+}
+            .label19b{
+            font-size: 11px;
+            position: absolute;
+            top: 60%;
+            left: 10%;
+            color: black;
+            text-transform: normal;
+}
+            .labelline2j{
+            color: black;
+            position: absolute;
+            top: 58.8%;
+            left:58.7%;
+            text-transform: normal;
+}
+            
+            .label19c{
+            color: black;
+            position: absolute;
+            top: 60%;
+            left:67%;
+            font-size: 10px;
+            text-transform: normal;
+}
+  
+            .output19d{
+            color: black;
+            position: absolute;
+            top: 59.3%;
+            left:60%;
+            font-size: 10px;
+            text-transform: normal;
+}
+            .label19d{
+            color: black;
+            position: absolute;
+            top: 62%;
+            left:2%;
+            font-size: 13px;
+            text-transform: normal;
+}
+            .labelline2k{
+            color: green;
+            position: absolute;
+            top: 61%;
+            left:10%;
+            text-transform: normal;
+}
+            .output19e{
+            color: black;
+            position: absolute;
+            top: 61.1%;
+            left:13%;
+            font-size: 12px;
+            text-transform: normal;
+}
+            .label19e{
+            color: black;
+            position: absolute;
+            top: 63.5%;
+            left:2%;
+            font-size: 13px;
+            text-transform: normal;
+}
+            .labelline2l{
+            color: green;
+            position: absolute;
+            top: 62.5%;
+            left:13%;
+            text-transform: normal;
+}
+               .output19f{
+            color: black;
+            position: absolute;
+            top: 62.3%;
+            left:14%;
+            font-size: 12px;
+            text-transform: normal;
+}
  
+            .label19f{
+            color: black;
+            position: absolute;
+            top: 65%;
+            left:2%;
+            font-size: 13px;
+            text-transform: normal;
+}
+            .labelline2m{
+            color: green;
+            position: absolute;
+            top: 64%;
+            left:15.5%;
+            text-transform: normal;
+}
+            .output19g{
+            color: black;
+            position: absolute;
+            top: 63.9%;
+            left:17%;
+            font-size: 12px;
+            text-transform: normal;
+}
+ 
+            .label19g{
+            color: black;
+            position: absolute;
+            top: 62%;
+            left:50%;
+            font-size: 13px;
+            text-transform: normal;
+}
+            .labelline2n{
+            color: green;
+            position: absolute;
+            top: 61%;
+            left:57%;
+            text-transform: normal;
+}            
+            .output19h{
+            color: black;
+            position: absolute;
+            top: 61%;
+            left:58%;
+            font-size: 12px;
+            text-transform: normal;
+}
+            
+            .labelline2o{
+            color: green;
+            position: absolute;
+            top: 62.5%;
+            left:50%;
+            text-transform: normal;
+}          
+                    
+            .output19i{
+            color: black;
+            position: absolute;
+            top: 62.5%;
+            left:52%;
+            font-size: 12px;
+            text-transform: normal;
+}
+     
+            .label19h{
+            color: black;
+            position: absolute;
+            top: 65.3%;
+            left:50%;
+            font-size: 13px;
+            text-transform: normal;
+}
+     
+            .labelline2p{
+            color: green;
+            position: absolute;
+            top: 64.2%;
+            left:57%;
+            text-transform: normal;
+}          
+  
+ 
+   
+    
+  
+   
+  
+   
+   
  
  
  
@@ -1479,18 +1663,36 @@ $html = "
                        <div class='label18f'></div>
                         <p class='labelline2i'>__________5.Other(Specify)_________</p> 
                         <p class='output18f'>X</p>
-                         <p class='output18g'>X</p>
-                     
-                     
-                     
-                     
-                     
-                     
-
-
-                      
-
+                        <p class='output18g'>X</p>
+                        <div class='horizontal_line1p'></div>
                     </div> 
+                    <div class='label19a'>21b.CERTIFICATION OF ATTENDANT AT BIRTH(Physician,Nurse,Midwife,Traditional Birth Attendant/Hilot,etc.)</div>
+                    <div class='label19b'>I hereby certify that I attended the birth of the child who was born alive at</div>
+                    <div class='label19c'>am/pm on the date birth specified</div>
+                       <p class='labelline2j'>________</p> 
+                       <p class='output19d'>X</p>
+                    <div class='label19d'>Signature</div>
+                        <p class='labelline2k'>________________________________________</p> 
+                        <p class='output19e'>RHINA JOY</p>
+                    <div class='label19e'>Name in Print</div>
+                        <p class='labelline2l'>_____________________________________</p> 
+                         <p class='output19f'>RHINA JOY</p>
+                    <div class='label19f'>Title or Positions</div>
+                        <p class='labelline2m'>__________________________________</p> 
+                        <p class='output19g'>RHINA JOY</p>
+                    <div class='label19g'>Address</div>
+                        <p class='labelline2n'>__________________________________________</p> 
+                        <p class='output19h'>RHINA JOY</p>
+                        <p class='labelline2o'>__________________________________________________</p> 
+                        <p class='output19i'>RHINA JOY</p>
+                    <div class='label19h'>Address</div>
+                        <p class='labelline2p'>___________________________________________</p> 
+                   
+                    
+
+
+
+                </div>
                 </div>
             <div class='page-break'></div>
             <div class='page'>
