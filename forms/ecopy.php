@@ -61,7 +61,7 @@ $html = "
                 width: 99.5%; 
                 height: 0.1%; 
                 background-color: green;
-                position: fixed;
+                position: absolute;
                 top: 6.8%;
             }
             .label1a {
@@ -89,13 +89,13 @@ $html = "
                 font-size: 13px;
                 text-transform: normal;
                 font-size: 12px;
-                position: fixed;
+                position: absolute;
                 top: 9.8%;
                 left: 1%
             }
             p.labelline1b {
                 color: green;
-                position: fixed;
+                position: absolute;
                 top:9.4%;
                 left: 13.9%
             }
@@ -110,7 +110,7 @@ $html = "
                 width: 1px; 
                 height: 58px; 
                 background-color: green;
-                position: fixed; 
+                position: absolute; 
                 left: 63%;
                 top: 6.9%;
             }
@@ -118,14 +118,14 @@ $html = "
                 font-size: 12px;
                 text-transform: normal;
                 color: green;
-                position: fixed;
+                position: absolute;
                 top: 7%;
                 left: 64%; 
             }
             p.output1c {
                 font-size: 18px;
                 color: gray;
-                position: fixed;
+                position: absolute;
                 top: 7%;
                 left: 77%; 
             }
@@ -133,27 +133,27 @@ $html = "
                 width: 99.5%; 
                 height: 0.1%; 
                 background-color: green;
-                position: fixed;
+                position: absolute;
                 top: 11.5%;
             }
             .vertical_line1b {
                 width: 1.3px; 
-                height: 400px; 
+                height: 600px; 
                 background-color: green;
-                position: fixed; 
+                position: absolute; 
                 left: 3.5%;
                 top: 11.5%;
             }   
             .labelside1 {
                 font-size: 15px;
                 text-align: center;
-                position: fixed;
+                position: absolute;
                 top: 16%;
                 left: 1%;
             }
             .label2a {
                 font-size: 11px;
-                position: fixed;
+                position: absolute;
                 top: 11.6%;
                 left: 4%;
             }
@@ -807,14 +807,81 @@ $html = "
             color: black;
 }
             .horizontal_line1j {
+            width: 99.5%; 
+            height: 0.1%; 
+            background-color: green;
+            position: absolute;
+            top: 41%;
+}
+            .labelside3 {
+            font-size: 15px;
+            text-align: center;
+            position: fixed;
+            top: 43%;
+            left: 1%;
+}
+            .label11a{
+            font-size: 10px;
+            position: absolute;
+            top: 41.5%;
+            left: 4%;
+            color: black;
+}
+            .label11b{
+            font-size: 10px;
+            position: absolute;
+            top: 41.3%;
+            left: 16.5%;
+            color: green;
+            text-transform: normal;
+}
+            .output11b{
+            font-size: 13px;
+            position: absolute;
+            top: 42%;
+            left: 10%;
+            color: black;
+}
+            .label11c{
+            font-size: 10px;
+            position: absolute;
+            top: 41.3%;
+            left: 49%;
+            color: green;
+            text-transform: normal;
+}
+            .output11c{
+            font-size: 13px;
+            position: absolute;
+            top: 42%;
+            left: 45%;
+            color: black;
+}
+            .label11d{
+            font-size: 10px;
+            position: absolute;
+            top: 41.3%;
+            left: 80%;
+            color: green;
+            text-transform: normal;
+}
+            .output11d{
+            font-size: 13px;
+            position: absolute;
+            top: 42%;
+            left: 75%;
+            color: black;
+}
+            .horizontal_line1k{
             width: 96%; 
             height: 0.1%; 
             background-color: green;
             position: absolute ;
-            top: 41.2%;
+            top: 44.5%;
             left: 3.7%;
 }
-             
+      
+ 
              
        </style>
     </head>
@@ -904,11 +971,19 @@ $html = "
                         <div class='label10e'>(Country)</div>
                             <p class='output10e'>Philippines</p>
                         <div class='horizontal_line1j'></div>
-    
-                        
-    
-                        
                     </div>
+                     <div class='labelside3'>F<br>A<br>T<br>H<br>E<br>R</div>\
+                     <div class='label11a'>14.Name</div>
+                     <div class='label11b'>(First)</div>
+                        <p class='output11b'>Rhina joy</p>
+                     <div class='label11c'>(Middle)</div>
+                        <p class='output11c'>Esguerra</p>
+                    <div class='label11d'>(Last)</div>
+                        <p class='output11d'>Sainas</p>
+                    <div class='horizontal_line1k'></div>
+
+
+
                     </div>
                     </div>
                 </div>
