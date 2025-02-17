@@ -138,7 +138,7 @@ $html = "
             }
             .vertical_line1b {
                 width: 1.3px; 
-                height: 600px; 
+                height: 510px; 
                 background-color: green;
                 position: absolute; 
                 left: 3.5%;
@@ -1007,6 +1007,172 @@ $html = "
             left: 43%;
             color: black;
 }           
+             .label16d{
+            font-size: 10px;
+            position: absolute;
+            top: 48.4%;
+            left: 68%;
+            color: green;
+            text-transform: normal;
+}    
+            .output16d{
+            font-size: 13px;
+            position: absolute;
+            top: 48.6%;
+            left: 66%;
+            color: black;
+}  
+               
+             .label16e{
+            font-size: 10px;
+            position: absolute;
+            top: 48.4%;
+            left: 88%;
+            color: green;
+            text-transform: normal;
+}    
+            .output16e{
+            font-size: 13px;
+            position: absolute;
+            top: 48.6%;
+            left: 84%;
+            color: black;
+}           
+            .horizontal_line1m{
+            width: 99.5%; 
+            height: 0.1%; 
+            background-color: green;
+            position: absolute;
+            top: 52%;
+}
+            .label17a{
+            font-size: 13px;
+            position: absolute;
+            top: 52%;
+            left: 1%;
+            color: black;
+            text-transform: normal;
+}   
+                    
+            .horizontal_line1n{
+            width: 99.5%; 
+            height: 0.1%; 
+            background-color: green;
+            position: absolute;
+            top: 53.5%;
+}
+            .label17b{
+            font-size: 10px;
+            position: absolute;
+            top: 53.5%;
+            left: 1%;
+            color: black;
+}   
+            .label17c{
+            font-size: 10px;
+            position: absolute;
+            top: 53.5%;
+            left: 12%;
+            color: green;
+            text-transform: normal;
+}   
+            .output17c{
+            font-size: 13px;
+            position: absolute;
+            top: 53.5%;
+            left: 12%;
+            color: black;
+} 
+             .label17d{
+            font-size: 10px;
+            position: absolute;
+            top: 53.5%;
+            left: 20%;
+            color: green;
+            text-transform: normal;
+}   
+            .output17d{
+            font-size: 13px;
+            position: absolute;
+            top: 53.5%;
+            left: 20%;
+            color: black;
+} 
+            .label17e{
+            font-size: 10px;
+            position: absolute;
+            top: 53.5%;
+            left: 27%;
+            color: green;
+            text-transform: normal;
+}   
+            .output17e{
+            font-size: 13px;
+            position: absolute;
+            top: 53.5%;
+            left: 27%;
+            color: black;
+} 
+             .label17f{
+            font-size: 10px;
+            position: absolute;
+            top: 53.5%;
+            left: 40%;
+            color: black;
+            text-transform: normal;
+}   
+            .label17g{
+            font-size: 10px;
+            position: absolute;
+            top: 53.5%;
+            left: 50%;
+            color: green;
+            text-transform: normal;
+} 
+            .output17g{
+            font-size: 13px;
+            position: absolute;
+            top: 53.5%;
+            left: 47%;
+            color: black;
+} 
+            .label17h{
+            font-size: 10px;
+            position: absolute;
+            top: 53.5%;
+            left: 70%;
+            color: green;
+            text-transform: normal;
+} 
+            .output17h{
+            font-size: 13px;
+            position: absolute;
+            top: 53.5%;
+            left: 68%;
+            color: black;
+}
+                 .label17i{
+            font-size: 10px;
+            position: absolute;
+            top: 53.5%;
+            left: 88%;
+            color: green;
+            text-transform: normal;
+} 
+            .output17i{
+            font-size: 13px;
+            position: absolute;
+            top: 53.5%;
+            left: 84%;
+            color: black;
+}
+ 
+ 
+            
+ 
+ 
+  
+  
  
              
        </style>
@@ -1124,9 +1290,44 @@ $html = "
                     </div>
                      <div class='label16a'>19.residence</div>
                     <div class='label16b'>(House No.,St.,Barangay)</div>
-                     <p class='output16b'>095 D Bonifacio St.</p>
+                        <p class='output16b'>095 D Bonifacio St.</p>
                      <div class='label16c'>(City/Municipality)</div>
-                     <p class='output16c'>mendez nunez</p>
+                        <p class='output16c'>mendez nunez</p>
+                     <div class='label16d'>(Province)</div>
+                        <p class='output16d'>Cavite</p>
+                    <div class='label16e'>(Country)</div>
+                        <p class='output16e'>Philippines</p>
+                    <div class='horizontal_line1m'></div>
+                    </div>
+                    <div class='label17a'>MARRIAGE OF PARENTS(if not married, accomplish of acknowledgement/Admission of paternity at the back.)</div>
+                     <div class='horizontal_line1n'></div>
+                     <div class='label17b'>20a.Date</div>
+                     <div class='label17c'>(Month)</div>
+                        <p class='output17c'>12</p>
+                    <div class='label17d'>(Day)</div>
+                        <p class='output17d'>31</p>
+                    <div class='label17e'>(Year)</div>
+                        <p class='output17e'>2002</p>
+                     <div class='label17f'>20b.PLACE</div>
+                     <div class='label17g'>(City/Municipality)</div>
+                       <p class='output17g'>Mendez nunez<p>
+                    <div class='label17h'>(Province)</div>
+                       <p class='output17h'>Cavite<p>
+                    <div class='label17i'>(Country)</div>
+                       <p class='output17i'>Philippines<p>
+                    
+                    
+                    
+                     
+                     
+
+
+
+
+
+
+
+
 
 
                     </div>
