@@ -1191,7 +1191,7 @@ $html = "
                 color: black;
                 position: fixed;
                 top: 57%;
-                left:3%;
+                left:1%;
                 font-size: 10px;
                 text-transform: normal;
 }
@@ -1199,7 +1199,7 @@ $html = "
                 font-size: 12px;
                 position: absolute;
                 top: 56.5%;
-                left: 7%;
+                left: 5%;
                 color: black;
 } 
  
@@ -1215,39 +1215,7 @@ $html = "
                 color: black;
                 position: fixed;
                 top: 57%;
-                left:3%;
-                font-size: 10px;
-                text-transform: normal;
-}
- 
-                .label18b{
-                font-size: 12px;
-                position: absolute;
-                top: 56.5%;
-                left: 7%;
-                color: black;
-} 
-                .labelline2f {
-                color: black;
-                position: fixed;
-                top: 57%;
-                left:5%;
-                font-size: 10px;
-                text-transform: normal;
-}
- 
-                .label18c{
-                font-size: 12px;
-                position: absolute;
-                top: 56.5%;
-                left: 23%;
-                color: black;
-} 
-                 .labelline2f {
-                color: black;
-                position: fixed;
-                top: 57%;
-                left:20%;
+                left:17%;
                 font-size: 10px;
                 text-transform: normal;
 }
@@ -1255,21 +1223,22 @@ $html = "
                 font-size: 12px;
                 position: absolute;
                 top: 56.5%;
-                left: 23%;
+                left: 19%;
                 color: black;
 } 
                 .label18d{
-                font-size: 12px;
+                font-size: 10px;
                 position: absolute;
                 top: 56.5%;
-                left: 23%;
+                left:10%;
                 color: black;
-} 
-                .labelline2g {
+}
+ 
+                .labelline2g{
                 color: black;
                 position: fixed;
                 top: 57%;
-                left:34%;
+                left:30%;
                 font-size: 10px;
                 text-transform: normal;
 }
@@ -1277,9 +1246,70 @@ $html = "
                 font-size: 12px;
                 position: absolute;
                 top: 56.5%;
-                left: 37%;
+                left: 33%;
                 color: black;
 } 
+                .label18e{
+                font-size: 10px;
+                position: absolute;
+                top: 56.5%;
+                left:10%;
+                color: black;
+}
+ 
+                .labelline2h{
+                color: black;
+                position: fixed;
+                top: 57%;
+                left:44%;
+                font-size: 10px;
+                text-transform: normal;
+}
+                .output18e{
+                font-size: 12px;
+                position: absolute;
+                top: 56.5%;
+                left: 46%;
+                color: black;
+} 
+                .label18f{
+                font-size: 10px;
+                position: absolute;
+                top: 56.5%;
+                left:10%;
+                color: black;
+}
+ 
+                .labelline2i{
+                color: black;
+                position: fixed;
+                top: 57%;
+                left:73%;
+                font-size: 10px;
+                text-transform: normal;
+}
+                .output18f{
+                font-size: 12px;
+                position: absolute;
+                top: 56.5%;
+                left: 77%;
+                color: black;
+} 
+                .output18g{
+                font-size: 12px;
+                position: absolute;
+                top: 56.5%;
+                left: 93%;
+                color: black;
+} 
+ 
+ 
+ 
+ 
+ 
+                
+   
+  
    
  
  
@@ -1440,9 +1470,23 @@ $html = "
                       <div class='label18c'></div>
                         <p class='labelline2f'>__________2.Nurse</p> 
                         <p class='output18c'>X</p>
-                     <div class='label18d'></div>
+                       <div class='label18d'></div>
                         <p class='labelline2g'>__________3.Midwife</p> 
                         <p class='output18d'>X</p>
+                       <div class='label18e'></div>
+                        <p class='labelline2h'>__________4.Hilot(Traditional Bith Attendant)</p> 
+                        <p class='output18e'>X</p>
+                       <div class='label18f'></div>
+                        <p class='labelline2i'>__________5.Other(Specify)_________</p> 
+                        <p class='output18f'>X</p>
+                         <p class='output18g'>X</p>
+                     
+                     
+                     
+                     
+                     
+                     
+
 
                       
 
