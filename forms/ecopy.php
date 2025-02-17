@@ -1969,6 +1969,158 @@ $html = "
             text-transform: normal;
 }
    
+            .labelb1{
+            font-size: 14px;
+            position: absolute;
+            top: 0%;
+            left: 20%;
+            color: black;
+            text-transform: normal;
+}
+
+            .labelb2{
+            font-size: 8px;
+            position: absolute;
+            top: 1%;
+            left: 28%;
+            color: black;
+            text-transform: normal;
+}
+             .labelb3{
+            font-size: 8px;
+            position: absolute;
+            top: 1%;
+            left: 58%;
+            color: black;
+            text-transform: normal;
+}
+            .labelb4{
+            font-size: 12px;
+            position: absolute;
+            top: 3%;
+            left: 5%;
+            color: black;
+            text-transform: normal;
+}
+             .labelb5{
+            font-size: 12px;
+            position: absolute;
+            top: 3%;
+            left: 52%;
+            color: black;
+            text-transform: normal;
+}
+            .labelb6{
+            font-size: 12px;
+            position: absolute;
+            top: 4.5%;
+            left: 2%;
+            color: black;
+            text-transform: normal;
+}
+            .labelb7{
+            font-size: 12px;
+            position: absolute;
+            top: 4.5%;
+            left: 92%;
+            color: black;
+            text-transform: normal;
+}
+            .labelb8{
+            font-size: 12px;
+            position: absolute;
+            top: 6%;
+            left: 2%;
+            color: black;
+            text-transform: normal;
+}
+            
+            .labelb9{
+            font-size: 12px;
+            position: absolute;
+            top: 6%;
+            left: 47%;
+            color: black;
+            text-transform: normal;
+}
+            .labelline4a{
+            color: green;
+            position: absolute;
+            top: 2%;
+            left:8.5%;
+            text-transform: normal;
+} 
+   
+            .output23a{
+            color: black;
+            position: absolute;
+            top: 2%;
+            left:10%;
+            font-size: 12px;
+            text-transform: normal;
+}
+            .output23b{
+            color: black;
+            position: absolute;
+            top: 2%;
+            left:55%;
+            font-size: 12px;
+            text-transform: normal;
+}
+            .output23c{
+            color: black;
+            position: absolute;
+            top: 3.5%;
+            left:43%;
+            font-size: 12px;
+            text-transform: normal;
+}
+            .output23d{
+            color: black;
+            position: absolute;
+            top: 5%;
+            left:8%;
+            font-size: 12px;
+            text-transform: normal;
+}
+            .output23e{
+            color: black;
+            position: absolute;
+            top: 5%;
+            left:49%;
+            font-size: 12px;
+            text-transform: normal;
+}
+ 
+            .labelline4b{
+            color: green;
+            position: absolute;
+            top: 2%;
+            left:55%;
+            text-transform: normal;
+}
+       
+            .labelline4c{
+            color: green;
+            position: absolute;
+            top: 3.5%;
+            left:43%;
+            text-transform: normal;
+}
+            .labelline4d{
+            color: green;
+            position: absolute;
+            top: 5%;
+            left:8%;
+            text-transform: normal;
+}
+            .labelline4e{
+            color: green;
+            position: absolute;
+            top: 5%;
+            left:49%;
+            text-transform: normal;
+}
    
  
  
@@ -2232,6 +2384,34 @@ $html = "
             <div class='page'>
                 <div class='content'>
                     <div class='container'>
+                    <div class='labelb1'>AFFIDAVIT OF ACKNOWLEDGEMENT/ADMISSION OF PATERNITY</div>
+                    <div class='labelb2'>(For birth before 3 August 1988)</div>
+                    <div class='labelb3'>(For birth before 3 August 1988)</div>
+                    <div class='labelb4'>I/WE</div>
+                    <div class='labelb5'>and</div>
+                    <div class='labelb6'>of legal age, am/are the natural mother and/or father of</div>
+                    <div class='labelb7'>,who was</div>
+                    <div class='labelb8'>born on</div>
+                    <div class='labelb9'>at</div>
+
+
+
+
+
+                        <p class='labelline4a'>_______________________________________________</p> 
+                        <p class='output23a'>RHINA JOY</p>
+                        <p class='labelline4b'>_______________________________________________</p> 
+                        <p class='output23b'>RHINA JOY</p>
+                        <p class='labelline4c'>_____________________________________________________</p> 
+                        <p class='output23c'>RHINA JOY</p>
+                        <p class='labelline4d'>_________________________________________</p> 
+                        <p class='output23d'>RHINA JOY</p>
+                        <p class='labelline4e'>_________________________________________</p> 
+                        <p class='output23e'>RHINA JOY</p>
+
+
+
+
                 </div>
           </div>
         </body>
