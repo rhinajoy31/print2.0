@@ -1696,37 +1696,189 @@ $html = "
             color: green;
             position: absolute;
             top: 73.5%;
-            left:59%;
+            left:56%;
             text-transform: normal;
 } 
             .output20h{
             color: black;
             position: absolute;
             top: 73.5%;
-            left:60%;
+            left:58%;
             font-size: 12px;
             text-transform: normal;
 }
-  
-   
-   
-
-
-
-
+            .label20l{
+            ont-size: 11px;
+            position: absolute;
+            top: 76%;
+            left:3%;
+            color: black;
+            text-transform: normal;
+}
+            .labelline2y{
+            color: green;
+            position: absolute;
+            top: 75%;
+            left:7%;
+            text-transform: normal;
+} 
+            .output20i{
+            color: black;
+            position: absolute;
+            top: 75%;
+            left:8%;
+            font-size: 12px;
+            text-transform: normal;
+}
+            .horizontal_line1r{
+            width: 99.5%; 
+            height: 0.1%; 
+            background-color: green;
+            position: absolute;
+            top: 77.5%;
+}
      .vertical_line1p{
             width: 1px; 
-            height: 200px; 
+            height: 280px; 
             background-color: green;
             position: absolute; 
             left: 50%;
             top: 66.5%;
 }
+            .label21a{
+            ont-size: 10px;
+            position: absolute;
+            top: 78%;
+            left: 1%;
+            color: black;
+            text-transform: normal;
+}
+            .label21b{
+            ont-size: 10px;
+            position: absolute;
+            top: 80%;
+            left: 3%;
+            color: black;
+            text-transform: normal;
+}
+          .labelline2z{
+            color: green;
+            position: absolute;
+            top: 78.8%;
+            left:10.5%;
+            text-transform: normal;
+} 
+   
+            .output21a{
+            color: black;
+            position: absolute;
+            top: 78.8%;
+            left:11%;
+            font-size: 12px;
+            text-transform: normal;
+}
+            .label21c{
+            ont-size: 10px;
+            position: absolute;
+            top: 81.5%;
+            left: 3%;
+            color: black;
+            text-transform: normal;
+}
+          .labelline3a{
+            color: green;
+            position: absolute;
+            top: 80.5%;
+            left:13%;
+            text-transform: normal;
+} 
+            .output21b{
+            color: black;
+            position: absolute;
+            top: 80.5%;
+            left:14%;
+            font-size: 12px;
+            text-transform: normal;
+}
+            .label21d{
+            ont-size: 10px;
+            position: absolute;
+            top: 83%;
+            left: 3%;
+            color: black;
+            text-transform: normal;
+}
+          .labelline3b{
+            color: green;
+            position: absolute;
+            top: 82%;
+            left:15%;
+            text-transform: normal;
+} 
+            .output21c{
+            color: black;
+            position: absolute;
+            top: 82%;
+            left:15%;
+            font-size: 12px;
+            text-transform: normal;
+}
+           .label21e{
+            ont-size: 10px;
+            position: absolute;
+            top: 84.5%;
+            left: 3%;
+            color: black;
+            text-transform: normal;
+}
+          .labelline3c{
+            color: green;
+            position: absolute;
+            top: 83.5%;
+            left:7%;
+            text-transform: normal;
+} 
+            .output21d{
+            color: black;
+            position: absolute;
+            top: 83.5%;
+            left:7%;
+            font-size: 12px;
+            text-transform: normal;
+}
   
- 
- 
- 
- 
+            .label22a{
+            ont-size: 10px;
+            position: absolute;
+            top: 78%;
+            left: 51%;
+            color: black;
+            text-transform: normal;
+}
+           .label22b{
+            ont-size: 10px;
+            position: absolute;
+            top: 80%;
+            left: 52%;
+            color: black;
+            text-transform: normal;
+}
+            .labelline3d{
+            color: green;
+            position: absolute;
+            top: 78.8%;
+            left:59.5%;
+            text-transform: normal;
+} 
+   
+            .output22a{
+            color: black;
+            position: absolute;
+            top: 78.8%;
+            left:60%;
+            font-size: 12px;
+            text-transform: normal;
+}
                 
    
   
@@ -1942,23 +2094,48 @@ $html = "
                         <p class='output20d'>RHINA JOY</p>
                 <div class='label20g'>23.PREPARED BY</div>
                 <div class='label20h'>Signature</div>
-                        <p class='labelline2u'>________________________________________</p> 
+                        <p class='labelline2u'>_________________________________________</p> 
                         <p class='output20e'>RHINA JOY</p>
                 <div class='label20i'>Name in Print</div>
-                        <p class='labelline2v'>________________________________________</p> 
+                        <p class='labelline2v'>______________________________________</p> 
                         <p class='output20f'>RHINA JOY</p>
                  <div class='label20j'>Title or Position</div>
-                        <p class='labelline2w'>________________________________________</p> 
+                        <p class='labelline2w'>____________________________________</p> 
                         <p class='output20g'>RHINA JOY</p>
-                  <div class='label20k'>Address</div>
-                        <p class='labelline2x'>________________________________________</p> 
+                <div class='label20k'>Date</div>
+                        <p class='labelline2x'>____________________________________________</p> 
                         <p class='output20h'>RHINA JOY</p>
-
-
-
-
-                          <div class='vertical_line1p'></div>
+                <div class='label20l'>Date</div>
+                        <p class='labelline2y'>____________________________________________</p> 
+                        <p class='output20i'>RHINA JOY</p>
+                 <div class='horizontal_line1r'></div>
+                 <div class='vertical_line1p'></div>
                 </div>
+                 <div class='label21a'>24.RECEIVED BY</div>
+                 <div class='label21b'>Signature</div>
+                   <p class='labelline2z'>________________________________________</p> 
+                   <p class='output21a'>RHINA JOY</p>
+                <div class='label21c'>Name in Print</div>
+                   <p class='labelline3a'>_____________________________________</p> 
+                   <p class='output21b'>RHINA JOY</p>
+                <div class='label21d'>Title or Position</div>
+                   <p class='labelline3b'>___________________________________</p> 
+                   <p class='output21c'>RHINA JOY</p>
+                <div class='label21e'>Date</div>
+                   <p class='labelline3c'>___________________________________</p> 
+                   <p class='output21d'>RHINA JOY</p>
+                 <div class='label22a'>25.REGISTERED AT THE OFFICE OF THE CIVIL REGISTRAR</div>
+                 <div class='label22b'>Signature</div>
+                   <p class='labelline3d'>________________________________________</p> 
+                   <p class='output22a'>RHINA JOY</p>
+                 
+
+
+
+
+
+
+                  </div>
             <div class='page-break'></div>
             <div class='page'>
                 <div class='content'>
