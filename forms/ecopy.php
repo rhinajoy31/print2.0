@@ -1739,7 +1739,7 @@ $html = "
 }
      .vertical_line1p{
             width: 1px; 
-            height: 280px; 
+            height: 245px; 
             background-color: green;
             position: absolute; 
             left: 50%;
@@ -1879,9 +1879,96 @@ $html = "
             font-size: 12px;
             text-transform: normal;
 }
-                
+            .label22c{
+            ont-size: 10px;
+            position: absolute;
+            top: 81.5%;
+            left: 52%;
+            color: black;
+            text-transform: normal;
+}
+            .labelline3e{
+            color: green;
+            position: absolute;
+            top: 80.5%;
+            left:62%;
+            text-transform: normal;
+} 
    
-  
+            .output22b{
+            color: black;
+            position: absolute;
+            top: 80.5%;
+            left:63%;
+            font-size: 12px;
+            text-transform: normal;
+}
+            .label22d{
+            ont-size: 10px;
+            position: absolute;
+            top: 83%;
+            left: 52%;
+            color: black;
+            text-transform: normal;
+}
+            .labelline3f{
+            color: green;
+            position: absolute;
+            top: 81.8%;
+            left:63.5%;
+            text-transform: normal;
+} 
+   
+            .output22c{
+            color: black;
+            position: absolute;
+            top: 81.8%;
+            left:64%;
+            font-size: 12px;
+            text-transform: normal;
+}
+            .label22e{
+            ont-size: 10px;
+            position: absolute;
+            top: 84.5%;
+            left: 52%;
+            color: black;
+            text-transform: normal;
+}
+            .labelline3g{
+            color: green;
+            position: absolute;
+            top: 83.5%;
+            left:56%;
+            text-transform: normal;
+} 
+   
+            .output22d{
+            color: black;
+            position: absolute;
+            top: 83.5%;
+            left:58%;
+            font-size: 12px;
+            text-transform: normal;
+}
+    
+            .horizontal_line1s{
+            width: 99.5%; 
+            height: 0.1%; 
+            background-color: green;
+            position: absolute;
+            top: 86%;
+}
+
+            .label23a{
+            ont-size: 10px;
+            position: absolute;
+            top: 86.5%;
+            left: 1%;
+            color: black;
+            text-transform: normal;
+}
+   
    
  
  
@@ -2122,20 +2209,25 @@ $html = "
                    <p class='labelline3b'>___________________________________</p> 
                    <p class='output21c'>RHINA JOY</p>
                 <div class='label21e'>Date</div>
-                   <p class='labelline3c'>___________________________________</p> 
+                   <p class='labelline3c'>____________________________________________</p> 
                    <p class='output21d'>RHINA JOY</p>
                  <div class='label22a'>25.REGISTERED AT THE OFFICE OF THE CIVIL REGISTRAR</div>
                  <div class='label22b'>Signature</div>
-                   <p class='labelline3d'>________________________________________</p> 
+                   <p class='labelline3d'>_________________________________________</p> 
                    <p class='output22a'>RHINA JOY</p>
-                 
-
-
-
-
-
-
+                <div class='label22c'>Name in Print</div>
+                   <p class='labelline3e'>______________________________________</p> 
+                   <p class='output22b'>RHINA JOY</p>
+                 <div class='label22d'>Title or Position</div>
+                   <p class='labelline3f'>_____________________________________</p> 
+                   <p class='output22c'>RHINA JOY</p>
+                 <div class='label22e'>Date</div>
+                   <p class='labelline3g'>_____________________________________________</p> 
+                   <p class='output22d'>RHINA JOY</p>
+                    <div class='horizontal_line1s'></div>
                   </div>
+                  <div class='label23a'>REMARKS/ANNOTATIONS(For LCRO/OCRG Use Only)</div>
+
             <div class='page-break'></div>
             <div class='page'>
                 <div class='content'>
