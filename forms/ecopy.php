@@ -1603,9 +1603,117 @@ $html = "
             font-size: 12px;
             text-transform: normal;
 }
+             .label20g{
+            ont-size: 10px;
+            position: absolute;
+            top: 66.5%;
+            left: 52%;
+            color: black;
+            text-transform: normal;
+}
+ 
+            .label20h{
+            ont-size: 11px;
+            position: absolute;
+            top: 70%;
+            left: 52%;
+            color: black;
+            text-transform: normal;
+}
+            
+            .labelline2u{
+            color: green;
+            position: absolute;
+            top: 69%;
+            left:59%;
+            text-transform: normal;
+}          
+            .output20e{
+            color: black;
+            position: absolute;
+            top: 69%;
+            left:61%;
+            font-size: 12px;
+            text-transform: normal;
+}
+            
+            .label20i{
+            ont-size: 11px;
+            position: absolute;
+            top: 71.5%;
+            left: 52%;
+            color: black;
+            text-transform: normal;
+}
+            .labelline2v{
+            color: green;
+            position: absolute;
+            top: 70.5%;
+            left:62%;
+            text-transform: normal;
+} 
+            
+            .output20f{
+            color: black;
+            position: absolute;
+            top: 70.5%;
+            left:63%;
+            font-size: 12px;
+            text-transform: normal;
+}
+             .label20j{
+            ont-size: 11px;
+            position: absolute;
+            top: 73%;
+            left: 52%;
+            color: black;
+            text-transform: normal;
+}
+             .labelline2w{
+            color: green;
+            position: absolute;
+            top: 72%;
+            left:63.5%;
+            text-transform: normal;
+} 
+            .output20g{
+            color: black;
+            position: absolute;
+            top: 72%;
+            left:64%;
+            font-size: 12px;
+            text-transform: normal;
+}
+            .label20k{
+            ont-size: 11px;
+            position: absolute;
+            top: 74.5%;
+            left: 52%;
+            color: black;
+            text-transform: normal;
+}
+            .labelline2x{
+            color: green;
+            position: absolute;
+            top: 73.5%;
+            left:59%;
+            text-transform: normal;
+} 
+            .output20h{
+            color: black;
+            position: absolute;
+            top: 73.5%;
+            left:60%;
+            font-size: 12px;
+            text-transform: normal;
+}
   
    
-  
+   
+
+
+
+
      .vertical_line1p{
             width: 1px; 
             height: 200px; 
@@ -1832,7 +1940,23 @@ $html = "
                 <div class='label20f'>Address</div>
                         <p class='labelline2t'>________________________________________</p> 
                         <p class='output20d'>RHINA JOY</p>
-                             
+                <div class='label20g'>23.PREPARED BY</div>
+                <div class='label20h'>Signature</div>
+                        <p class='labelline2u'>________________________________________</p> 
+                        <p class='output20e'>RHINA JOY</p>
+                <div class='label20i'>Name in Print</div>
+                        <p class='labelline2v'>________________________________________</p> 
+                        <p class='output20f'>RHINA JOY</p>
+                 <div class='label20j'>Title or Position</div>
+                        <p class='labelline2w'>________________________________________</p> 
+                        <p class='output20g'>RHINA JOY</p>
+                  <div class='label20k'>Address</div>
+                        <p class='labelline2x'>________________________________________</p> 
+                        <p class='output20h'>RHINA JOY</p>
+
+
+
+
                           <div class='vertical_line1p'></div>
                 </div>
             <div class='page-break'></div>
