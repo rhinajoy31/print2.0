@@ -631,39 +631,113 @@ $html = "
                 top: 33.5%;
                 left: 3.7%;
             }
-               .label10a{
+               .label9a{
                 font-size: 10px;
                 position: fixed;
                 top: 34%;
                 left: 4%;
                 color: black;
 }
-                .output10a{
+                .output9a{
                 font-size: 13px;
                 position: fixed;
                 color: black;
                 top: 35.5%;
                 left: 8%;
 }
-                
-                .label11b{
+                .label9b{
                 font-size: 10px;
                 position: fixed;
                 top: 34%;
                 left: 21%;
 }
-                .output10b{
+                .output9b{
                 font-size: 13px;
                 position: fixed;
                 color: black;
                 top: 35.5%;
                 left: 28%;
 }
-  
-         
-
-
-         
+                   .label9c{
+                font-size: 10px;
+                position: fixed;
+                top: 34%;
+                left: 43%;
+}
+                 .output9c{
+                font-size: 13px;
+                position: fixed;
+                color: black;
+                top: 35.5%;
+                left: 48%;
+}
+                  .label9d{
+                font-size: 11px;
+                position: fixed;
+                top: 34%;
+                left: 64%;
+}
+                .output9d{
+                font-size: 13px;
+                position: fixed;
+                color: black;
+                top: 35.5%;
+                left: 63%;
+}
+                .label9e{
+                font-size: 11px;
+                position: fixed;
+                top: 34%;
+                left: 81%;
+}
+             .output9e{
+              font-size: 13px;
+              position: fixed;
+              color: black;
+              top: 35.5%;
+              left: 90%;
+}
+            .vertical_line1h{
+            width: 1px; 
+            height: 60px; 
+            background-color: green;
+            position: fixed; 
+            left: 20.5%;
+            top: 33.5%;
+}
+                
+            .vertical_line1i{
+            width: 1px; 
+            height: 60px; 
+            background-color: green;
+            position: fixed; 
+            left: 42%;
+            top: 33.5%;
+}
+             .vertical_line1j{
+            width: 1px; 
+            height: 60px; 
+            background-color: green;
+            position: fixed; 
+            left: 62.5%;
+            top: 33.5%;
+}
+                .vertical_line1k{
+                width: 1px; 
+                height: 60px; 
+                background-color: green;
+                position: fixed; 
+                left: 80.5%;
+                top: 33.5%;
+}
+                 .horizontal_line1i {
+                width: 96%; 
+                height: 0.1%; 
+                background-color: green;
+                position: fixed;
+                top: 38.3%;
+                left: 3.7%;
+            }
         </style>
     </head>
         <body>
@@ -721,25 +795,26 @@ $html = "
                             <div class='label8a'>9.RELIGION/RELIGIOUS SECT</div> <p class='output8a'>Christian</p></div>
                             <div class='vertical_line1g'></div>
                         <div class='horizontal_line1h'></div>
-                            <div class='label10a'>10a.Total number of<br>children born alive</div> <p class='output10a'>EIGHT</p></div>
-                              <div class='label11b'>10a.Total number of<br>children born alive</div><p class='output10b'>EIGHT</p></div>
-                        
-                            
-
-
-
-
-
-
-
-            </div>
-            <div class='page-break'></div>
-            <div class='page'>
-                <div class='content'>
-                    <div class='container'>
-                        
-                    </div>
+                            <div class='label9a'>10a.Total number of<br>children born alive</div> <p class='output9a'>EIGHT</p></div>
+                            <div class='label9b'>10b.No. of children still <br>living including this birth</div> <p class='output9b'>EIGHT</p></div>
+                            <div class='label9c'>10c.No.of children born <br>alive but are now dead</div> <p class='output9c'>EIGHT</p></div>
+                            <div class='label9d'>11.OCCUPATION</div> <p class='output9d'>BUSINESS WOMAN</p></div>
+                            <div class='label9e'>12.Age at time of this<br>(completed years)</div> <p class='output9e'>80</p></div>
+                            <div class='vertical_line1h'></div>
+                            <div class='vertical_line1i'></div>
+                            <div class='vertical_line1j'></div>
+                           <div class='vertical_line1k'></div>
+                           <div class='horizontal_line1i'></div> 
+                       </div>
                 </div>
+                <!-- Second Page -->
+<div class='page-break'></div> 
+<div class='page'>
+    <div class='content'>
+        <div class='container'>
+        </div>
+    </div>
+</div>
             </div>
         </body>
     </html>";
