@@ -738,7 +738,29 @@ $html = "
                 top: 38.3%;
                 left: 3.7%;
             }
-        </style>
+                .label10a{
+                font-size: 10px;
+                position: fixed;
+                top: 38.5%;
+                left: 4%;
+                color: black;
+}
+                .label10b{
+                font-size: 10px;
+                position: fixed;
+                top: 38.5%;
+                left: 20%;
+                color: green;
+}
+                
+                .output10b{
+                font-size: 13px;
+                position: fixed;
+                top: 39%;
+                left: 13%;
+                color: black;
+}
+       </style>
     </head>
         <body>
             <div class='page'>
@@ -805,17 +827,13 @@ $html = "
                             <div class='vertical_line1j'></div>
                            <div class='vertical_line1k'></div>
                            <div class='horizontal_line1i'></div> 
+                        <div class='label10a'>13RESIDENCE</div> 
+                        <div class='label10b'>10b.(House No. St, Barangay)</div> <p class='output10b'>095 D.Bonifacio St.</p></div>
+
                        </div>
+
                 </div>
-                <!-- Second Page -->
-<div class='page-break'></div> 
-<div class='page'>
-    <div class='content'>
-        <div class='container'>
-        </div>
-    </div>
-</div>
-            </div>
+          </div>
         </body>
     </html>";
 
