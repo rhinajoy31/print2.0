@@ -2446,7 +2446,79 @@ $html = "
             color: black;
             text-transform: normal;
 }
-       
+           .horizontal_line1t{
+            width:99.5%; 
+            height: 0.1%; 
+            background-color: green;
+            position: absolute ;
+            top: 24%;
+        
+}
+            .labelb25{
+            font-size: 12px;
+            position: absolute;
+            top: 24%;
+            left: 29%;
+            color: black;
+            text-transform: normal;
+}
+            .labelb26{
+            font-size: 11px;
+            position: absolute;
+            top: 25%;
+            left: 7%;
+            color: black;
+            text-transform: normal;
+}
+            .labelb27{
+            font-size: 12px;
+            position: absolute;
+            top: 27%;
+            left: 10%;
+            color: black;
+            text-transform: normal;
+}
+            .labelline4s{
+            color: green;
+            position: absolute;
+            top: 25.9%;
+            left:11%;
+            text-transform: normal;
+}
+            .output23s{
+            color: black;
+            position: absolute;
+            top: 25.8%;
+            left:12%;
+            font-size: 12px;
+            text-transform: normal;
+}
+            .labelb28{
+            font-size: 12px;
+            position: absolute;
+            top: 27%;
+            left: 55%;
+            color: black;
+            text-transform: normal;
+}
+            .labelb29{
+            font-size: 12px;
+            position: absolute;
+            top: 28.5%;
+            left: 2%;
+            color: black;
+            text-transform: normal;
+}
+            .labelline4t{
+            color: green;
+            position: absolute;
+            top: 27.5%;
+            left:26%;
+            text-transform: normal;
+}
+  
+  
+  
      
  
  
@@ -2702,7 +2774,6 @@ $html = "
                    <p class='labelline3g'>_____________________________________________</p> 
                    <p class='output22d'>RHINA JOY</p>
                     <div class='horizontal_line1s'></div>
-                  </div>
                   <div class='label23a'>REMARKS/ANNOTATIONS(For LCRO/OCRG Use Only)</div>
 
             <div class='page-break'></div>
@@ -2772,11 +2843,20 @@ $html = "
                     <p class='labelline4r'>__________________________________________</p> 
                     <p class='output23r'>RHINA JOY</p>
                 <div class='labelb24'>Address</div>
-
-
-
-
+                <div class='horizontal_line1t'></div>
                     </div>
+                    <div class='labelb25'>AFFIDAVIT FOR DELAYED REGISTRATION OF BIRTH</div>
+                    <div class='labelb26'>(To be accomplished by the hospital/clinic administrator/father,mother, or guardian or the person himself if 18 years old or over)</div>
+                    <div class='labelb27'>I</div>
+                      <p class='labelline4s'>________________________________________________</p> 
+                      <p class='output23s'>RHINA JOY</p>
+                    <div class='labelb28'>,of legal age, single/married/divorced/widow/widower,with</div>
+                    <div class='labelb29'>residence and postal address at</div>
+                      <p class='labelline4t'>______________________________________________________________________________</p> 
+                      
+                     
+                      
+                     </div>
         </body>
     </html>";
 
