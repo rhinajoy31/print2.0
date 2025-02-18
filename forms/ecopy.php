@@ -2296,8 +2296,64 @@ $html = "
             color: black;
             text-transform: normal;
 }
+            .labelb18{
+            font-size: 12px;
+            position: absolute;
+            top: 17%;
+            left: 3%;
+            color: black;
+            text-transform: normal;
+} 
+            .labelline4m{
+            color: green;
+            position: absolute;
+            top: 16%;
+            left:13%;
+            text-transform: normal;
+}
+            .output23m{
+            color: black;
+            position: absolute;
+            top: 16%;
+            left:14%;
+            font-size: 12px;
+            text-transform: normal;
+}
+            
+            .labelb19{
+            font-size: 12px;
+            position: absolute;
+            top: 17%;
+            left: 50%;
+            color: black;
+            text-transform: normal;
+}
  
-  
+            .labelline4n{
+            color: green;
+            position: absolute;
+            top: 16%;
+            left:58%;
+            text-transform: normal;
+}
+            .output23n{
+            color: black;
+            position: absolute;
+            top: 16%;
+            left:58%;
+            font-size: 12px;
+            text-transform: normal;
+}
+                
+            .labelb20{
+            font-size: 12px;
+            position: absolute;
+            top: 17%;
+            left: 97%;
+            color: black;
+            text-transform: normal;
+}
+     
  
  
             
@@ -2602,6 +2658,14 @@ $html = "
                     <p class='labelline4l'>_______________________________________</p> 
                     <p class='output23l'>RHINA JOY</p>
                  <div class='labelb17'>,who was exhivited to me his/her</div>
+                 <div class='labelb18'>CTC/valid ID</div>
+                    <p class='labelline4m'>_______________________________________</p> 
+                    <p class='output23m'>RHINA JOY</p>
+                 <div class='labelb19'>issued on</div>
+                    <p class='labelline4n'>__________________________________________</p> 
+                    <p class='output23n'>RHINA JOY</p>
+                <div class='labelb20'>at</div>
+             
              
                    </div>
         </body>
