@@ -2182,13 +2182,113 @@ $html = "
             font-size: 12px;
             position: absolute;
             top: 14%;
-            left: 10%;
+            left: 5%;
             color: black;
             text-transform: normal;
 }
   
- 
- 
+            .labelline4h{
+            color: green;
+            position: absolute;
+            top: 13%;
+            left:38.5%;
+            text-transform: normal;
+}
+            .output23h{
+            color: black;
+            position: absolute;
+            top: 13%;
+            left:40%;
+            font-size: 12px;
+            text-transform: normal;
+}
+            .labelb14{
+            font-size: 12px;
+            position: absolute;
+            top: 14%;
+            left: 47%;
+            color: black;
+            text-transform: normal;
+}
+            .labelline4i{
+            color: green;
+            position: absolute;
+            top: 13%;
+            left:52%;
+            text-transform: normal;
+}
+            .output23i{
+            color: black;
+            position: absolute;
+            top: 13%;
+            left:53%;
+            font-size: 12px;
+            text-transform: normal;
+}
+            .labelline4j{
+            color: green;
+            position: absolute;
+            top: 13%;
+            left:77.5%;
+            text-transform: normal;
+}
+            .output23j{
+            color: black;
+            position: absolute;
+            top: 13%;
+            left:79%;
+            font-size: 12px;
+            text-transform: normal;
+}
+   
+            .labelb15{
+            font-size: 12px;
+            position: absolute;
+            top: 14%;
+            left: 96%;
+            color: black;
+            text-transform: normal;
+}
+           .labelline4k{
+            color: green;
+            position: absolute;
+            top: 14.5%;
+            left:3%;
+            text-transform: normal;
+}
+            .output23k{
+            color: black;
+            position: absolute;
+            top: 14.5%;
+            left:5%;
+            font-size: 12px;
+            text-transform: normal;
+}
+            
+            .labelb16{
+            font-size: 12px;
+            position: absolute;
+            top: 15.7%;
+            left: 36%;
+            color: black;
+            text-transform: normal;
+}
+            .labelline4l{
+            color: green;
+            position: absolute;
+            top: 14.5%;
+            left:39%;
+            text-transform: normal;
+}
+            .output23l{
+            color: black;
+            position: absolute;
+            top: 14.5%;
+            left:40%;
+            font-size: 12px;
+            text-transform: normal;
+}
+  
  
  
             
@@ -2474,11 +2574,25 @@ $html = "
                     <p class='labelline4f'>_________________________________________</p> 
                 <div class='labelb11'>(Signature Over Printed Name of Father)</div>
                     <p class='output23f'>RHINA JOY</p>
-                  <p class='labelline4g'>_________________________________________</p> 
+                    <p class='labelline4g'>_________________________________________</p> 
                 <div class='labelb12'>(Signature Over Printed Name of Mother)</div>
                     <p class='output23g'>RHINA JOY</p>
                 </div>
                  <div class='labelb13'>SUBSCRIBE AND SWORN to before me this</div>
+                    <p class='labelline4h'>_________</p> 
+                    <p class='output23h'>23</p>
+                <div class='labelb14'>day of</div>
+                    <p class='labelline4i'>___________________________,</p> 
+                    <p class='output23i'>RHINA JOY</p>
+                    <p class='labelline4j'>___________________</p> 
+                    <p class='output23j'>RHINA JOY</p>
+                <div class='labelb15'>by</div>
+                    <p class='labelline4k'>___________________________________</p> 
+                    <p class='output23k'>RHINA JOY</p>
+                 <div class='labelb16'>and</div>
+                    <p class='labelline4l'>___________________________________</p> 
+                    <p class='output23l'>RHINA JOY</p>
+             
                    </div>
         </body>
     </html>";
