@@ -2353,6 +2353,100 @@ $html = "
             color: black;
             text-transform: normal;
 }
+            .labelline4o{
+            color: green;
+            position: absolute;
+            top: 18%;
+            left:7%;
+            text-transform: normal;
+}
+            .output23o{
+            color: black;
+            position: absolute;
+            top: 18%;
+            left:8%;
+            font-size: 12px;
+            text-transform: normal;
+}
+            .labelb21{
+            font-size: 12px;
+            position: absolute;
+            top: 20%;
+            left: 12%;
+            color: black;
+            text-transform: normal;
+}
+            .labelline4p{
+            color: green;
+            position: absolute;
+            top: 20.5%;
+            left:7%;
+            text-transform: normal;
+}
+            .output23p{
+            color: black;
+            position: absolute;
+            top: 20.5%;
+            left:8%;
+            font-size: 12px;
+            text-transform: normal;
+}
+            .labelb22{
+            font-size: 12px;
+            position: absolute;
+            top: 22.5%;
+            left: 19%;
+            color: black;
+            text-transform: normal;
+}
+       
+            .labelb23{
+            font-size: 12px;
+            position: absolute;
+            top: 20%;
+            left: 65%;
+            color: black;
+            text-transform: normal;
+}
+            .labelline4q{
+            color: green;
+            position: absolute;
+            top: 18%;
+            left:55%;
+            text-transform: normal;
+}
+            .output23q{
+            color: black;
+            position: absolute;
+            top: 18%;
+            left:57%;
+            font-size: 12px;
+            text-transform: normal;
+}
+            .labelline4r{
+            color: green;
+            position: absolute;
+            top: 20.5%;
+            left:55%;
+            text-transform: normal;
+}
+            .output23r{
+            color: black;
+            position: absolute;
+            top: 20.5%;
+            left:57%;
+            font-size: 12px;
+            text-transform: normal;
+}
+            .labelb24{
+            font-size: 12px;
+            position: absolute;
+            top: 22.5%;
+            left: 71%;
+            color: black;
+            text-transform: normal;
+}
+       
      
  
  
@@ -2665,9 +2759,24 @@ $html = "
                     <p class='labelline4n'>__________________________________________</p> 
                     <p class='output23n'>RHINA JOY</p>
                 <div class='labelb20'>at</div>
-             
-             
-                   </div>
+                </div>
+                    <p class='labelline4o'>__________________________________________</p> 
+                    <p class='output23o'>RHINA JOY</p>
+                <div class='labelb21'>Signature of the Administering Officer</div>
+                    <p class='labelline4p'>__________________________________________</p> 
+                    <p class='output23p'>RHINA JOY</p>
+                <div class='labelb22'>Name in Print</div>
+                    <p class='labelline4q'>__________________________________________</p> 
+                    <p class='output23q'>RHINA JOY</p>
+                <div class='labelb23'>Position/Title/Designation</div>
+                    <p class='labelline4r'>__________________________________________</p> 
+                    <p class='output23r'>RHINA JOY</p>
+                <div class='labelb24'>Address</div>
+
+
+
+
+                    </div>
         </body>
     </html>";
 
