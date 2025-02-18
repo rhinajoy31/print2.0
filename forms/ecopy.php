@@ -2288,6 +2288,15 @@ $html = "
             font-size: 12px;
             text-transform: normal;
 }
+            .labelb17{
+            font-size: 12px;
+            position: absolute;
+            top: 15.7%;
+            left: 75%;
+            color: black;
+            text-transform: normal;
+}
+ 
   
  
  
@@ -2590,8 +2599,9 @@ $html = "
                     <p class='labelline4k'>___________________________________</p> 
                     <p class='output23k'>RHINA JOY</p>
                  <div class='labelb16'>and</div>
-                    <p class='labelline4l'>___________________________________</p> 
+                    <p class='labelline4l'>_______________________________________</p> 
                     <p class='output23l'>RHINA JOY</p>
+                 <div class='labelb17'>,who was exhivited to me his/her</div>
              
                    </div>
         </body>
