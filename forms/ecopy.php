@@ -2516,6 +2516,39 @@ $html = "
             left:26%;
             text-transform: normal;
 }
+            .output23t{
+            color: black;
+            position: absolute;
+            top: 27.5%;
+            left:27%;
+            font-size: 12px;
+            text-transform: normal;
+}
+  
+            .labelline4u{
+            color: green;
+            position: absolute;
+            top: 29%;
+            left:2%;
+            text-transform: normal;
+}
+            .output23u{
+            color: black;
+            position: absolute;
+            top: 29%;
+            left:3%;
+            font-size: 12px;
+            text-transform: normal;
+}
+            .labelb30{
+            font-size: 12px;
+            position: absolute;
+            top: 30%;
+            left: 39%;
+            color: black;
+            text-transform: normal;
+}
+   
   
   
   
@@ -2853,7 +2886,12 @@ $html = "
                     <div class='labelb28'>,of legal age, single/married/divorced/widow/widower,with</div>
                     <div class='labelb29'>residence and postal address at</div>
                       <p class='labelline4t'>______________________________________________________________________________</p> 
+                      <p class='output23t'>RHINA JOY</p>
+                      <p class='labelline4u'>_______________________________________</p> 
+                      <p class='output23u'>RHINA JOY</p>
+                    <div class='labelb30'>after having been duly sworn in accordance with law, do hereby depose and say:</div>
                       
+
                      
                       
                      </div>
