@@ -2121,7 +2121,73 @@ $html = "
             left:49%;
             text-transform: normal;
 }
-   
+            .labelb10{
+            font-size: 12px;
+            position: absolute;
+            top: 8%;
+            left: 3%;
+            color: black;
+            text-transform: normal;
+}
+            .labelline4f{
+            color: green;
+            position: absolute;
+            top: 10%;
+            left:5%;
+            text-transform: normal;
+}
+            .output23f{
+            color: black;
+            position: absolute;
+            top: 10%;
+            left:7%;
+            font-size: 12px;
+            text-transform: normal;
+}
+ 
+             .labelb11{
+            font-size: 12px;
+            position: absolute;
+            top: 12%;
+            left: 8%;
+            color: black;
+            text-transform: normal;
+}
+    
+            .labelline4g{
+            color: green;
+            position: absolute;
+            top: 10%;
+            left:55%;
+            text-transform: normal;
+}
+            .output23g{
+            color: black;
+            position: absolute;
+            top: 10%;
+            left:56%;
+            font-size: 12px;
+            text-transform: normal;
+}
+ 
+            .labelb12{
+            font-size: 12px;
+            position: absolute;
+            top: 12%;
+            left: 59%;
+            color: black;
+            text-transform: normal;
+}
+            .labelb13{
+            font-size: 12px;
+            position: absolute;
+            top: 14%;
+            left: 10%;
+            color: black;
+            text-transform: normal;
+}
+  
+ 
  
  
  
@@ -2393,11 +2459,6 @@ $html = "
                     <div class='labelb7'>,who was</div>
                     <div class='labelb8'>born on</div>
                     <div class='labelb9'>at</div>
-
-
-
-
-
                         <p class='labelline4a'>_______________________________________________</p> 
                         <p class='output23a'>RHINA JOY</p>
                         <p class='labelline4b'>_______________________________________________</p> 
@@ -2408,12 +2469,17 @@ $html = "
                         <p class='output23d'>RHINA JOY</p>
                         <p class='labelline4e'>_________________________________________</p> 
                         <p class='output23e'>RHINA JOY</p>
-
-
-
-
                 </div>
-          </div>
+                <div class='labelb10'>I am/ We are executing this affidavit to the truthfulness of the foregoing statements and for purposes of acknowledging my/our child.<br>acknowledging my/our child.</div>
+                    <p class='labelline4f'>_________________________________________</p> 
+                <div class='labelb11'>(Signature Over Printed Name of Father)</div>
+                    <p class='output23f'>RHINA JOY</p>
+                  <p class='labelline4g'>_________________________________________</p> 
+                <div class='labelb12'>(Signature Over Printed Name of Mother)</div>
+                    <p class='output23g'>RHINA JOY</p>
+                </div>
+                 <div class='labelb13'>SUBSCRIBE AND SWORN to before me this</div>
+                   </div>
         </body>
     </html>";
 
