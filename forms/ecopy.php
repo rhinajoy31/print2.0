@@ -2868,8 +2868,8 @@ $html = "
             .labelline5f{
             color: green;
             position: absolute;
-            top: 48%;
-            left: 34%;
+            top: 48.5%;
+            left: 5%;
             text-transform: normal;
 }
    
