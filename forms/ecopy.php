@@ -2863,13 +2863,20 @@ $html = "
             left: 88%;
             color: black;
             text-transform: normal;
-}
-            
+}       
             .labelline5f{
             color: green;
             position: absolute;
             top: 48.5%;
             left: 5%;
+            text-transform: normal;
+}
+            .output24f{
+            color: black;
+            position: absolute;
+            top: 48.5%;
+            left: 7%;
+            font-size: 12px;
             text-transform: normal;
 }
    
@@ -3271,7 +3278,7 @@ $html = "
                     <p class='output24e'>RHINA JOY</p>    
                 <div class='labelb44'>who resides at</div>
                     <p class='labelline5f'>__________________________________________________________</p>
-    
+                    <p class='output24f'>RHINA JOY</p>    
                 </div>
 
         </body>
