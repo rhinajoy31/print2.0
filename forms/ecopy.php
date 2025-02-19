@@ -2549,10 +2549,99 @@ $html = "
             text-transform: normal;
 }
    
+            .horizontal_line1t{
+            width: 99.5%; 
+            height: 0.1%; 
+            background-color: green;
+            position: absolute;
+            top: 32%;
+}
+            .labelb31{
+            font-size: 14px;
+            position: absolute;
+            top: 32%;
+            left: 27%;
+            color: black;
+            text-transform: normal;
+}
+            .labelb32{
+            font-size: 11px;
+            position: absolute;
+            top: 33%;
+            left: 8%;
+            color: black;
+            text-transform: normal;
+}
+            .labelb33{
+            font-size: 12px;
+            position: absolute;
+            top: 35%;
+            left: 8%;
+            color: black;
+            text-transform: normal;
+}
+            .labelline4v{
+            color: green;
+            position: absolute;
+            top: 34%;
+            left:8.5%;
+            text-transform: normal;
+}
+            .output23v{
+            color: black;
+            position: absolute;
+            top: 34%;
+            left:9%;
+            font-size: 12px;
+            text-transform: normal;
+}
+ 
+            .labelb34{
+            font-size: 12px;
+            position: absolute;
+            top: 35%;
+            left: 57%;
+            color: black;
+            text-transform: normal;
+}
+            .labelb35{
+            font-size: 12px;
+            position: absolute;
+            top: 36.5%;
+            left: 3%;
+            color: black;
+            text-transform: normal;
+}
+            .labelline4w{
+            color: green;
+            position: absolute;
+            top: 35.5%;
+            left:26.5%;
+            text-transform: normal;
+}
+            .output23w{
+            color: black;
+            position: absolute;
+            top: 35.5%;
+            left:27%;
+            font-size: 12px;
+            text-transform: normal;
+}
+            .labelline4x{
+            color: green;
+            position: absolute;
+            top: 37%;
+            left:26.5%;
+            text-transform: normal;
+}
+   
   
+    
   
+    
   
-     
+   
+
  
  
             
@@ -2890,14 +2979,22 @@ $html = "
                       <p class='labelline4u'>_______________________________________</p> 
                       <p class='output23u'>RHINA JOY</p>
                     <div class='labelb30'>after having been duly sworn in accordance with law, do hereby depose and say:</div>
-                      
-
-                     
-                      
+                     <div class='horizontal_line1t'></div>
+                     </div>
+                    <div class='labelb31'>AFFIDAVIT FOR DELAYED REGISTRATION OF DEATH </div>
+                    <div class='labelb32'>(To be accomplished by the hospital/clinic administrator,father,mother,or guardian or the person himself if 18 years old or over.) </div>
+                    <div class='labelb33'>I</div>
+                      <p class='labelline4v'>____________________________________________________</p> 
+                      <p class='output23v'>RHINA JOY</p>
+                    <div class='labelb34'>,of legal age,single/married/divorced/widow/widower,with</div>
+                    <div class='labelb35'>residence and postal address at</div>
+                     <p class='labelline4w'>______________________________________________________________________________</p> 
+                     <p class='output23w'>RHINA JOY</p>
+                     <p class='labelline4x'>______________________________________________________________________________</p> 
+                    </div
                      </div>
         </body>
     </html>";
-
 // Load HTML into Dompdf
 $dompdf->loadHtml($html);
 
