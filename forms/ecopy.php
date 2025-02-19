@@ -2795,7 +2795,86 @@ $html = "
             font-size: 12px;
             text-transform: normal;
 }
+            .labelline5c{
+            color: green;
+            position: absolute;
+            top: 45%;
+            left: 10.5%;
+            text-transform: normal;
+}
+            .output24c{
+            color: black;
+            position: absolute;
+            top: 45%;
+            left: 12%;
+            font-size: 12px;
+            text-transform: normal;
+}
+            .labelb42{
+            font-size: 12px;
+            position: absolute;
+            top: 46%;
+            left: 45%;
+            color: black;
+            text-transform: normal;
+}
+            .labelline5d{
+            color: green;
+            position: absolute;
+            top: 45%;
+            left: 47%;
+            text-transform: normal;
+}
+            .output24d{
+            color: black;
+            position: absolute;
+            top: 45%;
+            left: 48%;
+            font-size: 12px;
+            text-transform: normal;
+}
+            .labelb43{
+            font-size: 12px;
+            position: absolute;
+            top: 48%;
+            left: 5%;
+            color: black;
+            text-transform: normal;
+}
+            .labelline5e{
+            color: green;
+            position: absolute;
+            top: 47%;
+            left: 34%;
+            text-transform: normal;
+}
+            .output24e{
+            color: black;
+            position: absolute;
+            top: 47%;
+            left: 36%;
+            font-size: 12px;
+            text-transform: normal;
+}
+            .labelb44{
+            font-size: 12px;
+            position: absolute;
+             top: 48%;
+            left: 88%;
+            color: black;
+            text-transform: normal;
+}
    
+   
+  
+   
+           
+   
+    
+           
+
+  
+  
     
    
    
@@ -3173,9 +3252,18 @@ $html = "
                 <div class='labelb41'>who was born in</div>
                     <p class='labelline5b'>________________________</p>
                     <p class='output24b'>RHINA JOY</p> 
-                    </div>
+                    <p class='labelline5c'>_____________________________________</p>
+                    <p class='output24c'>RHINA JOY</p> 
+                <div class='labelb42'>on</div>
+                    <p class='labelline5d'>_____________________________________</p>
+                    <p class='output24d'>RHINA JOY</p> 
+                <div class='labelb43'>2.That I/he/she was attended at birth by</div>
+                    <p class='labelline5e'>__________________________________________________________</p>
+                    <p class='output24e'>RHINA JOY</p>    
+                <div class='labelb44'>who resides at</div>
+    
+                </div>
 
-                    </div>
         </body>
     </html>";
 // Load HTML into Dompdf
