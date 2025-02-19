@@ -2723,6 +2723,81 @@ $html = "
             font-size: 12px;
             text-transform: normal;
 }
+            .cbox2{
+            font-size: 25px; 
+            color: green;
+            position: absolute;
+            top: 41%;
+            left: 10%; 
+            font-family: Verdana, Tahoma, 'DejaVu Sans', sans-serif;
+
+} 
+            .outputbox2{
+            color: black;
+            position: absolute;
+            top: 43.5%;
+            left:11%;
+            font-size: 11px;
+            text-transform: normal;
+}
+            .labelb40{
+            font-size: 12px;
+            position: absolute;
+            top: 44.5%;
+            left: 14%;
+            color: black;
+            text-transform: normal;
+}
+            .labelline5a{
+            color: green;
+            position: absolute;
+            top: 43.5%;
+            left: 22%;
+            text-transform: normal;
+}
+            .output24a{
+            color: black;
+            position: absolute;
+            top: 43.5%;
+            left: 23%;
+            font-size: 12px;
+            text-transform: normal;
+}
+            .labelb41{
+            font-size: 12px;
+            position: absolute;
+            top: 44.5%;
+            left: 57%;
+            color: black;
+            text-transform: normal;
+}
+             .output24a{
+            color: black;
+            position: absolute;
+            top: 43.5%;
+            left: 23%;
+            font-size: 12px;
+            text-transform: normal;
+}
+   
+            .labelline5b{
+            color: green;
+            position: absolute;
+            top: 43.5%;
+            left: 69%;
+            text-transform: normal;
+}
+            .output24b{
+            color: black;
+            position: absolute;
+            top: 43.5%;
+            left: 70%;
+            font-size: 12px;
+            text-transform: normal;
+}
+   
+    
+   
    
  
     
@@ -3014,7 +3089,6 @@ $html = "
                         <p class='output23d'>RHINA JOY</p>
                         <p class='labelline4e'>_________________________________________</p> 
                         <p class='output23e'>RHINA JOY</p>
-                </div>
                 <div class='labelb10'>I am/ We are executing this affidavit to the truthfulness of the foregoing statements and for purposes of acknowledging my/our child.<br>acknowledging my/our child.</div>
                     <p class='labelline4f'>_________________________________________</p> 
                 <div class='labelb11'>(Signature Over Printed Name of Father)</div>
@@ -3022,7 +3096,6 @@ $html = "
                     <p class='labelline4g'>_________________________________________</p> 
                 <div class='labelb12'>(Signature Over Printed Name of Mother)</div>
                     <p class='output23g'>RHINA JOY</p>
-                </div>
                  <div class='labelb13'>SUBSCRIBE AND SWORN to before me this</div>
                     <p class='labelline4h'>_________</p> 
                     <p class='output23h'>23</p>
@@ -3045,7 +3118,6 @@ $html = "
                     <p class='labelline4n'>__________________________________________</p> 
                     <p class='output23n'>RHINA JOY</p>
                 <div class='labelb20'>at</div>
-                </div>
                     <p class='labelline4o'>__________________________________________</p> 
                     <p class='output23o'>RHINA JOY</p>
                 <div class='labelb21'>Signature of the Administering Officer</div>
@@ -3059,45 +3131,51 @@ $html = "
                     <p class='output23r'>RHINA JOY</p>
                 <div class='labelb24'>Address</div>
                 <div class='horizontal_line1t'></div>
+                <div class='labelb25'>AFFIDAVIT FOR DELAYED REGISTRATION OF BIRTH</div>
+                <div class='labelb26'>(To be accomplished by the hospital/clinic administrator/father,mother, or guardian or the person himself if 18 years old or over)</div>
+                <div class='labelb27'>I</div>
+                    <p class='labelline4s'>________________________________________________</p> 
+                    <p class='output23s'>RHINA JOY</p>
+                <div class='labelb28'>,of legal age, single/married/divorced/widow/widower,with</div>
+                <div class='labelb29'>residence and postal address at</div>
+                    <p class='labelline4t'>______________________________________________________________________________</p> 
+                    <p class='output23t'>RHINA JOY</p>
+                    <p class='labelline4u'>_______________________________________</p> 
+                    <p class='output23u'>RHINA JOY</p>
+                <div class='labelb30'>after having been duly sworn in accordance with law, do hereby depose and say:</div>
+                <div class='horizontal_line1t'></div>
+                <div class='labelb31'>AFFIDAVIT FOR DELAYED REGISTRATION OF DEATH </div>
+                <div class='labelb32'>(To be accomplished by the hospital/clinic administrator,father,mother,or guardian or the person himself if 18 years old or over.) </div>
+                <div class='labelb33'>I</div>
+                    <p class='labelline4v'>____________________________________________________</p> 
+                    <p class='output23v'>RHINA JOY</p>
+                <div class='labelb34'>,of legal age,single/married/divorced/widow/widower,with</div>
+                <div class='labelb35'>residence and postal address at</div>
+                    <p class='labelline4w'>______________________________________________________________________________</p> 
+                    <p class='output23w'>RHINA JOY</p>
+                    <p class='labelline4x'>__________________________________________</p> 
+                    <p class='output23x'>RHINA JOY</p>
+                <div class='labelb36'>after having been duly sworn in accordance with law, do hereby depose say:</div> 
+                <div class='labelb37'>1.That I am the applicant for the delayed registration of:</div> 
+                    <p class='cbox1'><b>&#9633;</b></p>
+                    <p class='outputbox1'>X</p>
+                <div class='labelb38'>my birth in</div> 
+                    <p class='labelline4y'>__________________________________________</p> 
+                    <p class='output23y'>RHINA JOY</p>
+                <div class='labelb39'>on</div> 
+                    <p class='labelline4z'>______________________________________</p> 
+                    <p class='output23z'>RHINA JOY</p>
+                    <p class='cbox2'><b>&#9633;</b></p>
+                    <p class='outputbox2'>X</p>
+                <div class='labelb40'>the birth of</div> 
+                    <p class='labelline5a'>______________________________________</p>
+                    <p class='output24a'>RHINA JOY</p> 
+                <div class='labelb41'>who was born in</div>
+                    <p class='labelline5b'>________________________</p>
+                    <p class='output24b'>RHINA JOY</p> 
                     </div>
-                    <div class='labelb25'>AFFIDAVIT FOR DELAYED REGISTRATION OF BIRTH</div>
-                    <div class='labelb26'>(To be accomplished by the hospital/clinic administrator/father,mother, or guardian or the person himself if 18 years old or over)</div>
-                    <div class='labelb27'>I</div>
-                      <p class='labelline4s'>________________________________________________</p> 
-                      <p class='output23s'>RHINA JOY</p>
-                    <div class='labelb28'>,of legal age, single/married/divorced/widow/widower,with</div>
-                    <div class='labelb29'>residence and postal address at</div>
-                      <p class='labelline4t'>______________________________________________________________________________</p> 
-                      <p class='output23t'>RHINA JOY</p>
-                      <p class='labelline4u'>_______________________________________</p> 
-                      <p class='output23u'>RHINA JOY</p>
-                    <div class='labelb30'>after having been duly sworn in accordance with law, do hereby depose and say:</div>
-                     <div class='horizontal_line1t'></div>
-                     </div>
-                    <div class='labelb31'>AFFIDAVIT FOR DELAYED REGISTRATION OF DEATH </div>
-                    <div class='labelb32'>(To be accomplished by the hospital/clinic administrator,father,mother,or guardian or the person himself if 18 years old or over.) </div>
-                    <div class='labelb33'>I</div>
-                        <p class='labelline4v'>____________________________________________________</p> 
-                        <p class='output23v'>RHINA JOY</p>
-                    <div class='labelb34'>,of legal age,single/married/divorced/widow/widower,with</div>
-                    <div class='labelb35'>residence and postal address at</div>
-                        <p class='labelline4w'>______________________________________________________________________________</p> 
-                        <p class='output23w'>RHINA JOY</p>
-                        <p class='labelline4x'>__________________________________________</p> 
-                        <p class='output23x'>RHINA JOY</p>
-                     <div class='labelb36'>after having been duly sworn in accordance with law, do hereby depose say:</div> 
-                     </div>
-                    <div class='labelb37'>1.That I am the applicant for the delayed registration of:</div> 
-                        <p class='cbox1'><b>&#9633;</b></p>
-                        <p class='outputbox1'>X</p>
-                    <div class='labelb38'>my birth in</div> 
-                        <p class='labelline4y'>__________________________________________</p> 
-                        <p class='output23y'>RHINA JOY</p>
-                    <div class='labelb39'>on</div> 
-                        <p class='labelline4z'>______________________________________</p> 
-                        <p class='output23z'>RHINA JOY</p>
 
-                      </div>
+                    </div>
         </body>
     </html>";
 // Load HTML into Dompdf
