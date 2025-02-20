@@ -3292,7 +3292,165 @@ $html = "
             font-size: 12px;
             text-transform: normal;
 }  
+            .labelb62{
+            font-size: 12px;
+            position: absolute;
+            top: 78%;
+            left: 97%;
+            color: black;
+            text-transform: normal;
+}
+            .labelline5w{
+            color: green;
+            position: absolute;
+            top: 79%;
+            left: 5%;
+            text-transform: normal;
+}
+            .output24w{
+            color: black;
+            position: absolute;
+            top: 79%;
+            left: 6%;
+            font-size: 12px;
+            text-transform: normal;
+}  
+            .labelb63{
+            font-size: 12px;
+            position: absolute;
+            top: 80%;
+            left: 55%;
+            color: black;
+            text-transform: normal;
+}
+            .labelline5x{
+            color: green;
+            position: absolute;
+            top: 81%;
+            left: 5%;
+            text-transform: normal;
+}
+            .output24x{
+            color: black;
+            position: absolute;
+            top: 81%;
+            left: 6%;
+            font-size: 12px;
+            text-transform: normal;
+}     
+            .labelb64{
+            font-size: 12px;
+            position: absolute;
+            top: 82%;
+            left: 28%;
+            color: black;
+            text-transform: normal;
+}
+            .labelline5y{
+            color: green;
+            position: absolute;
+            top: 81%;
+            left: 35%;
+            text-transform: normal;
+}
+            .output24y{
+            color: black;
+            position: absolute;
+            top: 81%;
+            left: 36%;
+            font-size: 12px;
+            text-transform: normal;
+}
+            .labelb65{
+            font-size: 12px;
+            position: absolute;
+            top: 82%;
+            left: 57%;
+            color: black;
+            text-transform: normal;
+}
+            .labelline5z{
+            color: green;
+            position: absolute;
+            top: 81%;
+            left: 59%;
+            text-transform: normal;
+}
+            .output24z{
+            color: black;
+            position: absolute;
+            top: 81%;
+            left: 60%;
+            font-size: 12px;
+            text-transform: normal;
+}
+            .labelline6a{
+            color: green;
+            position: absolute;
+            top: 84%;
+            left: 10%;
+            text-transform: normal;
+}
+            .output25a{
+            color: black;
+            position: absolute;
+            top: 84%;
+            left: 11%;
+            font-size: 12px;
+            text-transform: normal;
+}
+            .labelb66{
+            font-size: 12px;
+            position: absolute;
+            top: 86%;
+            left: 14%;
+            color: black;
+            text-transform: normal;
+}
+            .labelline6b{
+            color: green;
+            position: absolute;
+            top: 89%;
+            left: 10%;
+            text-transform: normal;
+}
+            .output25b{
+            color: black;
+            position: absolute;
+            top: 89%;
+            left: 11%;
+            font-size: 12px;
+            text-transform: normal;
+}
+            .labelb67{
+            font-size: 12px;
+            position: absolute;
+            top: 91%;
+            left: 23%;
+            color: black;
+            text-transform: normal;
+}
+            .labelline6c{
+            color: green;
+            position: absolute;
+            top: 84%;
+            left: 55%;
+            text-transform: normal;
+}
+            .output25c{
+            color: black;
+            position: absolute;
+            top: 84%;
+            left: 11%;
+            font-size: 12px;
+            text-transform: normal;
+}
+ 
+    
+  
    
+
+  
    
  
   
@@ -3755,8 +3913,28 @@ $html = "
                 <div class='labelb61'>day of</div> 
                     <p class='labelline5u'>_____________________,</p>
                     <p class='output24u'>RHINA JOY</p>
-                    <p class='labelline5v'>___________</p>
+                    <p class='labelline5v'>_______________</p>
                     <p class='output24v'>RHINA JOY</p>
+                <div class='labelb62'>at</div> 
+                    <p class='labelline5w'>______________________________________________________</p>
+                    <p class='output24w'>RHINA JOY</p>
+                <div class='labelb63'>,Philippines, affiant who exhibited t me his/her CTC/valid ID</div> 
+                    <p class='labelline5x'>________________________</p>
+                    <p class='output24x'>RHINA JOY</p>
+                <div class='labelb64'>issued on</div> 
+                    <p class='labelline5y'>________________________</p>
+                    <p class='output24y'>RHINA JOY</p>
+                <div class='labelb65'>at</div> 
+                    <p class='labelline5z'>__________________________________________</p>
+                    <p class='output24z'>RHINA JOY</p>
+                    <p class='labelline6a'>__________________________________________</p>
+                    <p class='output25a'>RHINA JOY</p>
+                <div class='labelb66'>Signature of the Administering Officer</div> 
+                    <p class='labelline6b'>__________________________________________</p>
+                    <p class='output25b'>RHINA JOY</p>
+                <div class='labelb67'>Name in Print</div> 
+                    <p class='labelline6c'>__________________________________________</p>
+                    <p class='output25c'>RHINA JOY</p>
                   </div>
 
         </body>
