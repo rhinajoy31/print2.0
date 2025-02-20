@@ -2879,6 +2879,89 @@ $html = "
             font-size: 12px;
             text-transform: normal;
 }
+            .labelb45{
+            font-size: 12px;
+            position: absolute;
+            top: 51.5%;
+            left: 5%;
+            color: black;
+            text-transform: normal;
+}
+            .labelline5g{
+            color: green;
+            position: absolute;
+            top: 50.5%;
+            left: 29.5%;
+            text-transform: normal;
+}
+            .output24g{
+            color: black;
+            position: absolute;
+            top: 50.5%;
+            left: 31%;
+            font-size: 12px;
+            text-transform: normal;
+}
+            .labelb46{
+            font-size: 12px;
+            position: absolute;
+            top: 53.5%;
+            left: 5%;
+            color: black;
+            text-transform: normal;
+}
+    
+            .cbox3{
+            font-size: 25px; 
+            color: green;
+            position: absolute;
+            top: 50%;
+            left: 30%; 
+            font-family: Verdana, Tahoma, 'DejaVu Sans', sans-serif;
+
+} 
+            .outputbox3{
+            color: black;
+            position: absolute;
+            top: 52.5%;
+            left: 31%; 
+            font-size: 11px;
+            text-transform: normal;
+}
+            .labelb47{
+            font-size: 12px;
+            position: absolute;
+            top: 53.5%;
+            left: 35%;
+            color: black;
+            text-transform: normal;
+}
+            .labelline5h{
+            color: green;
+            position: absolute;
+            top: 52.5%;
+            left: 43%;
+            text-transform: normal;
+}
+            .output24h{
+            color: black;
+            position: absolute;
+            top: 52.5%;
+            left: 44%;
+            font-size: 12px;
+            text-transform: normal;
+}
+            .labelb48{
+            font-size: 12px;
+            position: absolute;
+            top: 53.5%;
+            left: 70%;
+            color: black;
+            text-transform: normal;
+}
+    
+   
+   
    
    
    
@@ -3278,8 +3361,19 @@ $html = "
                     <p class='output24e'>RHINA JOY</p>    
                 <div class='labelb44'>who resides at</div>
                     <p class='labelline5f'>_______________________________________________________________________________________________</p>
-                    <p class='output24f'>RHINA JOY</p>    
-                </div>
+                    <p class='output24f'>RHINA JOY</p> 
+                <div class='labelb45'>3.That I am/he/she is a citizen of</div>       
+                    <p class='labelline5g'>_______________________________________________________________________</p>
+                    <p class='output24g'>RHINA JOY</p> 
+                 <div class='labelb46'>4.That my/his/her parents were</div>       
+                    <p class='cbox3'><b>&#9633;</b></p>
+                    <p class='outputbox3'>X</p>
+                <div class='labelb47'>married on</div> 
+                    <p class='labelline5h'>____________________________</p>
+                    <p class='output24h'>RHINA JOY</p>   
+                <div class='labelb48'>at</div>    
+
+                 </div>
 
         </body>
     </html>";
