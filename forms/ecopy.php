@@ -3254,7 +3254,45 @@ $html = "
             font-size: 12px;
             text-transform: normal;
 }     
-    
+            .labelb61{
+            font-size: 12px;
+            position: absolute;
+            top: 78%;
+            left: 56%;
+            color: black;
+            text-transform: normal;
+}
+            .labelline5u{
+            color: green;
+            position: absolute;
+            top: 77%;
+            left: 61%;
+            text-transform: normal;
+}
+            .output24u{
+            color: black;
+            position: absolute;
+            top: 77%;
+            left: 62%;
+            font-size: 12px;
+            text-transform: normal;
+}     
+            .labelline5v{
+            color: green;
+            position: absolute;
+            top: 77%;
+            left: 82%;
+            text-transform: normal;
+}
+            .output24v{
+            color: black;
+            position: absolute;
+            top: 77%;
+            left: 83%;
+            font-size: 12px;
+            text-transform: normal;
+}  
+   
    
  
   
@@ -3714,6 +3752,11 @@ $html = "
                 <div class='labelb60'>SUBSCRIBED AND SWORN to before me this</div> 
                     <p class='labelline5t'>___________</p>
                     <p class='output24t'>RHINA JOY</p>
+                <div class='labelb61'>day of</div> 
+                    <p class='labelline5u'>_____________________,</p>
+                    <p class='output24u'>RHINA JOY</p>
+                    <p class='labelline5v'>___________</p>
+                    <p class='output24v'>RHINA JOY</p>
                   </div>
 
         </body>
