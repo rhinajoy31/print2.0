@@ -2959,7 +2959,77 @@ $html = "
             color: black;
             text-transform: normal;
 }
-    
+            .labelline5i{
+            color: green;
+            position: absolute;
+            top: 52.5%;
+            left: 72%;
+            text-transform: normal;
+}
+            .output24i{
+            color: black;
+            position: absolute;
+            top: 52.5%;
+            left: 73%;
+            font-size: 12px;
+            text-transform: normal;
+}
+            .labelline5j{
+            color: green;
+            position: absolute;
+            top: 54%;
+            left: 35%;
+            text-transform: normal;
+}
+            .output24j{
+            color: black;
+            position: absolute;
+            top: 54%;
+            left: 36%;;
+            font-size: 12px;
+            text-transform: normal;
+}
+            .cbox4{
+            font-size: 25px; 
+            color: green;
+            position: absolute;
+            top: 54%;
+            left: 30%; 
+            font-family: Verdana, Tahoma, 'DejaVu Sans', sans-serif;
+
+} 
+            .outputbox4{
+            color: black;
+            position: absolute;
+            top: 56.5%;
+            left: 31%; 
+            font-size: 11px;
+            text-transform: normal;
+}
+            .labelb49{
+            font-size: 12px;
+            position: absolute;
+            top: 57%;
+            left: 35%;
+            color: black;
+            text-transform: normal;
+}   
+            .labelline5k{
+            color: green;
+            position: absolute;
+            top: 57.3%;
+            left: 51%;
+            text-transform: normal;
+}
+            .output24k{
+            color: black;
+            position: absolute;
+            top: 57.3%;
+            left: 52%;;
+            font-size: 12px;
+            text-transform: normal;
+}
+ 
    
    
    
@@ -3371,7 +3441,16 @@ $html = "
                 <div class='labelb47'>married on</div> 
                     <p class='labelline5h'>____________________________</p>
                     <p class='output24h'>RHINA JOY</p>   
-                <div class='labelb48'>at</div>    
+                <div class='labelb48'>at</div>
+                    <p class='labelline5i'>____________________________</p>
+                    <p class='output24i'>RHINA JOY</p>
+                    <p class='labelline5j'>__________________________________________________________________</p>
+                    <p class='output24j'>RHINA JOY</p>
+                    <p class='cbox4'><b>&#9633;</b></p>
+                    <p class='outputbox4'>X</p>
+                 <div class='labelb49'>not married but I/he/she was acknowledge/not acknowledge by my/his/her<br>father whose name is</div>
+                    <p class='labelline5k'>_________________________________________</p>
+                    <p class='output24k'>RHINA JOY</p>
 
                  </div>
 
