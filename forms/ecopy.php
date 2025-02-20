@@ -3162,6 +3162,53 @@ $html = "
             font-size: 12px;
             text-transform: normal;
 }
+            .labelline5q{
+            color: green;
+            position: absolute;
+            top: 71%;
+            left: 5%;
+            text-transform: normal;
+}
+            .output24q{
+            color: black;
+            position: absolute;
+            top: 71%;
+            left: 6%;;
+            font-size: 12px;
+            text-transform: normal;
+}
+            .labelb57{
+            font-size: 12px;
+            position: absolute;
+            top: 72.3%;
+            left: 43%;
+            color: black;
+            text-transform: normal;
+}  
+            .labelline5r{
+            color: green;
+            position: absolute;
+            top: 71.1%;
+            left: 45%;
+            text-transform: normal;
+}
+            .output24r{
+            color: black;
+            position: absolute;
+            top: 71.2%;
+            left: 46%;
+            font-size: 12px;
+            text-transform: normal;
+}
+            .labelb58{
+            font-size: 12px;
+            position: absolute;
+            top: 72.3%;
+            left: 88%;
+            color: black;
+            text-transform: normal;
+}  
+ 
  
   
  
@@ -3608,6 +3655,12 @@ $html = "
                  <div class='labelb56'>day of</div> 
                     <p class='labelline5p'>________________________________</p>
                     <p class='output24p'>RHINA JOY</p>
+                    <p class='labelline5q'>_________________________________________</p>
+                    <p class='output24q'>RHINA JOY</p>
+                <div class='labelb57'>at</div> 
+                    <p class='labelline5r'>______________________________________________</p>
+                    <p class='output24r'>RHINA JOY</p>
+                 <div class='labelb58'>,Philippines.</div> 
                   </div>
 
         </body>
