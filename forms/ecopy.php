@@ -3441,10 +3441,34 @@ $html = "
             color: black;
             position: absolute;
             top: 84%;
-            left: 11%;
+            left: 56%;
             font-size: 12px;
             text-transform: normal;
+}    
+            .labelb68{
+            font-size: 12px;
+            position: absolute;
+            top: 86%;
+            left: 66%;
+            color: black;
+            text-transform: normal;
 }
+            .labelline6d{
+            color: green;
+            position: absolute;
+            top: 89%;
+            left: 55%;
+            text-transform: normal;
+}
+            .output25d{
+            color: black;
+            position: absolute;
+            top: 89%;
+            left: 56%;
+            font-size: 12px;
+            text-transform: normal;
+}  
+  
  
     
   
@@ -3935,7 +3959,10 @@ $html = "
                 <div class='labelb67'>Name in Print</div> 
                     <p class='labelline6c'>__________________________________________</p>
                     <p class='output25c'>RHINA JOY</p>
-                  </div>
+                <div class='labelb68'>Position/Title/Designation</div> 
+                    <p class='labelline6d'>__________________________________________</p>
+                    <p class='output25d'>RHINA JOY</p>  
+                </div>
 
         </body>
     </html>";
