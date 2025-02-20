@@ -3468,6 +3468,14 @@ $html = "
             font-size: 12px;
             text-transform: normal;
 }  
+            .labelb69{
+            font-size: 12px;
+            position: absolute;
+            top: 91%;
+            left: 70%;
+            color: black;
+            text-transform: normal;
+}
   
  
     
@@ -3962,7 +3970,7 @@ $html = "
                 <div class='labelb68'>Position/Title/Designation</div> 
                     <p class='labelline6d'>__________________________________________</p>
                     <p class='output25d'>RHINA JOY</p>  
-                </div>
+                <div class='labelb69'>Address</div> 
 
         </body>
     </html>";
