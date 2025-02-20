@@ -3098,6 +3098,74 @@ $html = "
             font-size: 12px;
             text-transform: normal;
 } 
+            .labelb53{
+            font-size: 12px;
+            position: absolute;
+            top: 64%;
+            left: 85%;
+            color: black;
+            text-transform: normal;
+}   
+            
+            .labelb54{
+            font-size: 12px;
+            position: absolute;
+            top: 66%;
+            left: 5%;
+            color: black;
+            text-transform: normal;
+}   
+              
+            .labelb55{
+            font-size: 12px;
+            position: absolute;
+            top: 70%;
+            left: 7%;
+            color: black;
+            text-transform: normal;
+}   
+            .labelline5o{
+            color: green;
+            position: absolute;
+            top: 69%;
+            left: 47%;
+            text-transform: normal;
+}
+            .output24o{
+            color: black;
+            position: absolute;
+            top: 69%;
+            left: 48%;;
+            font-size: 12px;
+            text-transform: normal;
+}             
+            .labelb56{
+            font-size: 12px;
+            position: absolute;
+            top: 70%;
+            left: 59%;
+            color: black;
+            text-transform: normal;
+}   
+            .labelline5p{
+            color: green;
+            position: absolute;
+            top: 69%;
+            left: 64%;
+            text-transform: normal;
+}
+            .output24p{
+            color: black;
+            position: absolute;
+            top: 69%;
+            left: 65%;;
+            font-size: 12px;
+            text-transform: normal;
+}
+ 
+  
+ 
+ 
    
    
    
@@ -3532,6 +3600,14 @@ $html = "
                  <div class='labelb52'>(if the applicant is other than the document owner) That I am married to</div>
                     <p class='labelline5n'>____________________________</p>
                     <p class='output24n'>RHINA JOY</p>
+                <div class='labelb53'>of the said person.</div>
+                <div class='labelb54'>7.That I am executing this affidavit to attest to the truthfulness of the foregoing statements for all legal intents and purpose.</div>
+                <div class='labelb55'>In truth whereof, I have affixed my signature below this</div> 
+                    <p class='labelline5o'>____________</p>
+                    <p class='output24o'>RHINA JOY</p>
+                 <div class='labelb56'>day of</div> 
+                    <p class='labelline5p'>________________________________</p>
+                    <p class='output24p'>RHINA JOY</p>
                   </div>
 
         </body>
