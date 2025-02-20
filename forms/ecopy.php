@@ -3207,8 +3207,55 @@ $html = "
             left: 88%;
             color: black;
             text-transform: normal;
-}  
- 
+}
+            .labelline5s{
+            color: green;
+            position: absolute;
+            top: 74%;
+            left: 59%;
+            text-transform: normal;
+}
+            .output24s{
+            color: black;
+            position: absolute;
+            top: 74%;
+            left: 60%;
+            font-size: 12px;
+            text-transform: normal;
+}     
+            .labelb59{
+            font-size: 12px;
+            position: absolute;
+            top: 76%;
+            left: 63%;
+            color: black;
+            text-transform: normal;
+}     
+            .labelb60{
+            font-size: 12px;
+            position: absolute;
+            top: 78%;
+            left: 10%;
+            color: black;
+            text-transform: normal;
+}
+            .labelline5t{
+            color: green;
+            position: absolute;
+            top: 77%;
+            left: 45%;
+            text-transform: normal;
+}
+            .output24t{
+            color: black;
+            position: absolute;
+            top: 77%;
+            left: 46%;
+            font-size: 12px;
+            text-transform: normal;
+}     
+    
+   
  
   
  
@@ -3661,6 +3708,12 @@ $html = "
                     <p class='labelline5r'>______________________________________________</p>
                     <p class='output24r'>RHINA JOY</p>
                  <div class='labelb58'>,Philippines.</div> 
+                    <p class='labelline5s'>_______________________________________</p>
+                    <p class='output24s'>RHINA JOY</p>
+                <div class='labelb59'>(Signature Over Printed Name of Affiant)</div> 
+                <div class='labelb60'>SUBSCRIBED AND SWORN to before me this</div> 
+                    <p class='labelline5t'>___________</p>
+                    <p class='output24t'>RHINA JOY</p>
                   </div>
 
         </body>
