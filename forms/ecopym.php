@@ -160,14 +160,52 @@ $html = "
             top: 12%;
             left: 28%; 
             }
-             .labelm5 {
+            .labelm5 {
             font-size: 12px;
             text-transform: normal;
             color: black;
             position: absolute;
             top: 12%;
-            left: 28%; 
+            left: 75%; 
             }
+            .horizontal_linem3 {
+            width: 89.5%; 
+            height: 0.1%; 
+            background-color: rgb(248, 82, 159);
+            position: absolute;
+            top: 13%;
+            left: 10%; 
+            }
+            .labelm6{
+            font-size: 11px;
+            text-transform: normal;
+            color: black;
+            position: absolute;
+            top: 14%;
+            left: 1%; 
+            }
+            .labelm7{
+            font-size: 11px;
+            text-transform: normal;
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 14%;
+            left: 12%; 
+            }
+             .labellinem3 {
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 13%;
+            left: 16%;
+            }
+            .outputm4{
+            color: black;
+            position: absolute;
+            top: 13%;
+            left: 17%;
+            font-size: 12px;
+            text-transform: normal;
+}  
 
        </style>
     </head>
@@ -177,7 +215,7 @@ $html = "
                     <div class='container'>
                     <div class='header_center'>Republic of the Philippines</div>
                     <div class='header_center_mid'>OFFICE OF THE CIVIL REGISTRAR GENERAL</div>
-                    <div class='header_center_bellow'>CERTIFICATE OF LIVE MARRIAGE</div>
+                    <div class='header_center_bellow'>CERTIFICATE OF MARRIAGE</div>
                     <div class='horizontal_linem1'></div> 
                     <div class='labelm1'>Province</div>
                         <p class='labellinem1'>___________________________________________________________</p>   
@@ -192,8 +230,12 @@ $html = "
                     <div class='vertical_linem2'></div>
                     <div class='vertical_linem3'></div>
                     <div class='labelm4'>HUSBAND</div>
-                    <div class='labelm4'WIFE</div>
-                    
+                    <div class='labelm5'>WIFE</div>
+                    <div class='horizontal_linem3'></div> 
+                    <div class='labelm6'>1.Name of<br>Contracting<br>Parties</div>
+                    <div class='labelm7'>(First)</div></p>
+                         <p class='labellinem3'>_________________________________________</p> 
+                         <p class='outputm4'>RHINA JOY</p>
                         </body>
                         </html>";
                     // Load HTML into Dompdf
