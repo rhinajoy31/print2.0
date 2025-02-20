@@ -3051,7 +3051,55 @@ $html = "
             left: 53%;;
             font-size: 12px;
             text-transform: normal;
+} 
+            .labelb51{
+            font-size: 12px;
+            position: absolute;
+            top: 62%;
+            left: 5%;
+            color: black;
+            text-transform: normal;
+}   
+            .labelline5m{
+            color: green;
+            position: absolute;
+            top: 61%;
+            left: 40%;
+            text-transform: normal;
 }
+            .output24m{
+            color: black;
+            position: absolute;
+            top: 61%;
+            left: 41%;;
+            font-size: 12px;
+            text-transform: normal;
+}      
+            .labelb52{
+            font-size: 12px;
+            position: absolute;
+            top: 64%;
+            left: 6%;
+            color: black;
+            text-transform: normal;
+}   
+            .labelline5n{
+            color: green;
+            position: absolute;
+            top: 63%;
+            left: 58%;
+            text-transform: normal;
+}
+            .output24n{
+            color: black;
+            position: absolute;
+            top: 63%;
+            left: 59%;;
+            font-size: 12px;
+            text-transform: normal;
+} 
+   
+   
    
  
    
@@ -3478,6 +3526,12 @@ $html = "
                 <div class='labelb50'>5.That the reason for the delay in registering my/his/her birth was</div>
                     <p class='labelline5l'>________________________________________________</p>
                     <p class='output24l'>RHINA JOY</p>
+                <div class='labelb51'>6.(For the applicant only) That I am married to</div>
+                    <p class='labelline5m'>________________________________________________</p>
+                    <p class='output24m'>RHINA JOY</p>
+                 <div class='labelb52'>(if the applicant is other than the document owner) That I am married to</div>
+                    <p class='labelline5n'>____________________________</p>
+                    <p class='output24n'>RHINA JOY</p>
                   </div>
 
         </body>
