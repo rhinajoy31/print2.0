@@ -205,7 +205,21 @@ $html = "
             left: 17%;
             font-size: 12px;
             text-transform: normal;
-}  
+            }  
+            .labelm8{
+            font-size: 11px;
+            text-transform: normal;
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 16%;
+            left: 12%; 
+            }
+             .labellinem4 {
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 14.8%;
+            left: 18%;
+            }
 
        </style>
     </head>
@@ -236,6 +250,8 @@ $html = "
                     <div class='labelm7'>(First)</div></p>
                          <p class='labellinem3'>_________________________________________</p> 
                          <p class='outputm4'>RHINA JOY</p>
+                    <div class='labelm8'>(Middle)</div></p>
+                         <p class='labellinem4'>_______________________________________</p> 
                         </body>
                         </html>";
                     // Load HTML into Dompdf
