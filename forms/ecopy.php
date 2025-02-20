@@ -3029,6 +3029,30 @@ $html = "
             font-size: 12px;
             text-transform: normal;
 }
+            .labelb50{
+            font-size: 12px;
+            position: absolute;
+            top: 60%;
+            left: 5%;
+            color: black;
+            text-transform: normal;
+}   
+            .labelline5l{
+            color: green;
+            position: absolute;
+            top: 59%;
+            left: 53%;
+            text-transform: normal;
+}
+            .output24l{
+            color: black;
+            position: absolute;
+            top: 59%;
+            left: 53%;;
+            font-size: 12px;
+            text-transform: normal;
+}
+   
  
    
    
@@ -3419,21 +3443,21 @@ $html = "
                     <p class='labelline5a'>______________________________________</p>
                     <p class='output24a'>RHINA JOY</p> 
                 <div class='labelb41'>who was born in</div>
-                    <p class='labelline5b'>________________________</p>
+                    <p class='labelline5b'>_______________________________</p>
                     <p class='output24b'>RHINA JOY</p> 
                     <p class='labelline5c'>_____________________________________</p>
                     <p class='output24c'>RHINA JOY</p> 
                 <div class='labelb42'>on</div>
-                    <p class='labelline5d'>_____________________________________</p>
+                    <p class='labelline5d'>_____________________________________.</p>
                     <p class='output24d'>RHINA JOY</p> 
                 <div class='labelb43'>2.That I/he/she was attended at birth by</div>
-                    <p class='labelline5e'>__________________________________________________________</p>
+                    <p class='labelline5e'>__________________________________________________________.</p>
                     <p class='output24e'>RHINA JOY</p>    
                 <div class='labelb44'>who resides at</div>
-                    <p class='labelline5f'>_______________________________________________________________________________________________</p>
+                    <p class='labelline5f'>__________________________________________________________________________________________</p>
                     <p class='output24f'>RHINA JOY</p> 
                 <div class='labelb45'>3.That I am/he/she is a citizen of</div>       
-                    <p class='labelline5g'>_______________________________________________________________________</p>
+                    <p class='labelline5g'>__________________________________________________________________________</p>
                     <p class='output24g'>RHINA JOY</p> 
                  <div class='labelb46'>4.That my/his/her parents were</div>       
                     <p class='cbox3'><b>&#9633;</b></p>
@@ -3444,15 +3468,17 @@ $html = "
                 <div class='labelb48'>at</div>
                     <p class='labelline5i'>____________________________</p>
                     <p class='output24i'>RHINA JOY</p>
-                    <p class='labelline5j'>__________________________________________________________________</p>
+                    <p class='labelline5j'>____________________________________________________________________</p>
                     <p class='output24j'>RHINA JOY</p>
                     <p class='cbox4'><b>&#9633;</b></p>
                     <p class='outputbox4'>X</p>
-                 <div class='labelb49'>not married but I/he/she was acknowledge/not acknowledge by my/his/her<br>father whose name is</div>
-                    <p class='labelline5k'>_________________________________________</p>
+                <div class='labelb49'>not married but I/he/she was acknowledge/not acknowledge by my/his/her<br>father whose name is</div>
+                    <p class='labelline5k'>__________________________________________________</p>
                     <p class='output24k'>RHINA JOY</p>
-
-                 </div>
+                <div class='labelb50'>5.That the reason for the delay in registering my/his/her birth was</div>
+                    <p class='labelline5l'>________________________________________________</p>
+                    <p class='output24l'>RHINA JOY</p>
+                  </div>
 
         </body>
     </html>";
