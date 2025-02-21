@@ -76,7 +76,7 @@ $html = "
                 color: rgb(248, 82, 159);
                 position: absolute;
                 top: 7%;
-                left: 8%;
+                left: 4%;
             }
             .labelm2{
             font-size: 13px;
@@ -169,12 +169,12 @@ $html = "
             left: 75%; 
             }
             .horizontal_linem3 {
-            width: 89.5%; 
+            width: 89.3%; 
             height: 0.1%; 
             background-color: rgb(248, 82, 159);
             position: absolute;
             top: 13%;
-            left: 10%; 
+            left: 10.3%; 
             }
             .labelm6{
             font-size: 10px;
@@ -317,12 +317,12 @@ $html = "
             text-transform: normal;
             } 
             .horizontal_linem4 {
-            width: 89.5%; 
+            width: 99.5%; 
             height: 0.1%; 
             background-color: rgb(248, 82, 159);
             position: absolute;
             top: 19.5%;
-            left: 10%; 
+            left: 0%; 
             }
              .labelm13{
             font-size: 10px;
@@ -405,12 +405,12 @@ $html = "
             text-transform: normal;
             } 
             .horizontal_linem5 {
-            width: 89.4%; 
+            width: 99.5%; 
             height: 0.1%; 
             background-color: rgb(248, 82, 159);
             position: absolute;
-            top: 22.5%;
-            left: 10%; 
+            top: 23%;
+            left: 0%; 
             }
             .labelm18{
             font-size: 11px;
@@ -589,12 +589,12 @@ $html = "
             text-transform: normal;
             }
             .horizontal_linem6 {
-            width: 89.4%; 
+            width: 99.5%; 
             height: 0.1%; 
             background-color: rgb(248, 82, 159);
             position: absolute;
             top: 26%;
-            left: 10%; 
+            left: 0%; 
             }
             .labelm29{
             font-size: 10px;
@@ -669,12 +669,12 @@ $html = "
             text-transform: normal;
             }
             .horizontal_linem7 {
-            width: 89.4%; 
+            width: 99.5%; 
             height: 0.1%; 
             background-color: rgb(248, 82, 159);
             position: absolute;
             top: 29%;
-            left: 10%; 
+            left: 0%; 
             }
        </style>
     </head>
