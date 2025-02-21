@@ -138,7 +138,7 @@ $html = "
             }
             .vertical_linem2 {
             width: 1.3px; 
-            height: 510px; 
+            height: 600px; 
             background-color: rgb(248, 82, 159);
             position: absolute; 
             left: 10%;
@@ -146,7 +146,7 @@ $html = "
             }   
             .vertical_linem3 {
             width: 1.3px; 
-            height: 510px; 
+            height: 600px; 
             background-color: rgb(248, 82, 159);
             position: absolute; 
             left: 55%;
@@ -1036,6 +1036,198 @@ $html = "
             font-size: 12px;
             text-transform: normal;
             }
+            .horizontal_linem13{
+            width: 99.5%; 
+            height: 0.1%; 
+            background-color: rgb(248, 82, 159);
+            position: absolute;
+            top: 45.5%;
+            left: 0%; 
+            }
+            .labelm52{
+            font-size: 10px;
+            text-transform: normal;
+            color: black;
+            position: absolute;
+            top: 46%;
+            left: 0.5%; 
+            }
+            .outputm48{
+            color: black;
+            position: absolute;
+            top: 45%;
+            left:28%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .outputm49{
+            color: black;
+            position: absolute;
+            top: 45%;
+            left:75%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .horizontal_linem14{
+            width: 99.5%; 
+            height: 0.1%; 
+            background-color: rgb(248, 82, 159);
+            position: absolute;
+            top: 47.5%;
+            left: 0%; 
+            }
+            .labelm53{
+            font-size: 10px;
+            text-transform: normal;
+            color: black;
+            position: absolute;
+            top: 48%;
+            left: 0.5%; 
+            }
+            .labelm54{
+            font-size: 10px;
+            text-transform: normal;
+            color:  rgb(248, 82, 159);
+            position: absolute;
+            top: 47.7%;
+            left: 15%; 
+            }
+            .outputm50{
+            color: black;
+            position: absolute;
+            top: 48%;
+            left:12%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm55{
+            font-size: 10px;
+            text-transform: normal;
+            color:  rgb(248, 82, 159);
+            position: absolute;
+            top: 47.7%;
+            left: 28%; 
+            }
+            .outputm51{
+            color: black;
+            position: absolute;
+            top: 48%;
+            left:27%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm56{
+            font-size: 10px;
+            text-transform: normal;
+            color:  rgb(248, 82, 159);
+            position: absolute;
+            top: 47.7%;
+            left: 45%; 
+            }
+            .outputm52{
+            color: black;
+            position: absolute;
+            top: 48%;
+            left:43%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm57{
+            font-size: 10px;
+            text-transform: normal;
+            color:  rgb(248, 82, 159);
+            position: absolute;
+            top: 47.7%;
+            left: 60%; 
+            }
+            .outputm53{
+            color: black;
+            position: absolute;
+            top: 48%;
+            left:57%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm58{
+            font-size: 10px;
+            text-transform: normal;
+            color:  rgb(248, 82, 159);
+            position: absolute;
+            top: 47.7%;
+            left: 75%; 
+            }
+            .outputm55{
+            color: black;
+            position: absolute;
+            top: 48%;
+            left:74%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm59{
+            font-size: 10px;
+            text-transform: normal;
+            color:  rgb(248, 82, 159);
+            position: absolute;
+            top: 47.7%;
+            left: 92%; 
+            }
+            .outputm56{
+            color: black;
+            position: absolute;
+            top: 48%;
+            left:88%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .horizontal_linem15{
+            width: 99.5%; 
+            height: 0.1%; 
+            background-color: rgb(248, 82, 159);
+            position: absolute;
+            top: 53%;
+            left: 0%; 
+            }
+            .labelm60{
+            font-size: 10px;
+            text-transform: normal;
+            color: black;
+            position: absolute;
+            top: 53.5%;
+            left: 0.5%; 
+            }
+            .outputm57{
+            color: black;
+            position: absolute;
+            top: 52.5%;
+            left:25%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .outputm58{
+            color: black;
+            position: absolute;
+            top: 52.5%;
+            left:70%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .horizontal_linem16{
+            width: 99.5%; 
+            height: 0.1%; 
+            background-color: rgb(248, 82, 159);
+            position: absolute;
+            top: 55%;
+            left: 0%; 
+            }
+            .labelm61{
+            font-size: 10px;
+            text-transform: normal;
+            color: black;
+            position: absolute;
+            top: 55.5%;
+            left: 0.5%; 
+            }
        </style>
     </head>
         <body>
@@ -1170,7 +1362,30 @@ $html = "
                       <p class='outputm46'>RHINA JOY</p> 
                     <div class='labelm51'>(Last)</div></p> 
                       <p class='outputm47'>RHINA JOY</p> 
-                    
+                    <div class='horizontal_linem13'></div>
+                    <div class='labelm52'>11.Citizenship</div></p>
+                        <p class='outputm48'>FILIPNO</p> 
+                        <p class='outputm49'>FILIPNO</p> 
+                    <div class='horizontal_linem14'></div>
+                    <div class='labelm53'>12.Name of <br>Person/<br>Wali Who Gave<br>Consent of<br>Advice</div></p>
+                    <div class='labelm54'>(First)</div></p>
+                        <p class='outputm50'>RHINA JOY</p> 
+                    <div class='labelm55'>(Middle)</div></p>
+                        <p class='outputm51'>RHINA JOY</p> 
+                    <div class='labelm56'>(Last)</div></p>
+                        <p class='outputm52'>RHINA JOY</p> 
+                    <div class='labelm57'>(First)</div></p>
+                        <p class='outputm53'>RHINA JOY</p> 
+                    <div class='labelm58'>(Middle)</div></p>
+                        <p class='outputm55'>RHINA JOY</p> 
+                    <div class='labelm59'>(Last)</div></p>
+                        <p class='outputm56'>RHINA JOY</p> 
+                    <div class='horizontal_linem15'></div>
+                    <div class='labelm60'>13.Relationship</div></p>
+                        <p class='outputm57'>NOT APPLICABLE</p> 
+                        <p class='outputm58'>NOT APPLICABLE</p> 
+                    <div class='horizontal_linem16'></div>
+                    <div class='labelm61'>14.Residence</div></p>
                     
                     
                     
