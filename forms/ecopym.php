@@ -220,7 +220,80 @@ $html = "
             top: 14.8%;
             left: 18%;
             }
-
+            .outputm5{
+            color: black;
+            position: absolute;
+            top: 15%;
+            left: 18%;
+            font-size: 12px;
+            text-transform: normal;
+            }   
+             .labelm9{
+            font-size: 11px;
+            text-transform: normal;
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 18%;
+            left: 12%; 
+            }
+             .labellinem5 {
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 17%;
+            left: 16%;
+            }
+            .outputm6{
+            color: black;
+            position: absolute;
+            top: 17%;
+            left: 17%;
+            font-size: 12px;
+            text-transform: normal;
+            }   
+            .labelm10{
+            font-size: 11px;
+            text-transform: normal;
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 14%;
+            left: 58%; 
+            }
+             .labellinem6 {
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 13%;
+            left: 62.5%;
+            }
+            .outputm7{
+            color: black;
+            position: absolute;
+            top: 13%;
+            left: 63%;
+            font-size: 12px;
+            text-transform: normal;
+            } 
+             .labelm11{
+            font-size: 11px;
+            text-transform: normal;
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 16%;
+            left: 58%; 
+            }
+            .labellinem7 {
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 14.8%;
+            left: 64%;
+            }
+            .outputm8{
+            color: black;
+            position: absolute;
+            top: 15%;
+            left: 65%;
+            font-size: 12px;
+            text-transform: normal;
+            }   
        </style>
     </head>
         <body>
@@ -248,10 +321,22 @@ $html = "
                     <div class='horizontal_linem3'></div> 
                     <div class='labelm6'>1.Name of<br>Contracting<br>Parties</div>
                     <div class='labelm7'>(First)</div></p>
-                         <p class='labellinem3'>_________________________________________</p> 
-                         <p class='outputm4'>RHINA JOY</p>
+                        <p class='labellinem3'>_________________________________________</p> 
+                        <p class='outputm4'>RHINA JOY</p>
                     <div class='labelm8'>(Middle)</div></p>
-                         <p class='labellinem4'>_______________________________________</p> 
+                        <p class='labellinem4'>_______________________________________</p> 
+                        <p class='outputm5'>RHINA JOY</p>   
+                    <div class='labelm9'>(Last)</div></p>  
+                        <p class='labellinem5'>_________________________________________</p> 
+                        <p class='outputm6'>RHINA JOY</p>   
+                    <div class='labelm10'>(First)</div></p>
+                        <p class='labellinem6'>_______________________________________</p> 
+                        <p class='outputm7'>RHINA JOY</p>   
+                     <div class='labelm11'>(Middle)</div></p>
+                        <p class='labellinem7'>_____________________________________</p> 
+                        <p class='outputm8'>RHINA JOY</p>   
+                     
+                        
                         </body>
                         </html>";
                     // Load HTML into Dompdf
