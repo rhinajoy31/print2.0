@@ -382,7 +382,7 @@ $html = "
             } 
             .vertical_linem4 {
             width: 1px; 
-            height: 39px; 
+            height: 43px; 
             background-color: rgb(248, 82, 159);
             position: absolute; 
             left: 43%;
@@ -462,7 +462,7 @@ $html = "
             }
             .vertical_linem5 {
             width: 1px; 
-            height: 39px; 
+            height: 43px; 
             background-color: rgb(248, 82, 159);
             position: absolute; 
             left: 88%;
@@ -676,6 +676,302 @@ $html = "
             top: 29%;
             left: 0%; 
             }
+             .labelm32{
+            font-size: 10px;
+            text-transform: normal;
+            color: black;
+            position: absolute;
+            top: 30%;
+            left: 0.5%; 
+            }
+            .labelm33{
+            font-size: 10px;
+            text-transform: normal;
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 29%;
+            left: 13%; 
+            }
+            .outputm28{
+            color: black;
+            position: absolute;
+            top: 29.5%;
+            left:16%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm34{
+            font-size: 10px;
+            text-transform: normal;
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 29%;
+            left: 58.5%; 
+            }
+            .outputm29{
+            color: black;
+            position: absolute;
+            top: 29.5%;
+            left:63%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .horizontal_linem8 {
+            width: 99.5%; 
+            height: 0.1%; 
+            background-color: rgb(248, 82, 159);
+            position: absolute;
+            top: 32%;
+            left: 0%; 
+            }
+            .labelm35{
+            font-size: 10px;
+            text-transform: normal;
+            color: black;
+            position: absolute;
+            top: 32.5%;
+            left: 0.5%; 
+            }
+            .outputm30{
+            color: black;
+            position: absolute;
+            top: 32%;
+            left:25%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .outputm31{
+            color: black;
+            position: absolute;
+            top: 32%;
+            left:75%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .horizontal_linem9 {
+            width: 99.5%; 
+            height: 0.1%; 
+            background-color: rgb(248, 82, 159);
+            position: absolute;
+            top: 34.5%;
+            left: 0%; 
+            }
+            .labelm36{
+            font-size: 10px;
+            text-transform: normal;
+            color: black;
+            position: absolute;
+            top: 35%;
+            left: 0.5%; 
+            }
+            .outputm32{
+            color: black;
+            position: absolute;
+            top: 34.5%;
+            left:25%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .outputm33{
+            color: black;
+            position: absolute;
+            top: 34.5%;
+            left:75%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .horizontal_linem10{
+            width: 99.5%; 
+            height: 0.1%; 
+            background-color: rgb(248, 82, 159);
+            position: absolute;
+            top: 36.8%;
+            left: 0%; 
+            }
+            .labelm37{
+            font-size: 10px;
+            text-transform: normal;
+            color: black;
+            position: absolute;
+            top: 37%;
+            left: 0.5%; 
+            }
+            .labelm38{
+            font-size: 10px;
+            text-transform: normal;
+            color:  rgb(248, 82, 159);
+            position: absolute;
+            top: 37%;
+            left: 15%; 
+            }
+            .outputm34{
+            color: black;
+            position: absolute;
+            top: 37.5%;
+            left:11.5%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm39{
+            font-size: 10px;
+            text-transform: normal;
+            color:  rgb(248, 82, 159);
+            position: absolute;
+            top: 37%;
+            left: 28.5%; 
+            }
+            .outputm35{
+            color: black;
+            position: absolute;
+            top: 37.5%;
+            left:27%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm40{
+            font-size: 10px;
+            text-transform: normal;
+            color:  rgb(248, 82, 159);
+            position: absolute;
+            top: 37%;
+            left: 45%; 
+            }
+            .outputm36{
+            color: black;
+            position: absolute;
+            top: 37.5%;
+            left:43%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm41{
+            font-size: 10px;
+            text-transform: normal;
+            color:  rgb(248, 82, 159);
+            position: absolute;
+            top: 37%;
+            left: 60%; 
+            }
+            .outputm37{
+            color: black;
+            position: absolute;
+            top: 37.5%;
+            left:56%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm42{
+            font-size: 10px;
+            text-transform: normal;
+            color:  rgb(248, 82, 159);
+            position: absolute;
+            top: 37%;
+            left: 75%; 
+            }
+            .outputm38{
+            color: black;
+            position: absolute;
+            top: 37.5%;
+            left:74%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm43{
+            font-size: 10px;
+            text-transform: normal;
+            color:  rgb(248, 82, 159);
+            position: absolute;
+            top: 37%;
+            left: 91%; 
+            }
+            .outputm39{
+            color: black;
+            position: absolute;
+            top: 37.5%;
+            left:88%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .horizontal_linem11{
+            width: 99.5%; 
+            height: 0.1%; 
+            background-color: rgb(248, 82, 159);
+            position: absolute;
+            top: 40%;
+            left: 0%; 
+            }
+            .labelm44{
+            font-size: 10px;
+            text-transform: normal;
+            color: black;
+            position: absolute;
+            top: 40.5%;
+            left: 0.5%; 
+            }
+            .outputm40{
+            color: black;
+            position: absolute;
+            top: 40%;
+            left:28%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .outputm41{
+            color: black;
+            position: absolute;
+            top: 40%;
+            left:75%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .horizontal_linem12{
+            width: 99.5%; 
+            height: 0.1%; 
+            background-color: rgb(248, 82, 159);
+            position: absolute;
+            top: 42.5%;
+            left: 0%; 
+            }
+            .labelm45{
+            font-size: 9.5px;
+            text-transform: normal;
+            color: black;
+            position: absolute;
+            top: 43%;
+            left: 0.5%; 
+            }
+            .labelm46{
+            font-size: 10px;
+            text-transform: normal;
+            color:  rgb(248, 82, 159);
+            position: absolute;
+            top: 42.7%;
+            left: 15%; 
+            }
+            .outputm42{
+            color: black;
+            position: absolute;
+            top: 43%;
+            left:12%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm47{
+            font-size: 10px;
+            text-transform: normal;
+            color:  rgb(248, 82, 159);
+            position: absolute;
+            top: 42.7%;
+            left: 28%; 
+            }
+            .outputm43{
+            color: black;
+            position: absolute;
+            top: 43%;
+            left:27%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
        </style>
     </head>
         <body>
@@ -765,7 +1061,47 @@ $html = "
                     <div class='labelm31'>(Citizenship)</div></p>
                       <p class='outputm27'>FILIPINO</p> 
                     <div class='horizontal_linem7'></div> 
-
+                    <div class='labelm32'>5.Residence</div></p>
+                    <div class='labelm33'>(House No.,St., Barangay, City/Municipality,Province,Country)</div></p>
+                      <p class='outputm28'>095 D BONIFACIO ST.MENDEZ,CAVITE</p> 
+                    <div class='labelm34'>(House No.,St., Barangay, City/Municipality,Province,Country)</div></p>
+                      <p class='outputm29'>095 D BONIFACIO ST.MENDEZ,CAVITE</p> 
+                    <div class='horizontal_linem8'></div> 
+                    <div class='labelm35'>6.Religion/<br>Religious Sect</div></p> 
+                      <p class='outputm30'>CATHOLIC</p> 
+                      <p class='outputm31'>CATHOLIC</p> 
+                    <div class='horizontal_linem9'></div> 
+                    <div class='labelm36'>7.Civil Status</div></p> 
+                      <p class='outputm32'>CATHOLIC</p> 
+                      <p class='outputm33'>CATHOLIC</p> 
+                    <div class='horizontal_linem10'></div>
+                    <div class='labelm37'>8.Name of <br>Father</div></p> 
+                    <div class='labelm38'>(First)</div></p> 
+                      <p class='outputm34'>RHINA JOY</p> 
+                    <div class='labelm39'>(Middle)</div></p> 
+                      <p class='outputm35'>RHINA JOY</p> 
+                    <div class='labelm40'>(Last)</div></p> 
+                      <p class='outputm36'>RHINA JOY</p> 
+                    <div class='labelm41'>(First)</div></p> 
+                      <p class='outputm37'>RHINA JOY</p> 
+                    <div class='labelm42'>(Middle)</div></p> 
+                      <p class='outputm38'>RHINA JOY</p> 
+                    <div class='labelm43'>(Last)</div></p> 
+                      <p class='outputm39'>RHINA JOY</p> 
+                    <div class='horizontal_linem11'></div>
+                    <div class='labelm44'>9.Citizenship</div></p>
+                        <p class='outputm40'>FILIPINO</p>  
+                        <p class='outputm41'>FILIPINO</p>  
+                    <div class='horizontal_linem12'></div>
+                    <div class='labelm45'>10.Maiden <br> Name of Mother</div></p>
+                    <div class='labelm46'>(First)</div></p> 
+                      <p class='outputm42'>RHINA JOY</p> 
+                    <div class='labelm47'>(Middle)</div></p> 
+                      <p class='outputm43'>RHINA JOY</p> 
+                    
+                    
+                    
+                    
                     </body>
                         </html>";
                     // Load HTML into Dompdf
