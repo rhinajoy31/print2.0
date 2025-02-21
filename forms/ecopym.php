@@ -177,7 +177,7 @@ $html = "
             left: 10%; 
             }
             .labelm6{
-            font-size: 11px;
+            font-size: 10px;
             text-transform: normal;
             color: black;
             position: absolute;
@@ -484,6 +484,198 @@ $html = "
             font-size: 12px;
             text-transform: normal;
             }
+            .labelm22{
+            font-size: 10px;
+            text-transform: normal;
+            color: black;
+            position: absolute;
+            top: 24%;
+            left: 0.5%; 
+            }
+            .labelm23{
+            font-size: 11px;
+            text-transform: normal;
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 23%;
+            left: 12%; 
+            }
+            .outputm18{
+            color: black;
+            position: absolute;
+            top: 23.5%;
+            left:12%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm24{
+            font-size: 11px;
+            text-transform: normal;
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 23%;
+            left: 30%; 
+            }
+            .outputm19{
+            color: black;
+            position: absolute;
+            top: 23.5%;
+            left:30%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm25{
+            font-size: 11px;
+            text-transform: normal;
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 23%;
+            left: 45%; 
+            }
+            .outputm20{
+            color: black;
+            position: absolute;
+            top: 23.5%;
+            left:43%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm26{
+            font-size: 11px;
+            text-transform: normal;
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 23%;
+            left: 57%; 
+            }
+            .outputm21{
+            color: black;
+            position: absolute;
+            top: 23.5%;
+            left:56%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm27{
+            font-size: 11px;
+            text-transform: normal;
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 23%;
+            left: 75%; 
+            }
+            .outputm22{
+            color: black;
+            position: absolute;
+            top: 23.5%;
+            left:74%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm28{
+            font-size: 11px;
+            text-transform: normal;
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 23%;
+            left: 90%; 
+            }
+            .outputm23{
+            color: black;
+            position: absolute;
+            top: 23.5%;
+            left:88%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .horizontal_linem6 {
+            width: 89.4%; 
+            height: 0.1%; 
+            background-color: rgb(248, 82, 159);
+            position: absolute;
+            top: 26%;
+            left: 10%; 
+            }
+            .labelm29{
+            font-size: 10px;
+            text-transform: normal;
+            color: black;
+            position: absolute;
+            top: 27%;
+            left: 0.5%; 
+            }
+            .outputm24{
+            color: black;
+            position: absolute;
+            top: 26.5%;
+            left:12%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .vertical_linem6 {
+            width: 1px; 
+            height: 39px; 
+            background-color: rgb(248, 82, 159);
+            position: absolute; 
+            left:32%;
+            top: 26%;
+            }
+            .labelm30{
+            font-size: 10px;
+            text-transform: normal;
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 26.5%;
+            left: 35%; 
+            }
+            .outputm25{
+            color: black;
+            position: absolute;
+            top: 26.5%;
+            left:35.5%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .outputm26{
+            color: black;
+            position: absolute;
+            top: 26.5%;
+            left:57%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .vertical_linem7 {
+            width: 1px; 
+            height: 39px; 
+            background-color: rgb(248, 82, 159);
+            position: absolute; 
+            left:75%;
+            top: 26%;
+            }
+            .labelm31{
+            font-size: 10px;
+            text-transform: normal;
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 26.5%;
+            left: 78%; 
+            }
+            .outputm27{
+            color: black;
+            position: absolute;
+            top: 26.5%;
+            left:78.5%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .horizontal_linem7 {
+            width: 89.4%; 
+            height: 0.1%; 
+            background-color: rgb(248, 82, 159);
+            position: absolute;
+            top: 29%;
+            left: 10%; 
+            }
        </style>
     </head>
         <body>
@@ -549,7 +741,32 @@ $html = "
                     <div class='vertical_linem5'></div>
                     <div class='labelm21'>(Age)</div></p>
                         <p class='outputm17'>21</p> 
-                        </body>
+                    <div class='labelm22'>3.Place of Birth</div></p>
+                    <div class='labelm23'>(City/Municipality)</div></p>
+                        <p class='outputm18'>MENDEZ,NUNEZ</p> 
+                    <div class='labelm24'>(Province)</div></p>
+                        <p class='outputm19'>BATANGAS</p> 
+                     <div class='labelm25'>(Country)</div></p>
+                        <p class='outputm20'>PHILIPPINES</p> 
+                    <div class='labelm26'>(City/Municipality)</div></p>
+                        <p class='outputm21'>MENDEZ,NUNEZ</p> 
+                    <div class='labelm27'>(Province)</div></p>
+                        <p class='outputm22'>BATANGAS</p> 
+                    <div class='labelm28'>(Country)</div></p>
+                        <p class='outputm23'>PHILIPPINES</p> 
+                    <div class='horizontal_linem6'></div> 
+                    <div class='labelm29'>4a.Sex<br>4b.Citizenship</div></p>
+                        <p class='outputm24'>MALE</p> 
+                    <div class='vertical_linem6'></div>
+                     <div class='labelm30'>(Citizenship)</div></p>
+                        <p class='outputm25'>FILIPINO</p> 
+                        <p class='outputm26'>FEMALE</p> 
+                    <div class='vertical_linem7'></div>
+                    <div class='labelm31'>(Citizenship)</div></p>
+                      <p class='outputm27'>FILIPINO</p> 
+                    <div class='horizontal_linem7'></div> 
+
+                    </body>
                         </html>";
                     // Load HTML into Dompdf
                     $dompdf->loadHtml($html);
