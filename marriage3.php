@@ -2445,3 +2445,6 @@ $dompdf->stream("birth_certificate.pdf", ["Attachment" => false]);
                             <div class='vertical_line1j'></div>
                            <div class='vertical_line1k'></div>
                            <div class='horizontal_line1i'></div> 
+
+                     
+     
