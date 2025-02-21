@@ -294,6 +294,196 @@ $html = "
             font-size: 12px;
             text-transform: normal;
             }   
+            .labelm12{
+            font-size: 11px;
+            text-transform: normal;
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 18%;
+            left: 58%; 
+            }
+             .labellinem8 {
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 17%;
+            left: 61.5%;
+            }
+            .outputm9{
+            color: black;
+            position: absolute;
+            top: 17%;
+            left: 62.5%;
+            font-size: 12px;
+            text-transform: normal;
+            } 
+            .horizontal_linem4 {
+            width: 89.5%; 
+            height: 0.1%; 
+            background-color: rgb(248, 82, 159);
+            position: absolute;
+            top: 19.5%;
+            left: 10%; 
+            }
+             .labelm13{
+            font-size: 10px;
+            text-transform: normal;
+            color: black;
+            position: absolute;
+            top: 21%;
+            left: 0.5%; 
+            }
+             .labelm14{
+            font-size: 11px;
+            text-transform: normal;
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 20%;
+            left: 12%; 
+            }
+            .outputm10{
+            color: black;
+            position: absolute;
+            top: 20%;
+            left: 12.5%; 
+            font-size: 12px;
+            text-transform: normal;
+            }   
+            .labelm15{
+            font-size: 11px;
+            text-transform: normal;
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 20%;
+            left: 22%; 
+            }
+            .outputm11{
+            color: black;
+            position: absolute;
+            top: 20%;
+            left:21%; 
+            font-size: 12px;
+            text-transform: normal;
+            } 
+             .labelm16{
+            font-size: 11px;
+            text-transform: normal;
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 20%;
+            left: 34%; 
+            }
+            .outputm12{
+            color: black;
+            position: absolute;
+            top: 20%;
+            left:34%; 
+            font-size: 12px;
+            text-transform: normal;
+            } 
+            .vertical_linem4 {
+            width: 1px; 
+            height: 39px; 
+            background-color: rgb(248, 82, 159);
+            position: absolute; 
+            left: 43%;
+            top: 19.5%;
+            }
+            .labelm17{
+            font-size: 11px;
+            text-transform: normal;
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 20%;
+            left: 47%; 
+            }
+            .outputm13{
+            color: black;
+            position: absolute;
+            top: 20%;
+            left:47.5%; 
+            font-size: 12px;
+            text-transform: normal;
+            } 
+            .horizontal_linem5 {
+            width: 89.4%; 
+            height: 0.1%; 
+            background-color: rgb(248, 82, 159);
+            position: absolute;
+            top: 22.5%;
+            left: 10%; 
+            }
+            .labelm18{
+            font-size: 11px;
+            text-transform: normal;
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 20%;
+            left: 57%; 
+            }
+            .outputm14{
+            color: black;
+            position: absolute;
+            top: 20%;
+            left: 58%; 
+            font-size: 12px;
+            text-transform: normal;
+            } 
+            .labelm19{
+            font-size: 11px;
+            text-transform: normal;
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 20%;
+            left:67%; 
+            }
+            .outputm15{
+            color: black;
+            position: absolute;
+            top: 20%;
+            left:66%; 
+            font-size: 12px;
+            text-transform: normal;
+            } 
+            .labelm20{
+            font-size: 11px;
+            text-transform: normal;
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 20%;
+            left:78%; 
+            }
+            .outputm16{
+            color: black;
+            position: absolute;
+            top: 20%;
+            left:78.5%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .vertical_linem5 {
+            width: 1px; 
+            height: 39px; 
+            background-color: rgb(248, 82, 159);
+            position: absolute; 
+            left: 88%;
+            top: 19.5%;
+            }
+            .labelm21{
+            font-size: 11px;
+            text-transform: normal;
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 20%;
+            left:92%; 
+            }
+            .outputm17{
+            color: black;
+            position: absolute;
+            top: 20%;
+            left:93%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
        </style>
     </head>
         <body>
@@ -335,8 +525,30 @@ $html = "
                      <div class='labelm11'>(Middle)</div></p>
                         <p class='labellinem7'>_____________________________________</p> 
                         <p class='outputm8'>RHINA JOY</p>   
-                     
-                        
+                    <div class='labelm12'>(First)</div></p>
+                        <p class='labellinem8'>_______________________________________</p> 
+                        <p class='outputm9'>RHINA JOY</p>   
+                    <div class='horizontal_linem4'></div> 
+                    <div class='labelm13'>2a.Date of Birth<br>2b.Age</div></p>
+                    <div class='labelm14'>(Day)</div></p>
+                        <p class='outputm10'>31</p>  
+                    <div class='labelm15'>(Month)</div></p>
+                        <p class='outputm11'>December</p>  
+                    <div class='labelm16'>(Year)</div></p>
+                        <p class='outputm12'>2002</p>  
+                      <div class='vertical_linem4'></div>
+                    <div class='labelm17'>(Age)</div></p>
+                        <p class='outputm13'>21</p> 
+                    <div class='horizontal_linem5'></div> 
+                    <div class='labelm18'>(Day)</div></p>
+                        <p class='outputm14'>31</p>  
+                    <div class='labelm19'>(Month)</div></p>
+                        <p class='outputm15'>December</p>  
+                    <div class='labelm20'>(Year)</div></p>
+                        <p class='outputm16'>2002</p>   
+                    <div class='vertical_linem5'></div>
+                    <div class='labelm21'>(Age)</div></p>
+                        <p class='outputm17'>21</p> 
                         </body>
                         </html>";
                     // Load HTML into Dompdf
