@@ -138,7 +138,7 @@ $html = "
             }
             .vertical_linem2 {
             width: 1.3px; 
-            height: 600px; 
+            height: 585px; 
             background-color: rgb(248, 82, 159);
             position: absolute; 
             left: 10%;
@@ -146,7 +146,7 @@ $html = "
             }   
             .vertical_linem3 {
             width: 1.3px; 
-            height: 600px; 
+            height: 585px; 
             background-color: rgb(248, 82, 159);
             position: absolute; 
             left: 55%;
@@ -1228,6 +1228,47 @@ $html = "
             top: 55.5%;
             left: 0.5%; 
             }
+            .labelm62{
+            font-size: 10px;
+            text-transform: normal;
+            color:  rgb(248, 82, 159);
+            position: absolute;
+            top: 55%;
+            left: 13%; 
+            }
+            .outputm59{
+            color: black;
+            position: absolute;
+            top: 55.5%;
+            left:17%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm63{
+            font-size: 10px;
+            text-transform: normal;
+            color:  rgb(248, 82, 159);
+            position: absolute;
+            top: 55%;
+            left: 58%; 
+            }
+            .outputm60{
+            color: black;
+            position: absolute;
+            top: 55.5%;
+            left:63%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .horizontal_linem17{
+            width: 99.5%; 
+            height: 0.1%; 
+            background-color: rgb(248, 82, 159);
+            position: absolute;
+            top: 58%;
+            left: 0%; 
+            }
+        
        </style>
     </head>
         <body>
@@ -1386,8 +1427,11 @@ $html = "
                         <p class='outputm58'>NOT APPLICABLE</p> 
                     <div class='horizontal_linem16'></div>
                     <div class='labelm61'>14.Residence</div></p>
-                    
-                    
+                    <div class='labelm62'>(House No.,St., Barangay,City/Municipality,Province Country)</div></p>
+                        <p class='outputm59'>095 D BONIFAIO ST.MENDEZ,CAVITE</p> 
+                    <div class='labelm63'>(House No.,St., Barangay,City/Municipality,Province Country)</div></p>
+                        <p class='outputm60'>095 D BONIFAIO ST.MENDEZ,CAVITE</p> 
+                    <div class='horizontal_linem17'></div>
                     
                     </body>
                         </html>";
