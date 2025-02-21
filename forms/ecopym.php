@@ -972,6 +972,70 @@ $html = "
             font-size: 12px;
             text-transform: normal;
             }
+            .labelm48{
+            font-size: 10px;
+            text-transform: normal;
+            color:  rgb(248, 82, 159);
+            position: absolute;
+            top: 42.7%;
+            left: 45%; 
+            }
+            .outputm44{
+            color: black;
+            position: absolute;
+            top: 43%;
+            left:43%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm49{
+            font-size: 10px;
+            text-transform: normal;
+            color:  rgb(248, 82, 159);
+            position: absolute;
+            top: 42.7%;
+            left: 60%; 
+            }
+            .outputm45{
+            color: black;
+            position: absolute;
+            top: 43%;
+            left:57%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm50{
+            font-size: 10px;
+            text-transform: normal;
+            color:  rgb(248, 82, 159);
+            position: absolute;
+            top: 42.7%;
+            left: 75%; 
+            }
+            .outputm46{
+            color: black;
+            position: absolute;
+            top: 43%;
+            left:74%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm51{
+            font-size: 10px;
+            text-transform: normal;
+            color:  rgb(248, 82, 159);
+            position: absolute;
+            top: 42.7%;
+            left: 91%; 
+            }
+            .outputm47{
+            color: black;
+            position: absolute;
+            top: 43%;
+            left:88%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
        </style>
     </head>
         <body>
@@ -1098,6 +1162,14 @@ $html = "
                       <p class='outputm42'>RHINA JOY</p> 
                     <div class='labelm47'>(Middle)</div></p> 
                       <p class='outputm43'>RHINA JOY</p> 
+                    <div class='labelm48'>(Last)</div></p> 
+                      <p class='outputm44'>RHINA JOY</p> 
+                    <div class='labelm49'>(First)</div></p> 
+                      <p class='outputm45'>RHINA JOY</p> 
+                    <div class='labelm50'>(Middle)</div></p> 
+                      <p class='outputm46'>RHINA JOY</p> 
+                    <div class='labelm51'>(Last)</div></p> 
+                      <p class='outputm47'>RHINA JOY</p> 
                     
                     
                     
