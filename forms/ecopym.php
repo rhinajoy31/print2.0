@@ -1487,6 +1487,39 @@ $html = "
             top: 65%;
             left: 94%; 
             }
+            .labelm78{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 66%;
+            left: 4.5%; 
+            }
+            .labelm79{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 67%;
+            left: 4.5%; 
+            }
+            .cboxm1{
+            font-size: 25px; 
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 64%;
+            left: 37%; 
+            font-family: Verdana, Tahoma, 'DejaVu Sans', sans-serif;
+        } 
+            .outputm70{
+            color: black;
+            position: absolute;
+            top: 66.3%;
+            left:38%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+  
        </style>
        </style>
     </head>
@@ -1679,7 +1712,11 @@ $html = "
                         <p class='labellinem13'>__________________________________,</p> 
                         <p class='outputm69'>RHINA JOY</p> 
                     <div class='labelm77'>both of</div></p>  
-
+                    <div class='labelm78'>legal age of our own free will and accord, and in the presence of the person soleminizing this marriage and of the witnesses named below, tak e each other</div></p> 
+                    <div class='labelm79'>as husband and wife and certifying further that we:</div></p>  
+                      <p class='cboxm1'><b>&#9633;</b></p>
+                      <p class='outputm70'>X</p> 
+                    
                     </body>
                         </html>";
                     // Load HTML into Dompdf
