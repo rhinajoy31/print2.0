@@ -1425,6 +1425,37 @@ $html = "
             top: 61%;
             left: 92%; 
             }
+            .labelm74{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 63.5%;
+            left: 0.5%; 
+            }
+            .labelm75{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 65%;
+            left: 5%; 
+            }
+            .labellinem12{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 64%;
+            left: 24%;
+            text-transform: normal;
+            }
+            .outputm68{
+            color: black;
+            position: absolute;
+            top: 64%;
+            left:25%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
        </style>
        </style>
     </head>
@@ -1609,6 +1640,12 @@ $html = "
                         <p class='labellinem11'>_______________________</p> 
                         <p class='outputm67'>8:30</p> 
                     <div class='labelm73'>am/pm</div></p> 
+                    <div class='labelm74'>18.CERTIFICATION OF THE CONTRACTING PARTIES:</div></p>
+                    <div class='labelm75'>THIS IS TO CERTIFY: That I,</div></p>  
+                        <p class='labellinem12'>_______________________</p> 
+                        <p class='outputm68'>RHINA JOY</p> 
+
+
                     </body>
                         </html>";
                     // Load HTML into Dompdf
