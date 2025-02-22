@@ -1331,6 +1331,100 @@ $html = "
             top: 59.5%;
             left: 85%; 
             }
+            .labelm68{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 61%;
+            left: 0.5%; 
+            }
+            .labellinem10{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 60%;
+            left: 14.5%;
+            text-transform: normal;
+            }
+            .outputm64{
+            color: black;
+            position: absolute;
+            top: 60%;
+            left:20%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .outputm65{
+            color: black;
+            position: absolute;
+            top: 60%;
+            left:30%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .outputm66{
+            color: black;
+            position: absolute;
+            top: 60%;
+            left:48%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm69{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 62%;
+            left: 19%; 
+            }
+            .labelm70{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 62%;
+            left: 32%; 
+            }
+            .labelm71{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 62%;
+            left: 48%; 
+            }
+            .labelm72{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 61%;
+            left: 57%; 
+            }
+            .labellinem11{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 60%;
+            left: 70%;
+            text-transform: normal;
+            }
+            .outputm67{
+            color: black;
+            position: absolute;
+            top: 60%;
+            left:78%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm73{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 61%;
+            left: 92%; 
+            }
        </style>
        </style>
     </head>
@@ -1503,7 +1597,18 @@ $html = "
                     <div class='labelm65'>(Office of the/House of/Barangay of/Church of/Mosque of)</div></p>  
                     <div class='labelm66'>(City/Municipality)</div></p>  
                     <div class='labelm67'>(Province)</div></p>  
-                    
+                    <div class='labelm68'>16.Date of Marriage:</div></p> 
+                       <p class='labellinem10'>_____________________________________________</p> 
+                       <p class='outputm64'>31</p> 
+                       <p class='outputm65'>DECEMBER</p> 
+                       <p class='outputm66'>2025</p> 
+                    <div class='labelm69'>(Day)</div></p>
+                    <div class='labelm70'>(Month)</div></p>
+                    <div class='labelm71'>(Year)</div></p>
+                    <div class='labelm72'>17.Time of Marriage:</div></p> 
+                        <p class='labellinem11'>_______________________</p> 
+                        <p class='outputm67'>8:30</p> 
+                    <div class='labelm73'>am/pm</div></p> 
                     </body>
                         </html>";
                     // Load HTML into Dompdf
