@@ -1268,7 +1268,70 @@ $html = "
             top: 58%;
             left: 0%; 
             }
-        
+           .labelm64{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 58.5%;
+            left: 0.5%; 
+            }
+            .labellinem9{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 57.5%;
+            left: 14.5%;
+            text-transform: normal;
+            }
+            .outputm61{
+            color: black;
+            position: absolute;
+            top: 57.5%;
+            left:15%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .outputm62{
+            color: black;
+            position: absolute;
+            top: 57.5%;
+            left:59%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .outputm63{
+            color: black;
+            position: absolute;
+            top: 57.5%;
+            left:85%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm65{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 59.5%;
+            left: 15%; 
+            }
+            .labelm66{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 59.5%;
+            left: 60%; 
+            }
+            .labelm67{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 59.5%;
+            left: 85%; 
+            }
+       </style>
        </style>
     </head>
         <body>
@@ -1432,6 +1495,14 @@ $html = "
                     <div class='labelm63'>(House No.,St., Barangay,City/Municipality,Province Country)</div></p>
                         <p class='outputm60'>095 D BONIFAIO ST.MENDEZ,CAVITE</p> 
                     <div class='horizontal_linem17'></div>
+                    <div class='labelm64'>15.Place of Marriage:</div></p>
+                       <p class='labellinem9'>___________________________________________________________________________________________</p>
+                       <p class='outputm61'>SAINT AUGUSTINE CHURCH</p> 
+                       <p class='outputm62'>MENDEZ-NUNEZ</p> 
+                       <p class='outputm63'>CAVITE</p> 
+                    <div class='labelm65'>(Office of the/House of/Barangay of/Church of/Mosque of)</div></p>  
+                    <div class='labelm66'>(City/Municipality)</div></p>  
+                    <div class='labelm67'>(Province)</div></p>  
                     
                     </body>
                         </html>";
