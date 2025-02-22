@@ -1456,6 +1456,37 @@ $html = "
             font-size: 12px;
             text-transform: normal;
             }
+            .labelm76{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 65%;
+            left: 58%; 
+            }
+            .labellinem13{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 64%;
+            left: 62%;
+            text-transform: normal;
+            }
+            .outputm69{
+            color: black;
+            position: absolute;
+            top: 64%;
+            left:63%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm77{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 65%;
+            left: 94%; 
+            }
        </style>
        </style>
     </head>
@@ -1642,9 +1673,12 @@ $html = "
                     <div class='labelm73'>am/pm</div></p> 
                     <div class='labelm74'>18.CERTIFICATION OF THE CONTRACTING PARTIES:</div></p>
                     <div class='labelm75'>THIS IS TO CERTIFY: That I,</div></p>  
-                        <p class='labellinem12'>_______________________</p> 
+                        <p class='labellinem12'>____________________________________</p> 
                         <p class='outputm68'>RHINA JOY</p> 
-
+                    <div class='labelm76'>and I,</div></p>  
+                        <p class='labellinem13'>__________________________________,</p> 
+                        <p class='outputm69'>RHINA JOY</p> 
+                    <div class='labelm77'>both of</div></p>  
 
                     </body>
                         </html>";
