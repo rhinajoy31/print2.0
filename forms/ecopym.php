@@ -2183,6 +2183,236 @@ $html = "
             top: 95.5%;
             left: 0.5%; 
             }
+            <--PAGE 2-->
+            .labelm2a{
+            font-size: 11px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 0.5%;
+            left: 0.5%; 
+            }
+            .labellinem38{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 1%;
+            left:1%;
+            text-transform: normal;
+            }
+            .outputm2a{
+            color: black;
+            position: absolute;
+            top: 1%;
+            left:4%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labellinem39{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 1%;
+            left:25%;
+            text-transform: normal;
+            }
+            .outputm2b{
+            color: black;
+            position: absolute;
+            top: 1%;
+            left:27%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labellinem40{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 1%;
+            left:49%;
+            text-transform: normal;
+            }
+            .outputm2c{
+            color: black;
+            position: absolute;
+            top: 1%;
+            left:51%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labellinem41{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 1%;
+            left:74%;
+            text-transform: normal;
+            }
+            .outputm2d{
+            color: black;
+            position: absolute;
+            top: 1%;
+            left:76%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labellinem42{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 3.5%;
+            left:0.5%;
+            text-transform: normal;
+            }
+            .outputm2e{
+            color: black;
+            position: absolute;
+            top: 3.5%;
+            left:4%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labellinem43{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 3.5%;
+            left:25%;
+            text-transform: normal;
+            }
+            .outputm2f{
+            color: black;
+            position: absolute;
+            top: 3.5%;
+            left:27%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labellinem44{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 3.5%;
+            left:50%;
+            text-transform: normal;
+            }
+            .outputm2g{
+            color: black;
+            position: absolute;
+            top: 3.5%;
+            left:51%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labellinem45{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 3.5%;
+            left:74%;
+            text-transform: normal;
+            }
+            .outputm2h{
+            color: black;
+            position: absolute;
+            top: 3.5%;
+            left:76%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .horizontal_linem20{
+            width: 99.5%; 
+            height: 0.1%; 
+            background-color: rgb(248, 82, 159);
+            position: absolute;
+            top: 6.5%;
+            left:0%;
+            }
+            .labelm2b{
+            font-size: 13px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 7%;
+            left: 33%; 
+            }
+            .labelm2c{
+            font-size: 11px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 9%;
+            left: 5%; 
+            }
+            .labellinem46{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 8%;
+            left:6%;
+            text-transform: normal;
+            }
+            .outputm2j{
+            color: black;
+            position: absolute;
+            top: 8%;
+            left:7%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm2d{
+            font-size: 11px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 9%;
+            left: 33%; 
+            }
+            .labellinem47{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 8%;
+            left:57%;
+            text-transform: normal;
+            }
+            .outputm2k{
+            color: black;
+            position: absolute;
+            top: 8%;
+            left:58%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm2e{
+            font-size: 11px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 9%;
+            left: 85%; 
+            }
+            .labellinem48{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 9.5%;
+            left:2%;
+            text-transform: normal;
+            }
+            .outputm2l{
+            color: black;
+            position: absolute;
+            top: 9.5%;
+            left:3%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm2f{
+            font-size: 11px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 10.5%;
+            left: 40%; 
+            }
+            .labelm2g{
+            font-size: 11px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 12%;
+            left: 2%; 
+            }
        </style>
        </style>
     </head>
@@ -2465,8 +2695,48 @@ $html = "
                         <p class='outputm94'>RHINA JOY SALINAS</p>   
                     <div class='horizontal_linem19'></div>  
                     <div class='labelm110'>REMARKS/ANNOTATION(For LCRO/OCRG/Shari'a Circuit Registrar Use Only)</div></p> 
-                       
-                        </body>
+            <div class='page-break'></div>
+            <div class='page'>
+                <div class='content'>
+                    <div class='container'>
+                    <div class='labelm2a'>20b.WITNESSES(Print and Sign):</div>
+                        <p class='labellinem38'>_________________________</p>   
+                        <p class='outputm2a'>RHINA JOY SALINAS</p>  
+                        <p class='labellinem39'>_________________________</p>   
+                        <p class='outputm2b'>RHINA JOY SALINAS</p>  
+                        <p class='labellinem40'>_________________________</p>   
+                        <p class='outputm2c'>RHINA JOY SALINAS</p>  
+                        <p class='labellinem41'>_________________________</p>   
+                        <p class='outputm2d'>RHINA JOY SALINAS</p>  
+                        <p class='labellinem42'>_________________________</p>   
+                        <p class='outputm2e'>RHINA JOY SALINAS</p> 
+                        <p class='labellinem43'>_________________________</p>   
+                        <p class='outputm2f'>RHINA JOY SALINAS</p> 
+                        <p class='labellinem44'>_________________________</p>   
+                        <p class='outputm2g'>RHINA JOY SALINAS</p> 
+                        <p class='labellinem45'>_________________________</p>   
+                        <p class='outputm2h'>RHINA JOY SALINAS</p> 
+                    <div class='horizontal_linem20'></div>  
+                    <div class='labelm2b'>AFFIDAVIT OF SOLEMNIZING OFFICER</div>
+                    <div class='labelm2c'>I,</div>
+                        <p class='labellinem46'>_____________________________</p>   
+                        <p class='outputm2j'>RHINA JOY SALINAS</p> 
+                    <div class='labelm2d'>,of legal age, Solemnizng Officer of</div>
+                        <p class='labellinem47'>______________________________</p>   
+                        <p class='outputm2k'>MUNICIPAL CIVIL REGISTRAR</p> 
+                    <div class='labelm2e'>with addres at</div>
+                        <p class='labellinem48'>________________________________________</p>   
+                        <p class='outputm2l'>MUNICIPAL CIVIL REGISTRAR</p> 
+                    <div class='labelm2f'>.after having to in accordance with law, do hereby depose and say:</div>
+                    <div class='labelm2g'>1.That I have solemnized the marriage between</div>
+                      
+                    
+                    
+                    
+                    
+                    
+                    
+                    </body>
 
                         </html>";
                     // Load HTML into Dompdf
