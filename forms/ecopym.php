@@ -2167,6 +2167,22 @@ $html = "
             font-size: 12px;
             text-transform: normal;
             }
+            .horizontal_linem19{
+            width: 99.5%; 
+            height: 0.1%; 
+            background-color: rgb(248, 82, 159);
+            position: absolute;
+            top: 95%;
+            left:0%;
+            }
+            .labelm110{
+            font-size: 11px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 95.5%;
+            left: 0.5%; 
+            }
        </style>
        </style>
     </head>
@@ -2447,7 +2463,8 @@ $html = "
                     <div class='labelm109'>Date</div></p> 
                         <p class='labellinem37'>________________________________________________</p>   
                         <p class='outputm94'>RHINA JOY SALINAS</p>   
-                       
+                    <div class='horizontal_linem19'></div>  
+                    <div class='labelm110'>REMARKS/ANNOTATION(For LCRO/OCRG/Shari'a Circuit Registrar Use Only)</div></p> 
                        
                         </body>
 
