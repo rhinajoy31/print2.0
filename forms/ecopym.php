@@ -1868,6 +1868,14 @@ $html = "
             font-size: 12px;
             text-transform: normal;
             }
+            .labelm97{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 84%;
+            left: 45%; 
+            }
        </style>
        </style>
     </head>
@@ -2109,6 +2117,7 @@ $html = "
                     <div class='labelm96'>(Signature Over Printed Name of Solemnizing Officer)</div></p> 
                         <p class='labellinem24'>__________________________</p> 
                         <p class='outputm83'>RHINA JOY SALINAS</p>
+                    <div class='labelm97'>(Positio/Designation)</div></p> 
                         </body>
 
                         </html>";
