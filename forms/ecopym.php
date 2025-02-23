@@ -1744,7 +1744,92 @@ $html = "
             top: 77.5%;
             left: 56%; 
             }
-  
+            .labellinem21{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 76.3%;
+            left:58%;
+            text-transform: normal;
+            }
+            .outputm78{
+            color: black;
+            position: absolute;
+            top: 76.3%;
+            left:59%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .cboxm4{
+            font-size: 25px; 
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 76%;
+            left: 0.5%; 
+            font-family: Verdana, Tahoma, 'DejaVu Sans', sans-serif;
+            } 
+            .outputm79{
+            color: black;
+            position: absolute;
+            top: 78.5%;
+            left:1.5%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm93{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 79.5%;
+            left: 5%; 
+            }
+            .labellinem22{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 78.3%;
+            left:55%;
+            text-transform: normal;
+            }
+            .outputm80{
+            color: black;
+            position: absolute;
+            top: 78.3%;
+            left:56%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm94{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 79.5%;
+            left: 65.5%; 
+            }
+            .cboxm5{
+            font-size: 25px; 
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 78%;
+            left: 0.5%; 
+            font-family: Verdana, Tahoma, 'DejaVu Sans', sans-serif;
+            } 
+            .outputm81{
+            color: black;
+            position: absolute;
+            top: 80.5%;
+            left:1.5%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm95{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 81.5%;
+            left: 5%; 
+            }
        </style>
        </style>
     </head>
@@ -1963,13 +2048,25 @@ $html = "
                     <div class='labelm89'>I CERTIFY FURTHER THAT:</div></p> 
                         <p class='cboxm3'><b>&#9633;</b></p>
                         <p class='outputm75'>X</p>
-                    <div class='labelm90'>a.Marriage License No.</div></p> 
+                    <div class='labelm90'>a.Marriage License No.<br>in favor of said parties, was exhibited to me.</div></p> 
                         <p class='labellinem19'>___________</p> 
                         <p class='outputm76'>1234567</p>
                     <div class='labelm91'>issued on</div></p> 
                         <p class='labellinem20'>_____________________,</p> 
                         <p class='outputm77'>DECEMBER 21, 2025</p>
                     <div class='labelm92'>at</div></p> 
+                        <p class='labellinem21'>__________________</p> 
+                        <p class='outputm78'>MENDEZ,CAVITE</p>
+                        <p class='cboxm4'><b>&#9633;</b></p>
+                        <p class='outputm79'>X</p>
+                    <div class='labelm93'>b. no marriage license was necessary, the marriage being solemnized under Art.</div></p> 
+                        <p class='labellinem22'>___________</p> 
+                        <p class='outputm80'>1234567</p>
+                    <div class='labelm94'>of Executive Order No. 209.</div></p> 
+                        <p class='cboxm5'><b>&#9633;</b></p>
+                        <p class='outputm81'>X</p>
+                    <div class='labelm95'>c. the marriage was solemnized in accordance with the provisions of Presidential Decree np. 1083</div></p> 
+
                     </body>
 
                         </html>";
