@@ -2483,6 +2483,92 @@ $html = "
             top: 13%;
             left: 8%; 
             }
+            .cboxm7{
+            font-size: 25px; 
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 12%;
+            left: 4%; 
+            font-family: Verdana, Tahoma, 'DejaVu Sans', sans-serif;
+            } 
+            .outputm2p{
+            color: black;
+            position: absolute;
+            top: 14.3%;
+            left:5%; 
+            font-size: 12px;
+            text-transform: normal;
+            } 
+            .labelm2k{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 15.5%;
+            left: 8%; 
+            }
+            .cboxm8{
+            font-size: 25px; 
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 14%;
+            left: 4%; 
+            font-family: Verdana, Tahoma, 'DejaVu Sans', sans-serif;
+            } 
+            .outputm2q{
+            color: black;
+            position: absolute;
+            top: 16.4%;
+            left:5%; 
+            font-size: 12px;
+            text-transform: normal;
+            } 
+            .labelm2l{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 17%;
+            left: 8%; 
+            }
+            .labellinem51{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 15.9%;
+            left:27.5%;
+            text-transform: normal;
+            }
+            .outputm2r{
+            color: black;
+            position: absolute;
+            top: 15.9%;
+            left:28%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm2m{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 17%;
+            left: 53%; 
+            }
+            .labellinem52{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 15.9%;
+            left:56%;
+            text-transform: normal;
+            }
+            .outputm2s{
+            color: black;
+            position: absolute;
+            top: 15.9%;
+            left:57%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
        </style>
     </head>
         <body>
@@ -2807,8 +2893,17 @@ $html = "
                         <p class='cboxm6'><b>&#9633;</b></p>
                         <p class='outputm2o'>X</p> 
                     <div class='labelm2j'>a.That I have ascertained the qualifications of the contracting parties and have found no geal impediment for them to<br>marry as required by Article 34 of the Family Code;</div>
-               
-                    
+                        <p class='cboxm7'><b>&#9633;</b></p>
+                        <p class='outputm2p'>X</p> 
+                    <div class='labelm2k'>b.That this marriage was performed in articulo mortis or at the point of death;</div>
+                        <p class='cboxm8'><b>&#9633;</b></p>
+                        <p class='outputm2q'>X</p> 
+                    <div class='labelm2l'>c.That the contracting party/ies</div>
+                        <p class='labellinem51'>___________________________</p>   
+                        <p class='outputm2r'>RHINA JOY SALINAS</p> 
+                    <div class='labelm2m'>and</div>
+                        <p class='labellinem52'>___________________________</p>   
+                        <p class='outputm2s'>RHINA JOY SALINAS</p> 
                     
                     
                     
