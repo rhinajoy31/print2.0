@@ -2601,6 +2601,14 @@ $html = "
             font-size: 12px;
             text-transform: normal;
             }
+            .labelm2p{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 20%;
+            left: 8%; 
+            }
        </style>
     </head>
         <body>
@@ -2940,7 +2948,7 @@ $html = "
                     <div class='labelm2o'><br>death and physically unable to sign the foregoing certificate of marriage by signature or mark, one of the witnesses to the marriage;sign<br>for him or her by writing the dying party's name and beneath it, the witness' own signature preced by the preposition 'By';</div>
                         <p class='cboxm9'><b>&#9633;</b></p>
                         <p class='outputm2t'>X</p>
-                    
+                     <div class='labelm2p'>d. That the residence of either party is so located that there is no means of transportation to enable concerned partyparties to appear<br>personally before the civil registrar;</div>
                     </body>
 
                         </html>";
