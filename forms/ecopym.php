@@ -1830,6 +1830,44 @@ $html = "
             top: 81.5%;
             left: 5%; 
             }
+            .labellinem23{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 82%;
+            left:1%;
+            text-transform: normal;
+            }
+            .outputm82{
+            color: black;
+            position: absolute;
+            top: 82%;
+            left:10%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm96{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 84%;
+            left: 3%; 
+            }
+            .labellinem24{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 82%;
+            left:40%;
+            text-transform: normal;
+            }
+            .outputm83{
+            color: black;
+            position: absolute;
+            top: 82%;
+            left:43%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
        </style>
        </style>
     </head>
@@ -2066,8 +2104,12 @@ $html = "
                         <p class='cboxm5'><b>&#9633;</b></p>
                         <p class='outputm81'>X</p>
                     <div class='labelm95'>c. the marriage was solemnized in accordance with the provisions of Presidential Decree np. 1083</div></p> 
-
-                    </body>
+                        <p class='labellinem23'>_________________________________________</p> 
+                        <p class='outputm82'>RHINA JOY SALINAS</p>
+                    <div class='labelm96'>(Signature Over Printed Name of Solemnizing Officer)</div></p> 
+                        <p class='labellinem24'>__________________________</p> 
+                        <p class='outputm83'>RHINA JOY SALINAS</p>
+                        </body>
 
                         </html>";
                     // Load HTML into Dompdf
