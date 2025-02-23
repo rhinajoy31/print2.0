@@ -1876,6 +1876,113 @@ $html = "
             top: 84%;
             left: 45%; 
             }
+            .labellinem25{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 82%;
+            left:65%;
+            text-transform: normal;
+            }
+            .outputm84{
+            color: black;
+            position: absolute;
+            top: 82%;
+            left:72%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm98{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 84%;
+            left: 66%; 
+            }
+            .labelm99{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 85.5%;
+            left: 0.5%; 
+            }
+            .labellinem26{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 86.5%;
+            left:1%;
+            text-transform: normal;
+            }
+            .outputm85{
+            color: black;
+            position: absolute;
+            top: 86.5%;
+            left:4%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labellinem27{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 86.5%;
+            left:26%;
+            text-transform: normal;
+            }
+            .outputm86{
+            color: black;
+            position: absolute;
+            top: 86.5%;
+            left:29%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labellinem28{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 86.5%;
+            left:51%;
+            text-transform: normal;
+            }
+            .outputm87{
+            color: black;
+            position: absolute;
+            top: 86.5%;
+            left:54%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labellinem29{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 86.5%;
+            left:76%;
+            text-transform: normal;
+            }
+            .outputm88{
+            color: black;
+            position: absolute;
+            top: 86.5%;
+            left:79%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .horizontal_linem18{
+            width: 99.5%; 
+            height: 0.1%; 
+            background-color: rgb(248, 82, 159);
+            position: absolute;
+            top: 89%;
+            left:0%;
+            }
+            .labelm100{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 89.5%;
+            left: 0.5%; 
+            }
        </style>
        </style>
     </head>
@@ -2118,7 +2225,21 @@ $html = "
                         <p class='labellinem24'>__________________________</p> 
                         <p class='outputm83'>RHINA JOY SALINAS</p>
                     <div class='labelm97'>(Positio/Designation)</div></p> 
-                        </body>
+                        <p class='labellinem25'>_____________________________________</p> 
+                        <p class='outputm84'>RHINA JOY SALINAS</p>
+                    <div class='labelm98'>(Religion/Religious Sect, Registry No. and Expiration <br>Date, if applicable)</div></p> 
+                    <div class='labelm99'>20a.WITNESSES(Print Name and Sign):<br>Additional at the back</div></p> 
+                        <p class='labellinem26'>__________________________</p>   
+                        <p class='outputm85'>RHINA JOY SALINAS</p>
+                        <p class='labellinem27'>__________________________</p>   
+                        <p class='outputm86'>RHINA JOY SALINAS</p>
+                        <p class='labellinem28'>__________________________</p>   
+                        <p class='outputm87'>RHINA JOY SALINAS</p>
+                        <p class='labellinem29'>_________________________</p>   
+                        <p class='outputm88'>RHINA JOY SALINAS</p>
+                    <div class='horizontal_linem18'></div>
+                     <div class='labelm100'>21.RECEIVED BY</div></p> 
+                    </body>
 
                         </html>";
                     // Load HTML into Dompdf
