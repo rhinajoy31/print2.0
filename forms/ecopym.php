@@ -2413,7 +2413,76 @@ $html = "
             top: 12%;
             left: 2%; 
             }
-       </style>
+            .labellinem49{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 10.9%;
+            left:34.5%;
+            text-transform: normal;
+            }
+            .outputm2m{
+            color: black;
+            position: absolute;
+            top: 10.9%;
+            left:35%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm2h{
+            font-size: 11px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 12%;
+            left: 60%; 
+            }
+            .labellinem50{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 10.9%;
+            left:63%;
+            text-transform: normal;
+            }
+            .outputm2n{
+            color: black;
+            position: absolute;
+            top: 10.9%;
+            left:64%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm2i{
+            font-size: 11px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 13.5%;
+            left: 2%; 
+            }
+             .cboxm6{
+            font-size: 25px; 
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 10%;
+            left: 4%; 
+            font-family: Verdana, Tahoma, 'DejaVu Sans', sans-serif;
+            } 
+            .outputm2o{
+            color: black;
+            position: absolute;
+            top: 12.3%;
+            left:5%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm2j{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 13%;
+            left: 8%; 
+            }
        </style>
     </head>
         <body>
@@ -2729,9 +2798,16 @@ $html = "
                         <p class='outputm2l'>MUNICIPAL CIVIL REGISTRAR</p> 
                     <div class='labelm2f'>.after having to in accordance with law, do hereby depose and say:</div>
                     <div class='labelm2g'>1.That I have solemnized the marriage between</div>
-                      
-                    
-                    
+                        <p class='labellinem49'>___________________________</p>   
+                        <p class='outputm2m'>RHINA JOY SALINAS</p> 
+                    <div class='labelm2h'>and</div>
+                        <p class='labellinem50'>___________________________;</p>   
+                        <p class='outputm2n'>RHINA JOY SALINAS</p> 
+                    <div class='labelm2i'>2.</div>
+                        <p class='cboxm6'><b>&#9633;</b></p>
+                        <p class='outputm2o'>X</p> 
+                    <div class='labelm2j'>a.That I have ascertained the qualifications of the contracting parties and have found no geal impediment for them to<br>marry as required by Article 34 of the Family Code;</div>
+               
                     
                     
                     
