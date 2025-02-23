@@ -2569,6 +2569,38 @@ $html = "
             font-size: 12px;
             text-transform: normal;
             }
+            .labelm2n{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 17%;
+            left: 82%; 
+            }
+            .labelm2o{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 17%;
+            left: 8%; 
+            }
+            .cboxm9{
+            font-size: 25px; 
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 16.5%;
+            left: 4%; 
+            font-family: Verdana, Tahoma, 'DejaVu Sans', sans-serif;
+            } 
+            .outputm2t{
+            color: black;
+            position: absolute;
+            top: 19%;
+            left:5%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
        </style>
     </head>
         <body>
@@ -2904,8 +2936,10 @@ $html = "
                     <div class='labelm2m'>and</div>
                         <p class='labellinem52'>___________________________</p>   
                         <p class='outputm2s'>RHINA JOY SALINAS</p> 
-                    
-                    
+                    <div class='labelm2n'>,being at the point of</div>
+                    <div class='labelm2o'><br>death and physically unable to sign the foregoing certificate of marriage by signature or mark, one of the witnesses to the marriage;sign<br>for him or her by writing the dying party's name and beneath it, the witness' own signature preced by the preposition 'By';</div>
+                        <p class='cboxm9'><b>&#9633;</b></p>
+                        <p class='outputm2t'>X</p>
                     
                     </body>
 
