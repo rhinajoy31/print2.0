@@ -2067,6 +2067,22 @@ $html = "
             font-size: 12px;
             text-transform: normal;
             }
+            .vertical_linem8 {
+            width: 1px; 
+            height: 74px; 
+            background-color: rgb(248, 82, 159);
+            position: absolute; 
+            left:52%;
+            top: 89%;
+            }
+            .labelm105{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 89.5%;
+            left: 53%; 
+            }
        </style>
        </style>
     </head>
@@ -2329,11 +2345,13 @@ $html = "
                         <p class='labellinem31'>_________________________________________</p>   
                         <p class='outputm89'>RHINA JOY SALINAS</p>
                     <div class='labelm103'>TItle or Position</div></p> 
-                        <p class='labellinem32'>_________________________________________</p>   
+                        <p class='labellinem32'>________________________________________</p>   
                         <p class='outputm90'>RHINA JOY SALINAS</p>
                     <div class='labelm104'>Date</div></p> 
-                        <p class='labellinem33'>_________________________________________</p>   
+                        <p class='labellinem33'>________________________________________________</p>   
                         <p class='outputm91'>RHINA JOY SALINAS</p>
+                    <div class='vertical_linem8'></div>
+                    <div class='labelm105'>22.REGISTERED AT THE OFFICE OF THE CIVIL REGISTRAR</div></p> 
                    
                      </body>
 
