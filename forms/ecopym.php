@@ -1508,14 +1508,107 @@ $html = "
             color: rgb(248, 82, 159);
             position: absolute;
             top: 64%;
-            left: 37%; 
+            left: 35.5%; 
             font-family: Verdana, Tahoma, 'DejaVu Sans', sans-serif;
-        } 
+            } 
             .outputm70{
             color: black;
             position: absolute;
             top: 66.3%;
-            left:38%; 
+            left:36.7%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm80{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 67%;
+            left: 39%; 
+            }
+            .cboxm2{
+            font-size: 25px; 
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 64%;
+            left: 69%; 
+            font-family: Verdana, Tahoma, 'DejaVu Sans', sans-serif;
+            } 
+            .outputm71{
+            color: black;
+            position: absolute;
+            top: 66.3%;
+            left:70%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm81{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 67%;
+            left: 72%; 
+            }
+            .labelm82{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 69%;
+            left: 7%; 
+            }
+            .labellinem14{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 67.8%;
+            left: 72%;
+            text-transform: normal;
+            }
+            .outputm72{
+            color: black;
+            position: absolute;
+            top: 67.8%;
+            left:73%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+             .labelm83{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 69%;
+            left: 78%; 
+            }
+            .labellinem15{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 67.8%;
+            left: 82%;
+            text-transform: normal;
+            }
+            .outputm73{
+            color: black;
+            position: absolute;
+            top: 67.8%;
+            left:82.5%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labellinem16{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 67.8%;
+            left: 93%;
+            text-transform: normal;
+            }
+            .outputm74{
+            color: black;
+            position: absolute;
+            top: 67.8%;
+            left:94%; 
             font-size: 12px;
             text-transform: normal;
             }
@@ -1716,8 +1809,21 @@ $html = "
                     <div class='labelm79'>as husband and wife and certifying further that we:</div></p>  
                       <p class='cboxm1'><b>&#9633;</b></p>
                       <p class='outputm70'>X</p> 
-                    
+                    <div class='labelm80'> have entered, a copy of which is hereto attached/</div></p>  
+                      <p class='cboxm2'><b>&#9633;</b></p>
+                      <p class='outputm71'>X</p> 
+                    <div class='labelm81'> have not entered into a marriage settelement</div></p>  
+                    <div class='labelm82'>IN WITNESS WHEREOF, we have signed/marked with our fingerprint this certificate in quadruplicate this</div></p>
+                      <p class='labellinem14'>______</p> 
+                      <p class='outputm72'>31</p>
+                    <div class='labelm83'>day of</div></p>  
+                      <p class='labellinem15'>____________</p> 
+                      <p class='outputm73'>DECEMBER</p>
+                      <p class='labellinem16'>,______</p> 
+                      <p class='outputm74'>2025</p>
+                   
                     </body>
+
                         </html>";
                     // Load HTML into Dompdf
                     $dompdf->loadHtml($html);
