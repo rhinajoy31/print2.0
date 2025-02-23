@@ -1983,6 +1983,90 @@ $html = "
             top: 89.5%;
             left: 0.5%; 
             }
+            .labelm101{
+            font-size: 11px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 90.5%;
+            left: 0.5%; 
+            }
+            .labellinem30{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 89.3%;
+            left:7%;
+            text-transform: normal;
+            }
+            .labelm102{
+            font-size: 11px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 91.5%;
+            left: 0.5%; 
+            }
+            .labellinem31{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 90.5%;
+            left:10%;
+            text-transform: normal;
+            }
+            .outputm89{
+            color: black;
+            position: absolute;
+            top: 90.5%;
+            left:11%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm103{
+            font-size: 11px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 92.7%;
+            left: 0.5%; 
+            }
+            .labellinem32{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 91.5%;
+            left:11%;
+            text-transform: normal;
+            }
+            .outputm90{
+            color: black;
+            position: absolute;
+            top: 91.5%;
+            left:12%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm104{
+            font-size: 11px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 93.7%;
+            left: 0.5%; 
+            }
+            .labellinem33{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 92.5%;
+            left:4%;
+            text-transform: normal;
+            }
+            .outputm91{
+            color: black;
+            position: absolute;
+            top: 92.5%;
+            left:5%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
        </style>
        </style>
     </head>
@@ -2238,8 +2322,20 @@ $html = "
                         <p class='labellinem29'>_________________________</p>   
                         <p class='outputm88'>RHINA JOY SALINAS</p>
                     <div class='horizontal_linem18'></div>
-                     <div class='labelm100'>21.RECEIVED BY</div></p> 
-                    </body>
+                    <div class='labelm100'>21.RECEIVED BY</div></p> 
+                    <div class='labelm101'>Signature</div></p> 
+                        <p class='labellinem30'>____________________________________________</p>   
+                    <div class='labelm102'>Name in Print</div></p> 
+                        <p class='labellinem31'>_________________________________________</p>   
+                        <p class='outputm89'>RHINA JOY SALINAS</p>
+                    <div class='labelm103'>TItle or Position</div></p> 
+                        <p class='labellinem32'>_________________________________________</p>   
+                        <p class='outputm90'>RHINA JOY SALINAS</p>
+                    <div class='labelm104'>Date</div></p> 
+                        <p class='labellinem33'>_________________________________________</p>   
+                        <p class='outputm91'>RHINA JOY SALINAS</p>
+                   
+                     </body>
 
                         </html>";
                     // Load HTML into Dompdf
