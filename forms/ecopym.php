@@ -1642,6 +1642,47 @@ $html = "
             top: 71.5%;
             left: 68%; 
             }
+            .labelm86{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 73%;
+            left: 0.5%; 
+            }
+            .labelm87{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 74%;
+            left: 10%; 
+            }
+            .labelm88{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 75%;
+            left: 6%; 
+            }
+            .labelm89{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 76%;
+            left: 10%; 
+            }
+            .cboxm3{
+            font-size: 25px; 
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 74%;
+            left: 0.5%; 
+            font-family: Verdana, Tahoma, 'DejaVu Sans', sans-serif;
+            } 
+  
   
        </style>
        </style>
@@ -1855,8 +1896,11 @@ $html = "
                     <div class='labelm84'>(Signature of Husband)</div></p>  
                         <p class='labellinem18'>______________________________</p> 
                     <div class='labelm85'>(Signature of Wife)</div></p>  
-                      
-                   
+                    <div class='labelm86'>19.CERTIFICATION OF THE SOLEMINIZING OFFICER</div></p>  
+                    <div class='labelm87'>THIS IS TO CERTIFY: THAT BEFORE ME, on the date and place above-written, personally appeared the above-mentioned parties, with</div></p>  
+                    <div class='labelm88'>their mutual consent, lawfuly joined together in marriage which was solemnized by me in the presence of the witnesses named below, all of legal age</div></p>  
+                    <div class='labelm89'>I CERTIFY FURTHER THAT:</div></p> 
+                        <p class='cboxm3'><b>&#9633;</b></p>
                     </body>
 
                         </html>";
