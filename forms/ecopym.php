@@ -2609,6 +2609,46 @@ $html = "
             top: 20%;
             left: 8%; 
             }
+            .cboxm10{
+            font-size: 25px; 
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 18.5%;
+            left: 4%; 
+            font-family: Verdana, Tahoma, 'DejaVu Sans', sans-serif;
+            } 
+            .outputm2u{
+            color: black;
+            position: absolute;
+            top: 21%;
+            left:5%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm2q{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 22%;
+            left: 8%; 
+            }
+            .labelm2r{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 24%;
+            left: 2%; 
+            }
+            .labelm2s{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 26%;
+            left: 2%; 
+            }
        </style>
     </head>
         <body>
@@ -2948,8 +2988,14 @@ $html = "
                     <div class='labelm2o'><br>death and physically unable to sign the foregoing certificate of marriage by signature or mark, one of the witnesses to the marriage;sign<br>for him or her by writing the dying party's name and beneath it, the witness' own signature preced by the preposition 'By';</div>
                         <p class='cboxm9'><b>&#9633;</b></p>
                         <p class='outputm2t'>X</p>
-                     <div class='labelm2p'>d. That the residence of either party is so located that there is no means of transportation to enable concerned partyparties to appear<br>personally before the civil registrar;</div>
-                    </body>
+                    <div class='labelm2p'>d. That the residence of either party is so located that there is no means of transportation to enable concerned partyparties to appear<br>personally before the civil registrar;</div>
+                        <p class='cboxm10'><b>&#9633;</b></p>
+                        <p class='outputm2u'>X</p>
+                    <div class='labelm2q'>e.That the marriage was among Muslims or among members of the Ethic Cultural Communities and that the marriage was solemnized<br>in accordance with their customs and practies;</div>
+                    <div class='labelm2r'>3.That I took the necessary steps to ascertain the ages and relationship of the contracting parties and that neither of them are under any legal<br>impediment to marry each other;</div>
+                    <div class='labelm2s'>4.That I am executing this affidavit to attest to the truthfulness of the foregoing statements for all legal and purposes.</div>
+                    
+                     </body>
 
                         </html>";
                     // Load HTML into Dompdf
