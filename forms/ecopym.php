@@ -1682,7 +1682,68 @@ $html = "
             left: 0.5%; 
             font-family: Verdana, Tahoma, 'DejaVu Sans', sans-serif;
             } 
-  
+            .outputm75{
+            color: black;
+            position: absolute;
+            top: 76.5%;
+            left:1.5%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm90{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 77.5%;
+            left: 5%; 
+            }
+            .labellinem19{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 76.3%;
+            left: 19.5%;
+            text-transform: normal;
+            }
+            .outputm76{
+            color: black;
+            position: absolute;
+            top: 76.3%;
+            left:21%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm91{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 77.5%;
+            left: 30%; 
+            }
+            .labellinem20{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 76.3%;
+            left: 36%;
+            text-transform: normal;
+            }
+            .outputm77{
+            color: black;
+            position: absolute;
+            top: 76.3%;
+            left:37%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm92{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 77.5%;
+            left: 56%; 
+            }
   
        </style>
        </style>
@@ -1901,6 +1962,14 @@ $html = "
                     <div class='labelm88'>their mutual consent, lawfuly joined together in marriage which was solemnized by me in the presence of the witnesses named below, all of legal age</div></p>  
                     <div class='labelm89'>I CERTIFY FURTHER THAT:</div></p> 
                         <p class='cboxm3'><b>&#9633;</b></p>
+                        <p class='outputm75'>X</p>
+                    <div class='labelm90'>a.Marriage License No.</div></p> 
+                        <p class='labellinem19'>___________</p> 
+                        <p class='outputm76'>1234567</p>
+                    <div class='labelm91'>issued on</div></p> 
+                        <p class='labellinem20'>_____________________,</p> 
+                        <p class='outputm77'>DECEMBER 21, 2025</p>
+                    <div class='labelm92'>at</div></p> 
                     </body>
 
                         </html>";
