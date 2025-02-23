@@ -1612,6 +1612,36 @@ $html = "
             font-size: 12px;
             text-transform: normal;
             }
+            .labellinem17{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 69.5%;
+            left: 13%;
+            text-transform: normal;
+            }
+            .labelm84{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 71.5%;
+            left: 20%; 
+            }
+            .labellinem18{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 69.5%;
+            left: 60%;
+            text-transform: normal;
+            }
+            .labelm85{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 71.5%;
+            left: 68%; 
+            }
   
        </style>
        </style>
@@ -1807,20 +1837,25 @@ $html = "
                     <div class='labelm77'>both of</div></p>  
                     <div class='labelm78'>legal age of our own free will and accord, and in the presence of the person soleminizing this marriage and of the witnesses named below, tak e each other</div></p> 
                     <div class='labelm79'>as husband and wife and certifying further that we:</div></p>  
-                      <p class='cboxm1'><b>&#9633;</b></p>
-                      <p class='outputm70'>X</p> 
+                        <p class='cboxm1'><b>&#9633;</b></p>
+                        <p class='outputm70'>X</p> 
                     <div class='labelm80'> have entered, a copy of which is hereto attached/</div></p>  
-                      <p class='cboxm2'><b>&#9633;</b></p>
-                      <p class='outputm71'>X</p> 
+                        <p class='cboxm2'><b>&#9633;</b></p>
+                        <p class='outputm71'>X</p> 
                     <div class='labelm81'> have not entered into a marriage settelement</div></p>  
                     <div class='labelm82'>IN WITNESS WHEREOF, we have signed/marked with our fingerprint this certificate in quadruplicate this</div></p>
-                      <p class='labellinem14'>______</p> 
-                      <p class='outputm72'>31</p>
+                        <p class='labellinem14'>______</p> 
+                        <p class='outputm72'>31</p>
                     <div class='labelm83'>day of</div></p>  
-                      <p class='labellinem15'>____________</p> 
-                      <p class='outputm73'>DECEMBER</p>
-                      <p class='labellinem16'>,______</p> 
-                      <p class='outputm74'>2025</p>
+                        <p class='labellinem15'>____________</p> 
+                        <p class='outputm73'>DECEMBER</p>
+                        <p class='labellinem16'>,______</p> 
+                        <p class='outputm74'>2025</p>
+                        <p class='labellinem17'>______________________________</p> 
+                    <div class='labelm84'>(Signature of Husband)</div></p>  
+                        <p class='labellinem18'>______________________________</p> 
+                    <div class='labelm85'>(Signature of Wife)</div></p>  
+                      
                    
                     </body>
 
