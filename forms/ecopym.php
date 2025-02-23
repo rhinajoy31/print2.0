@@ -2003,7 +2003,7 @@ $html = "
             text-transform: normal;
             color:  black;
             position: absolute;
-            top: 91.5%;
+            top: 91.7%;
             left: 0.5%; 
             }
             .labellinem31{
@@ -2049,20 +2049,20 @@ $html = "
             text-transform: normal;
             color:  black;
             position: absolute;
-            top: 93.7%;
+            top: 93.8%;
             left: 0.5%; 
             }
             .labellinem33{
             color: rgb(248, 82, 159);
             position: absolute;
-            top: 92.5%;
+            top: 92.7%;
             left:4%;
             text-transform: normal;
             }
             .outputm91{
             color: black;
             position: absolute;
-            top: 92.5%;
+            top: 92.7%;
             left:5%; 
             font-size: 12px;
             text-transform: normal;
@@ -2082,6 +2082,90 @@ $html = "
             position: absolute;
             top: 89.5%;
             left: 53%; 
+            }
+            .labelm106{
+            font-size: 11px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 90.5%;
+            left: 52.5%; 
+            }
+            .labellinem34{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 89.3%;
+            left:59%;
+            text-transform: normal;
+            }
+            .labelm107{
+            font-size: 11px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 91.5%;
+            left: 52.5%; 
+            }
+            .labellinem35{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 90.5%;
+            left:62%;
+            text-transform: normal;
+            }
+            .outputm92{
+            color: black;
+            position: absolute;
+            top: 90.5%;
+            left:63%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm108{
+            font-size: 11px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 92.5%;
+            left: 52.5%; 
+            }
+            .labellinem36{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 91.5%;
+            left:63%;
+            text-transform: normal;
+            }
+            .outputm93{
+            color: black;
+            position: absolute;
+            top: 91.5%;
+            left:64%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm109{
+            font-size: 11px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 93.6%;
+            left: 52.5%; 
+            }
+            .labellinem37{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 92.5%;
+            left:55.5%;
+            text-transform: normal;
+            }
+            .outputm94{
+            color: black;
+            position: absolute;
+            top: 92.5%;
+            left:56%; 
+            font-size: 12px;
+            text-transform: normal;
             }
        </style>
        </style>
@@ -2352,8 +2436,20 @@ $html = "
                         <p class='outputm91'>RHINA JOY SALINAS</p>
                     <div class='vertical_linem8'></div>
                     <div class='labelm105'>22.REGISTERED AT THE OFFICE OF THE CIVIL REGISTRAR</div></p> 
-                   
-                     </body>
+                    <div class='labelm106'>Signature</div></p> 
+                        <p class='labellinem34'>__________________________________________</p>   
+                    <div class='labelm107'>Name in Print</div></p> 
+                        <p class='labellinem35'>_______________________________________</p>   
+                        <p class='outputm92'>RHINA JOY SALINAS</p>
+                    <div class='labelm108'>TItle or Position</div></p> 
+                        <p class='labellinem36'>______________________________________</p>   
+                        <p class='outputm93'>RHINA JOY SALINAS</p>
+                    <div class='labelm109'>Date</div></p> 
+                        <p class='labellinem37'>________________________________________________</p>   
+                        <p class='outputm94'>RHINA JOY SALINAS</p>   
+                       
+                       
+                        </body>
 
                         </html>";
                     // Load HTML into Dompdf
