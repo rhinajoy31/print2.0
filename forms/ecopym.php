@@ -2649,6 +2649,121 @@ $html = "
             top: 26%;
             left: 2%; 
             }
+            .labelm2t{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 27%;
+            left: 5%; 
+            }
+            .labellinem53{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 26%;
+            left:40.5%;
+            text-transform: normal;
+            }
+            .outputm2v{
+            color: black;
+            position: absolute;
+            top: 26%;
+            left:42%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm2u{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 27.3%;
+            left: 47%; 
+            }
+            .labellinem54{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 26%;
+            left:51%;
+            text-transform: normal;
+            }
+            .outputm2w{
+            color: black;
+            position: absolute;
+            top: 26%;
+            left:52%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labellinem55{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 26%;
+            left:75%;
+            text-transform: normal;
+            }
+            .outputm2x{
+            color: black;
+            position: absolute;
+            top: 26%;
+            left:78%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm2v{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 27.3%;
+            left: 85%; 
+            }
+            .labellinem56{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 27%;
+            left: 3%;
+            text-transform: normal;
+            }
+           .outputm2y{
+            color: black;
+            position: absolute;
+            top: 27%;
+            left:4%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm2w{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 28.3%;
+            left: 36%; 
+            }
+            .labellinem57{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 28%;
+            left: 56%;
+            text-transform: normal;
+            }
+            .outputm2z{
+            color: black;
+            position: absolute;
+            top: 28%;
+            left:62%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm2x{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 30%;
+            left: 56.5%; 
+            }
        </style>
     </head>
         <body>
@@ -2994,10 +3109,23 @@ $html = "
                     <div class='labelm2q'>e.That the marriage was among Muslims or among members of the Ethic Cultural Communities and that the marriage was solemnized<br>in accordance with their customs and practies;</div>
                     <div class='labelm2r'>3.That I took the necessary steps to ascertain the ages and relationship of the contracting parties and that neither of them are under any legal<br>impediment to marry each other;</div>
                     <div class='labelm2s'>4.That I am executing this affidavit to attest to the truthfulness of the foregoing statements for all legal and purposes.</div>
-                    
-                     </body>
-
-                        </html>";
+                    <div class='labelm2t'>In the truth whereof, I have affixed my signature below this</div>
+                        <p class='labellinem53'>______</p>   
+                        <p class='outputm2v'>31</p>
+                     <div class='labelm2u'>day of</div>
+                        <p class='labellinem54'>_________________________,</p>   
+                        <p class='outputm2w'>DECEMBER</p>
+                        <p class='labellinem55'>__________</p> 
+                        <p class='outputm2x'>2025</p>
+                    <div class='labelm2v'>at</div>
+                        <p class='labellinem56'>___________________________________</p>
+                        <p class='outputm2y'>MENDEZ, CAVITE</p>
+                    <div class='labelm2w'>,Philippines</div>
+                        <p class='labellinem57'>______________________________________</p>
+                        <p class='outputm2z'>RHINA JOY SALINAS</p>
+                    <div class='labelm2x'>Signature Over Printed Name of the solemnizing Officer</div>  
+                        </body>
+                     </html>";
                     // Load HTML into Dompdf
                     $dompdf->loadHtml($html);
                     
