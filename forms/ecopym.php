@@ -3025,6 +3025,19 @@ $html = "
             top: 39.3%;
             left: 62%; 
             }
+            .horizontal_linem21{
+            width: 99.5%; 
+            height: 0.1%; 
+            background-color: rgb(248, 82, 159);
+            position: absolute;
+            top: 41%;
+           .horizontal_linem21{
+            width: 99.5%; 
+            height: 0.1%; 
+            background-color: rgb(248, 82, 159);
+            position: absolute;
+            top: 40.5%;
+            }
        </style>
     </head>
         <body>
@@ -3419,7 +3432,7 @@ $html = "
                         <p class='labellinem69'>_____________________________</p>
                         <p class='outputm3l'>MENDEZ,CAVITE</p>
                     <div class='labelm3h'>Address</div>
-                      
+                    <div class='horizontal_linem21'></div>  
                         </body>
                      </html>";
                     // Load HTML into Dompdf
