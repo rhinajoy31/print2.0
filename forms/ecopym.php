@@ -2932,6 +2932,30 @@ $html = "
             font-size: 12px;
             text-transform: normal;
             }
+            .labellinem66{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 35%;
+            left: 15%;
+            text-transform: normal;
+            }
+            .outputm3i{
+            color: black;
+            position: absolute;
+            top: 35%;
+            left:20%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm3e{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 35%;
+            left: 20%; 
+            }
+         
        </style>
     </head>
         <body>
@@ -3314,6 +3338,12 @@ $html = "
                     <div class='labelm3d'>at</div>
                         <p class='labellinem65'>________________________________.</p>
                         <p class='outputm3h'>MENDEZ,CAVITE</p>
+                        <p class='labellinem66'>_____________________________</p>
+                        <p class='outputm3i'>MENDEZ,CAVITE</p>
+                    <div class='labelm3e>Signature of the Administering Officer</div>
+                      
+                      
+                      
                         </body>
                      </html>";
                     // Load HTML into Dompdf
