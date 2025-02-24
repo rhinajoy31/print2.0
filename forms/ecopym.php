@@ -2952,8 +2952,54 @@ $html = "
             text-transform: normal;
             color:  black;
             position: absolute;
+            top: 37%;
+            left: 17%; 
+            }
+            .labellinem67{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 37.5%;
+            left: 15%;
+            text-transform: normal;
+            }
+            .outputm3j{
+            color: black;
+            position: absolute;
+            top: 37.5%;
+            left:20%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm3f{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 39.3%;
+            left: 22%; 
+            }
+            .labellinem68{
+            color: rgb(248, 82, 159);
+            position: absolute;
             top: 35%;
-            left: 20%; 
+            left: 52%;
+            text-transform: normal;
+            }
+            .outputm3k{
+            color: black;
+            position: absolute;
+            top: 35%;
+            left:60%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm3g{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 37%;
+            left: 57%; 
             }
          
        </style>
@@ -3340,9 +3386,13 @@ $html = "
                         <p class='outputm3h'>MENDEZ,CAVITE</p>
                         <p class='labellinem66'>_____________________________</p>
                         <p class='outputm3i'>MENDEZ,CAVITE</p>
-                    <div class='labelm3e>Signature of the Administering Officer</div>
-                      
-                      
+                    <div class='labelm3e'>Signature of the Administering Officer</div>
+                        <p class='labellinem67'>_____________________________</p>
+                        <p class='outputm3j'>MENDEZ,CAVITE</p>
+                    <div class='labelm3f'>Name in Print</div>
+                        <p class='labellinem68'>_____________________________</p>
+                        <p class='outputm3k'>MENDEZ,CAVITE</p>
+                    <div class='labelm3g'>Position/Title/Designation</div>
                       
                         </body>
                      </html>";
