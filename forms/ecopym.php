@@ -2764,6 +2764,67 @@ $html = "
             top: 30%;
             left: 56.5%; 
             }
+            .labelm2y{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 32%;
+            left: 10%; 
+            }
+            .labellinem58{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 30.8%;
+            left: 38%;
+            text-transform: normal;
+            }
+            .outputm3a{
+            color: black;
+            position: absolute;
+            top: 30.8%;
+            left:39%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm2z{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 32%;
+            left: 42.8%; 
+            }
+            .labellinem59{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 30.8%;
+            left: 46.5%;
+            text-transform: normal;
+            }
+            .outputm3b{
+            color: black;
+            position: absolute;
+            top: 30.8%;
+            left:47%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labellinem60{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 30.8%;
+            left: 67%;
+            text-transform: normal;
+            }
+            .outputm3c{
+            color: black;
+            position: absolute;
+            top: 30.8%;
+            left:69%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
        </style>
     </head>
         <body>
@@ -3124,7 +3185,15 @@ $html = "
                         <p class='labellinem57'>______________________________________</p>
                         <p class='outputm2z'>RHINA JOY SALINAS</p>
                     <div class='labelm2x'>Signature Over Printed Name of the solemnizing Officer</div>  
-                        </body>
+                    <div class='labelm2y'>SUBSCRIBE AND SWORN to before me this</div>  
+                        <p class='labellinem58'>_____</p>
+                        <p class='outputm3a'>31</p>
+                    <div class='labelm2z'>day of</div>  
+                        <p class='labellinem59'>_____________________,</p>
+                        <p class='outputm3b'>DECEMBER</p>
+                        <p class='labellinem60'>________</p>
+                        <p class='outputm3c'>2025</p>
+                    </body>
                      </html>";
                     // Load HTML into Dompdf
                     $dompdf->loadHtml($html);
