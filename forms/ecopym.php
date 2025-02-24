@@ -2876,8 +2876,61 @@ $html = "
             text-transform: normal;
             color:  black;
             position: absolute;
+            top: 34.5%;
+            left: 7%; 
+            }
+            .labellinem63{
+            color: rgb(248, 82, 159);
+            position: absolute;
             top: 33.3%;
-            left: 87%; 
+            left: 13.5%;
+            text-transform: normal;
+            }
+            .outputm3f{
+            color: black;
+            position: absolute;
+            top: 33.3%;
+            left:15%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labellinem64{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 33.3%;
+            left: 26.5%;
+            text-transform: normal;
+            }
+            .outputm3g{
+            color: black;
+            position: absolute;
+            top: 33.3%;
+            left:29%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm3d{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 34.5%;
+            left: 34%; 
+            }
+            .labellinem65{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 33.3%;
+            left: 36%;
+            text-transform: normal;
+            }
+            .outputm3h{
+            color: black;
+            position: absolute;
+            top: 33.3%;
+            left:37%; 
+            font-size: 12px;
+            text-transform: normal;
             }
        </style>
     </head>
@@ -3253,9 +3306,15 @@ $html = "
                     <div class='labelm3b'>,Philippines, affiant who exhibited to me his/her CTC/valid ID</div> 
                         <p class='labellinem62'>_______________</p>
                         <p class='outputm3e'>1234567</p>
-                    <div class='labelm3c'></div>
-                        
-                    </body>
+                    <div class='labelm3c'>issued on</div>
+                        <p class='labellinem63'>_____________,</p>
+                        <p class='outputm3f'>OCTOBER</p>
+                        <p class='labellinem64'>_______</p>
+                        <p class='outputm3g'>31</p>
+                    <div class='labelm3d'>at</div>
+                        <p class='labellinem65'>________________________________.</p>
+                        <p class='outputm3h'>MENDEZ,CAVITE</p>
+                        </body>
                      </html>";
                     // Load HTML into Dompdf
                     $dompdf->loadHtml($html);
