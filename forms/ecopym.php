@@ -2989,7 +2989,7 @@ $html = "
             color: black;
             position: absolute;
             top: 35%;
-            left:60%; 
+            left:58%; 
             font-size: 12px;
             text-transform: normal;
             }
@@ -3002,6 +3002,29 @@ $html = "
             left: 57%; 
             }
          
+            .labellinem69{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 37.5%;
+            left: 52%;
+            text-transform: normal;
+            }
+            .outputm3l{
+            color: black;
+            position: absolute;
+            top: 37.5%;
+            left:58%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm3h{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 39.3%;
+            left: 60%; 
+            }
        </style>
     </head>
         <body>
@@ -3393,6 +3416,9 @@ $html = "
                         <p class='labellinem68'>_____________________________</p>
                         <p class='outputm3k'>MENDEZ,CAVITE</p>
                     <div class='labelm3g'>Position/Title/Designation</div>
+                        <p class='labellinem69'>_____________________________</p>
+                        <p class='outputm3l'>MENDEZ,CAVITE</p>
+                    <div class='labelm3h'>Address</div>
                       
                         </body>
                      </html>";
