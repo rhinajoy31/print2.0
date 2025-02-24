@@ -2825,6 +2825,60 @@ $html = "
             font-size: 12px;
             text-transform: normal;
             }
+            .labelm3a{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 32%;
+            left: 85%; 
+            }
+            .labellinem61{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 32%;
+            left: 7%;
+            text-transform: normal;
+            }
+            .outputm3d{
+            color: black;
+            position: absolute;
+            top: 32%;
+            left:8%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm3b{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 33.3%;
+            left: 38%; 
+            }
+            .labellinem62{
+            color: rgb(248, 82, 159);
+            position: absolute;
+            top: 32%;
+            left: 75%;
+            text-transform: normal;
+            }
+            .outputm3e{
+            color: black;
+            position: absolute;
+            top: 32%;
+            left:76%; 
+            font-size: 12px;
+            text-transform: normal;
+            }
+            .labelm3c{
+            font-size: 10px;
+            text-transform: normal;
+            color:  black;
+            position: absolute;
+            top: 33.3%;
+            left: 87%; 
+            }
        </style>
     </head>
         <body>
@@ -3191,8 +3245,16 @@ $html = "
                     <div class='labelm2z'>day of</div>  
                         <p class='labellinem59'>_____________________,</p>
                         <p class='outputm3b'>DECEMBER</p>
-                        <p class='labellinem60'>________</p>
+                        <p class='labellinem60'>___________________</p>
                         <p class='outputm3c'>2025</p>
+                    <div class='labelm3a'>at</div>  
+                        <p class='labellinem61'>__________________________________</p>
+                        <p class='outputm3d'>MENDEZ,CAVITE</p>
+                    <div class='labelm3b'>,Philippines, affiant who exhibited to me his/her CTC/valid ID</div> 
+                        <p class='labellinem62'>_______________</p>
+                        <p class='outputm3e'>1234567</p>
+                    <div class='labelm3c'></div>
+                        
                     </body>
                      </html>";
                     // Load HTML into Dompdf
