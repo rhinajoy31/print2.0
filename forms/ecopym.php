@@ -3023,7 +3023,7 @@ $html = "
             color:  black;
             position: absolute;
             top: 39.3%;
-            left: 60%; 
+            left: 62%; 
             }
        </style>
     </head>
