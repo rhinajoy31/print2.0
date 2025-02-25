@@ -1805,1211 +1805,340 @@ $html = "
                 left: 5%; 
             }
             .labellinem23{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 82%;
-            left:1%;
+                color: rgb(248, 82, 159);
+                position: absolute;
+                top: 82%;
+                left:1%;
             }
             .outputm82{
-            color: black;
-            position: absolute;
-            top: 82%;
-            left:10%; 
-            font-size: 12px;
-            text-transform: normal;
+                color: black;
+                position: absolute;
+                top: 82%;
+                left:10%; 
+                font-size: 12px;
+                text-transform: uppercase;
             }
             .labelm96{
-            font-size: 10px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 84%;
-            left: 3%; 
+                font-size: 10px;
+                text-transform: normal;
+                color:  black;
+                position: absolute;
+                top: 84%;
+                left: 3%; 
             }
             .labellinem24{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 82%;
-            left:40%;
-            text-transform: normal;
+                color: rgb(248, 82, 159);
+                position: absolute;
+                top: 82%;
+                left:40%;
             }
             .outputm83{
-            color: black;
-            position: absolute;
-            top: 82%;
-            left:43%; 
-            font-size: 12px;
-            text-transform: normal;
+                color: black;
+                position: absolute;
+                top: 82%;
+                left:43%; 
+                font-size: 12px;
+                text-transform: uppercase;
             }
             .labelm97{
-            font-size: 10px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 84%;
-            left: 45%; 
+                font-size: 10px;
+                text-transform: normal;
+                color:  black;
+                position: absolute;
+                top: 84%;
+                left: 45%; 
             }
             .labellinem25{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 82%;
-            left:65%;
-            text-transform: normal;
+                color: rgb(248, 82, 159);
+                position: absolute;
+                top: 82%;
+                left:65%;
             }
             .outputm84{
-            color: black;
-            position: absolute;
-            top: 82%;
-            left:72%; 
-            font-size: 12px;
-            text-transform: normal;
+                color: black;
+                position: absolute;
+                top: 82%;
+                left:72%; 
+                font-size: 12px;
+                text-transform: uppercase;
             }
             .labelm98{
-            font-size: 10px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 84%;
-            left: 66%; 
+                font-size: 10px;
+                text-transform: normal;
+                color:  black;
+                position: absolute;
+                top: 84%;
+                left: 66%; 
             }
             .labelm99{
-            font-size: 10px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 85.5%;
-            left: 0.5%; 
+                font-size: 10px;
+                text-transform: normal;
+                color:  black;
+                position: absolute;
+                top: 85.5%;
+                left: 0.5%; 
             }
             .labellinem26{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 86.5%;
-            left:1%;
-            text-transform: normal;
+                color: rgb(248, 82, 159);
+                position: absolute;
+                top: 86.5%;
+                left:1%;
             }
             .outputm85{
-            color: black;
-            position: absolute;
-            top: 86.5%;
-            left:4%; 
-            font-size: 12px;
-            text-transform: normal;
+                color: black;
+                position: absolute;
+                top: 86.5%;
+                left:4%; 
+                font-size: 12px;
+                text-transform: uppercase;
             }
             .labellinem27{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 86.5%;
-            left:26%;
-            text-transform: normal;
+                color: rgb(248, 82, 159);
+                position: absolute;
+                top: 86.5%;
+                left:26%;
             }
             .outputm86{
-            color: black;
-            position: absolute;
-            top: 86.5%;
-            left:29%; 
-            font-size: 12px;
-            text-transform: normal;
+                color: black;
+                position: absolute;
+                top: 86.5%;
+                left:29%; 
+                font-size: 12px;
+                text-transform: uppercase;
             }
             .labellinem28{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 86.5%;
-            left:51%;
-            text-transform: normal;
+                color: rgb(248, 82, 159);
+                position: absolute;
+                top: 86.5%;
+                left:51%;
             }
             .outputm87{
-            color: black;
-            position: absolute;
-            top: 86.5%;
-            left:54%; 
-            font-size: 12px;
-            text-transform: normal;
+                color: black;
+                position: absolute;
+                top: 86.5%;
+                left:54%; 
+                font-size: 12px;
+                text-transform: uppercase;
             }
             .labellinem29{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 86.5%;
-            left:76%;
-            text-transform: normal;
+                color: rgb(248, 82, 159);
+                position: absolute;
+                top: 86.5%;
+                left:76%;
             }
             .outputm88{
-            color: black;
-            position: absolute;
-            top: 86.5%;
-            left:79%; 
-            font-size: 12px;
-            text-transform: normal;
+                color: black;
+                position: absolute;
+                top: 86.5%;
+                left:79%; 
+                font-size: 12px;
+                text-transform: uppercase;
             }
             .horizontal_linem18{
-            width: 99.5%; 
-            height: 0.1%; 
-            background-color: rgb(248, 82, 159);
-            position: absolute;
-            top: 89%;
-            left:0%;
+                width: 99.5%; 
+                height: 0.1%; 
+                background-color: rgb(248, 82, 159);
+                position: absolute;
+                top: 89%;
             }
             .labelm100{
-            font-size: 10px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 89.5%;
-            left: 0.5%; 
+                font-size: 10px;
+                text-transform: normal;
+                color:  black;
+                position: absolute;
+                top: 89.5%;
+                left: 0.5%; 
             }
             .labelm101{
-            font-size: 11px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 90.5%;
-            left: 0.5%; 
+                font-size: 11px;
+                text-transform: normal;
+                color:  black;
+                position: absolute;
+                top: 90.5%;
+                left: 0.5%; 
             }
             .labellinem30{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 89.3%;
-            left:7%;
-            text-transform: normal;
+                color: rgb(248, 82, 159);
+                position: absolute;
+                top: 89.3%;
+                left:7%;
             }
             .labelm102{
-            font-size: 11px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 91.7%;
-            left: 0.5%; 
+                font-size: 11px;
+                text-transform: normal;
+                color:  black;
+                position: absolute;
+                top: 91.7%;
+                left: 0.5%; 
             }
             .labellinem31{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 90.5%;
-            left:10%;
-            text-transform: normal;
+                color: rgb(248, 82, 159);
+                position: absolute;
+                top: 90.5%;
+                left:10%;
             }
             .outputm89{
-            color: black;
-            position: absolute;
-            top: 90.5%;
-            left:11%; 
-            font-size: 12px;
-            text-transform: normal;
+                color: black;
+                position: absolute;
+                top: 90.5%;
+                left:11%; 
+                font-size: 12px;
+                text-transform: uppercase;
             }
             .labelm103{
-            font-size: 11px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 92.7%;
-            left: 0.5%; 
+                font-size: 11px;
+                text-transform: normal;
+                color:  black;
+                position: absolute;
+                top: 92.7%;
+                left: 0.5%; 
             }
             .labellinem32{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 91.5%;
-            left:11%;
-            text-transform: normal;
+                color: rgb(248, 82, 159);
+                position: absolute;
+                top: 91.5%;
+                left:11%;
             }
             .outputm90{
-            color: black;
-            position: absolute;
-            top: 91.5%;
-            left:12%; 
-            font-size: 12px;
-            text-transform: normal;
+                color: black;
+                position: absolute;
+                top: 91.5%;
+                left:12%; 
+                font-size: 12px;
+                text-transform: uppercase;
             }
             .labelm104{
-            font-size: 11px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 93.8%;
-            left: 0.5%; 
+                font-size: 11px;
+                text-transform: normal;
+                color:  black;
+                position: absolute;
+                top: 93.8%;
+                left: 0.5%; 
             }
             .labellinem33{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 92.7%;
-            left:4%;
-            text-transform: normal;
+                color: rgb(248, 82, 159);
+                position: absolute;
+                top: 92.7%;
+                left:4%;
             }
             .outputm91{
-            color: black;
-            position: absolute;
-            top: 92.7%;
-            left:5%; 
-            font-size: 12px;
-            text-transform: normal;
+                color: black;
+                position: absolute;
+                top: 92.7%;
+                left:5%; 
+                font-size: 12px;
+                text-transform: uppercase;
             }
             .vertical_linem8 {
-            width: 1px; 
-            height: 74px; 
-            background-color: rgb(248, 82, 159);
-            position: absolute; 
-            left:52%;
-            top: 89%;
+                width: 1px; 
+                height: 74px; 
+                background-color: rgb(248, 82, 159);
+                position: absolute; 
+                left:52%;
+                top: 89%;
             }
             .labelm105{
-            font-size: 10px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 89.5%;
-            left: 53%; 
+                font-size: 10px;
+                text-transform: normal;
+                color:  black;
+                position: absolute;
+                top: 89.5%;
+                left: 53%; 
             }
             .labelm106{
-            font-size: 11px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 90.5%;
-            left: 52.5%; 
+                font-size: 11px;
+                text-transform: normal;
+                color:  black;
+                position: absolute;
+                top: 90.5%;
+                left: 52.5%; 
             }
             .labellinem34{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 89.3%;
-            left:59%;
-            text-transform: normal;
+                color: rgb(248, 82, 159);
+                position: absolute;
+                top: 89.3%;
+                left:59%;
             }
             .labelm107{
-            font-size: 11px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 91.5%;
-            left: 52.5%; 
+                font-size: 11px;
+                text-transform: normal;
+                color:  black;
+                position: absolute;
+                top: 91.5%;
+                left: 52.5%; 
             }
             .labellinem35{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 90.5%;
-            left:62%;
-            text-transform: normal;
+                color: rgb(248, 82, 159);
+                position: absolute;
+                top: 90.5%;
+                left:62%;
             }
             .outputm92{
-            color: black;
-            position: absolute;
-            top: 90.5%;
-            left:63%; 
-            font-size: 12px;
-            text-transform: normal;
+                color: black;
+                position: absolute;
+                top: 90.5%;
+                left:63%; 
+                font-size: 12px;
+                text-transform: uppercase;
             }
             .labelm108{
-            font-size: 11px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 92.5%;
-            left: 52.5%; 
+                font-size: 11px;
+                text-transform: normal;
+                color:  black;
+                position: absolute;
+                top: 92.5%;
+                left: 52.5%; 
             }
             .labellinem36{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 91.5%;
-            left:63%;
-            text-transform: normal;
+                color: rgb(248, 82, 159);
+                position: absolute;
+                top: 91.5%;
+                left:63%;
             }
             .outputm93{
-            color: black;
-            position: absolute;
-            top: 91.5%;
-            left:64%; 
-            font-size: 12px;
-            text-transform: normal;
+                color: black;
+                position: absolute;
+                top: 91.5%;
+                left:64%; 
+                font-size: 12px;
+                text-transform: uppercase;
             }
             .labelm109{
-            font-size: 11px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 93.6%;
-            left: 52.5%; 
+                font-size: 11px;
+                text-transform: normal;
+                color:  black;
+                position: absolute;
+                top: 93.6%;
+                left: 52.5%; 
             }
             .labellinem37{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 92.5%;
-            left:55.5%;
-            text-transform: normal;
+                color: rgb(248, 82, 159);
+                position: absolute;
+                top: 92.5%;
+                left:55.5%;
             }
             .outputm94{
-            color: black;
-            position: absolute;
-            top: 92.5%;
-            left:56%; 
-            font-size: 12px;
-            text-transform: normal;
+                color: black;
+                position: absolute;
+                top: 92.5%;
+                left:56%; 
+                font-size: 12px;
+                text-transform: uppercase;
             }
             .horizontal_linem19{
-            width: 99.5%; 
-            height: 0.1%; 
-            background-color: rgb(248, 82, 159);
-            position: absolute;
-            top: 95%;
-            left:0%;
+                width: 99.5%; 
+                height: 0.1%; 
+                background-color: rgb(248, 82, 159);
+                position: absolute;
+                top: 95%;
             }
             .labelm110{
-            font-size: 11px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 95.5%;
-            left: 0.5%; 
-            }
-            <--PAGE 2-->
-            .labelm2a{
-            font-size: 11px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 0.5%;
-            left: 0.5%; 
-            }
-            .labellinem38{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 1%;
-            left:1%;
-            text-transform: normal;
-            }
-            .outputm2a{
-            color: black;
-            position: absolute;
-            top: 1%;
-            left:4%; 
-            font-size: 12px;
-            text-transform: normal;
-            }
-            .labellinem39{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 1%;
-            left:25%;
-            text-transform: normal;
-            }
-            .outputm2b{
-            color: black;
-            position: absolute;
-            top: 1%;
-            left:27%; 
-            font-size: 12px;
-            text-transform: normal;
-            }
-            .labellinem40{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 1%;
-            left:49%;
-            text-transform: normal;
-            }
-            .outputm2c{
-            color: black;
-            position: absolute;
-            top: 1%;
-            left:51%; 
-            font-size: 12px;
-            text-transform: normal;
-            }
-            .labellinem41{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 1%;
-            left:74%;
-            text-transform: normal;
-            }
-            .outputm2d{
-            color: black;
-            position: absolute;
-            top: 1%;
-            left:76%; 
-            font-size: 12px;
-            text-transform: normal;
-            }
-            .labellinem42{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 3.5%;
-            left:0.5%;
-            text-transform: normal;
-            }
-            .outputm2e{
-            color: black;
-            position: absolute;
-            top: 3.5%;
-            left:4%; 
-            font-size: 12px;
-            text-transform: normal;
-            }
-            .labellinem43{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 3.5%;
-            left:25%;
-            text-transform: normal;
-            }
-            .outputm2f{
-            color: black;
-            position: absolute;
-            top: 3.5%;
-            left:27%; 
-            font-size: 12px;
-            text-transform: normal;
-            }
-            .labellinem44{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 3.5%;
-            left:50%;
-            text-transform: normal;
-            }
-            .outputm2g{
-            color: black;
-            position: absolute;
-            top: 3.5%;
-            left:51%; 
-            font-size: 12px;
-            text-transform: normal;
-            }
-            .labellinem45{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 3.5%;
-            left:74%;
-            text-transform: normal;
-            }
-            .outputm2h{
-            color: black;
-            position: absolute;
-            top: 3.5%;
-            left:76%; 
-            font-size: 12px;
-            text-transform: normal;
-            }
-            .horizontal_linem20{
-            width: 99.5%; 
-            height: 0.1%; 
-            background-color: rgb(248, 82, 159);
-            position: absolute;
-            top: 6.5%;
-            left:0%;
-            }
-            .labelm2b{
-            font-size: 13px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 7%;
-            left: 33%; 
-            }
-            .labelm2c{
-            font-size: 11px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 9%;
-            left: 5%; 
-            }
-            .labellinem46{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 8%;
-            left:6%;
-            text-transform: normal;
-            }
-            .outputm2j{
-            color: black;
-            position: absolute;
-            top: 8%;
-            left:7%; 
-            font-size: 12px;
-            text-transform: normal;
-            }
-            .labelm2d{
-            font-size: 11px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 9%;
-            left: 33%; 
-            }
-            .labellinem47{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 8%;
-            left:57%;
-            text-transform: normal;
-            }
-            .outputm2k{
-            color: black;
-            position: absolute;
-            top: 8%;
-            left:58%; 
-            font-size: 12px;
-            text-transform: normal;
-            }
-            .labelm2e{
-            font-size: 11px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 9%;
-            left: 85%; 
-            }
-            .labellinem48{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 9.5%;
-            left:2%;
-            text-transform: normal;
-            }
-            .outputm2l{
-            color: black;
-            position: absolute;
-            top: 9.5%;
-            left:3%; 
-            font-size: 12px;
-            text-transform: normal;
-            }
-            .labelm2f{
-            font-size: 11px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 10.5%;
-            left: 40%; 
-            }
-            .labelm2g{
-            font-size: 11px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 12%;
-            left: 2%; 
-            }
-            .labellinem49{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 10.9%;
-            left:34.5%;
-            text-transform: normal;
-            }
-            .outputm2m{
-            color: black;
-            position: absolute;
-            top: 10.9%;
-            left:35%; 
-            font-size: 12px;
-            text-transform: normal;
-            }
-            .labelm2h{
-            font-size: 11px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 12%;
-            left: 60%; 
-            }
-            .labellinem50{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 10.9%;
-            left:63%;
-            text-transform: normal;
-            }
-            .outputm2n{
-            color: black;
-            position: absolute;
-            top: 10.9%;
-            left:64%; 
-            font-size: 12px;
-            text-transform: normal;
-            }
-            .labelm2i{
-            font-size: 11px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 13.5%;
-            left: 2%; 
-            }
-             .cboxm6{
-            font-size: 25px; 
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 10%;
-            left: 4%; 
-            font-family: Verdana, Tahoma, 'DejaVu Sans', sans-serif;
-            } 
-            .outputm2o{
-            color: black;
-            position: absolute;
-            top: 12.3%;
-            left:5%; 
-            font-size: 12px;
-            text-transform: normal;
-            }
-            .labelm2j{
-            font-size: 10px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 13%;
-            left: 8%; 
-            }
-            .cboxm7{
-            font-size: 25px; 
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 12%;
-            left: 4%; 
-            font-family: Verdana, Tahoma, 'DejaVu Sans', sans-serif;
-            } 
-            .outputm2p{
-            color: black;
-            position: absolute;
-            top: 14.3%;
-            left:5%; 
-            font-size: 12px;
-            text-transform: normal;
-            } 
-            .labelm2k{
-            font-size: 10px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 15.5%;
-            left: 8%; 
-            }
-            .cboxm8{
-            font-size: 25px; 
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 14%;
-            left: 4%; 
-            font-family: Verdana, Tahoma, 'DejaVu Sans', sans-serif;
-            } 
-            .outputm2q{
-            color: black;
-            position: absolute;
-            top: 16.4%;
-            left:5%; 
-            font-size: 12px;
-            text-transform: normal;
-            } 
-            .labelm2l{
-            font-size: 10px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 17%;
-            left: 8%; 
-            }
-            .labellinem51{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 15.9%;
-            left:27.5%;
-            text-transform: normal;
-            }
-            .outputm2r{
-            color: black;
-            position: absolute;
-            top: 15.9%;
-            left:28%; 
-            font-size: 12px;
-            text-transform: normal;
-            }
-            .labelm2m{
-            font-size: 10px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 17%;
-            left: 53%; 
-            }
-            .labellinem52{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 15.9%;
-            left:56%;
-            text-transform: normal;
-            }
-            .outputm2s{
-            color: black;
-            position: absolute;
-            top: 15.9%;
-            left:57%; 
-            font-size: 12px;
-            text-transform: normal;
-            }
-            .labelm2n{
-            font-size: 10px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 17%;
-            left: 82%; 
-            }
-            .labelm2o{
-            font-size: 10px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 17%;
-            left: 8%; 
-            }
-            .cboxm9{
-            font-size: 25px; 
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 16.5%;
-            left: 4%; 
-            font-family: Verdana, Tahoma, 'DejaVu Sans', sans-serif;
-            } 
-            .outputm2t{
-            color: black;
-            position: absolute;
-            top: 19%;
-            left:5%; 
-            font-size: 12px;
-            text-transform: normal;
-            }
-            .labelm2p{
-            font-size: 10px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 20%;
-            left: 8%; 
-            }
-            .cboxm10{
-            font-size: 25px; 
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 18.5%;
-            left: 4%; 
-            font-family: Verdana, Tahoma, 'DejaVu Sans', sans-serif;
-            } 
-            .outputm2u{
-            color: black;
-            position: absolute;
-            top: 21%;
-            left:5%; 
-            font-size: 12px;
-            text-transform: normal;
-            }
-            .labelm2q{
-            font-size: 10px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 22%;
-            left: 8%; 
-            }
-            .labelm2r{
-            font-size: 10px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 24%;
-            left: 2%; 
-            }
-            .labelm2s{
-            font-size: 10px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 26%;
-            left: 2%; 
-            }
-            .labelm2t{
-            font-size: 10px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 27%;
-            left: 5%; 
-            }
-            .labellinem53{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 26%;
-            left:40.5%;
-            text-transform: normal;
-            }
-            .outputm2v{
-            color: black;
-            position: absolute;
-            top: 26%;
-            left:42%; 
-            font-size: 12px;
-            text-transform: normal;
-            }
-            .labelm2u{
-            font-size: 10px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 27.3%;
-            left: 47%; 
-            }
-            .labellinem54{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 26%;
-            left:51%;
-            text-transform: normal;
-            }
-            .outputm2w{
-            color: black;
-            position: absolute;
-            top: 26%;
-            left:52%; 
-            font-size: 12px;
-            text-transform: normal;
-            }
-            .labellinem55{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 26%;
-            left:75%;
-            text-transform: normal;
-            }
-            .outputm2x{
-            color: black;
-            position: absolute;
-            top: 26%;
-            left:78%; 
-            font-size: 12px;
-            text-transform: normal;
-            }
-            .labelm2v{
-            font-size: 10px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 27.3%;
-            left: 85%; 
-            }
-            .labellinem56{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 27%;
-            left: 3%;
-            text-transform: normal;
-            }
-           .outputm2y{
-            color: black;
-            position: absolute;
-            top: 27%;
-            left:4%; 
-            font-size: 12px;
-            text-transform: normal;
-            }
-            .labelm2w{
-            font-size: 10px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 28.3%;
-            left: 36%; 
-            }
-            .labellinem57{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 28%;
-            left: 56%;
-            text-transform: normal;
-            }
-            .outputm2z{
-            color: black;
-            position: absolute;
-            top: 28%;
-            left:62%; 
-            font-size: 12px;
-            text-transform: normal;
-            }
-            .labelm2x{
-            font-size: 10px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 30%;
-            left: 56.5%; 
-            }
-            .labelm2y{
-            font-size: 10px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 32%;
-            left: 10%; 
-            }
-            .labellinem58{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 30.8%;
-            left: 38%;
-            text-transform: normal;
-            }
-            .outputm3a{
-            color: black;
-            position: absolute;
-            top: 30.8%;
-            left:39%; 
-            font-size: 12px;
-            text-transform: normal;
-            }
-            .labelm2z{
-            font-size: 10px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 32%;
-            left: 42.8%; 
-            }
-            .labellinem59{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 30.8%;
-            left: 46.5%;
-            text-transform: normal;
-            }
-            .outputm3b{
-            color: black;
-            position: absolute;
-            top: 30.8%;
-            left:47%; 
-            font-size: 12px;
-            text-transform: normal;
-            }
-            .labellinem60{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 30.8%;
-            left: 67%;
-            text-transform: normal;
-            }
-            .outputm3c{
-            color: black;
-            position: absolute;
-            top: 30.8%;
-            left:69%; 
-            font-size: 12px;
-            text-transform: normal;
-            }
-            .labelm3a{
-            font-size: 10px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 32%;
-            left: 85%; 
-            }
-            .labellinem61{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 32%;
-            left: 7%;
-            text-transform: normal;
-            }
-            .outputm3d{
-            color: black;
-            position: absolute;
-            top: 32%;
-            left:8%; 
-            font-size: 12px;
-            text-transform: normal;
-            }
-            .labelm3b{
-            font-size: 10px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 33.3%;
-            left: 38%; 
-            }
-            .labellinem62{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 32%;
-            left: 75%;
-            text-transform: normal;
-            }
-            .outputm3e{
-            color: black;
-            position: absolute;
-            top: 32%;
-            left:76%; 
-            font-size: 12px;
-            text-transform: normal;
-            }
-            .labelm3c{
-            font-size: 10px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 34.5%;
-            left: 7%; 
-            }
-            .labellinem63{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 33.3%;
-            left: 13.5%;
-            text-transform: normal;
-            }
-            .outputm3f{
-            color: black;
-            position: absolute;
-            top: 33.3%;
-            left:15%; 
-            font-size: 12px;
-            text-transform: normal;
-            }
-            .labellinem64{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 33.3%;
-            left: 26.5%;
-            text-transform: normal;
-            }
-            .outputm3g{
-            color: black;
-            position: absolute;
-            top: 33.3%;
-            left:29%; 
-            font-size: 12px;
-            text-transform: normal;
-            }
-            .labelm3d{
-            font-size: 10px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 34.5%;
-            left: 34%; 
-            }
-            .labellinem65{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 33.3%;
-            left: 36%;
-            text-transform: normal;
-            }
-            .outputm3h{
-            color: black;
-            position: absolute;
-            top: 33.3%;
-            left:37%; 
-            font-size: 12px;
-            text-transform: normal;
-            }
-            .labellinem66{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 35%;
-            left: 15%;
-            text-transform: normal;
-            }
-            .outputm3i{
-            color: black;
-            position: absolute;
-            top: 35%;
-            left:20%; 
-            font-size: 12px;
-            text-transform: normal;
-            }
-            .labelm3e{
-            font-size: 10px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 37%;
-            left: 17%; 
-            }
-            .labellinem67{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 37.5%;
-            left: 15%;
-            text-transform: normal;
-            }
-            .outputm3j{
-            color: black;
-            position: absolute;
-            top: 37.5%;
-            left:20%; 
-            font-size: 12px;
-            text-transform: normal;
-            }
-            .labelm3f{
-            font-size: 10px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 39.3%;
-            left: 22%; 
-            }
-            .labellinem68{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 35%;
-            left: 52%;
-            text-transform: normal;
-            }
-            .outputm3k{
-            color: black;
-            position: absolute;
-            top: 35%;
-            left:58%; 
-            font-size: 12px;
-            text-transform: normal;
-            }
-            .labelm3g{
-            font-size: 10px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 37%;
-            left: 57%; 
-            }
-         
-            .labellinem69{
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 37.5%;
-            left: 52%;
-            text-transform: normal;
-            }
-            .outputm3l{
-            color: black;
-            position: absolute;
-            top: 37.5%;
-            left:58%; 
-            font-size: 12px;
-            text-transform: normal;
-            }
-            .labelm3h{
-            font-size: 10px;
-            text-transform: normal;
-            color:  black;
-            position: absolute;
-            top: 39.3%;
-            left: 62%; 
-            }
-            .horizontal_linem21{
-            width: 99.5%; 
-            height: 0.1%; 
-            background-color: rgb(248, 82, 159);
-            position: absolute;
-            top: 41%;
-           .horizontal_linem21{
-            width: 99.5%; 
-            height: 0.1%; 
-            background-color: rgb(248, 82, 159);
-            position: absolute;
-            top: 40.5%;
+                font-size: 11px;
+                text-transform: normal;
+                color:  black;
+                position: absolute;
+                top: 95.5%;
+                left: 0.5%; 
             }
        </style>
     </head>
