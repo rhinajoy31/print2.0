@@ -76,7 +76,7 @@ $html = "
                 color: rgb(248, 82, 159);
                 position: absolute;
                 top: 7%;
-                left: 4%;
+                left: 8%;
             }
             .labelm2{
             font-size: 13px;
@@ -1095,7 +1095,7 @@ $html = "
             .outputm50{
             color: black;
             position: absolute;
-            top: 48%;
+            top: 49%;
             left:12%; 
             font-size: 12px;
             text-transform: normal;
@@ -1111,7 +1111,7 @@ $html = "
             .outputm51{
             color: black;
             position: absolute;
-            top: 48%;
+            top: 49%;
             left:27%; 
             font-size: 12px;
             text-transform: normal;
@@ -1127,7 +1127,7 @@ $html = "
             .outputm52{
             color: black;
             position: absolute;
-            top: 48%;
+            top: 49%;
             left:43%; 
             font-size: 12px;
             text-transform: normal;
@@ -1143,7 +1143,7 @@ $html = "
             .outputm53{
             color: black;
             position: absolute;
-            top: 48%;
+            top: 49%;
             left:57%; 
             font-size: 12px;
             text-transform: normal;
@@ -1159,7 +1159,7 @@ $html = "
             .outputm55{
             color: black;
             position: absolute;
-            top: 48%;
+            top: 49%;
             left:74%; 
             font-size: 12px;
             text-transform: normal;
@@ -1175,7 +1175,7 @@ $html = "
             .outputm56{
             color: black;
             position: absolute;
-            top: 48%;
+            top: 49%;
             left:88%; 
             font-size: 12px;
             text-transform: normal;
@@ -3049,10 +3049,10 @@ $html = "
                     <div class='header_center_bellow'>CERTIFICATE OF MARRIAGE</div>
                     <div class='horizontal_linem1'></div> 
                     <div class='labelm1'>Province</div>
-                        <p class='labellinem1'>___________________________________________________________</p>   
+                        <p class='labellinem1'>_________________________________________________________</p>   
                         <p class='outputm1'>Mendez</p>
                     <div class='labelm2'>City/Municipality</div>
-                        <p class='labellinem2'>_____________________________________________________</p>    
+                        <p class='labellinem2'>__________________________________________________</p>    
                         <p class='outputm2'>Cavite</p>
                     <div class='vertical_linem1'></div>
                     <div class='labelm3'>Registry No.</div>
@@ -3319,6 +3319,7 @@ $html = "
                         <p class='outputm94'>RHINA JOY SALINAS</p>   
                     <div class='horizontal_linem19'></div>  
                     <div class='labelm110'>REMARKS/ANNOTATION(For LCRO/OCRG/Shari'a Circuit Registrar Use Only)</div></p> 
+         
                     </body>
                      </html>";
                     // Load HTML into Dompdf
