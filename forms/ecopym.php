@@ -58,17 +58,17 @@ $html = "
                 letter-spacing: 2px;
             }
             .horizontal_linem1 {
-            width: 99.5%; 
-            height: 0.1%; 
-            background-color:  rgb(248, 82, 159);
-            position: absolute;
-            top: 6%;
+                width: 99.5%; 
+                height: 0.1%; 
+                background-color:  rgb(248, 82, 159);
+                position: absolute;
+                top: 6%;
             }
             .labelm1 {
                 font-size: 13px;
                 text-transform: normal;
                 text-align: left;
-                position: fixed;
+                position: absolute;
                 top: 8%;
                 left: 1%
             }
@@ -82,7 +82,7 @@ $html = "
             font-size: 13px;
             text-transform: normal;
             text-align: left;
-            position: fixed;
+            position: absolute;
             top: 10%;
             left: 1%
             }
