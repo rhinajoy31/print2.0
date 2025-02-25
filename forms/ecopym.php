@@ -221,48 +221,48 @@ $html = "
                 left: 18%;
             }
             .outputm5{
-            color: black;
-            position: absolute;
-            top: 15%;
-            left: 18%;
-            font-size: 12px;
-            text-transform: uppercase;
+                color: black;
+                position: absolute;
+                top: 15%;
+                left: 18%;
+                font-size: 12px;
+                text-transform: uppercase;
             }   
-             .labelm9{
-            font-size: 11px;
-            text-transform: normal;
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 18%;
-            left: 12%; 
+            .labelm9{
+                font-size: 11px;
+                text-transform: normal;
+                color: rgb(248, 82, 159);
+                position: absolute;
+                top: 18%;
+                left: 12%; 
             }
-             .labellinem5 {
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 17%;
-            left: 16%;
+            .labellinem5 {
+                color: rgb(248, 82, 159);
+                position: absolute;
+                top: 17%;
+                left: 16%;
             }
             .outputm6{
-            color: black;
-            position: absolute;
-            top: 17%;
-            left: 17%;
-            font-size: 12px;
-            text-transform: normal;
+                color: black;
+                position: absolute;
+                top: 17%;
+                left: 17%;
+                font-size: 12px;
+                text-transform: uppercase;
             }   
             .labelm10{
-            font-size: 11px;
-            text-transform: normal;
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 14%;
-            left: 58%; 
+                font-size: 11px;
+                text-transform: normal;
+                color: rgb(248, 82, 159);
+                position: absolute;
+                top: 14%;
+                left: 58%; 
             }
-             .labellinem6 {
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 13%;
-            left: 62.5%;
+            .labellinem6 {
+                color: rgb(248, 82, 159);
+                position: absolute;
+                top: 13%;
+                left: 62.5%;
             }
             .outputm7{
             color: black;
@@ -270,7 +270,7 @@ $html = "
             top: 13%;
             left: 63%;
             font-size: 12px;
-            text-transform: normal;
+            text-transform: uppercase;
             } 
              .labelm11{
             font-size: 11px;
