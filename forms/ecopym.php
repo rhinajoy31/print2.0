@@ -79,146 +79,146 @@ $html = "
                 left: 8%;
             }
             .labelm2{
-            font-size: 13px;
-            text-transform: normal;
-            text-align: left;
-            position: absolute;
-            top: 10%;
-            left: 1%
+                font-size: 13px;
+                text-transform: normal;
+                text-align: left;
+                position: absolute;
+                top: 10%;
+                left: 1%
             }
             .labellinem2 {
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 9%;
-            left: 14%;
+                color: rgb(248, 82, 159);
+                position: absolute;
+                top: 9%;
+                left: 14%;
             }
             .outputm1 {
-            font-size: 13px;
-            text-transform: uppercase;
-            position: absolute;
-            top: 7%;
-            left: 10%
+                font-size: 13px;
+                text-transform: uppercase;
+                position: absolute;
+                top: 7%;
+                left: 10%
             }
             .outputm2 {
-            font-size: 13px;
-            text-transform: uppercase;
-            position: absolute;
-            top: 9%;
-            left: 15%
+                font-size: 13px;
+                text-transform: uppercase;
+                position: absolute;
+                top: 9%;
+                left: 15%
             }
             .vertical_linem1 {
-            width: 1px; 
-            height: 70px; 
-            background-color: rgb(248, 82, 159);
-            position: absolute; 
-            left: 63%;
-            top: 6%;
+                width: 1px; 
+                height: 70px; 
+                background-color: rgb(248, 82, 159);
+                position: absolute; 
+                left: 63%;
+                top: 6%;
             }
-             .labelm3 {
-            font-size: 12px;
-            text-transform: normal;
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 7%;
-            left: 64%; 
+            .labelm3 {
+                font-size: 12px;
+                text-transform: normal;
+                color: rgb(248, 82, 159);
+                position: absolute;
+                top: 7%;
+                left: 64%; 
             }
             .outputm3 {
-            font-size: 18px;
-            color: gray;
-            position: absolute;
-            top: 7%;
-            left: 77%; 
+                font-size: 18px;
+                color: gray;
+                position: absolute;
+                top: 7%;
+                left: 77%; 
             }
             .horizontal_linem2 {
-            width: 99.5%; 
-            height: 0.1%; 
-            background-color: rgb(248, 82, 159);
-            position: absolute;
-            top: 11.5%;
+                width: 99.5%; 
+                height: 0.1%; 
+                background-color: rgb(248, 82, 159);
+                position: absolute;
+                top: 11.5%;
             }
             .vertical_linem2 {
-            width: 1.3px; 
-            height: 585px; 
-            background-color: rgb(248, 82, 159);
-            position: absolute; 
-            left: 10%;
-            top: 11.5%;
+                width: 1.3px; 
+                height: 585px; 
+                background-color: rgb(248, 82, 159);
+                position: absolute; 
+                left: 10%;
+                top: 11.5%;
             }   
             .vertical_linem3 {
-            width: 1.3px; 
-            height: 585px; 
-            background-color: rgb(248, 82, 159);
-            position: absolute; 
-            left: 55%;
-            top: 11.5%;
+                width: 1.3px; 
+                height: 585px; 
+                background-color: rgb(248, 82, 159);
+                position: absolute; 
+                left: 55%;
+                top: 11.5%;
             }   
             .labelm4 {
-            font-size: 12px;
-            text-transform: normal;
-            color: black;
-            position: absolute;
-            top: 12%;
-            left: 28%; 
+                font-size: 12px;
+                text-transform: normal;
+                color: black;
+                position: absolute;
+                top: 12%;
+                left: 28%; 
             }
             .labelm5 {
-            font-size: 12px;
-            text-transform: normal;
-            color: black;
-            position: absolute;
-            top: 12%;
-            left: 75%; 
+                font-size: 12px;
+                text-transform: normal;
+                color: black;
+                position: absolute;
+                top: 12%;
+                left: 75%; 
             }
             .horizontal_linem3 {
-            width: 89.3%; 
-            height: 0.1%; 
-            background-color: rgb(248, 82, 159);
-            position: absolute;
-            top: 13%;
-            left: 10.3%; 
+                width: 89.3%; 
+                height: 0.1%; 
+                background-color: rgb(248, 82, 159);
+                position: absolute;
+                top: 13%;
+                left: 10.3%; 
             }
             .labelm6{
-            font-size: 10px;
-            text-transform: normal;
-            color: black;
-            position: absolute;
-            top: 14%;
-            left: 1%; 
+                font-size: 10px;
+                text-transform: normal;
+                color: black;
+                position: absolute;
+                top: 14%;
+                left: 1%; 
             }
             .labelm7{
-            font-size: 11px;
-            text-transform: normal;
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 14%;
-            left: 12%; 
+                font-size: 11px;
+                text-transform: normal;
+                color: rgb(248, 82, 159);
+                position: absolute;
+                top: 14%;
+                left: 12%; 
             }
-             .labellinem3 {
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 13%;
-            left: 16%;
+            .labellinem3 {
+                color: rgb(248, 82, 159);
+                position: absolute;
+                top: 13%;
+                left: 16%;
             }
             .outputm4{
-            color: black;
-            position: absolute;
-            top: 13%;
-            left: 17%;
-            font-size: 12px;
-            text-transform: normal;
+                color: black;
+                position: absolute;
+                top: 13%;
+                left: 17%;
+                font-size: 12px;
+                text-transform: uppercase;
             }  
             .labelm8{
-            font-size: 11px;
-            text-transform: normal;
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 16%;
-            left: 12%; 
+                font-size: 11px;
+                text-transform: normal;
+                color: rgb(248, 82, 159);
+                position: absolute;
+                top: 16%;
+                left: 12%; 
             }
-             .labellinem4 {
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 14.8%;
-            left: 18%;
+            .labellinem4 {
+                color: rgb(248, 82, 159);
+                position: absolute;
+                top: 14.8%;
+                left: 18%;
             }
             .outputm5{
             color: black;
@@ -226,7 +226,7 @@ $html = "
             top: 15%;
             left: 18%;
             font-size: 12px;
-            text-transform: normal;
+            text-transform: uppercase;
             }   
              .labelm9{
             font-size: 11px;
