@@ -2423,7 +2423,7 @@ $html = "
                     <div class='labelm110'>REMARKS/ANNOTATION(For LCRO/OCRG/Shari'a Circuit Registrar Use Only)</div></p> 
          
                     </body>
-                     </html>";
+                    </html>";
                     // Load HTML into Dompdf
                     $dompdf->loadHtml($html);
                     
