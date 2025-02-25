@@ -2407,9 +2407,7 @@ $html = "
                         <p class='labellinem33'>________________________________________________</p>   
                         <p class='outputm91'>RHINA JOY SALINAS</p>
                     <div class='vertical_linem8'></div>
-                    <div class='labelm105'>22.REGISTERED AT THE OFFICE OF THE CIVIL REGISTRAR</div></p> 
-
-                    
+                    <div class='labelm105'>22.REGISTERED AT THE OFFICE OF THE CIVIL REGISTRAR</div></p>
                     <div class='labelm106'>Signature</div></p> 
                         <p class='labellinem34'>__________________________________________</p>   
                     <div class='labelm107'>Name in Print</div></p> 
