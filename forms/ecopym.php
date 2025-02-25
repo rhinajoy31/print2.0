@@ -272,73 +272,72 @@ $html = "
             font-size: 12px;
             text-transform: uppercase;
             } 
-             .labelm11{
-            font-size: 11px;
-            text-transform: normal;
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 16%;
-            left: 58%; 
+            .labelm11{
+                font-size: 11px;
+                text-transform: normal;
+                color: rgb(248, 82, 159);
+                position: absolute;
+                top: 16%;
+                left: 58%; 
             }
             .labellinem7 {
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 14.8%;
-            left: 64%;
+                color: rgb(248, 82, 159);
+                position: absolute;
+                top: 14.8%;
+                left: 64%;
             }
             .outputm8{
-            color: black;
-            position: absolute;
-            top: 15%;
-            left: 65%;
-            font-size: 12px;
-            text-transform: normal;
+                color: black;
+                position: absolute;
+                top: 15%;
+                left: 65%;
+                font-size: 12px;
+                text-transform: uppercase;
             }   
             .labelm12{
-            font-size: 11px;
-            text-transform: normal;
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 18%;
-            left: 58%; 
+                font-size: 11px;
+                text-transform: normal;
+                color: rgb(248, 82, 159);
+                position: absolute;
+                top: 18%;
+                left: 58%; 
             }
-             .labellinem8 {
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 17%;
-            left: 61.5%;
+            .labellinem8 {
+                color: rgb(248, 82, 159);
+                position: absolute;
+                top: 17%;
+                left: 61.5%;
             }
             .outputm9{
-            color: black;
-            position: absolute;
-            top: 17%;
-            left: 62.5%;
-            font-size: 12px;
-            text-transform: normal;
+                color: black;
+                position: absolute;
+                top: 17%;
+                left: 62.5%;
+                font-size: 12px;
+                text-transform: uppercase;
             } 
             .horizontal_linem4 {
-            width: 99.5%; 
-            height: 0.1%; 
-            background-color: rgb(248, 82, 159);
-            position: absolute;
-            top: 19.5%;
-            left: 0%; 
+                width: 99.5%; 
+                height: 0.1%; 
+                background-color: rgb(248, 82, 159);
+                position: absolute;
+                top: 19.5%;
             }
-             .labelm13{
-            font-size: 10px;
-            text-transform: normal;
-            color: black;
-            position: absolute;
-            top: 21%;
-            left: 0.5%; 
+            .labelm13{
+                font-size: 10px;
+                text-transform: normal;
+                color: black;
+                position: absolute;
+                top: 21%;
+                left: 0.5%; 
             }
-             .labelm14{
-            font-size: 11px;
-            text-transform: normal;
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 20%;
-            left: 12%; 
+            .labelm14{
+                font-size: 11px;
+                text-transform: normal;
+                color: rgb(248, 82, 159);
+                position: absolute;
+                top: 20%;
+                left: 12%; 
             }
             .outputm10{
             color: black;
@@ -346,159 +345,159 @@ $html = "
             top: 20%;
             left: 12.5%; 
             font-size: 12px;
-            text-transform: normal;
+            text-transform: uppercase;
             }   
             .labelm15{
-            font-size: 11px;
-            text-transform: normal;
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 20%;
-            left: 22%; 
+                font-size: 11px;
+                text-transform: normal;
+                color: rgb(248, 82, 159);
+                position: absolute;
+                top: 20%;
+                left: 22%; 
             }
             .outputm11{
-            color: black;
-            position: absolute;
-            top: 20%;
-            left:21%; 
-            font-size: 12px;
-            text-transform: normal;
+                color: black;
+                position: absolute;
+                top: 20%;
+                left:21%; 
+                font-size: 12px;
+                text-transform: uppercase;
             } 
-             .labelm16{
-            font-size: 11px;
-            text-transform: normal;
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 20%;
-            left: 34%; 
+            .labelm16{
+                font-size: 11px;
+                text-transform: normal;
+                color: rgb(248, 82, 159);
+                position: absolute;
+                top: 20%;
+                left: 34%; 
             }
             .outputm12{
-            color: black;
-            position: absolute;
-            top: 20%;
-            left:34%; 
-            font-size: 12px;
-            text-transform: normal;
+                color: black;
+                position: absolute;
+                top: 20%;
+                left:34%; 
+                font-size: 12px;
+                text-transform: uppercase;
             } 
             .vertical_linem4 {
-            width: 1px; 
-            height: 43px; 
-            background-color: rgb(248, 82, 159);
-            position: absolute; 
-            left: 43%;
-            top: 19.5%;
+                width: 1px; 
+                height: 43px; 
+                background-color: rgb(248, 82, 159);
+                position: absolute; 
+                left: 43%;
+                top: 19.5%;
             }
             .labelm17{
-            font-size: 11px;
-            text-transform: normal;
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 20%;
-            left: 47%; 
+                font-size: 11px;
+                text-transform: normal;
+                color: rgb(248, 82, 159);
+                position: absolute;
+                top: 20%;
+                eft: 47%; 
             }
             .outputm13{
-            color: black;
-            position: absolute;
-            top: 20%;
-            left:47.5%; 
-            font-size: 12px;
-            text-transform: normal;
+                color: black;
+                position: absolute;
+                top: 20%;
+                left:47.5%; 
+                font-size: 12px;
+                text-transform: uppercase;
             } 
             .horizontal_linem5 {
-            width: 99.5%; 
-            height: 0.1%; 
-            background-color: rgb(248, 82, 159);
-            position: absolute;
-            top: 23%;
-            left: 0%; 
+                width: 99.5%; 
+                height: 0.1%; 
+                background-color: rgb(248, 82, 159);
+                position: absolute;
+                top: 23%;
+                left: 0%; 
             }
             .labelm18{
-            font-size: 11px;
-            text-transform: normal;
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 20%;
-            left: 57%; 
+                font-size: 11px;
+                text-transform: normal;
+                color: rgb(248, 82, 159);
+                position: absolute;
+                top: 20%;
+                left: 57%; 
             }
             .outputm14{
-            color: black;
-            position: absolute;
-            top: 20%;
-            left: 58%; 
-            font-size: 12px;
-            text-transform: normal;
+                color: black;
+                position: absolute;
+                top: 20%;
+                left: 58%; 
+                font-size: 12px;
+                text-transform: uppercase;
             } 
             .labelm19{
-            font-size: 11px;
-            text-transform: normal;
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 20%;
-            left:67%; 
+                font-size: 11px;
+                text-transform: normal;
+                color: rgb(248, 82, 159);
+                position: absolute;
+                top: 20%;
+                left:67%; 
             }
             .outputm15{
-            color: black;
-            position: absolute;
-            top: 20%;
-            left:66%; 
-            font-size: 12px;
-            text-transform: normal;
+                color: black;
+                position: absolute;
+                top: 20%;
+                left:66%; 
+                font-size: 12px;
+                text-transform: uppercase;
             } 
             .labelm20{
-            font-size: 11px;
-            text-transform: normal;
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 20%;
-            left:78%; 
+                font-size: 11px;
+                text-transform: normal;
+                color: rgb(248, 82, 159);
+                position: absolute;
+                top: 20%;
+                left:78%; 
             }
             .outputm16{
-            color: black;
-            position: absolute;
-            top: 20%;
-            left:78.5%; 
-            font-size: 12px;
-            text-transform: normal;
+                color: black;
+                position: absolute;
+                top: 20%;
+                left:78.5%; 
+                font-size: 12px;
+                text-transform: uppercase;
             }
             .vertical_linem5 {
-            width: 1px; 
-            height: 43px; 
-            background-color: rgb(248, 82, 159);
-            position: absolute; 
-            left: 88%;
-            top: 19.5%;
+                width: 1px; 
+                height: 43px; 
+                background-color: rgb(248, 82, 159);
+                position: absolute; 
+                left: 88%;
+                top: 19.5%;
             }
             .labelm21{
-            font-size: 11px;
-            text-transform: normal;
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 20%;
-            left:92%; 
+                font-size: 11px;
+                text-transform: normal;
+                color: rgb(248, 82, 159);
+                position: absolute;
+                top: 20%;
+                left:92%; 
             }
             .outputm17{
-            color: black;
-            position: absolute;
-            top: 20%;
-            left:93%; 
-            font-size: 12px;
-            text-transform: normal;
+                color: black;
+                position: absolute;
+                top: 20%;
+                left:93%; 
+                font-size: 12px;
+                text-transform: uppercase;
             }
             .labelm22{
-            font-size: 10px;
-            text-transform: normal;
-            color: black;
-            position: absolute;
-            top: 24%;
-            left: 0.5%; 
+                font-size: 10px;
+                text-transform: normal;
+                color: black;
+                position: absolute;
+                top: 24%;
+                left: 0.5%; 
             }
             .labelm23{
-            font-size: 11px;
-            text-transform: normal;
-            color: rgb(248, 82, 159);
-            position: absolute;
-            top: 23%;
-            left: 12%; 
+                font-size: 11px;
+                text-transform: normal;
+                color: rgb(248, 82, 159);
+                position: absolute;
+                top: 23%;
+                left: 12%; 
             }
             .outputm18{
             color: black;
