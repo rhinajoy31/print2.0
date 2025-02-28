@@ -174,6 +174,51 @@ $html = "
                 top: 12%;
                 left: 35%; 
             }
+            .labeld7 {
+                font-size: 12px;
+                text-transform: normal;
+                color: darkblue;
+                position: absolute;
+                top:11%;
+                left: 60%; 
+            }
+            .outputd7 {
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 12%;
+                left:58%; 
+            }
+            .vertical_lined2 {
+                width: 1px; 
+                height: 56px; 
+                background-color: darkblue;
+                position: absolute; 
+                left: 73%;
+                top: 10.5%;
+            }
+            .labeld8 {
+                font-size: 12px;
+                text-transform: normal;
+                color: black;
+                position: absolute;
+                top:11%;
+                left: 73.5%; 
+            }
+            .outputd8 {
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 12%;
+                left:80%; 
+            }
+            .horizontal_linem2 {
+                width: 99.5%; 
+                height: 0.1%; 
+                background-color: darkblue;
+                position: absolute;
+                top: 15%;
+            }
     </style>
     </head>
         <body>
@@ -199,7 +244,12 @@ $html = "
                         <p class='outputd4'>JOHN MARK</p></div>
                     <div class='labeld6'>(Middle)</div>
                         <p class='outputd5'>DELA CRUZ</p></div>
-                    
+                    <div class='labeld7'>(Last)</div>
+                        <p class='outputd7'>DELA CRUZ</p></div>
+                    <div class='vertical_lined2'></div>
+                    <div class='labeld8'>2.SEX(Male/Female)</div>
+                        <p class='outputd8'>Male</p></div>
+                    <div class='horizontal_linem2'></div> 
 
                   </body>
                     </html>";
