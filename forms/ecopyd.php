@@ -638,6 +638,153 @@ $html = "
                 position: absolute;
                 top: 30%;
             }
+            .labeld31{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:30%;
+                left: 40%; 
+            }
+            .labeld32{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:31%;
+                left: 26%; 
+            }
+            .horizontal_linem9{
+                width: 99.5%; 
+                height: 0.1%; 
+                background-color: darkblue;
+                position: absolute;
+                top: 32.5%;
+            }
+            .labeld33{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:33%;
+                left: 1%; 
+            }
+            .labeld34{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:33%;
+                left: 73%; 
+            }
+            .labeld35{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:34%;
+                left: 3%; 
+            }
+            .labellined3{
+                color: black;
+                position: absolute;
+                top: 33%;
+                left:17%;
+            }
+            .outputd24 {
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 33%;
+                left:20%; 
+                text-transform: uppercase;
+            }
+            .labeld36{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:35.5%;
+                left: 4%; 
+            }
+            .labellined4{
+                color: black;
+                position: absolute;
+                top: 34.5%;
+                left:17%;
+            }
+            .outputd25 {
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 34.5%;
+                left:20%; 
+                text-transform: uppercase;
+            }
+            .labeld37{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:36.9%;
+                left: 4%; 
+            }
+            .labellined5{
+                color: black;
+                position: absolute;
+                top: 35.9%;
+                left:17%;
+            }
+            .outputd26 {
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 35.9%;
+                left:20%; 
+                text-transform: uppercase;
+            }
+            .labellined6{
+                color: black;
+                position: absolute;
+                top: 33%;
+                left:73%;
+            }
+            .outputd27 {
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 33%;
+                left:74%; 
+                text-transform: uppercase;
+            }
+            .labellined7{
+                color: black;
+                position: absolute;
+                top: 34.5%;
+                left:73%;
+            }
+            .outputd28 {
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 34.5%;
+                left:74%; 
+                text-transform: uppercase;
+            }
+            .labellined8{
+                color: black;
+                position: absolute;
+                top: 35.9%;
+                left:73%;
+            }
+            .outputd29 {
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 35.9%;
+                left:74%; 
+                text-transform: uppercase;
+            }
     </style>
     </head>
         <body>
@@ -722,8 +869,29 @@ $html = "
                         <p class='outputd23'>JUAN m DELA CRUZ</p></div>
                     <div class='vertical_lined12'></div>
                     <div class='vertical_lined13'></div>
-                       <div class='horizontal_linem8'></div> 
-                        </body>
+                    <div class='horizontal_linem8'></div> 
+                    <div class='labeld31'>MEDICAL CERTIFICATE</div>  
+                    <div class='labeld32'>(For ages 0 to 7 days, accomplish items 14-19a at the back)</div>  
+                    <div class='horizontal_linem9'></div>  
+                    <div class='labeld33'>19b. CAUSES OF DEATH(if deceased is aged days over)</div>    
+                    <div class='labeld34'>Interval Between Onset and Death</div>    
+                    <div class='labeld35'>I. Immediate cause</div>  
+                        <p class='labellined3'> :a__________________________________________________________</p>   
+                        <p class='outputd24'>JUAN m DELA CRUZ</p></div>
+                    <div class='labeld36'>Antecedent cause</div>  
+                        <p class='labellined4'>:b__________________________________________________________</p>   
+                        <p class='outputd25'>JUAN m DELA CRUZ</p></div>
+                    <div class='labeld37'>Underlying cause</div>  
+                        <p class='labellined5'>:c__________________________________________________________</p>   
+                        <p class='outputd26'>JUAN m DELA CRUZ</p></div>
+                        <p class='labellined6'>____________________________</p> 
+                        <p class='outputd27'>JUAN m DELA CRUZ</p></div>  
+                        <p class='labellined7'>____________________________</p> 
+                        <p class='outputd28'>JUAN m DELA CRUZ</p></div>  
+                        <p class='labellined8'>____________________________</p> 
+                        <p class='outputd29'>JUAN m DELA CRUZ</p></div>  
+                    
+                    </body>
                     </html>";
                     // Load HTML into Dompdf
                     $dompdf->loadHtml($html);
