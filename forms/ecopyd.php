@@ -1302,6 +1302,173 @@ $html = "
                 top:55.3%;
                 left: 62%; 
             }
+            .labeld63{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:57%;
+                left: 2%; 
+            }
+            .labellined25{
+                color: black;
+                position: absolute;
+                top: 56%;
+                left:10%;
+            }
+            .labeld64{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:58%;
+                left: 2%; 
+            }
+            .labellined26{
+                color: black;
+                position: absolute;
+                top: 57%;
+                left:12%;
+            }
+            .outputd49{
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 57%;
+                left:13%; 
+                text-transform: uppercase;
+            }
+            .labeld65{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:59%;
+                left: 2%; 
+            }
+            .labellined27{
+                color: black;
+                position: absolute;
+                top: 58%;
+                left:13%;
+            }
+            .outputd50{
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 58%;
+                left:14%; 
+                text-transform: uppercase;
+            }
+            .labeld66{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:60%;
+                left: 2%; 
+            }
+            .labellined28{
+                color: black;
+                position: absolute;
+                top: 59%;
+                left:8%;
+            }
+            .outputd51{
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 59%;
+                left:9%; 
+                text-transform: uppercase;
+            }
+            .labellined27a{
+                color: black;
+                position: absolute;
+                top: 60%;
+                left:2%;
+            }
+            .labeld66a{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:61.2%;
+                left: 30%; 
+            }
+            .outputd66b{
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 60%;
+                left:4%; 
+                text-transform: uppercase;
+            }
+            .labellined27b{
+                color: black;
+                position: absolute;
+                top: 60%;
+                left:34%;
+            }
+            .outputd66c{
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 60%;
+                left:35%; 
+                text-transform: uppercase;
+            }
+            .labeld67{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:57%;
+                left: 65%; 
+            }
+            .labellined29{
+                color: black;
+                position: absolute;
+                top: 57%;
+                left:65%;
+            }
+            .labeld68{
+                font-size: 11px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:59%;
+                left: 66%; 
+            }
+            .labellined30{
+                color: black;
+                position: absolute;
+                top: 59%;
+                left:65%;
+            }
+            .labeld69{
+                font-size: 11px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:61%;
+                left: 80%; 
+            }
+            .outputd52{
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 59%;
+                left:67%; 
+                text-transform: uppercase;
+            }
+            .horizontal_lined15{
+                width: 99.5%; 
+                height: 0.1%; 
+                background-color: darkblue;
+                position: absolute;
+                top: 62.5%;
+            }
     </style>
     </head>
         <body>
@@ -1475,8 +1642,30 @@ $html = "
                         <p class='labellined24'>____________</p> 
                         <p class='outputd48'>X</p></div>
                     <div class='labeld62'>am/pm on the date of death specified above.</div> 
-
-                       
+                    <div class='labeld63'>Signature</div> 
+                       <p class='labellined25'>_________________________________________________________</p> 
+                    <div class='labeld64'>Name in Print</div> 
+                        <p class='labellined26'>_______________________________________________________</p> 
+                        <p class='outputd49'>Xeheheeheh</p></div>
+                    <div class='labeld65'>Title or Position</div> 
+                        <p class='labellined27'>______________________________________________________</p> 
+                        <p class='outputd50'>Xeheheeheh</p></div>
+                    <div class='labeld66'>Address</div> 
+                        <p class='labellined27a'>______________________________</p> 
+                        <div class='labeld66a'>Date</div> 
+                        <p class='outputd66b'>Xeheheeheh</p></div>
+                        <p class='labellined27b'>______________________________</p> 
+                        <p class='outputd66c'>Xeheheeheh</p></div>
+                        <p class='labellined28'>___________________________________________________________</p> 
+                        <p class='outputd51'>Xeheheeheh</p></div>
+                    <div class='labeld67'>REVIEWED BY:</div> 
+                        <p class='labellined29'>___________________________________</p> 
+                    <div class='labeld68'>Signature Over Printed Name of Health Officer</div> 
+                        <p class='labellined30'>___________________________________</p> 
+                    <div class='labeld69'>Date</div> 
+                        <p class='outputd52'>Xeheheeheh</p></div>
+                          <div class='horizontal_lined15'></div> 
+                        
                     
                     
                     </body>
