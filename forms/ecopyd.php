@@ -1872,6 +1872,144 @@ $html = "
                 top:80%;
                 left: 1%; 
             }
+            .labeld90{
+                font-size: 11px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:82%;
+                left: 2%; 
+            }
+            .labellined43{
+                color: black;
+                position: absolute;
+                top: 80.9%;
+                left:8%;
+            }
+            .labeld91{
+                font-size: 11px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:84%;
+                left: 2%; 
+            }
+            .labellined44{
+                color: black;
+                position: absolute;
+                top: 82.9%;
+                left:11%;
+            }
+            .outputd66{
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 82.9%;
+                left:12%; 
+                text-transform: uppercase;
+            }
+            .labeld92{
+                font-size: 11px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:86%;
+                left: 2%; 
+            }
+            .labellined45{
+                color: black;
+                position: absolute;
+                top: 84.9%;
+                left:13%;
+            }
+            .outputd67{
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 84.9%;
+                left:14%; 
+                text-transform: uppercase;
+            }
+            .labeld93{
+                font-size: 11px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:88%;
+                left: 2%; 
+            }
+            .labellined46{
+                color: black;
+                position: absolute;
+                top: 86.9%;
+                left:5%;
+            }
+            .outputd68{
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 86.9%;
+                left:6%; 
+                text-transform: uppercase;
+            }
+            .labeld94{
+                font-size: 11px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:80%;
+                left: 51%; 
+            }
+                  .labellined43{
+                color: black;
+                position: absolute;
+                top: 80.9%;
+                left:8%;
+            }
+            .labeld91{
+                font-size: 11px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:84%;
+                left: 2%; 
+            }
+            .labeld95{
+                font-size: 11px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:82%;
+                left: 52%; 
+            }
+            .labellined47{
+                color: black;
+                position: absolute;
+                top: 80.9%;
+                left:58%;
+            }
+            .labeld96{
+                font-size: 11px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:84%;
+                left: 52%; 
+            }
+            .labellined48{
+                color: black;
+                position: absolute;
+                top: 82.9%;
+                left:61%;
+            }
+            .outputd69{
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 82.9%;
+                left:62%; 
+                text-transform: uppercase;
+            }
     </style>
     </head>
         <body>
@@ -2122,6 +2260,23 @@ $html = "
                         <p class='outputd65'>Xeheheeheh</p></div>
                     <div class='horizontal_lined18'></div> 
                     <div class='labeld89'>28.RECEIVED BY</div> 
+                    <div class='labeld90'>Signature</div> 
+                        <p class='labellined43'>____________________________________________</p> 
+                    <div class='labeld91'>Name in Print</div> 
+                        <p class='labellined44'>_________________________________________</p> 
+                        <p class='outputd66'>Xeheheeheh</p></div>
+                    <div class='labeld92'>Title or Position</div> 
+                        <p class='labellined45'>_______________________________________</p> 
+                        <p class='outputd67'>Xeheheeheh</p></div>
+                    <div class='labeld93'>Date</div> 
+                        <p class='labellined46'>_______________________________________</p> 
+                        <p class='outputd68'>Xeheheeheh</p></div>
+                    <div class='labeld94'>29.REGISTERED AT THE OFFICE OF THE CIVIL REGISTRAR</div> 
+                    <div class='labeld95'>Signature</div>
+                        <p class='labellined47'>____________________________________________</p> 
+                    <div class='labeld96'>Name in Print</div>
+                       <p class='labellined48'>_________________________________________</p> 
+                       <p class='outputd69'>Xeheheeheh</p></div>
                      
                         </body>
                     </html>";
