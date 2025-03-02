@@ -654,7 +654,7 @@ $html = "
                 top:31%;
                 left: 26%; 
             }
-            .horizontal_linem9{
+            .horizontal_lined11{
                 width: 99.5%; 
                 height: 0.1%; 
                 background-color: darkblue;
@@ -666,7 +666,7 @@ $html = "
                 text-transform: normal;
                 color:black;
                 position: absolute;
-                top:32%;
+                top:33%;
                 left: 1%; 
             }
             .labeld34{
@@ -808,7 +808,7 @@ $html = "
                 left:42%; 
                 text-transform: uppercase;
             }
-            .horizontal_linem9{
+            .horizontal_linem10{
                 width: 99.5%; 
                 height: 0.1%; 
                 background-color: darkblue;
@@ -895,6 +895,109 @@ $html = "
                 position: absolute;
                 top: 41%;
                 left:38%; 
+                text-transform: uppercase;
+            }
+            .labellined13{
+                color: black;
+                position: absolute;
+                top: 41%;
+                left:62%;
+            }
+            .labeld43{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:42%;
+                left: 68%; 
+            }
+            .outputd34 {
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 41%;
+                left:63%; 
+                text-transform: uppercase;
+            }
+            .labellined14{
+                color: black;
+                position: absolute;
+                top: 41%;
+                left:86%;
+            }
+            .labeld44{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:42%;
+                left: 91.5%; 
+            }
+            .outputd35 {
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 41%;
+                left:87%; 
+                text-transform: uppercase;
+            }
+            .horizontal_lined12{
+                width: 99.5%; 
+                height: 0.1%; 
+                background-color: darkblue;
+                position: absolute;
+                top: 44.5%;
+            }
+            .labeld45{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:45%;
+                left: 1%; 
+            }
+            .labeld46{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:46%;
+                left: 3%; 
+            }
+            .labellined15{
+                color: black;
+                position: absolute;
+                top: 45%;
+                left:56%;
+            }
+            .outputd36 {
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 45%;
+                left:57%; 
+                text-transform: uppercase;
+            }
+            .labeld47{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:47%;
+                left: 3%; 
+            }
+            .labellined16{
+                color: black;
+                position: absolute;
+                top: 46%;
+                left:61%;
+            }
+            .outputd37 {
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 46%;
+                left:62%; 
                 text-transform: uppercase;
             }
     </style>
@@ -984,7 +1087,7 @@ $html = "
                     <div class='horizontal_linem8'></div> 
                     <div class='labeld31'>MEDICAL CERTIFICATE</div>  
                     <div class='labeld32'>(For ages 0 to 7 days, accomplish items 14-19a at the back)</div>  
-                    <div class='horizontal_linem9'></div>  
+                    <div class='horizontal_lined11'></div>  
                     <div class='labeld33'>19b. CAUSES OF DEATH(if deceased is aged days over)</div>    
                     <div class='labeld34'>Interval Between Onset and Death</div>    
                     <div class='labeld35'>I. Immediate cause</div>  
@@ -1005,7 +1108,7 @@ $html = "
                     <div class='labeld38'>II. Other significant conditions contributing to death:</div> 
                         <p class='labellined9'>_______________________________________________________________</p> 
                         <p class='outputd30'>JUAN m DELA CRUZ</p></div>
-                    <div class='horizontal_linem9'></div> 
+                    <div class='horizontal_linem10'></div> 
                     <div class='labeld39'>19c. MATERNAL CONDITION(if the deceased is female aged 15-48 years old)</div> 
                         <p class='labellined10'>______</p> 
                     <div class='labeld40'>a. pregnant.<br>not in labour</div> 
@@ -1016,8 +1119,22 @@ $html = "
                         <p class='labellined12'>______</p> 
                     <div class='labeld42'>c.less than 42 days after<br>delivery</div> 
                         <p class='outputd33'>X</p></div>
-                    
-                    </body>
+                        <p class='labellined13'>______</p> 
+                    <div class='labeld43'>d.42 days to 1 year after<br>delivery</div> 
+                        <p class='outputd34'>X</p></div>
+                        <p class='labellined14'>______</p> 
+                    <div class='labeld44'>e.None of<br> thechoices</div> 
+                        <p class='outputd35'>X</p></div>
+                    <div class='horizontal_lined12'></div> 
+                    <div class='labeld45'>19d.DEATH BY EXTERNAL CAUSES</div> 
+                    <div class='labeld46'>a. Manner od death(Homicide,Suicide,Accident, Legal intervention, etc.)</div> 
+                        <p class='labellined15'>______________________________</p> 
+                        <p class='outputd36'>JUAN DELA cruz</p></div>
+                    <div class='labeld47'>b.Place of Occurence of Extenal Cause(e.g home,farm,factory,street, sea, ect.)</div>   
+                        <p class='labellined16'>_________________________</p> 
+                        <p class='outputd37'>JUAN DELA cruz</p></div>
+                        
+                        </body>
                     </html>";
                     // Load HTML into Dompdf
                     $dompdf->loadHtml($html);
