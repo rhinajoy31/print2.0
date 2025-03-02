@@ -219,6 +219,425 @@ $html = "
                 position: absolute;
                 top: 15%;
             }
+            .labeld9 {
+                font-size: 12px;
+                text-transform: normal;
+                color: black;
+                position: absolute;
+                top:15%;
+                left: 1%; 
+            }
+            .outputd9 {
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 15.5%;
+                left:10%; 
+            }
+            .vertical_lined3 {
+                width: 1px; 
+                height: 56px; 
+                background-color: darkblue;
+                position: absolute; 
+                left: 30%;
+                top: 15%;
+            }
+            .labeld10 {
+                font-size: 12px;
+                text-transform: normal;
+                color: black;
+                position: absolute;
+                top:15%;
+                left: 31%; 
+            }
+            .outputd10 {
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 15.5%;
+                left:40%; 
+            }
+            .vertical_lined4 {
+                width: 1px; 
+                height: 56px; 
+                background-color: darkblue;
+                position: absolute; 
+                left: 60%;
+                top: 15%;
+            }
+            .labeld11 {
+                font-size: 9px;
+                text-transform: normal;
+                color: black;
+                position: absolute;
+                top:15%;
+                left: 60.5%; 
+            }
+            .horizontal_linem3 {
+                width: 39.5%; 
+                height: 0.1%; 
+                background-color: darkblue;
+                position: absolute;
+                top: 16%;
+                left: 60.2%; 
+            }
+            .labeld12 {
+                font-size: 8.5px;
+                text-transform: normal;
+                color: black;
+                position: absolute;
+                top:16.2%;
+                left: 60.5%; 
+            }
+            .labeld13{
+                font-size: 8.5px;
+                text-transform: normal;
+                color: black;
+                position: absolute;
+                top:16.1%;
+                left: 74.5%; 
+            }
+            .labeld14{
+                font-size: 8.5px;
+                text-transform: normal;
+                color: black;
+                position: absolute;
+                top:16.1%;
+                left: 86.5%; 
+            }
+            .labeld15{
+                font-size: 8.5px;
+                text-transform: normal;
+                color: darkblue;
+                position: absolute;
+                top:17%;
+                left: 62%; 
+            }
+            .labeld16{
+                font-size: 8.5px;
+                text-transform: normal;
+                color: darkblue;
+                position: absolute;
+                top:17%;
+                left: 74.5%; 
+            }
+            .labeld17{
+                font-size: 8.5px;
+                text-transform: normal;
+                color: darkblue;
+                position: absolute;
+                top:17%;
+                left: 81.5%; 
+            }
+            .labeld18{
+                font-size: 8.5px;
+                text-transform: normal;
+                color: darkblue;
+                position: absolute;
+                top:17%;
+                left: 88%; 
+            }
+            .labeld19{
+                font-size: 8.5px;
+                text-transform: normal;
+                color: darkblue;
+                position: absolute;
+                top:17%;
+                left: 94%; 
+            }
+            .outputd11 {
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 17%;
+                left:67%; 
+            }
+            .outputd12 {
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 17%;
+                left:76%; 
+            }
+            .outputd13 {
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 17%;
+                left:82.5%; 
+            }
+            .outputd14 {
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 17%;
+                left:88.5%; 
+            }
+            .outputd15 {
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 17%;
+                left:95%; 
+            }
+            .vertical_lined5 {
+                width: 1px; 
+                height: 45px; 
+                background-color: darkblue;
+                position: absolute; 
+                left: 74%;
+                top: 16%;
+            }
+            .vertical_lined6 {
+                width: 1px; 
+                height: 45px; 
+                background-color: darkblue;
+                position: absolute; 
+                left: 86%;
+                top: 16%;
+            } 
+            .vertical_lined7 {
+                width: 1px; 
+                height: 33px; 
+                background-color: darkblue;
+                position: absolute; 
+                left: 80%;
+                top: 17%;
+            } 
+            .vertical_lined8 {
+                width: 1px; 
+                height: 33px; 
+                background-color: darkblue;
+                position: absolute; 
+                left: 93%;
+                top: 17%;
+            } 
+            .horizontal_linem4{
+                width: 39.5%; 
+                height: 0.1%; 
+                background-color: darkblue;
+                position: absolute;
+                top: 17%;
+                left: 60.2%; 
+            }
+            .horizontal_linem5{
+                width: 99.5%; 
+                height: 0.1%; 
+                background-color: darkblue;
+                position: absolute;
+                top: 19.5%;
+            }
+            .labeld20{
+                font-size: 12px;
+                text-transform: normal;
+                color: black;
+                position: absolute;
+                top:20%;
+                left: 1%; 
+            }
+            .labeld21{
+                font-size: 9px;
+                text-transform: normal;
+                color: darkblue;
+                position: absolute;
+                top:20%;
+                left: 17%; 
+            }
+            .outputd16 {
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 20.5%;
+                left:10%; 
+            }
+            .labeld22{
+                font-size: 12px;
+                text-transform: normal;
+                color: black;
+                position: absolute;
+                top:20%;
+                left: 70%; 
+            }
+            .labeld23{
+                font-size: 9px;
+                text-transform: normal;
+                color: darkblue;
+                position: absolute;
+                top:20%;
+                left: 83%; 
+            }
+            .vertical_lined9 {
+                width: 1px; 
+                height: 45px; 
+                background-color: darkblue;
+                position: absolute; 
+                left: 68%;
+                top: 19.5%;
+            } 
+            .outputd17 {
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 20.5%;
+                left:73%; 
+            }
+            .horizontal_linem6{
+                width: 99.5%; 
+                height: 0.1%; 
+                background-color: darkblue;
+                position: absolute;
+                top: 22.9%;
+            }
+            .labeld24{
+                font-size: 12px;
+                text-transform: normal;
+                color: black;
+                position: absolute;
+                top:23%;
+                left: 1%; 
+            }
+            .labeld25{
+                font-size: 12px;
+                text-transform: normal;
+                color: black;
+                position: absolute;
+                top:23%;
+                left: 30%; 
+            }
+            .labeld26{
+                font-size: 12px;
+                text-transform: normal;
+                color: black;
+                position: absolute;
+                top:23%;
+                left: 50%; 
+            }
+            .labeld27{
+                font-size: 9px;
+                text-transform: normal;
+                color:darkblue;
+                position: absolute;
+                top:23%;
+                left: 63%; 
+            }
+            .vertical_lined10 {
+                width: 1px; 
+                height: 45px; 
+                background-color: darkblue;
+                position: absolute; 
+                left: 28%;
+                top: 23%;
+            } 
+            .vertical_lined11 {
+                width: 1px; 
+                height: 45px; 
+                background-color: darkblue;
+                position: absolute; 
+                left: 49%;
+                top: 23%;
+            } 
+            .outputd18 {
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 23.5%;
+                left:2%; 
+                text-transform: uppercase;
+            }
+            .outputd19 {
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 23.5%;
+                left:30%; 
+                text-transform: uppercase;
+            }
+            .outputd20 {
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 23.5%;
+                left:52%; 
+                text-transform: uppercase;
+            }
+            .horizontal_linem7{
+                width: 99.5%; 
+                height: 0.1%; 
+                background-color: darkblue;
+                position: absolute;
+                top: 26.5%;
+            }
+            .labeld28{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:27%;
+                left: 1%; 
+            }
+            .labeld29{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:27%;
+                left: 28%; 
+            }
+            .labeld30{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:27%;
+                left: 60%; 
+            }
+            .vertical_lined12 {
+                width: 1px; 
+                height: 45px; 
+                background-color: darkblue;
+                position: absolute; 
+                left: 28%;
+                top: 26.5%;
+            }
+            .vertical_lined13 {
+                width: 1px; 
+                height: 45px; 
+                background-color: darkblue;
+                position: absolute; 
+                left: 59.5%;
+                top: 26.5%;
+            }
+            .outputd21 {
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 27.5%;
+                left:2%; 
+                text-transform: uppercase;
+            }
+            .outputd22 {
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 27.5%;
+                left:29%; 
+                text-transform: uppercase;
+            }
+            .outputd23 {
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 27.5%;
+                left:61%; 
+                text-transform: uppercase;
+            }
+            .horizontal_linem8{
+                width: 99.5%; 
+                height: 0.1%; 
+                background-color: darkblue;
+                position: absolute;
+                top: 30%;
+            }
     </style>
     </head>
         <body>
@@ -250,8 +669,61 @@ $html = "
                     <div class='labeld8'>2.SEX(Male/Female)</div>
                         <p class='outputd8'>Male</p></div>
                     <div class='horizontal_linem2'></div> 
-
-                  </body>
+                    <div class='labeld9'>3.DATE OF DEATH (Day,Month,Year)</div>
+                        <p class='outputd9'>31 JULY 2024</p></div>
+                    <div class='vertical_lined3'></div>
+                    <div class='labeld10'>4.DATE OF BIRTH (Day, Month, Year)</div>
+                        <p class='outputd10'>31 JULY 2024</p></div>
+                    <div class='vertical_lined4'></div>
+                    <div class='labeld11'>5. AGE AT THE TIME OF DEATH(Fill-in below accdg. to age category)</div>
+                    <div class='horizontal_linem3'></div> 
+                    <div class='labeld12'>a.IF 1 YEAR OR ABOVE</div>
+                    <div class='labeld13'>b.IF UNDER 1 YEAR</div>
+                    <div class='labeld14'>c.IF UNDER  24 HOURS</div>
+                    <div class='labeld15'>[2]Completed Years</div>
+                    <div class='labeld16'>[1]Month</div>
+                    <div class='labeld17'>[0]day</div>
+                    <div class='labeld18'>Hours</div>
+                    <div class='labeld19'>Min/Sec</div>
+                        <p class='outputd11'>56</p></div>
+                        <p class='outputd12'>12</p></div>
+                        <p class='outputd13'>0</p></div>
+                        <p class='outputd14'>20</p></div>
+                        <p class='outputd15'>20</p></div>
+                    <div class='vertical_lined5'></div>
+                    <div class='vertical_lined6'></div>
+                    <div class='vertical_lined7'></div>
+                    <div class='vertical_lined8'></div>
+                    <div class='horizontal_linem4'></div> 
+                    <div class='horizontal_linem5'></div> 
+                    <div class='labeld20'>6.PLACE OF DEATH</div>
+                    <div class='labeld21'>(Name of Hospital/Clinic/Institution/House No., St., Barangay, City/Municipality, Province)</div>
+                        <p class='outputd16'>TAGAYTAY HOSPITAL CAVITE</p></div>
+                    <div class='labeld22'>7.CIVIL STATUS</div> 
+                    <div class='labeld23'>(Single/Married/Widow<br>/Widower/Annulled/Divorced)</div> 
+                        <p class='outputd17'>SINGLE</p></div>
+                    <div class='vertical_lined9'></div>
+                    <div class='horizontal_linem6'></div> 
+                    <div class='labeld24'>8.RELIGION/RELIGIOUS</div>
+                    <div class='labeld25'>9.CITIZENSHIP</div>  
+                    <div class='labeld26'>10.RESIDENCE</div>  
+                    <div class='labeld27'>(House No., St., Barangay, City/Municipality, Province, Country)</div>  
+                    <div class='vertical_lined10'></div>
+                    <div class='vertical_lined11'></div>
+                        <p class='outputd18'>CATHOLIC</p></div>
+                        <p class='outputd19'>FILIPINO</p></div>
+                        <p class='outputd20'>123 BARANGAY 7 MENDEZ,CAVITE</p></div>
+                    <div class='horizontal_linem7'></div> 
+                    <div class='labeld28'>11.OCCUPATION</div>  
+                    <div class='labeld29'>12.NAME OF FATHER(First,Middle, Last)</div>  
+                    <div class='labeld30'>13.MAIDEN NAME OF MOTHER(First,Middle, Last)</div>  
+                        <p class='outputd21'>DRIVER</p></div>
+                        <p class='outputd22'>JUAN m DELA CRUZ</p></div>
+                        <p class='outputd23'>JUAN m DELA CRUZ</p></div>
+                    <div class='vertical_lined12'></div>
+                    <div class='vertical_lined13'></div>
+                       <div class='horizontal_linem8'></div> 
+                        </body>
                     </html>";
                     // Load HTML into Dompdf
                     $dompdf->loadHtml($html);
