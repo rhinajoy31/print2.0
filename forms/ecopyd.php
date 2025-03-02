@@ -1000,6 +1000,222 @@ $html = "
                 left:62%; 
                 text-transform: uppercase;
             }
+            .vertical_lined14 {
+                width: 1px; 
+                height: 49px; 
+                background-color: darkblue;
+                position: absolute; 
+                left: 85%;
+                top: 44.5%;
+            }
+            .labeld48{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:44.5%;
+                left: 86%; 
+            }
+            .outputd38 {
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 46%;
+                left:91%; 
+                text-transform: uppercase;
+            }
+            .horizontal_lined13{
+                width: 99.5%; 
+                height: 0.1%; 
+                background-color: darkblue;
+                position: absolute;
+                top: 48.5%;
+            }
+            .labeld49{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:48.5%;
+                left: 1%; 
+            }
+            .labellined17{
+                color: black;
+                position: absolute;
+                top: 49%;
+                left:3%;
+            }
+            .labeld50{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:50%;
+                left: 9.5%; 
+            }
+            .outputd39 {
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 49%;
+                left:4%; 
+                text-transform: uppercase;
+            }
+            .labellined18{
+                color: black;
+                position: absolute;
+                top: 49%;
+                left:17%;
+            }
+            .labeld51{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:49%;
+                left: 23%; 
+            }
+            .outputd40 {
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 49%;
+                left:18%; 
+                text-transform: uppercase;
+            }
+            .labellined19{
+                color: black;
+                position: absolute;
+                top: 49%;
+                left:29%;
+            }
+            .labeld52{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:50%;
+                left: 35%; 
+            }
+            .outputd41{
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 49%;
+                left:30%; 
+                text-transform: uppercase;
+            }
+            .labellined20{
+                color: black;
+                position: absolute;
+                top: 49%;
+                left:43%;
+            }
+            .labeld53{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:50%;
+                left: 49%; 
+            }
+            .outputd42{
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 49%;
+                left:44%; 
+                text-transform: uppercase;
+            }
+            .labellined21{
+                color: black;
+                position: absolute;
+                top: 49%;
+                left:55%;
+            }
+            .labeld54{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:50%;
+                left: 61%; 
+            }
+            .outputd43{
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 49%;
+                left:56%; 
+                text-transform: uppercase;
+            }
+            .labeld55{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:48.5%;
+                left: 69%; 
+            }
+            .vertical_lined15 {
+                width: 1px; 
+                height: 49px; 
+                background-color: darkblue;
+                position: absolute; 
+                left: 68%;
+                top: 48.5%;
+            }
+            .labeld56{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:51%;
+                left: 69%; 
+            }
+            .labellined22{
+                color: black;
+                position: absolute;
+                top: 50%;
+                left:73%;
+            }
+            .outputd44{
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 50%;
+                left:74%; 
+                text-transform: uppercase;
+            }
+            .labeld57{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:51%;
+                left: 85%; 
+            }
+            .labellined23{
+                color: black;
+                position: absolute;
+                top: 50%;
+                left:87%;
+            }
+            .outputd45{
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 50%;
+                left:88%; 
+                text-transform: uppercase;
+            }
+            .horizontal_lined14{
+                width: 99.5%; 
+                height: 0.1%; 
+                background-color: darkblue;
+                position: absolute;
+                top: 52.5%;
+            }
     </style>
     </head>
         <body>
@@ -1133,8 +1349,36 @@ $html = "
                     <div class='labeld47'>b.Place of Occurence of Extenal Cause(e.g home,farm,factory,street, sea, ect.)</div>   
                         <p class='labellined16'>_________________________</p> 
                         <p class='outputd37'>JUAN DELA cruz</p></div>
-                        
-                        </body>
+                    <div class='vertical_lined14'></div>
+                    <div class='labeld48'>20.AUTOPSY<br>(Yes/No)</div>   
+                        <p class='outputd38'>no</p></div>
+                    <div class='horizontal_lined13'></div> 
+                    <div class='labeld49'>21a.ATTENDANT</div>   
+                        <p class='labellined17'>______</p> 
+                    <div class='labeld50'>1.Private<br>Physician</div>  
+                        <p class='outputd39'>X</p></div>
+                        <p class='labellined18'>______</p> 
+                    <div class='labeld51'>2.Public<br>Health<br>Officer</div>  
+                        <p class='outputd40'>X</p></div>
+                        <p class='labellined19'>______</p> 
+                    <div class='labeld52'>3.Hospital<br> Authority</div>  
+                        <p class='outputd41'>X</p></div>
+                        <p class='labellined20'>______</p> 
+                    <div class='labeld53'>4.None</div>  
+                        <p class='outputd42'>X</p></div>
+                        <p class='labellined21'>______</p> 
+                    <div class='labeld54'>5.Others<br>Specify</div>  
+                        <p class='outputd43'>X</p></div>
+                    <div class='labeld55'>21b.If attended, state duration(mm/dd/yy)</div>  
+                    <div class='labeld56'>From</div>  
+                        <p class='labellined22'>____________</p> 
+                        <p class='outputd44'>X</p></div>
+                    <div class='vertical_lined15'></div>
+                    <div class='labeld57'>To</div>  
+                        <p class='labellined23'>____________</p> 
+                        <p class='outputd45'>X</p></div>
+                    <div class='horizontal_lined14'></div> 
+                    </body>
                     </html>";
                     // Load HTML into Dompdf
                     $dompdf->loadHtml($html);
