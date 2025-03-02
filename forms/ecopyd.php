@@ -238,6 +238,7 @@ $html = "
                 position: absolute;
                 top: 15.5%;
                 left:10%; 
+                text-transform: uppercase;
             }
             .vertical_lined3 {
                 width: 1px; 
@@ -261,6 +262,7 @@ $html = "
                 position: absolute;
                 top: 15.5%;
                 left:40%; 
+                text-transform: uppercase;
             }
             .vertical_lined4 {
                 width: 1px; 
@@ -356,6 +358,7 @@ $html = "
                 position: absolute;
                 top: 17%;
                 left:67%; 
+                text-transform: uppercase;
             }
             .outputd12 {
                 font-size: 12px;
@@ -363,13 +366,15 @@ $html = "
                 position: absolute;
                 top: 17%;
                 left:76%; 
+                text-transform: uppercase;
             }
             .outputd13 {
                 font-size: 12px;
                 color: black;
                 position: absolute;
                 top: 17%;
-                left:82.5%; 
+                left:82.5%;
+                text-transform: uppercase; 
             }
             .outputd14 {
                 font-size: 12px;
@@ -377,6 +382,7 @@ $html = "
                 position: absolute;
                 top: 17%;
                 left:88.5%; 
+                text-transform: uppercase;
             }
             .outputd15 {
                 font-size: 12px;
@@ -384,6 +390,7 @@ $html = "
                 position: absolute;
                 top: 17%;
                 left:95%; 
+                text-transform: uppercase;
             }
             .vertical_lined5 {
                 width: 1px; 
@@ -454,6 +461,7 @@ $html = "
                 position: absolute;
                 top: 20.5%;
                 left:10%; 
+                text-transform: uppercase;
             }
             .labeld22{
                 font-size: 12px;
@@ -485,6 +493,7 @@ $html = "
                 position: absolute;
                 top: 20.5%;
                 left:73%; 
+                text-transform: uppercase;
             }
             .horizontal_linem6{
                 width: 99.5%; 
