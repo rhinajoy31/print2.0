@@ -1216,6 +1216,92 @@ $html = "
                 position: absolute;
                 top: 52.5%;
             }
+            .labeld58{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:52.5%;
+                left: 1%; 
+            }
+            .labeld59{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:53.5%;
+                left: 1%; 
+            }
+            .cboxd1{
+                font-size: 25px; 
+                color: darkblue;
+                position: absolute;
+                top: 50%;
+                left: 85.5%; 
+                font-family: Verdana, Tahoma, 'DejaVu Sans', sans-serif;
+            } 
+            .labeld60{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:53.5%;
+                left: 88.5%; 
+            }
+            .outputd46{
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 52.5%;
+                left:86.5%; 
+                text-transform: uppercase;
+            }
+            .cboxd2{
+                font-size: 25px; 
+                color: darkblue;
+                position: absolute;
+                top: 52%;
+                left: 3%; 
+                font-family: Verdana, Tahoma, 'DejaVu Sans', sans-serif;
+            }
+            .outputd47{
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 54.5%;
+                left:4%; 
+                text-transform: uppercase;
+            }
+            .labeld61{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:55.3%;
+                left: 6.5%; 
+            }
+            .labellined24{
+                color: black;
+                position: absolute;
+                top: 54.3%;
+                left:50%;
+            }
+            .outputd48{
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 54.3%;
+                left:51%; 
+                text-transform: uppercase;
+            }
+            .labeld62{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:55.3%;
+                left: 62%; 
+            }
     </style>
     </head>
         <body>
@@ -1378,6 +1464,21 @@ $html = "
                         <p class='labellined23'>____________</p> 
                         <p class='outputd45'>X</p></div>
                     <div class='horizontal_lined14'></div> 
+                    <div class='labeld58'>22.CERTIFICATION OF DEATH</div> 
+                    <div class='labeld59'>I hereby certify that the foregoing particulars are correct as near as same can be ascertained and i further ertify that</div>   
+                        <p class='cboxd1'><b>&#9633;</b></p>
+                        <p class='outputd46'>X</p></div>
+                    <div class='labeld60'>have attended/</div> 
+                        <p class='cboxd2'><b>&#9633;</b></p>
+                        <p class='outputd47'>X</p></div>
+                    <div class='labeld61'>have not attended the deceased and that death occured at</div> 
+                        <p class='labellined24'>____________</p> 
+                        <p class='outputd48'>X</p></div>
+                    <div class='labeld62'>am/pm on the date of death specified above.</div> 
+
+                       
+                    
+                    
                     </body>
                     </html>";
                     // Load HTML into Dompdf
