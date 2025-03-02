@@ -666,7 +666,7 @@ $html = "
                 text-transform: normal;
                 color:black;
                 position: absolute;
-                top:33%;
+                top:32%;
                 left: 1%; 
             }
             .labeld34{
@@ -785,6 +785,118 @@ $html = "
                 left:74%; 
                 text-transform: uppercase;
             }
+         
+            .labeld38{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:38.5%;
+                left: 3%; 
+            }
+            .labellined9{
+                color: black;
+                position: absolute;
+                top: 37.5%;
+                left:41%;
+            }
+            .outputd30 {
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 37.5%;
+                left:42%; 
+                text-transform: uppercase;
+            }
+            .horizontal_linem9{
+                width: 99.5%; 
+                height: 0.1%; 
+                background-color: darkblue;
+                position: absolute;
+                top: 40%;
+            }
+            .labeld39{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:40.5%;
+                left: 1%; 
+            }
+            .labellined10{
+                color: black;
+                position: absolute;
+                top: 41%;
+                left:3%;
+            }
+            .labeld39{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:40.5%;
+                left: 1%; 
+            }
+            .labeld40{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:42%;
+                left: 9%; 
+            }
+            .outputd31 {
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 41%;
+                left:4%; 
+                text-transform: uppercase;
+            }
+            .labellined11{
+                color: black;
+                position: absolute;
+                top: 41%;
+                left:20%;
+            }
+            .labeld41{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:42%;
+                left: 26%; 
+            }
+            .outputd32 {
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 41%;
+                left:21%; 
+                text-transform: uppercase;
+            }
+            .labellined12{
+                color: black;
+                position: absolute;
+                top: 41%;
+                left:37%;
+            }
+            .labeld42{
+                font-size: 12px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:42%;
+                left: 43%; 
+            }
+            .outputd33 {
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 41%;
+                left:38%; 
+                text-transform: uppercase;
+            }
     </style>
     </head>
         <body>
@@ -890,6 +1002,20 @@ $html = "
                         <p class='outputd28'>JUAN m DELA CRUZ</p></div>  
                         <p class='labellined8'>____________________________</p> 
                         <p class='outputd29'>JUAN m DELA CRUZ</p></div>  
+                    <div class='labeld38'>II. Other significant conditions contributing to death:</div> 
+                        <p class='labellined9'>_______________________________________________________________</p> 
+                        <p class='outputd30'>JUAN m DELA CRUZ</p></div>
+                    <div class='horizontal_linem9'></div> 
+                    <div class='labeld39'>19c. MATERNAL CONDITION(if the deceased is female aged 15-48 years old)</div> 
+                        <p class='labellined10'>______</p> 
+                    <div class='labeld40'>a. pregnant.<br>not in labour</div> 
+                        <p class='outputd31'>X</p></div>
+                        <p class='labellined11'>______</p> 
+                    <div class='labeld41'>b.pregnant, in<br>baour</div> 
+                        <p class='outputd32'>X</p></div>
+                        <p class='labellined12'>______</p> 
+                    <div class='labeld42'>c.less than 42 days after<br>delivery</div> 
+                        <p class='outputd33'>X</p></div>
                     
                     </body>
                     </html>";
