@@ -1469,6 +1469,141 @@ $html = "
                 position: absolute;
                 top: 62.5%;
             }
+            .labeld70{
+                font-size: 11px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:62.5%;
+                left: 1%; 
+            }
+            .labeld71{
+                font-size: 11px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:62.5%;
+                left: 32%; 
+            }
+            .labeld72{
+                font-size: 11px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:62.5%;
+                left: 67%; 
+            }
+            .labeld73{
+                font-size: 11px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:63.7%;
+                left: 31%; 
+            }
+            .labeld74{
+                font-size: 11px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:64.8%;
+                left: 31%; 
+            }
+            .labeld75{
+                font-size: 11px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:63.7%;
+                left: 66%; 
+            }
+            .labeld76{
+                font-size: 11px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:64.8%;
+                left: 66%; 
+            }
+            .labellined31{
+                color: black;
+                position: absolute;
+                top: 62.5%;
+                left:36%;
+            }
+            .outputd53{
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 62.5%;
+                left:37%; 
+                text-transform: uppercase;
+            }
+            .labellined32{
+                color: black;
+                position: absolute;
+                top: 63.5%;
+                left:39%;
+            }
+            .outputd54{
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 63.5%;
+                left:40%; 
+                text-transform: uppercase;
+            }
+            .labellined33{
+                color: black;
+                position: absolute;
+                top: 62.5%;
+                left:71%;
+            }
+            .outputd55{
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 62.5%;
+                left:72%; 
+                text-transform: uppercase;
+            }
+            .labellined34{
+                color: black;
+                position: absolute;
+                top: 63.5%;
+                left:74%;
+            }
+            .outputd56{
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 63.5%;
+                left:75%; 
+                text-transform: uppercase;
+            }
+            .vertical_lined16 {
+                width: 1px; 
+                height: 49px; 
+                background-color: darkblue;
+                position: absolute; 
+                left: 30%;
+                top: 62.5%;
+            }
+            .vertical_lined17 {
+                width: 1px; 
+                height: 49px; 
+                background-color: darkblue;
+                position: absolute; 
+                left: 65%;
+                top: 62.5%;
+            }
+            .horizontal_lined16{
+                width: 99.5%; 
+                height: 0.1%; 
+                background-color: darkblue;
+                position: absolute;
+                top: 66.5%;
+            }
     </style>
     </head>
         <body>
@@ -1664,9 +1799,26 @@ $html = "
                         <p class='labellined30'>___________________________________</p> 
                     <div class='labeld69'>Date</div> 
                         <p class='outputd52'>Xeheheeheh</p></div>
-                          <div class='horizontal_lined15'></div> 
-                        
-                    
+                    <div class='horizontal_lined15'></div> 
+                    <div class='labeld70'>23.CORPSE DISPOSAL<br>(Burial,Cremation,if others, specify)</div> 
+                    <div class='labeld71'>24a.BURIAL/CREMATION PERMIT</div> 
+                    <div class='labeld72'>24b.TRANSFER PERMIT</div> 
+                    <div class='labeld73'>Number</div> 
+                    <div class='labeld74'>Date Issued</div> 
+                    <div class='labeld75'>Number</div> 
+                    <div class='labeld76'>Date Issued</div> 
+                        <p class='labellined31'>______________________________</p> 
+                        <p class='outputd53'>Xeheheeheh</p></div>
+                        <p class='labellined32'>__________________________</p> 
+                        <p class='outputd54'>Xeheheeheh</p></div>
+                        <p class='labellined33'>______________________________</p> 
+                        <p class='outputd55'>Xeheheeheh</p></div>
+                        <p class='labellined34'>___________________________</p> 
+                        <p class='outputd56'>Xeheheeheh</p></div>
+                    <div class='vertical_lined16'></div>
+                    <div class='vertical_lined17'></div>
+                    <div class='horizontal_lined16'></div> 
+                      
                     
                     </body>
                     </html>";
