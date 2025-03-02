@@ -128,6 +128,7 @@ $html = "
                 position: absolute;
                 top: 7%;
                 left: 77%; 
+                text-transform: uppercase;
             }
             .horizontal_lined1 {
                 width: 99.5%; 
@@ -158,6 +159,7 @@ $html = "
                 position: absolute;
                 top: 12%;
                 left: 11%; 
+                text-transform: uppercase;
             }
             .labeld6 {
                 font-size: 12px;
@@ -173,6 +175,7 @@ $html = "
                 position: absolute;
                 top: 12%;
                 left: 35%; 
+                text-transform: uppercase;
             }
             .labeld7 {
                 font-size: 12px;
@@ -188,6 +191,7 @@ $html = "
                 position: absolute;
                 top: 12%;
                 left:58%; 
+                text-transform: uppercase;
             }
             .vertical_lined2 {
                 width: 1px; 
@@ -211,6 +215,7 @@ $html = "
                 position: absolute;
                 top: 12%;
                 left:80%; 
+                text-transform: uppercase;
             }
             .horizontal_linem2 {
                 width: 99.5%; 
@@ -1653,7 +1658,7 @@ $html = "
             }
             .vertical_lined18 {
                 width: 1px; 
-                height: 250px; 
+                height: 260px; 
                 background-color: darkblue;
                 position: absolute; 
                 left: 50%;
@@ -2010,6 +2015,73 @@ $html = "
                 left:62%; 
                 text-transform: uppercase;
             }
+            .labeld97{
+                font-size: 11px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:86%;
+                left: 52%; 
+            }
+            .labellined49{
+                color: black;
+                position: absolute;
+                top: 84.9%;
+                left:62%;
+            }
+            .outputd70{
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 84.9%;
+                left:63%; 
+                text-transform: uppercase;
+            }
+            .labeld98{
+                font-size: 11px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:88%;
+                left: 52%; 
+            }
+            .labellined50{
+                color: black;
+                position: absolute;
+                top: 86.9%;
+                left:55%;
+            }
+            .outputd71{
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 86.9%;
+                left:56%; 
+                text-transform: uppercase;
+            }
+            .horizontal_lined18{
+                width: 99.5%; 
+                height: 0.1%; 
+                background-color: darkblue;
+                position: absolute;
+                top: 89.8%;
+            }
+            .labeld99{
+                font-size: 11px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:90%;
+                left: 1%; 
+            }
+            .outputd72{
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 91%;
+                left:3%; 
+                text-transform: uppercase;
+            }
     </style>
     </head>
         <body>
@@ -2269,7 +2341,7 @@ $html = "
                         <p class='labellined45'>_______________________________________</p> 
                         <p class='outputd67'>Xeheheeheh</p></div>
                     <div class='labeld93'>Date</div> 
-                        <p class='labellined46'>_______________________________________</p> 
+                        <p class='labellined46'>________________________________________________</p> 
                         <p class='outputd68'>Xeheheeheh</p></div>
                     <div class='labeld94'>29.REGISTERED AT THE OFFICE OF THE CIVIL REGISTRAR</div> 
                     <div class='labeld95'>Signature</div>
@@ -2277,7 +2349,16 @@ $html = "
                     <div class='labeld96'>Name in Print</div>
                        <p class='labellined48'>_________________________________________</p> 
                        <p class='outputd69'>Xeheheeheh</p></div>
-                     
+                    <div class='labeld97'>Title or Position</div>
+                        <p class='labellined49'>________________________________________</p> 
+                        <p class='outputd70'>Xeheheeheh</p></div>
+                    <div class='labeld98'>Date</div>
+                        <p class='labellined50'>_______________________________________________</p> 
+                        <p class='outputd71'>Xeheheeheh</p></div>
+                    <div class='horizontal_lined19'></div> 
+                    <div class='labeld99'>REMARKS/ANNOTATIONS(For LCRO/OCRG Use Only)</div>
+                        <p class='outputd72'>Xeheheeheh</p></div>
+                        
                         </body>
                     </html>";
                     // Load HTML into Dompdf
