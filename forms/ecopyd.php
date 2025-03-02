@@ -1604,6 +1604,29 @@ $html = "
                 position: absolute;
                 top: 66.5%;
             }
+            .labeld77{
+                font-size: 11px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:66.5%;
+                left: 1%; 
+            }
+            .outputd57{
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 67%;
+                left:3%; 
+                text-transform: uppercase;
+            }
+            .horizontal_lined17{
+                width: 99.5%; 
+                height: 0.1%; 
+                background-color: darkblue;
+                position: absolute;
+                top: 69%;
+            }
     </style>
     </head>
         <body>
@@ -1818,7 +1841,9 @@ $html = "
                     <div class='vertical_lined16'></div>
                     <div class='vertical_lined17'></div>
                     <div class='horizontal_lined16'></div> 
-                      
+                    <div class='labeld77'>25.NAME AND ADDRESS OF CEMETERY OR CREMATORY</div> 
+                        <p class='outputd57'>Xeheheeheh</p></div>
+                    <div class='horizontal_lined17'></div> 
                     
                     </body>
                     </html>";
