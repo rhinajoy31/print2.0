@@ -1627,6 +1627,251 @@ $html = "
                 position: absolute;
                 top: 69%;
             }
+            .labeld78{
+                font-size: 11px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:69%;
+                left: 1%; 
+            }
+            .labeld79{
+                font-size: 11px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:70%;
+                left: 1%; 
+            }
+            .labeld80{
+                font-size: 11px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:69%;
+                left: 51%; 
+            }
+            .vertical_lined18 {
+                width: 1px; 
+                height: 250px; 
+                background-color: darkblue;
+                position: absolute; 
+                left: 50%;
+                top: 69%;
+            }
+            .labeld81{
+                font-size: 11px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:72.5%;
+                left: 2%; 
+            }
+            .labellined35{
+                color: black;
+                position: absolute;
+                top: 71.3%;
+                left:9%;
+            }
+            .outputd58{
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 71.3%;
+                left:10%; 
+                text-transform: uppercase;
+            }
+            .labeld82{
+                font-size: 11px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:74%;
+                left: 2%; 
+            }
+            .labellined36{
+                color: black;
+                position: absolute;
+                top: 73%;
+                left:11%;
+            }
+            .outputd59{
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 73%;
+                left:12%; 
+                text-transform: uppercase;
+            }
+            .labeld83{
+                font-size: 11px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:75.7%;
+                left: 2%; 
+            }
+            .labellined37{
+                color: black;
+                position: absolute;
+                top: 74.5%;
+                left:22%;
+            }
+            .outputd60{
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 74.5%;
+                left:23%; 
+                text-transform: uppercase;
+            }
+            .labeld84{
+                font-size: 11px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:77.5%;
+                left: 2%; 
+            }
+            .labeld84a{
+                font-size: 11px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:79%;
+                left: 2%; 
+            }
+            .labellined38a{
+                color: black;
+                position: absolute;
+                top: 77.7%;
+                left:5%;
+            }
+            .outputd61a{
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 77.7%;
+                left:6%; 
+                text-transform: uppercase;
+            }
+            .labellined38{
+                color: black;
+                position: absolute;
+                top: 76.3%;
+                left:8%;
+            }
+            .outputd61{
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 76.3%;
+                left:9%; 
+                text-transform: uppercase;
+            }
+            .labeld85{
+                font-size: 11px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:72.5%;
+                left: 52%; 
+            }
+            .labellined39{
+                color: black;
+                position: absolute;
+                top: 71.3%;
+                left:58%;
+            }
+            .outputd62{
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 71.3%;
+                left:59%; 
+                text-transform: uppercase;
+            }
+            .labeld86{
+                font-size: 11px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:74%;
+                left: 52%; 
+            }
+            .labellined40{
+                color: black;
+                position: absolute;
+                top: 73%;
+                left:61.5%;
+            }
+            .outputd63{
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 73%;
+                left:62%; 
+                text-transform: uppercase;
+            }
+            .labeld87{
+                font-size: 11px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:75.7%;
+                left: 52%; 
+            }
+            .labellined41{
+                color: black;
+                position: absolute;
+                top: 74.5%;
+                left:63%;
+            }
+            .outputd64{
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 74.5%;
+                left:64%; 
+                text-transform: uppercase;
+            }
+            .labeld88{
+                font-size: 11px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:77.3%;
+                left: 52%; 
+            }
+            .labellined42{
+                color: black;
+                position: absolute;
+                top: 76.2%;
+                left:55.5%;
+            }
+            .outputd65{
+                font-size: 12px;
+                color: black;
+                position: absolute;
+                top: 76.2%;
+                left:56%; 
+                text-transform: uppercase;
+            }
+            .horizontal_lined18{
+                width: 99.5%; 
+                height: 0.1%; 
+                background-color: darkblue;
+                position: absolute;
+                top: 80%;
+            }
+            .labeld89{
+                font-size: 11px;
+                text-transform: normal;
+                color:black;
+                position: absolute;
+                top:80%;
+                left: 1%; 
+            }
     </style>
     </head>
         <body>
@@ -1844,8 +2089,41 @@ $html = "
                     <div class='labeld77'>25.NAME AND ADDRESS OF CEMETERY OR CREMATORY</div> 
                         <p class='outputd57'>Xeheheeheh</p></div>
                     <div class='horizontal_lined17'></div> 
-                    
-                    </body>
+                    <div class='labeld78'>26.CERTIFICATION OF INFORMANT</div> 
+                    <div class='labeld79'>I hereby certify that all information supplied are true and correct<br>to my own knowledge and belief</div> 
+                    <div class='labeld80'>27.PREPARED BY</div> 
+                    <div class='vertical_lined18'></div>
+                    <div class='labeld81'>Signature</div> 
+                        <p class='labellined35'>___________________________________________</p> 
+                        <p class='outputd58'>Xeheheeheh</p></div>
+                    <div class='labeld82'>Name in Print</div> 
+                        <p class='labellined36'>_________________________________________</p> 
+                        <p class='outputd59'>Xeheheeheh</p></div>
+                    <div class='labeld83'>Relationship to the Deceased</div> 
+                        <p class='labellined37'>_____________________________</p> 
+                        <p class='outputd60'>Xeheheeheh</p></div>
+                    <div class='labeld84'>Address</div> 
+                        <p class='labellined38'>____________________________________________</p> 
+                        <p class='outputd61'>Xeheheeheh</p></div>
+                    <div class='labeld84a'>Date</div> 
+                        <p class='labellined38a'>_______________________________________________</p> 
+                        <p class='outputd61a'>Xeheheeheh</p></div>
+                    <div class='labeld85'>Signature</div> 
+                        <p class='labellined39'>____________________________________________</p> 
+                        <p class='outputd62'>Xeheheeheh</p></div>
+                    <div class='labeld86'>Name in Print</div> 
+                        <p class='labellined40'>________________________________________</p> 
+                        <p class='outputd63'>Xeheheeheh</p></div>
+                    <div class='labeld87'>Title or Posiotion</div>
+                        <p class='labellined41'>_______________________________________</p> 
+                        <p class='outputd64'>Xeheheeheh</p></div>
+                    <div class='labeld88'>Date</div> 
+                        <p class='labellined42'>_______________________________________________</p> 
+                        <p class='outputd65'>Xeheheeheh</p></div>
+                    <div class='horizontal_lined18'></div> 
+                    <div class='labeld89'>28.RECEIVED BY</div> 
+                     
+                        </body>
                     </html>";
                     // Load HTML into Dompdf
                     $dompdf->loadHtml($html);
